@@ -43,6 +43,7 @@
     "callbackButton": "Request a callback",
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
+    "navLabel": "Main navigation",
     "languageLabel": "Choose language"
   },
   "chatCta": {
@@ -61,6 +62,7 @@
     "serviceArea": "Service area: Munich and surroundings",
     "phoneLabel": "Phone",
     "callbackLink": "Request a callback",
+    "legalNavLabel": "Legal",
     "legalLinks": [
       { "label": "Legal Notice", "href": "/impressum" },
       { "label": "Privacy Policy", "href": "/datenschutz" }
@@ -116,5 +118,11 @@
     "callbackLink": "Request a callback",
     "gdprNote": "Chat transcripts are stored to improve quality. Details: ",
     "gdprLinkLabel": "Privacy Policy"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Page not found",
+    "body": "The page you requested does not exist or has been moved.",
+    "homeLink": "Back to home"
   }
 }

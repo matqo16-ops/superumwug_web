@@ -43,6 +43,7 @@
     "callbackButton": "Rückruf anfordern",
     "menuOpen": "Menü öffnen",
     "menuClose": "Menü schließen",
+    "navLabel": "Hauptnavigation",
     "languageLabel": "Sprache wählen"
   },
   "chatCta": {
@@ -61,6 +62,7 @@
     "serviceArea": "Einsatzgebiet: München und Umgebung",
     "phoneLabel": "Telefon",
     "callbackLink": "Rückruf anfordern",
+    "legalNavLabel": "Rechtliches",
     "legalLinks": [
       { "label": "Impressum", "href": "/impressum" },
       { "label": "Datenschutz", "href": "/datenschutz" }
@@ -116,5 +118,11 @@
     "callbackLink": "Rückruf anfordern",
     "gdprNote": "Chat-Verläufe werden zur Qualitätsverbesserung gespeichert. Details: ",
     "gdprLinkLabel": "Datenschutz"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Seite nicht gefunden",
+    "body": "Die angeforderte Seite existiert nicht oder wurde verschoben.",
+    "homeLink": "Zur Startseite"
   }
 }

@@ -61,7 +61,7 @@ export function SiteFooter({
         </div>
 
         <div className="mt-8 flex flex-col gap-3 border-t border-white/15 pt-6 text-sm text-white/60 sm:flex-row sm:items-center sm:justify-between">
-          <nav aria-label="Legal" className="flex gap-6">
+          <nav aria-label={common.footer.legalNavLabel} className="flex gap-6">
             {common.footer.legalLinks.map((link) => (
               <Link key={link.href} href={link.href} className="hover:text-gold">
                 {link.label}

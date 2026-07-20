@@ -138,7 +138,7 @@ export function SiteHeader({ common }: { common: CommonContent }) {
       {/* Nav row (desktop) */}
       <div className="hidden bg-navy md:block">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6">
-          <nav aria-label="Hauptnavigation" className="flex items-center">
+          <nav aria-label={common.header.navLabel} className="flex items-center">
             {common.nav.map((item) => {
               const isActive = pathname === item.href;
               return (
@@ -169,7 +169,7 @@ export function SiteHeader({ common }: { common: CommonContent }) {
       {/* Mobile menu */}
       {menuOpen && (
         <div id="mobile-menu" className="bg-navy md:hidden">
-          <nav aria-label="Hauptnavigation" className="flex flex-col px-4 py-3">
+          <nav aria-label={common.header.navLabel} className="flex flex-col px-4 py-3">
             {common.nav.map((item) => (
               <Link
                 key={item.href}

@@ -84,6 +84,7 @@ export interface CommonContent {
     callbackButton: string;
     menuOpen: string;
     menuClose: string;
+    navLabel: string;
     languageLabel: string;
   };
   chatCta: {
@@ -98,11 +99,18 @@ export interface CommonContent {
     serviceArea: string;
     phoneLabel: string;
     callbackLink: string;
+    legalNavLabel: string;
     legalLinks: { label: string; href: AppPathname }[];
     copyright: string;
   };
   callbackForm: CallbackFormContent;
   chatWidget: ChatWidgetContent;
+  notFound: {
+    code: string;
+    title: string;
+    body: string;
+    homeLink: string;
+  };
 }
 
 export interface Hero {

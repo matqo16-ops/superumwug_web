@@ -5,6 +5,9 @@ export const routing = defineRouting({
   defaultLocale: "de",
   // German is served at the root without a prefix; English lives under /en.
   localePrefix: "as-needed",
+  // German is the canonical default: never auto-redirect `/` to `/en` based on
+  // the browser's Accept-Language. Visitors switch language via the header.
+  localeDetection: false,
   pathnames: {
     "/": "/",
     "/umzug": { de: "/umzug", en: "/moving" },
