@@ -1,0 +1,45 @@
+import { z } from "zod";
+
+/** The site assistant runs on Haiku to keep per-message cost near zero. */
+export const CHAT_MODEL = "claude-haiku-4-5";
+export const CHAT_MAX_TOKENS = 512;
+/** Server-side history cap — older messages are dropped before the API call. */
+export const MAX_HISTORY_MESSAGES = 16;
+export const MAX_MESSAGE_CHARS = 2000;
+
+export const chatRequestSchema = z.object({
+  sessionId: z.string().min(8).max(64),
+  locale: z.enum(["de", "en"]),
+  page: z.string().max(200),
+  messages: z
+    .array(
+      z.object({
+        role: z.enum(["user", "assistant"]),
+        content: z.string().min(1).max(MAX_MESSAGE_CHARS),
+      }),
+    )
+    .min(1)
+    .max(40),
+});
+
+export type ChatRequest = z.infer<typeof chatRequestSchema>;
+
+/** Trim history to the cap while keeping the most recent messages. */
+export function trimHistory<T>(messages: T[]): T[] {
+  return messages.slice(-MAX_HISTORY_MESSAGES);
+}
+
+export function buildSystemPrompt(knowledgeBase: string, locale: "de" | "en"): string {
+  return `You are the website assistant of Super Umzug, Super Entrümpelung and BayReno (superumzug.de), serving Munich and surroundings.
+
+STRICT RULES:
+1. Answer ONLY using the knowledge base below. If the answer is not in it, say so and recommend requesting a callback ("Rückruf anfordern" button on the website).
+2. NEVER invent prices, discounts, legal terms or guarantee exclusions. If a price field in the knowledge base is an unfilled [PRICE] placeholder, explain that pricing depends on scope and offer the callback.
+3. Default to ${locale === "de" ? "German, using the formal 'Sie'" : "English"}; if the visitor writes in the other language, answer in their language (German always with formal "Sie").
+4. Keep answers short and helpful: 2–6 sentences, no markdown headings. Plain text; simple dashes for lists are fine.
+5. Only discuss topics related to the three brands and their services. Politely decline anything else and point to the callback form.
+6. For renovation-only requests (no moving/clearance component), point the visitor to https://www.bayreno.de.
+
+KNOWLEDGE BASE:
+${knowledgeBase}`;
+}
