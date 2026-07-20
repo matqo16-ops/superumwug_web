@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="München und Umgebung">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#C9A24B" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#C9A24B" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="#0E1F3C"/>
+
+  <!-- Service radius glow -->
+  <circle cx="400" cy="300" r="270" fill="url(#glow)"/>
+  <circle cx="400" cy="300" r="235" fill="none" stroke="#C9A24B" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="6 8"/>
+
+  <!-- Isar river -->
+  <path d="M470 600 C 450 520, 420 460, 415 400 C 410 340, 425 280, 445 230 C 465 180, 480 120, 475 40 L 475 0"
+        fill="none" stroke="#3D5A80" stroke-width="10" stroke-opacity="0.55" stroke-linecap="round"/>
+
+  <!-- Motorway ring (A99) -->
+  <ellipse cx="400" cy="295" rx="150" ry="125" fill="none" stroke="#8A93A6" stroke-opacity="0.5" stroke-width="3"/>
+  <!-- Mittlerer Ring -->
+  <ellipse cx="400" cy="298" rx="72" ry="60" fill="none" stroke="#8A93A6" stroke-opacity="0.4" stroke-width="2"/>
+
+  <!-- Radial roads -->
+  <g stroke="#8A93A6" stroke-opacity="0.35" stroke-width="2">
+    <line x1="400" y1="300" x2="205" y2="140"/>
+    <line x1="400" y1="300" x2="588" y2="118"/>
+    <line x1="400" y1="300" x2="640" y2="330"/>
+    <line x1="400" y1="300" x2="580" y2="470"/>
+    <line x1="400" y1="300" x2="255" y2="480"/>
+    <line x1="400" y1="300" x2="160" y2="322"/>
+    <line x1="400" y1="300" x2="430" y2="80"/>
+  </g>
+
+  <!-- Surrounding towns -->
+  <g fill="#FAF9F6" fill-opacity="0.75" font-family="Georgia, 'Times New Roman', serif" font-size="17">
+    <g>
+      <circle cx="205" cy="140" r="5" fill="#FAF9F6" fill-opacity="0.6"/>
+      <text x="218" y="146">Dachau</text>
+    </g>
+    <g>
+      <circle cx="430" cy="80" r="5" fill="#FAF9F6" fill-opacity="0.6"/>
+      <text x="443" y="86">Freising</text>
+    </g>
+    <g>
+      <circle cx="588" cy="118" r="5" fill="#FAF9F6" fill-opacity="0.6"/>
+      <text x="601" y="124">Erding</text>
+    </g>
+    <g>
+      <circle cx="640" cy="330" r="5" fill="#FAF9F6" fill-opacity="0.6"/>
+      <text x="653" y="336">Ebersberg</text>
+    </g>
+    <g>
+      <circle cx="580" cy="470" r="5" fill="#FAF9F6" fill-opacity="0.6"/>
+      <text x="593" y="476">Holzkirchen</text>
+    </g>
+    <g>
+      <circle cx="255" cy="480" r="5" fill="#FAF9F6" fill-opacity="0.6"/>
+      <text x="268" y="486">Starnberg</text>
+    </g>
+    <g>
+      <circle cx="160" cy="322" r="5" fill="#FAF9F6" fill-opacity="0.6"/>
+      <text x="173" y="328">Fürstenfeldbruck</text>
+    </g>
+  </g>
+
+  <!-- Munich pin -->
+  <g>
+    <circle cx="400" cy="300" r="26" fill="#C9A24B" fill-opacity="0.18"/>
+    <path d="M400 268 c-13 0 -22 10 -22 22 c0 16 22 38 22 38 s22 -22 22 -38 c0 -12 -9 -22 -22 -22 z"
+          fill="#C9A24B"/>
+    <circle cx="400" cy="289" r="8" fill="#0E1F3C"/>
+    <text x="400" y="360" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="bold">München</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="400" y="572" text-anchor="middle" fill="#FAF9F6" fill-opacity="0.55" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic">München und Umgebung</text>
+</svg>
