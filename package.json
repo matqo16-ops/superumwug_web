@@ -1,0 +1,9 @@
+{
+  "name": "superumzug-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wix Studio + Velo site for Super Umzug, Super Entruempelung and BayReno (Munich).",
+  "scripts": {
+    "dev": "wix dev"
+  }
+}
