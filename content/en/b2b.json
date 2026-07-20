@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "B2B & Partners: Moving, Clearance, Renovation Munich",
+    "description": "Referral commission for partners, volume pricing for corporate clients. Property manager craft services Munich — priority scheduling, dedicated contact."
+  },
+  "hero": {
+    "eyebrow": "B2B & Partners",
+    "headline": "Two ways to work with us: referral partners and corporate clients",
+    "subheadline": "Whether you refer clients to us or need recurring services yourself, we offer fixed terms, priority scheduling and one dedicated contact person."
+  },
+  "referral": {
+    "headline": "Real-estate agents, relocation services, property managers",
+    "body": "Have clients who need a move, a clearance or a renovation? Refer them to us — we take care of the rest.",
+    "benefits": [
+      {
+        "title": "Commission",
+        "body": "You receive a referral commission for every completed job you bring us."
+      },
+      {
+        "title": "Priority scheduling",
+        "body": "Requests from partners are scheduled with priority."
+      },
+      {
+        "title": "Dedicated contact",
+        "body": "One fixed contact person at our end, not rotating staff."
+      },
+      {
+        "title": "Simple handoff",
+        "body": "You send the lead, we handle consultation, quote and delivery."
+      }
+    ]
+  },
+  "corporate": {
+    "headline": "Companies with recurring needs",
+    "body": "Property managers, real-estate companies and businesses with regular moving, clearance or renovation needs benefit from fixed partner terms.",
+    "benefits": [
+      {
+        "title": "Partner pricing",
+        "body": "Fixed, discounted rates for recurring work instead of one-off quotes."
+      },
+      {
+        "title": "Priority scheduling",
+        "body": "Your jobs are scheduled with priority."
+      },
+      {
+        "title": "Dedicated contact",
+        "body": "One contact across all three brands — moving, clearance, renovation."
+      },
+      {
+        "title": "One contract, three trades",
+        "body": "No need to coordinate separate providers."
+      }
+    ]
+  },
+  "form": {
+    "headline": "Become a partner",
+    "body": "Tell us a bit about yourself — we'll get back to you with the right terms.",
+    "selectorLabel": "I am:",
+    "selectorOptions": [
+      { "value": "vermittler", "label": "Referral partner" },
+      { "value": "firmenkunde", "label": "Corporate client" }
+    ],
+    "companyLabel": "Your company / industry (optional)",
+    "submit": "Send request"
+  }
+}

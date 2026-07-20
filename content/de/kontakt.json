@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Kontakt & Rückruf anfordern | Super Umzug München",
+    "description": "Rückruf anfordern oder direkt chatten: Super Umzug, Super Entrümpelung und BayReno in München und Umgebung."
+  },
+  "hero": {
+    "eyebrow": "Kontakt",
+    "headline": "Sprechen Sie mit uns — wir rufen zurück",
+    "subheadline": "Der schnellste Weg zu uns: Rückruf anfordern. Für Preise und allgemeine Fragen antwortet unser Chat-Assistent rund um die Uhr."
+  },
+  "form": {
+    "headline": "Rückruf anfordern",
+    "body": "Füllen Sie das Formular aus — wir melden uns zum gewünschten Zeitpunkt telefonisch bei Ihnen."
+  },
+  "serviceArea": {
+    "headline": "Unser Einsatzgebiet",
+    "body": "Wir sind für Sie in München und Umgebung im Einsatz.",
+    "mapAlt": "Stilisierte Karte von München und Umgebung — Einsatzgebiet von Super Umzug, Super Entrümpelung und BayReno"
+  },
+  "details": {
+    "headline": "Direkter Kontakt",
+    "items": [
+      { "label": "Telefon", "value": "[TELEFON]" },
+      { "label": "E-Mail", "value": "[E-MAIL]" },
+      { "label": "Adresse", "value": "[ADRESSE]" },
+      { "label": "Erreichbarkeit", "value": "[ERREICHBARKEITSZEITEN, z. B. Mo–Fr 8–18 Uhr, Sa 9–14 Uhr]" }
+    ]
+  }
+}

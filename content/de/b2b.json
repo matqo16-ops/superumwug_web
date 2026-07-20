@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "B2B & Partner: Umzug, Entrümpelung, Renovierung München",
+    "description": "Provision für Vermittler, Partnerpreise für Firmenkunden. Hausverwaltung Handwerksservice München — bevorzugte Terminplanung, fester Ansprechpartner."
+  },
+  "hero": {
+    "eyebrow": "B2B & Partner",
+    "headline": "Zwei Wege zur Zusammenarbeit: Vermittler und Firmenkunden",
+    "subheadline": "Ob Sie uns Kunden vermitteln oder selbst wiederkehrend Leistungen benötigen — wir bieten feste Konditionen, bevorzugte Terminplanung und einen festen Ansprechpartner."
+  },
+  "referral": {
+    "headline": "Immobilienmakler, Umzugsvermittler, Hausverwaltungen",
+    "body": "Sie haben Kunden, die einen Umzug, eine Entrümpelung oder eine Renovierung brauchen? Vermitteln Sie sie an uns — wir kümmern uns um den Rest.",
+    "benefits": [
+      {
+        "title": "Provision",
+        "body": "Für jeden vermittelten und abgeschlossenen Auftrag erhalten Sie eine Vermittlungsprovision."
+      },
+      {
+        "title": "Bevorzugte Terminplanung",
+        "body": "Anfragen von Partnern werden vorrangig eingeplant."
+      },
+      {
+        "title": "Fester Ansprechpartner",
+        "body": "Ein fester Kontakt bei uns, statt wechselnder Zuständigkeiten."
+      },
+      {
+        "title": "Einfache Übergabe",
+        "body": "Sie melden den Kontakt, wir übernehmen Beratung, Angebot und Durchführung."
+      }
+    ]
+  },
+  "corporate": {
+    "headline": "Unternehmen mit wiederkehrendem Bedarf",
+    "body": "Hausverwaltungen, Immobilienunternehmen und Firmen mit regelmäßigen Umzugs-, Entrümpelungs- oder Renovierungsaufträgen profitieren von festen Partnerkonditionen.",
+    "benefits": [
+      {
+        "title": "Partnerpreise",
+        "body": "Feste, vergünstigte Konditionen für wiederkehrende Aufträge statt Einzelangeboten."
+      },
+      {
+        "title": "Bevorzugte Terminplanung",
+        "body": "Ihre Aufträge werden vorrangig eingeplant."
+      },
+      {
+        "title": "Fester Ansprechpartner",
+        "body": "Ein Kontakt für alle drei Marken — Umzug, Entrümpelung, Renovierung."
+      },
+      {
+        "title": "Ein Vertrag, drei Gewerke",
+        "body": "Sie müssen keine getrennten Dienstleister koordinieren."
+      }
+    ]
+  },
+  "form": {
+    "headline": "Partner werden",
+    "body": "Erzählen Sie uns kurz von sich — wir melden uns mit den passenden Konditionen.",
+    "selectorLabel": "Ich bin:",
+    "selectorOptions": [
+      { "value": "vermittler", "label": "Vermittler" },
+      { "value": "firmenkunde", "label": "Firmenkunde" }
+    ],
+    "companyLabel": "Ihr Unternehmen / Ihre Branche (optional)",
+    "submit": "Anfrage senden"
+  }
+}

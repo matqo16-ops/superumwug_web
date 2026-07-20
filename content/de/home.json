@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Umzug, Entrümpelung & Renovierung München | Super Umzug",
+    "description": "Umzug mit Renovierung aus einer Hand: Super Umzug, Super Entrümpelung und BayReno in München. Unbeschädigt-Garantie mit voller Werterstattung. Jetzt Rückruf anfordern."
+  },
+  "hero": {
+    "eyebrow": "Umzug · Entrümpelung · Renovierung — aus einer Hand",
+    "headline": "Ein Team für Ihren Umzug, Ihre Entrümpelung und Ihre Renovierung in München",
+    "subheadline": "Ein Ansprechpartner, ein Termin, ein Ergebnis. Super Umzug, Super Entrümpelung und BayReno koordinieren sich intern, damit Sie es nicht müssen.",
+    "primaryCta": "Rückruf anfordern",
+    "secondaryCta": "Pakete ansehen"
+  },
+  "badges": [
+    "Unbeschädigt-Garantie",
+    "Volle Werterstattung im Schadensfall",
+    "All-in-One-Pakete",
+    "München und Umgebung"
+  ],
+  "brandsSection": {
+    "headline": "Drei Spezialisten, ein Anspruch",
+    "cards": [
+      {
+        "brandId": "umzug",
+        "body": "Private und gewerbliche Umzüge, Verpackung, Montage und Transport — mit Unbeschädigt-Garantie.",
+        "cta": "Mehr erfahren"
+      },
+      {
+        "brandId": "entruempelung",
+        "body": "Wohnungen, Häuser, Keller und Büros — fachgerecht entrümpelt und besenrein übergeben.",
+        "cta": "Mehr erfahren"
+      },
+      {
+        "brandId": "bayreno",
+        "body": "Renovierung und Sanierung mit bayerischer Handwerkstradition.",
+        "cta": "Zu BayReno"
+      }
+    ]
+  },
+  "packagesSection": {
+    "headline": "Kombinierte Leistungspakete",
+    "intro": "Wenn mehr als ein Gewerk gefragt ist, sparen Sie Zeit mit einem Paket aus einer Hand.",
+    "cards": [
+      {
+        "title": "Firmenumzug Komplett",
+        "body": "Auszug, Einzug, Entsorgung und Rückgabe im vertragsgemäßen Zustand."
+      },
+      {
+        "title": "Rundum-Service für Vermieter",
+        "body": "Vom Ankauf bis zur Vermietung: Entrümpelung, Renovierung, Möblierung."
+      },
+      {
+        "title": "Besichtigungsservice",
+        "body": "Realistische Kosteneinschätzung vor dem Immobilienkauf."
+      },
+      {
+        "title": "Full Service für Hausverwaltungen",
+        "body": "Entrümpelung, Schadensbehebung, Renovierung — alles für die Neuvermietung."
+      }
+    ],
+    "cta": "Details ansehen"
+  },
+  "b2bSection": {
+    "headline": "Immobilienmakler, Umzugsvermittler, Hausverwaltungen und Firmenkunden",
+    "body": "Provision pro vermitteltem Auftrag, bevorzugte Terminplanung und feste Partnerkonditionen für wiederkehrende Aufträge.",
+    "cta": "Partner werden"
+  },
+  "callbackSection": {
+    "headline": "Lieber gleich zurückgerufen werden?",
+    "body": "Tragen Sie sich ein — wir melden uns zum gewünschten Zeitpunkt."
+  }
+}

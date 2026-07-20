@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Privacy Policy | Super Umzug",
+    "description": "Privacy policy of Super Umzug, Super Entrümpelung and BayReno — information on the processing of personal data under the GDPR."
+  },
+  "title": "Privacy Policy",
+  "intro": "The following notes explain which personal data we process on this website, for which purposes, and which rights you have under the General Data Protection Regulation (GDPR).",
+  "sections": [
+    {
+      "heading": "1. Controller",
+      "paragraphs": [
+        "[COMPANY NAME, LEGAL FORM, ADDRESS]",
+        "Email: [E-MAIL] · Phone: [TELEFON]"
+      ]
+    },
+    {
+      "heading": "2. Overview of processing",
+      "paragraphs": [
+        "This website processes personal data in particular in the following cases:",
+        "— Use of the callback request form (getting in touch)",
+        "— Use of the chat assistant (AI-supported instant answers, including storage of chat transcripts)",
+        "— Visiting the website (hosting, server log files, web analytics where enabled)"
+      ]
+    },
+    {
+      "heading": "3. Callback request form",
+      "paragraphs": [
+        "When you use our callback form, we process the data you provide (name, phone number, preferred time, topic of your request, optional message and company details) to handle your request and call you back.",
+        "The legal basis is Art. 6(1)(b) GDPR (pre-contractual measure) and/or Art. 6(1)(a) GDPR (your consent via the form's checkbox).",
+        "Your request is delivered to us as an email notification via the delivery service Resend (Resend, Inc., USA) acting as a processor. A data processing agreement is in place with Resend; transfers to the USA are based on the EU Standard Contractual Clauses and/or the EU-US Data Privacy Framework. Details: https://resend.com/legal/privacy-policy.",
+        "Your request is deleted after [RETENTION PERIOD, e.g. 12 months after the request is closed], unless a statutory retention obligation applies."
+      ]
+    },
+    {
+      "heading": "4. Chat assistant (AI) and storage of chat transcripts",
+      "paragraphs": [
+        "This website offers its own chat assistant that answers general questions about our services, packages and terms. Please do not enter sensitive personal data in the chat — for specific matters, use the callback form.",
+        "To generate replies, your chat inputs are transmitted to Anthropic PBC (USA) as a processor (Claude API). Transfers to the USA are based on the EU Standard Contractual Clauses. Details: https://www.anthropic.com/legal/privacy.",
+        "For quality assurance and to improve our services, we store chat transcripts (session ID, timestamp, language, page visited and message history) in a database operated by Neon (Neon Inc.; database region: [DB REGION, e.g. EU/Frankfurt]). No account or customer data is linked to the chat; you can only be identified if you enter identifying details into the chat yourself.",
+        "The legal basis is Art. 6(1)(f) GDPR (legitimate interest in fast, low-barrier availability and in improving our information services).",
+        "Chat transcripts are deleted after [CHAT RETENTION PERIOD, e.g. 6 months]."
+      ]
+    },
+    {
+      "heading": "5. Hosting (Vercel)",
+      "paragraphs": [
+        "This website is hosted by Vercel Inc. (USA). When you visit the website, Vercel processes technically necessary connection data (including IP address, date and time of access, page visited, browser identifier) in server log files in order to deliver the website securely and reliably.",
+        "The legal basis is Art. 6(1)(f) GDPR (legitimate interest in the secure operation of the website). A data processing agreement is in place with Vercel; transfers to the USA are based on the EU Standard Contractual Clauses. Details: https://vercel.com/legal/privacy-policy."
+      ]
+    },
+    {
+      "heading": "6. Cookies & analytics",
+      "paragraphs": [
+        "This website does not use cookies for marketing or tracking purposes. The chat assistant keeps the conversation history exclusively in your browser's session storage (sessionStorage), which is deleted when you close the browser tab.",
+        "If we use privacy-friendly web analytics (e.g. cookie-less Vercel Analytics), the following applies: [NAME TOOLS IF ENABLED — e.g. Vercel Analytics; otherwise remove this paragraph]."
+      ]
+    },
+    {
+      "heading": "7. Your rights",
+      "paragraphs": [
+        "You have the right to access, rectification, erasure, restriction of processing, data portability, and objection to the processing of your personal data (Art. 15–21 GDPR).",
+        "You also have the right to lodge a complaint with a data protection supervisory authority, e.g. the [COMPETENT SUPERVISORY AUTHORITY, e.g. Bavarian State Office for Data Protection Supervision]."
+      ]
+    },
+    {
+      "heading": "8. Withdrawing your consent",
+      "paragraphs": [
+        "You may withdraw any consent given (e.g. for processing your callback request) at any time with effect for the future, e.g. by email to [E-MAIL]."
+      ]
+    },
+    {
+      "heading": "Last updated",
+      "paragraphs": ["[DATE OF LAST UPDATE]"]
+    }
+  ]
+}

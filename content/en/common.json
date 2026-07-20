@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "siteName": "Super Umzug",
+    "localeName": "English"
+  },
+  "skipToContent": "Skip to content",
+  "brands": [
+    {
+      "id": "umzug",
+      "name": "Super Umzug",
+      "tagline": "Your move in Munich — safe, on time, damage-free guaranteed.",
+      "href": "/umzug",
+      "logo": "/logos/super-umzug.png",
+      "logoAlt": "Super Umzug logo"
+    },
+    {
+      "id": "entruempelung",
+      "name": "Super Entrümpelung",
+      "tagline": "Clearance & house clearances — fast, clean, fair.",
+      "href": "/entruempelung",
+      "logo": "/logos/super-entruempelung.png",
+      "logoAlt": "Super Entrümpelung logo"
+    },
+    {
+      "id": "bayreno",
+      "name": "BayReno",
+      "tagline": "Bavarian renovation — craftsmanship you can schedule around.",
+      "externalHref": "https://www.bayreno.de",
+      "logo": "/logos/bayreno.png",
+      "logoAlt": "BayReno logo",
+      "externalNote": "Opens bayreno.de in a new tab"
+    }
+  ],
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "Moving", "href": "/umzug" },
+    { "label": "Clearance", "href": "/entruempelung" },
+    { "label": "Packages", "href": "/pakete" },
+    { "label": "B2B/Partners", "href": "/b2b" },
+    { "label": "Contact", "href": "/kontakt" }
+  ],
+  "header": {
+    "callbackButton": "Request a callback",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "languageLabel": "Choose language"
+  },
+  "chatCta": {
+    "eyebrow": "Instant answers",
+    "headline": "Questions about pricing and terms?",
+    "body": "Our assistant answers immediately — around the clock, no waiting. Ask about pricing, availability, our damage-free guarantee, or our bundle packages.",
+    "button": "Start chat",
+    "secondary": "Prefer a callback?"
+  },
+  "footer": {
+    "brandLines": [
+      { "id": "umzug", "text": "Moving for private & commercial clients" },
+      { "id": "entruempelung", "text": "Clearance & house clearances" },
+      { "id": "bayreno", "text": "Bavarian renovation" }
+    ],
+    "serviceArea": "Service area: Munich and surroundings",
+    "phoneLabel": "Phone",
+    "callbackLink": "Request a callback",
+    "legalLinks": [
+      { "label": "Legal Notice", "href": "/impressum" },
+      { "label": "Privacy Policy", "href": "/datenschutz" }
+    ],
+    "copyright": "© 2026 Super Umzug · Super Entrümpelung · BayReno. All rights reserved."
+  },
+  "callbackForm": {
+    "title": "Request a callback",
+    "subtext": "Leave us your details — we'll call you back at the time you prefer.",
+    "labels": {
+      "name": "Name",
+      "phone": "Phone number",
+      "preferredTime": "Preferred time",
+      "topic": "What is this about?",
+      "message": "Your message (optional)"
+    },
+    "timeOptions": [
+      { "value": "vormittags", "label": "Morning" },
+      { "value": "nachmittags", "label": "Afternoon" },
+      { "value": "abends", "label": "Evening" }
+    ],
+    "topicPlaceholder": "Please choose (optional)",
+    "topicOptions": [
+      { "value": "umzug", "label": "Moving" },
+      { "value": "entruempelung", "label": "Clearance" },
+      { "value": "paket-1", "label": "Package 1: Corporate Move Complete" },
+      { "value": "paket-2", "label": "Package 2: Full-Service for Landlords" },
+      { "value": "paket-3", "label": "Package 3: Inspection Service" },
+      { "value": "paket-4", "label": "Package 4: Full Service for Property Managers" },
+      { "value": "b2b", "label": "B2B partnership" },
+      { "value": "sonstiges", "label": "Other" }
+    ],
+    "consentPrefix": "I agree that my details will be stored and processed to handle my request, in line with the ",
+    "consentLinkLabel": "Privacy Policy",
+    "consentSuffix": ".",
+    "submit": "Request callback",
+    "submitting": "Sending …",
+    "success": "Thank you! We'll be in touch shortly.",
+    "error": "Something went wrong. Please check your details or call us directly: [TELEFON].",
+    "close": "Close"
+  },
+  "chatWidget": {
+    "openLabel": "Open chat assistant",
+    "closeLabel": "Close chat",
+    "title": "Your assistant",
+    "subtitle": "Instant answers on pricing, availability and services",
+    "welcome": "Hello! I can answer your questions about moving, clearance, renovation, our bundle packages and terms. How can I help?",
+    "placeholder": "Your question …",
+    "send": "Send",
+    "typing": "Assistant is typing …",
+    "unavailable": "The assistant is currently unavailable. Please request a callback — our team will get back to you shortly.",
+    "error": "The reply could not be loaded. Please try again or request a callback.",
+    "callbackLink": "Request a callback",
+    "gdprNote": "Chat transcripts are stored to improve quality. Details: ",
+    "gdprLinkLabel": "Privacy Policy"
+  }
+}

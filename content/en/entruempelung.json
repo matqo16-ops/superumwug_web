@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Clearance & House Clearances in Munich | Super Entrümpelung",
+    "description": "Clearance in Munich: apartments, houses, cellars, offices. House clearances, proper disposal, broom-clean handover. Request a fixed-price quote."
+  },
+  "hero": {
+    "eyebrow": "Super Entrümpelung",
+    "headline": "Clearance and house clearances in Munich — fast, clean, fairly priced.",
+    "subheadline": "Apartments, houses, cellars, attics and offices — cleared professionally, disposed of responsibly, handed over broom-clean.",
+    "primaryCta": "Request a callback",
+    "secondaryCta": "See how it works"
+  },
+  "services": {
+    "headline": "Services",
+    "items": [
+      {
+        "title": "Apartment clearance",
+        "body": "From single-room flats to detached houses."
+      },
+      {
+        "title": "House clearances",
+        "body": "Complete clearance of a household, e.g. after a bereavement or move into care — handled with care and discretion."
+      },
+      {
+        "title": "Cellar, attic, garage",
+        "body": "Including hard-to-reach or densely packed spaces."
+      },
+      {
+        "title": "Office & commercial clearance",
+        "body": "Office furniture, GDPR-compliant document destruction on request, technical equipment."
+      },
+      {
+        "title": "Disposal & recycling",
+        "body": "Proper sorting, reuse where possible, compliant disposal of the remainder."
+      },
+      {
+        "title": "Broom-clean handover",
+        "body": "The space is handed over cleaned — ready to move into or sell."
+      }
+    ]
+  },
+  "process": {
+    "headline": "How a clearance works",
+    "steps": [
+      {
+        "title": "Inspection",
+        "body": "On-site or via photo/video — we assess scope and effort."
+      },
+      {
+        "title": "Fixed-price quote",
+        "body": "You receive a transparent quote with no hidden costs."
+      },
+      {
+        "title": "Scheduling",
+        "body": "We agree on a date that suits you."
+      },
+      {
+        "title": "Execution",
+        "body": "Clearance, sorting by material type, removal."
+      },
+      {
+        "title": "Broom-clean handover",
+        "body": "Final cleaning and handover of the space."
+      }
+    ]
+  },
+  "faq": {
+    "headline": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What does a clearance cost?",
+        "answer": "Price depends on floor area, volume and accessibility. After a short inspection you receive a fixed-price quote — you're also welcome to ask our chat assistant."
+      },
+      {
+        "question": "What happens to usable furniture and items?",
+        "answer": "We sort by material type and pass on usable items for reuse where possible, rather than disposing of them."
+      },
+      {
+        "question": "How quickly can a clearance take place?",
+        "answer": "Short-notice appointments are often available within a few days — ask about your preferred date."
+      },
+      {
+        "question": "Do you also handle house clearances after a bereavement?",
+        "answer": "Yes. We know this is a sensitive matter and handle it with care and discretion."
+      },
+      {
+        "question": "Is the space really broom-clean afterwards?",
+        "answer": "Yes — final cleaning is part of our standard process, so the space is ready for handover or sale."
+      }
+    ]
+  }
+}

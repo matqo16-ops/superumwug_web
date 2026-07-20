@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "Umzug München mit Unbeschädigt-Garantie | Super Umzug",
+    "description": "Privat- und Firmenumzüge in München: Verpackung, Montage, Transport. Unbeschädigt-Garantie mit voller Werterstattung im Schadensfall. Jetzt Rückruf anfordern."
+  },
+  "hero": {
+    "eyebrow": "Super Umzug",
+    "headline": "Ihr Umzug in München — geplant, verpackt, transportiert. Unbeschädigt garantiert.",
+    "subheadline": "Privatumzüge und Firmenumzüge aus einer Hand: Verpackung, Möbelmontage, Transport und Aufbau — mit voller Werterstattung im Schadensfall.",
+    "primaryCta": "Rückruf anfordern",
+    "secondaryCta": "Zur Unbeschädigt-Garantie"
+  },
+  "services": {
+    "headline": "Leistungen",
+    "items": [
+      {
+        "title": "Privatumzüge",
+        "body": "Vom Studio bis zur Familienwohnung — termingerecht, sorgfältig, ohne Stress für Sie."
+      },
+      {
+        "title": "Firmenumzüge",
+        "body": "Büros, Praxen und Lager — geplant außerhalb Ihrer Geschäftszeiten, minimaler Betriebsausfall."
+      },
+      {
+        "title": "Verpackung",
+        "body": "Professionelles Verpackungsmaterial, auf Wunsch Vollverpackung durch unser Team."
+      },
+      {
+        "title": "Montage & Demontage",
+        "body": "Möbel werden fachgerecht demontiert, transportiert und am Zielort wieder aufgebaut."
+      },
+      {
+        "title": "Transport",
+        "body": "Eigener Fuhrpark, erfahrene Teams, versicherter Transport."
+      },
+      {
+        "title": "Zusatzleistungen",
+        "body": "Halteverbotszonen, Möbellift, Einlagerung auf Anfrage."
+      }
+    ]
+  },
+  "guarantee": {
+    "badge": "Unbeschädigt-Garantie · Volle Werterstattung im Schadensfall",
+    "headline": "Die Unbeschädigt-Garantie",
+    "lead": "Wir versprechen nicht nur Sorgfalt — wir garantieren das Ergebnis: Kommt bei Ihrem Umzug etwas zu Schaden, erstatten wir den vollen Wert.",
+    "steps": [
+      {
+        "title": "Dokumentation vor dem Umzug",
+        "body": "Unser Team hält den Zustand wertvoller und empfindlicher Gegenstände vor dem Transport fest."
+      },
+      {
+        "title": "Sorgfältiger Transport",
+        "body": "Geschultes Personal, geeignetes Verpackungsmaterial und gesichertes Verladen."
+      },
+      {
+        "title": "Dokumentation nach dem Umzug",
+        "body": "Der Zustand wird am Zielort gemeinsam mit Ihnen geprüft und festgehalten."
+      },
+      {
+        "title": "Schadensmeldung",
+        "body": "Sollte dennoch etwas beschädigt werden, melden Sie es uns — unkompliziert, mit Foto und kurzer Beschreibung."
+      },
+      {
+        "title": "Volle Werterstattung",
+        "body": "Nach Prüfung erstatten wir den vollen Wert des beschädigten Gegenstands — ohne Wenn und Aber."
+      }
+    ],
+    "finePrint": "Details, Ausschlüsse und Bedingungen der Unbeschädigt-Garantie: [PLATZHALTER RECHTLICHER TEXT/VERSICHERUNGSBEDINGUNGEN]."
+  },
+  "faq": {
+    "headline": "Häufige Fragen",
+    "items": [
+      {
+        "question": "Was passiert, wenn beim Umzug etwas beschädigt wird?",
+        "answer": "Sie melden uns den Schaden mit Foto und kurzer Beschreibung. Da wir den Zustand vor und nach dem Umzug dokumentieren, ist die Prüfung schnell und fair — Sie erhalten den vollen Wert erstattet."
+      },
+      {
+        "question": "Wie weit im Voraus sollte ich meinen Umzug buchen?",
+        "answer": "Für Privatumzüge empfehlen wir 2–3 Wochen Vorlauf, für Firmenumzüge idealerweise 4–6 Wochen, damit wir außerhalb Ihrer Geschäftszeiten planen können. Kurzfristige Termine sind auf Anfrage möglich."
+      },
+      {
+        "question": "Übernehmen Sie auch die Verpackung?",
+        "answer": "Ja, auf Wunsch verpacken wir Ihren gesamten Hausstand professionell — oder unterstützen punktuell bei empfindlichen Gegenständen."
+      },
+      {
+        "question": "Was kostet ein Umzug?",
+        "answer": "Der Preis hängt von Umfang, Distanz und Zusatzleistungen ab. Fragen Sie unseren Chat-Assistenten für eine erste Einschätzung oder fordern Sie einen Rückruf an."
+      },
+      {
+        "question": "Sind meine Sachen während des Transports versichert?",
+        "answer": "Ja. Zusätzlich zur gesetzlichen Transportversicherung greift unsere Unbeschädigt-Garantie mit voller Werterstattung."
+      }
+    ]
+  }
+}

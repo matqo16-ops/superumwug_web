@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Moving, Clearance & Renovation in Munich | Super Umzug",
+    "description": "Moving with renovation from one team: Super Umzug, Super Entrümpelung and BayReno in Munich. Damage-free guarantee with full value compensation. Request a callback."
+  },
+  "hero": {
+    "eyebrow": "Moving · Clearance · Renovation — from one team",
+    "headline": "One team for your move, clearance and renovation in Munich",
+    "subheadline": "One point of contact, one schedule, one result. Super Umzug, Super Entrümpelung and BayReno coordinate internally, so you don't have to.",
+    "primaryCta": "Request a callback",
+    "secondaryCta": "View packages"
+  },
+  "badges": [
+    "Damage-free guarantee",
+    "Full value compensation if damaged",
+    "All-in-one packages",
+    "Munich and surroundings"
+  ],
+  "brandsSection": {
+    "headline": "Three specialists, one standard",
+    "cards": [
+      {
+        "brandId": "umzug",
+        "body": "Private and commercial moves, packing, assembly and transport — with our damage-free guarantee.",
+        "cta": "Learn more"
+      },
+      {
+        "brandId": "entruempelung",
+        "body": "Apartments, houses, cellars and offices — cleared professionally and handed over broom-clean.",
+        "cta": "Learn more"
+      },
+      {
+        "brandId": "bayreno",
+        "body": "Renovation and refurbishment with Bavarian craftsmanship.",
+        "cta": "Visit BayReno"
+      }
+    ]
+  },
+  "packagesSection": {
+    "headline": "Combined service packages",
+    "intro": "When more than one trade is needed, save time with a package from one provider.",
+    "cards": [
+      {
+        "title": "Corporate Move Complete",
+        "body": "Move-out, move-in, disposal and handover in contractual condition."
+      },
+      {
+        "title": "Full-Service for Landlords",
+        "body": "From purchase to rental: clearance, renovation, furnishing."
+      },
+      {
+        "title": "Inspection Service",
+        "body": "A realistic cost estimate before you buy a property."
+      },
+      {
+        "title": "Full Service for Property Managers",
+        "body": "Clearance, damage repair, renovation — everything to re-let a unit."
+      }
+    ],
+    "cta": "See details"
+  },
+  "b2bSection": {
+    "headline": "Real-estate agents, relocation partners, property managers and corporate clients",
+    "body": "Referral commission for every client you bring us, priority scheduling, and fixed partner rates for recurring work.",
+    "cta": "Become a partner"
+  },
+  "callbackSection": {
+    "headline": "Prefer a callback right away?",
+    "body": "Leave your details — we'll call at the time you prefer."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Entrümpelung München & Haushaltsauflösung | Super Entrümpelung",
+    "description": "Entrümpelung München: Wohnungen, Häuser, Keller, Büros. Haushaltsauflösung, fachgerechte Entsorgung, besenreine Übergabe. Festpreisangebot anfordern."
+  },
+  "hero": {
+    "eyebrow": "Super Entrümpelung",
+    "headline": "Entrümpelung und Haushaltsauflösung in München — schnell, sauber, fair kalkuliert.",
+    "subheadline": "Wohnungen, Häuser, Keller, Dachböden und Büros — fachgerecht entrümpelt, umweltgerecht entsorgt, besenrein übergeben.",
+    "primaryCta": "Rückruf anfordern",
+    "secondaryCta": "Ablauf ansehen"
+  },
+  "services": {
+    "headline": "Leistungen",
+    "items": [
+      {
+        "title": "Wohnungsentrümpelung",
+        "body": "Von der Einzimmerwohnung bis zum Einfamilienhaus."
+      },
+      {
+        "title": "Haushaltsauflösung",
+        "body": "Komplette Auflösung eines Haushalts, z. B. im Todesfall oder bei Umzug ins Pflegeheim — einfühlsam und diskret."
+      },
+      {
+        "title": "Keller, Dachboden, Garage",
+        "body": "Auch schwer zugängliche oder vollgestellte Räume."
+      },
+      {
+        "title": "Büro- & Gewerberäumung",
+        "body": "Büromöbel, Aktenvernichtung nach DSGVO auf Anfrage, technische Geräte."
+      },
+      {
+        "title": "Entsorgung & Recycling",
+        "body": "Fachgerechte Trennung, Wiederverwertung wo möglich, ordnungsgemäße Entsorgung des Rests."
+      },
+      {
+        "title": "Besenreine Übergabe",
+        "body": "Der Raum wird gereinigt übergeben — bezugs- oder verkaufsfertig."
+      }
+    ]
+  },
+  "process": {
+    "headline": "So läuft eine Entrümpelung ab",
+    "steps": [
+      {
+        "title": "Besichtigung",
+        "body": "Vor Ort oder per Foto/Video — wir verschaffen uns einen Überblick über Umfang und Aufwand."
+      },
+      {
+        "title": "Festpreisangebot",
+        "body": "Sie erhalten ein transparentes Angebot ohne versteckte Kosten."
+      },
+      {
+        "title": "Termin",
+        "body": "Wir vereinbaren einen für Sie passenden Termin."
+      },
+      {
+        "title": "Durchführung",
+        "body": "Räumung, Trennung nach Wertstoffen, Abtransport."
+      },
+      {
+        "title": "Besenreine Übergabe",
+        "body": "Abschließende Reinigung und Übergabe des Raums."
+      }
+    ]
+  },
+  "faq": {
+    "headline": "Häufige Fragen",
+    "items": [
+      {
+        "question": "Was kostet eine Entrümpelung?",
+        "answer": "Der Preis richtet sich nach Fläche, Menge und Zugänglichkeit. Nach kurzer Besichtigung erhalten Sie ein Festpreisangebot — fragen Sie auch gern unseren Chat-Assistenten."
+      },
+      {
+        "question": "Was passiert mit brauchbaren Möbeln und Gegenständen?",
+        "answer": "Wir trennen nach Wertstoffen und geben Brauchbares wo möglich zur Wiederverwertung weiter, statt es zu entsorgen."
+      },
+      {
+        "question": "Wie schnell kann eine Entrümpelung stattfinden?",
+        "answer": "Kurzfristige Termine sind häufig innerhalb weniger Tage möglich — fragen Sie nach Ihrem Wunschtermin."
+      },
+      {
+        "question": "Übernehmen Sie auch Haushaltsauflösungen im Todesfall?",
+        "answer": "Ja. Wir wissen, dass das ein sensibles Thema ist, und gehen entsprechend einfühlsam und diskret vor."
+      },
+      {
+        "question": "Ist die Wohnung danach wirklich besenrein?",
+        "answer": "Ja — Endreinigung ist Teil unseres Standardablaufs, sodass die Fläche übergabe- oder verkaufsfertig ist."
+      }
+    ]
+  }
+}

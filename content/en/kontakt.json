@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Contact & Request a Callback | Super Umzug Munich",
+    "description": "Request a callback or chat directly: Super Umzug, Super Entrümpelung and BayReno in Munich and the surrounding area."
+  },
+  "hero": {
+    "eyebrow": "Contact",
+    "headline": "Talk to us — we'll call you back",
+    "subheadline": "The fastest way to reach us: request a callback. For pricing and general questions, our chat assistant answers around the clock."
+  },
+  "form": {
+    "headline": "Request a callback",
+    "body": "Fill in the form — we'll call you at the time you prefer."
+  },
+  "serviceArea": {
+    "headline": "Our service area",
+    "body": "We operate in Munich and the surrounding area.",
+    "mapAlt": "Stylized map of Munich and surroundings — service area of Super Umzug, Super Entrümpelung and BayReno"
+  },
+  "details": {
+    "headline": "Direct contact",
+    "items": [
+      { "label": "Phone", "value": "[TELEFON]" },
+      { "label": "Email", "value": "[E-MAIL]" },
+      { "label": "Address", "value": "[ADRESSE]" },
+      { "label": "Hours", "value": "[AVAILABILITY HOURS, e.g. Mon–Fri 8am–6pm, Sat 9am–2pm]" }
+    ]
+  }
+}

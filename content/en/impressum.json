@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Legal Notice | Super Umzug",
+    "description": "Legal notice of Super Umzug, Super Entrümpelung and BayReno — information according to § 5 TMG (German Telemedia Act)."
+  },
+  "title": "Legal Notice",
+  "intro": "Information according to § 5 TMG (German Telemedia Act)",
+  "sections": [
+    {
+      "heading": "Provider",
+      "paragraphs": [
+        "[COMPANY NAME, full legal form, e.g. Super Umzug GmbH]",
+        "[STREET AND NUMBER]",
+        "[POSTAL CODE AND CITY]"
+      ]
+    },
+    {
+      "heading": "Represented by",
+      "paragraphs": ["[NAME OF MANAGING DIRECTOR(S)]"]
+    },
+    {
+      "heading": "Contact",
+      "paragraphs": ["Phone: [TELEFON]", "Email: [E-MAIL]"]
+    },
+    {
+      "heading": "Commercial register",
+      "paragraphs": [
+        "Registered in the commercial register.",
+        "Registration court: [REGISTER COURT]",
+        "Registration number: [HRB NUMBER]"
+      ]
+    },
+    {
+      "heading": "VAT ID",
+      "paragraphs": [
+        "VAT identification number per § 27a of the German VAT Act: [VAT ID]"
+      ]
+    },
+    {
+      "heading": "Responsible for content under § 18(2) MStV",
+      "paragraphs": ["[NAME, ADDRESS AS ABOVE]"]
+    },
+    {
+      "heading": "Professional liability insurance",
+      "paragraphs": [
+        "If applicable (e.g. carrier/transport insurance): [INSURER NAME AND LOCATION, SCOPE OF COVERAGE]"
+      ]
+    },
+    {
+      "heading": "Trademark note",
+      "paragraphs": [
+        "Super Umzug and Super Entrümpelung are trademarks of [COMPANY NAME]. BayReno (Bayerische Renovierung) is an independent company; further information at https://www.bayreno.de."
+      ]
+    },
+    {
+      "heading": "Dispute resolution",
+      "paragraphs": [
+        "The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr/. Our email address is given above.",
+        "We are not obliged or willing to participate in dispute resolution proceedings before a consumer arbitration board [OR: DETAILS OF THE COMPETENT ARBITRATION BOARD, if participation applies]."
+      ]
+    },
+    {
+      "heading": "Liability disclaimer",
+      "paragraphs": [
+        "Despite careful content control, we assume no liability for the content of external links (e.g. bayreno.de). The operators of linked pages are solely responsible for their content."
+      ]
+    }
+  ]
+}

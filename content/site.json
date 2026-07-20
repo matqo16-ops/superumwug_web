@@ -1,0 +1,14 @@
+{
+  "siteUrl": "https://www.superumzug.de",
+  "organization": {
+    "name": "Super Umzug",
+    "legalName": "[FIRMENNAME]",
+    "phone": "[TELEFON]",
+    "email": "[E-MAIL]",
+    "streetAddress": "[STRASSE UND HAUSNUMMER]",
+    "postalCode": "[PLZ]",
+    "addressLocality": "München",
+    "addressCountry": "DE"
+  },
+  "bayrenoUrl": "https://www.bayreno.de"
+}

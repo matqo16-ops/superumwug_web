@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "Moving in Munich with a Damage-Free Guarantee | Super Umzug",
+    "description": "Private and corporate moves in Munich: packing, assembly, transport. Damage-free guarantee with full value compensation. Request a callback today."
+  },
+  "hero": {
+    "eyebrow": "Super Umzug",
+    "headline": "Your move in Munich — planned, packed, delivered. Damage-free, guaranteed.",
+    "subheadline": "Private and corporate moves from one provider: packing, furniture assembly, transport and setup — with full value compensation if anything is damaged.",
+    "primaryCta": "Request a callback",
+    "secondaryCta": "See the damage guarantee"
+  },
+  "services": {
+    "headline": "Services",
+    "items": [
+      {
+        "title": "Private moves",
+        "body": "From studio apartments to family homes — on schedule, careful, no stress for you."
+      },
+      {
+        "title": "Corporate moves",
+        "body": "Offices, practices and warehouses — scheduled outside your business hours, minimal downtime."
+      },
+      {
+        "title": "Packing",
+        "body": "Professional packing materials, or full-service packing by our team on request."
+      },
+      {
+        "title": "Assembly & disassembly",
+        "body": "Furniture is professionally disassembled, transported, and reassembled on-site."
+      },
+      {
+        "title": "Transport",
+        "body": "Our own fleet, experienced crews, insured transport."
+      },
+      {
+        "title": "Add-ons",
+        "body": "No-parking zones, furniture lift, temporary storage on request."
+      }
+    ]
+  },
+  "guarantee": {
+    "badge": "Damage-free guarantee · Full value compensation if damaged",
+    "headline": "The Damage-Free Guarantee",
+    "lead": "We don't just promise care — we guarantee the outcome: if anything is damaged during your move, we pay full value compensation.",
+    "steps": [
+      {
+        "title": "Documentation before the move",
+        "body": "Our team records the condition of valuable and delicate items before transport."
+      },
+      {
+        "title": "Careful transport",
+        "body": "Trained staff, suitable packing materials, secured loading."
+      },
+      {
+        "title": "Documentation after the move",
+        "body": "Condition is checked and recorded together with you at the destination."
+      },
+      {
+        "title": "Reporting a claim",
+        "body": "If something is damaged regardless, let us know — simply, with a photo and short description."
+      },
+      {
+        "title": "Full value compensation",
+        "body": "After review, we reimburse the full value of the damaged item — no fine-print games."
+      }
+    ],
+    "finePrint": "Details, exclusions and terms of the damage-free guarantee: [PLACEHOLDER LEGAL TEXT/INSURANCE TERMS]."
+  },
+  "faq": {
+    "headline": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What happens if something is damaged during my move?",
+        "answer": "Report the damage to us with a photo and short description. Since we document condition before and after the move, review is fast and fair — you receive full value compensation."
+      },
+      {
+        "question": "How far in advance should I book my move?",
+        "answer": "For private moves we recommend 2–3 weeks' notice; for corporate moves ideally 4–6 weeks, so we can plan outside your business hours. Short-notice dates are available on request."
+      },
+      {
+        "question": "Do you also handle packing?",
+        "answer": "Yes — on request we pack your entire household professionally, or assist selectively with delicate items."
+      },
+      {
+        "question": "What does a move cost?",
+        "answer": "Price depends on scope, distance and add-ons. Ask our chat assistant for an initial estimate, or request a callback."
+      },
+      {
+        "question": "Is my property insured during transport?",
+        "answer": "Yes. In addition to statutory transport insurance, our damage-free guarantee applies with full value compensation."
+      }
+    ]
+  }
+}

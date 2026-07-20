@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "siteName": "Super Umzug",
+    "localeName": "Deutsch"
+  },
+  "skipToContent": "Zum Inhalt springen",
+  "brands": [
+    {
+      "id": "umzug",
+      "name": "Super Umzug",
+      "tagline": "Ihr Umzug in München — sicher, pünktlich, unbeschädigt garantiert.",
+      "href": "/umzug",
+      "logo": "/logos/super-umzug.png",
+      "logoAlt": "Super Umzug Logo"
+    },
+    {
+      "id": "entruempelung",
+      "name": "Super Entrümpelung",
+      "tagline": "Entrümpelung & Haushaltsauflösung — schnell, sauber, fair.",
+      "href": "/entruempelung",
+      "logo": "/logos/super-entruempelung.png",
+      "logoAlt": "Super Entrümpelung Logo"
+    },
+    {
+      "id": "bayreno",
+      "name": "BayReno",
+      "tagline": "Bayerische Renovierung — Handwerk mit Termintreue.",
+      "externalHref": "https://www.bayreno.de",
+      "logo": "/logos/bayreno.png",
+      "logoAlt": "BayReno Logo",
+      "externalNote": "Öffnet bayreno.de in einem neuen Tab"
+    }
+  ],
+  "nav": [
+    { "label": "Start", "href": "/" },
+    { "label": "Umzug", "href": "/umzug" },
+    { "label": "Entrümpelung", "href": "/entruempelung" },
+    { "label": "Pakete", "href": "/pakete" },
+    { "label": "B2B/Partner", "href": "/b2b" },
+    { "label": "Kontakt", "href": "/kontakt" }
+  ],
+  "header": {
+    "callbackButton": "Rückruf anfordern",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "languageLabel": "Sprache wählen"
+  },
+  "chatCta": {
+    "eyebrow": "Sofort-Auskunft",
+    "headline": "Fragen zu Preisen und Konditionen?",
+    "body": "Unser Assistent antwortet sofort — rund um die Uhr, ohne Warteschleife. Fragen Sie nach Preisen, Terminen, der Unbeschädigt-Garantie oder unseren Paketen.",
+    "button": "Chat starten",
+    "secondary": "Lieber zurückgerufen werden?"
+  },
+  "footer": {
+    "brandLines": [
+      { "id": "umzug", "text": "Umzüge für Privat & Gewerbe" },
+      { "id": "entruempelung", "text": "Entrümpelung & Haushaltsauflösung" },
+      { "id": "bayreno", "text": "Bayerische Renovierung" }
+    ],
+    "serviceArea": "Einsatzgebiet: München und Umgebung",
+    "phoneLabel": "Telefon",
+    "callbackLink": "Rückruf anfordern",
+    "legalLinks": [
+      { "label": "Impressum", "href": "/impressum" },
+      { "label": "Datenschutz", "href": "/datenschutz" }
+    ],
+    "copyright": "© 2026 Super Umzug · Super Entrümpelung · BayReno. Alle Rechte vorbehalten."
+  },
+  "callbackForm": {
+    "title": "Rückruf anfordern",
+    "subtext": "Hinterlassen Sie uns kurz Ihre Daten — wir rufen Sie zum gewünschten Zeitpunkt zurück.",
+    "labels": {
+      "name": "Name",
+      "phone": "Telefonnummer",
+      "preferredTime": "Wunschzeit",
+      "topic": "Worum geht es?",
+      "message": "Ihre Nachricht (optional)"
+    },
+    "timeOptions": [
+      { "value": "vormittags", "label": "Vormittags" },
+      { "value": "nachmittags", "label": "Nachmittags" },
+      { "value": "abends", "label": "Abends" }
+    ],
+    "topicPlaceholder": "Bitte wählen (optional)",
+    "topicOptions": [
+      { "value": "umzug", "label": "Umzug" },
+      { "value": "entruempelung", "label": "Entrümpelung" },
+      { "value": "paket-1", "label": "Paket 1: Firmenumzug Komplett" },
+      { "value": "paket-2", "label": "Paket 2: Rundum-Service für Vermieter" },
+      { "value": "paket-3", "label": "Paket 3: Besichtigungsservice" },
+      { "value": "paket-4", "label": "Paket 4: Full Service für Hausverwaltungen" },
+      { "value": "b2b", "label": "B2B-Partnerschaft" },
+      { "value": "sonstiges", "label": "Sonstiges" }
+    ],
+    "consentPrefix": "Ich stimme zu, dass meine Angaben zur Bearbeitung meiner Anfrage gemäß der ",
+    "consentLinkLabel": "Datenschutzerklärung",
+    "consentSuffix": " gespeichert und verarbeitet werden.",
+    "submit": "Rückruf anfordern",
+    "submitting": "Wird gesendet …",
+    "success": "Danke! Wir melden uns in Kürze bei Ihnen.",
+    "error": "Da ist etwas schiefgelaufen. Bitte prüfen Sie Ihre Angaben oder rufen Sie uns direkt an: [TELEFON].",
+    "close": "Schließen"
+  },
+  "chatWidget": {
+    "openLabel": "Chat-Assistent öffnen",
+    "closeLabel": "Chat schließen",
+    "title": "Ihr Assistent",
+    "subtitle": "Antwortet sofort — zu Preisen, Terminen und Leistungen",
+    "welcome": "Grüß Gott! Ich beantworte Ihre Fragen zu Umzug, Entrümpelung, Renovierung, unseren Paketen und Konditionen. Wie kann ich helfen?",
+    "placeholder": "Ihre Frage …",
+    "send": "Senden",
+    "typing": "Assistent schreibt …",
+    "unavailable": "Der Assistent ist derzeit nicht erreichbar. Fordern Sie gern einen Rückruf an — unser Team meldet sich kurzfristig.",
+    "error": "Die Antwort konnte nicht geladen werden. Bitte versuchen Sie es erneut oder fordern Sie einen Rückruf an.",
+    "callbackLink": "Rückruf anfordern",
+    "gdprNote": "Chat-Verläufe werden zur Qualitätsverbesserung gespeichert. Details: ",
+    "gdprLinkLabel": "Datenschutz"
+  }
+}
