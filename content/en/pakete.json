@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Bundle Packages: Moving, Clearance, Renovation | Super Umzug",
-    "description": "Four combined packages for corporate moves, landlords, property buyers and property managers. Moving with renovation from one team in Munich."
+    "description": "Three combined packages for corporate moves, landlords and property managers. Moving with renovation from one team in Munich."
   },
   "hero": {
     "eyebrow": "Packages",
@@ -72,33 +72,8 @@
       "outcome": "An unrenovated property becomes a rental-ready unit — without you having to coordinate multiple trades."
     },
     {
-      "id": "paket-3",
-      "kicker": "Package 3",
-      "name": "Inspection Service",
-      "forWhom": "Prospective buyers who want to know, before purchasing a property, what it would take to bring it to their desired condition — and what that would cost.",
-      "included": [
-        {
-          "title": "On-site inspection",
-          "body": "A joint walkthrough of the property with your target condition in mind."
-        },
-        {
-          "title": "Condition assessment",
-          "body": "Systematic review of all rooms and relevant trades."
-        },
-        {
-          "title": "Cost estimate",
-          "body": "A realistic price range for reaching the desired condition."
-        },
-        {
-          "title": "Difficulty rating per task",
-          "body": "Every item is rated (e.g. easy / medium / demanding), so you can decide what to do yourself and what to leave to professionals."
-        }
-      ],
-      "outcome": "A solid basis for your purchase decision — with no unpleasant surprises afterwards."
-    },
-    {
       "id": "paket-4",
-      "kicker": "Package 4",
+      "kicker": "Package 3",
       "name": "Full Service for Property Managers",
       "forWhom": "Property managers who need a unit re-let quickly and in good condition after a tenant moves out.",
       "included": [

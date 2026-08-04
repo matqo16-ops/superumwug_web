@@ -49,15 +49,27 @@
         "body": "From purchase to rental: clearance, renovation, furnishing."
       },
       {
-        "title": "Inspection Service",
-        "body": "A realistic cost estimate before you buy a property."
-      },
-      {
         "title": "Full Service for Property Managers",
         "body": "Clearance, damage repair, renovation — everything to re-let a unit."
       }
     ],
     "cta": "See details"
+  },
+  "inspection": {
+    "eyebrow": "Inspection service",
+    "headline": "Know what a property really costs — before you buy",
+    "body": "Interested in a property and want to know what it would cost to bring it to the condition you want? We come on site, assess every room systematically and give you a solid cost estimate — including a difficulty rating per task, so you can decide what to take on yourself and what to leave to professionals.",
+    "priceLabel": "Flat fee",
+    "price": "€290",
+    "priceNote": "includes the on-site appointment, condition assessment and written cost estimate",
+    "includes": [
+      "A joint on-site walkthrough of the property",
+      "Systematic assessment of all rooms and trades",
+      "A realistic cost estimate for your target condition",
+      "Difficulty rating per item: easy / medium / demanding"
+    ],
+    "orderCta": "Call to order",
+    "askCta": "Ask more — talk to our assistant"
   },
   "b2bSection": {
     "headline": "Real-estate agents, relocation partners, property managers and corporate clients",

@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
-import { getCommon, getHome, getSiteData } from "@/lib/content";
+import { getCommon, getHome, getProjects, getSiteData } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { btnOutlineOnDark, btnOutlineOnLight, btnPrimary } from "@/lib/styles";
 import { CallbackButton } from "@/components/CallbackButton";
 import { CallbackForm } from "@/components/CallbackForm";
 import { ChatCta } from "@/components/ChatCta";
+import { ChatCtaButton } from "@/components/ChatCtaButton";
 import { Hero } from "@/components/Hero";
+import { ProjectsGallery } from "@/components/ProjectsGallery";
 import { JsonLd } from "@/components/JsonLd";
 import { PlaceholderImage } from "@/components/PlaceholderImage";
 import { Section, SectionHeading } from "@/components/Section";
@@ -27,6 +29,7 @@ export default async function HomePage({ params }: Props) {
   setRequestLocale(locale);
   const home = getHome(locale);
   const common = getCommon(locale);
+  const projects = getProjects(locale);
   const site = getSiteData();
 
   const localBusinessJsonLd = {
@@ -99,6 +102,89 @@ export default async function HomePage({ params }: Props) {
               </Link>
             );
           })}
+        </div>
+      </Section>
+
+      {/* Projects — proof of work, right after the brands are introduced */}
+      <Section variant="light" id="projekte">
+        <SectionHeading intro={projects.intro}>{projects.headline}</SectionHeading>
+        <ProjectsGallery content={projects} />
+      </Section>
+
+      {/* Inspection service — flat-fee offer, high intent */}
+      <Section variant="cream" id="besichtigungsservice">
+        <div className="grid gap-10 lg:grid-cols-[1.15fr_1fr] lg:items-start">
+          <div>
+            <SectionHeading eyebrowText={home.inspection.eyebrow}>
+              {home.inspection.headline}
+            </SectionHeading>
+            <p className="mt-4 text-lg leading-relaxed text-anthracite/80">
+              {home.inspection.body}
+            </p>
+            <ul className="mt-6 space-y-2.5">
+              {home.inspection.includes.map((item) => (
+                <li key={item} className="flex gap-3 text-anthracite/90">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    aria-hidden="true"
+                    className="mt-0.5 shrink-0 text-gold-deep"
+                  >
+                    <circle cx="9" cy="9" r="8" stroke="currentColor" strokeWidth="1.5" />
+                    <path
+                      d="m5.5 9 2.3 2.3L12.5 6.6"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Price card */}
+          <div className="rounded-xl border-2 border-gold bg-navy p-8 shadow-card">
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-gold">
+              {home.inspection.priceLabel}
+            </p>
+            <p className="mt-2 font-display text-5xl font-semibold text-white">
+              {home.inspection.price}
+            </p>
+            <p className="mt-3 leading-relaxed text-white/70">
+              {home.inspection.priceNote}
+            </p>
+            <div className="mt-7 flex flex-col gap-3">
+              <a
+                href={`tel:${site.organization.phone.replace(/[^+0-9]/g, "")}`}
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-gold px-6 py-3 font-semibold text-navy transition-colors hover:bg-gold-deep hover:text-white"
+              >
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                  <path
+                    d="M6.2 3.3 7.5 6 6.1 7.4a9.5 9.5 0 0 0 4.5 4.5L12 10.5l2.7 1.3v3c0 .6-.5 1.1-1.1 1A12.6 12.6 0 0 1 2.2 4.4c-.1-.6.4-1.1 1-1.1h3Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                {home.inspection.orderCta}
+              </a>
+              <p className="text-center text-sm text-white/60">
+                {site.organization.phone}
+              </p>
+              <ChatCtaButton className="inline-flex items-center justify-center gap-2 rounded-lg border-[1.5px] border-white/70 px-6 py-3 font-semibold text-white transition-colors hover:border-gold hover:text-gold">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                  <path
+                    d="M9 1.5c-4.14 0-7.5 2.86-7.5 6.38 0 1.98 1.06 3.75 2.72 4.92-.1.86-.44 1.94-1.22 2.7 1.53-.1 2.76-.68 3.6-1.28.76.22 1.57.34 2.4.34 4.14 0 7.5-2.86 7.5-6.38S13.14 1.5 9 1.5Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                {home.inspection.askCta}
+              </ChatCtaButton>
+            </div>
+          </div>
         </div>
       </Section>
 

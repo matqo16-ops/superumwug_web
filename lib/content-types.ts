@@ -136,6 +136,17 @@ export interface HomeContent {
     cards: { title: string; body: string }[];
     cta: string;
   };
+  inspection: {
+    eyebrow: string;
+    headline: string;
+    body: string;
+    priceLabel: string;
+    price: string;
+    priceNote: string;
+    includes: string[];
+    orderCta: string;
+    askCta: string;
+  };
   b2bSection: { headline: string; body: string; cta: string };
   callbackSection: { headline: string; body: string };
 }
@@ -192,6 +203,32 @@ export interface PaketeContent {
     callbackButton: string;
   };
   packages: PackageItem[];
+}
+
+export interface ProjectItem {
+  slug: string;
+  name: string;
+  brand: string;
+  description: string;
+  count: number;
+}
+
+export interface ProjectsContent {
+  headline: string;
+  intro: string;
+  openLabel: string;
+  closeLabel: string;
+  beforeLabel: string;
+  afterLabel: string;
+  photosLabel: string;
+  crew: {
+    eyebrow: string;
+    title: string;
+    description: string;
+    cta: string;
+    images: string[];
+  };
+  projects: ProjectItem[];
 }
 
 export interface B2bContent {

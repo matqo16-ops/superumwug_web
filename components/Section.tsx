@@ -18,7 +18,10 @@ export function Section({
   className?: string;
 }) {
   return (
-    <section id={id} className={`${variants[variant]} ${className}`}>
+    <section
+      id={id}
+      className={`${variants[variant]} ${id ? "scroll-mt-4" : ""} ${className}`}
+    >
       <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">{children}</div>
     </section>
   );

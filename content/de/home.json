@@ -49,15 +49,27 @@
         "body": "Vom Ankauf bis zur Vermietung: Entrümpelung, Renovierung, Möblierung."
       },
       {
-        "title": "Besichtigungsservice",
-        "body": "Realistische Kosteneinschätzung vor dem Immobilienkauf."
-      },
-      {
         "title": "Full Service für Hausverwaltungen",
         "body": "Entrümpelung, Schadensbehebung, Renovierung — alles für die Neuvermietung."
       }
     ],
     "cta": "Details ansehen"
+  },
+  "inspection": {
+    "eyebrow": "Besichtigungsservice",
+    "headline": "Wissen Sie vor dem Kauf, was die Immobilie wirklich kostet",
+    "body": "Sie interessieren sich für eine Immobilie und wollen wissen, was es kostet, sie in Ihren Wunschzustand zu bringen? Wir kommen vor Ort, erfassen jeden Raum systematisch und liefern Ihnen eine belastbare Kosteneinschätzung — inklusive Schwierigkeitsgrad je Aufgabe, damit Sie entscheiden können, was Sie selbst übernehmen und was Fachbetriebe erledigen sollten.",
+    "priceLabel": "Festpreis",
+    "price": "290 €",
+    "priceNote": "inkl. Vor-Ort-Termin, Zustandsaufnahme und schriftlicher Kosteneinschätzung",
+    "includes": [
+      "Gemeinsame Begehung der Immobilie vor Ort",
+      "Systematische Aufnahme aller Räume und Gewerke",
+      "Realistische Kosteneinschätzung für den Zielzustand",
+      "Schwierigkeitsgrad je Position: einfach / mittel / anspruchsvoll"
+    ],
+    "orderCta": "Jetzt telefonisch beauftragen",
+    "askCta": "Mehr erfahren — Assistent fragen"
   },
   "b2bSection": {
     "headline": "Immobilienmakler, Umzugsvermittler, Hausverwaltungen und Firmenkunden",

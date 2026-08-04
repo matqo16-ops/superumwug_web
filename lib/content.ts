@@ -11,6 +11,7 @@ import type {
   KontaktContent,
   LegalContent,
   PaketeContent,
+  ProjectsContent,
   SiteData,
   UmzugContent,
 } from "./content-types";
@@ -41,6 +42,8 @@ export const getEntruempelung = (locale: Locale) =>
   readJson<EntruempelungContent>(locale, "entruempelung.json");
 export const getPakete = (locale: Locale) =>
   readJson<PaketeContent>(locale, "pakete.json");
+export const getProjects = (locale: Locale) =>
+  readJson<ProjectsContent>(locale, "projekte.json");
 export const getB2b = (locale: Locale) =>
   readJson<B2bContent>(locale, "b2b.json");
 export const getKontakt = (locale: Locale) =>

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Leistungspakete: Umzug, Entrümpelung, Renovierung | Super Umzug",
-    "description": "Vier kombinierte Pakete für Firmenumzug, Vermieter, Immobilienkäufer und Hausverwaltungen. Umzug mit Renovierung aus einer Hand in München."
+    "description": "Drei kombinierte Pakete für Firmenumzug, Vermieter und Hausverwaltungen. Umzug mit Renovierung aus einer Hand in München."
   },
   "hero": {
     "eyebrow": "Pakete",
@@ -72,33 +72,8 @@
       "outcome": "Aus einer unrenovierten Bestandsimmobilie wird eine vermietungsfertige Einheit — ohne dass Sie mehrere Gewerke koordinieren müssen."
     },
     {
-      "id": "paket-3",
-      "kicker": "Paket 3",
-      "name": "Besichtigungsservice",
-      "forWhom": "Kaufinteressenten, die vor dem Immobilienkauf wissen wollen, was eine Immobilie in den gewünschten Zustand versetzen würde — und was das kostet.",
-      "included": [
-        {
-          "title": "Besichtigung vor Ort",
-          "body": "Gemeinsame Begehung der Immobilie mit Blick auf den gewünschten Zielzustand."
-        },
-        {
-          "title": "Aufnahme des Zustands",
-          "body": "Systematische Erfassung aller Räume und relevanten Gewerke."
-        },
-        {
-          "title": "Kosteneinschätzung",
-          "body": "Realistische Preisspanne für die Umsetzung des gewünschten Zustands."
-        },
-        {
-          "title": "Schwierigkeitsgrad je Aufgabe",
-          "body": "Jede Position erhält eine Einstufung (z. B. einfach / mittel / anspruchsvoll), damit Sie entscheiden können, was Sie in Eigenregie übernehmen möchten und was durch Fachbetriebe erfolgen sollte."
-        }
-      ],
-      "outcome": "Eine belastbare Entscheidungsgrundlage vor dem Kauf — ohne böse Überraschungen danach."
-    },
-    {
       "id": "paket-4",
-      "kicker": "Paket 4",
+      "kicker": "Paket 3",
       "name": "Full Service für Hausverwaltungen",
       "forWhom": "Hausverwaltungen, die eine Einheit nach Auszug schnell und in gutem Zustand wieder vermieten möchten.",
       "included": [

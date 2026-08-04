@@ -1,0 +1,76 @@
+{
+  "headline": "Projekte aus der Praxis",
+  "intro": "Ein Einblick in abgeschlossene Arbeiten von Super Umzug, BayReno und Super Entrümpelung. Klicken Sie auf ein Projekt, um alle Bilder anzusehen.",
+  "openLabel": "Projekt ansehen",
+  "closeLabel": "Galerie schließen",
+  "beforeLabel": "Vorher",
+  "afterLabel": "Nachher",
+  "photosLabel": "Bilder",
+  "crew": {
+    "eyebrow": "Das Team",
+    "title": "Lernen Sie unsere Crew kennen",
+    "description": "Hinter jedem Auftrag stehen echte Menschen. Das sind die Kolleginnen und Kollegen, die bei Ihnen vor Ort sind.",
+    "cta": "Crew ansehen",
+    "images": [
+      "/projects/crew/1.png",
+      "/projects/crew/2.jpg",
+      "/projects/crew/3.jpg",
+      "/projects/crew/4.jpg",
+      "/projects/crew/5.jpg",
+      "/projects/crew/6.jpg",
+      "/projects/crew/7.jpg",
+      "/projects/crew/8.jpg"
+    ]
+  },
+  "projects": [
+    {
+      "slug": "kueche",
+      "name": "Küche komplett erneuert",
+      "brand": "BayReno",
+      "description": "Alte Einbauküche zurückgebaut, Wände und Anschlüsse instand gesetzt, neue Küche mit Arbeitsplatte und Geräten montiert.",
+      "count": 2
+    },
+    {
+      "slug": "bad",
+      "name": "Badsanierung",
+      "brand": "BayReno",
+      "description": "Komplette Sanierung inklusive Fliesen, Sanitärobjekten und Anschlüssen.",
+      "count": 2
+    },
+    {
+      "slug": "dusche",
+      "name": "Dusche neu gefliest",
+      "brand": "BayReno",
+      "description": "Duschbereich abgedichtet, neu gefliest und mit neuer Armatur ausgestattet.",
+      "count": 2
+    },
+    {
+      "slug": "praxis",
+      "name": "Praxisräume renoviert",
+      "brand": "BayReno",
+      "description": "Renovierung von Behandlungs- und Empfangsräumen — hell, pflegeleicht und termingerecht fertiggestellt.",
+      "count": 2
+    },
+    {
+      "slug": "buero",
+      "name": "Büro renoviert",
+      "brand": "BayReno",
+      "description": "Wände, Böden und Beleuchtung erneuert, damit der Betrieb schnell wieder starten konnte.",
+      "count": 2
+    },
+    {
+      "slug": "grossraumbuero",
+      "name": "Großraumbüro umgebaut",
+      "brand": "BayReno & Super Umzug",
+      "description": "Umbau und Neugestaltung einer großen Bürofläche inklusive Räumung, Renovierung und Wiedereinrichtung.",
+      "count": 4
+    },
+    {
+      "slug": "treppenhaus",
+      "name": "Treppenhaus & Bad gefliest",
+      "brand": "BayReno",
+      "description": "Treppenaufgang und angrenzendes Bad vollflächig neu gefliest.",
+      "count": 2
+    }
+  ]
+}

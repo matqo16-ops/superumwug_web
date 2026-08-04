@@ -1,0 +1,76 @@
+{
+  "headline": "Projects from the field",
+  "intro": "A look at completed work by Super Umzug, BayReno and Super Entrümpelung. Click a project to view all its images.",
+  "openLabel": "View project",
+  "closeLabel": "Close gallery",
+  "beforeLabel": "Before",
+  "afterLabel": "After",
+  "photosLabel": "photos",
+  "crew": {
+    "eyebrow": "The team",
+    "title": "Meet our crew",
+    "description": "There are real people behind every job. These are the colleagues who show up at your door.",
+    "cta": "Meet the crew",
+    "images": [
+      "/projects/crew/1.png",
+      "/projects/crew/2.jpg",
+      "/projects/crew/3.jpg",
+      "/projects/crew/4.jpg",
+      "/projects/crew/5.jpg",
+      "/projects/crew/6.jpg",
+      "/projects/crew/7.jpg",
+      "/projects/crew/8.jpg"
+    ]
+  },
+  "projects": [
+    {
+      "slug": "kueche",
+      "name": "Kitchen fully renewed",
+      "brand": "BayReno",
+      "description": "Old fitted kitchen stripped out, walls and connections repaired, new kitchen with worktop and appliances installed.",
+      "count": 2
+    },
+    {
+      "slug": "bad",
+      "name": "Bathroom refurbishment",
+      "brand": "BayReno",
+      "description": "Complete refurbishment including tiling, sanitary fixtures and connections.",
+      "count": 2
+    },
+    {
+      "slug": "dusche",
+      "name": "Shower re-tiled",
+      "brand": "BayReno",
+      "description": "Shower area sealed, freshly tiled and fitted with new fixtures.",
+      "count": 2
+    },
+    {
+      "slug": "praxis",
+      "name": "Medical practice renovated",
+      "brand": "BayReno",
+      "description": "Renovation of treatment and reception rooms — bright, easy to maintain, finished on schedule.",
+      "count": 2
+    },
+    {
+      "slug": "buero",
+      "name": "Office renovated",
+      "brand": "BayReno",
+      "description": "Walls, floors and lighting renewed so operations could resume quickly.",
+      "count": 2
+    },
+    {
+      "slug": "grossraumbuero",
+      "name": "Open-plan office converted",
+      "brand": "BayReno & Super Umzug",
+      "description": "Conversion and redesign of a large office floor including clearance, renovation and refurnishing.",
+      "count": 4
+    },
+    {
+      "slug": "treppenhaus",
+      "name": "Staircase & bathroom tiled",
+      "brand": "BayReno",
+      "description": "Staircase and adjoining bathroom fully re-tiled.",
+      "count": 2
+    }
+  ]
+}
