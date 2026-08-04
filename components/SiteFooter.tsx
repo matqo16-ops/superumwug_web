@@ -42,7 +42,7 @@ export function SiteFooter({
             alt={common.characterAlt}
             width={940}
             height={1592}
-            className="hidden h-44 w-auto justify-self-end md:block"
+            className="ml-auto block h-28 w-auto md:h-44"
             sizes="140px"
           />
         </div>

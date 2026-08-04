@@ -19,6 +19,8 @@ export interface NavItem {
   href: AppPathname;
   /** When set, the link targets a section anchor on `href` (e.g. the landing page). */
   hash?: string;
+  /** Renders as an icon instead of text; `label` becomes the accessible name. */
+  icon?: "home";
 }
 
 export interface Option {

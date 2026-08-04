@@ -15,6 +15,26 @@ const logoSizes: Record<Brand["id"], { width: number; height: number }> = {
   entruempelung: { width: 2033, height: 774 },
 };
 
+function HomeIcon({ className = "" }: { className?: string }) {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      aria-hidden="true"
+      className={className}
+    >
+      <path
+        d="M3 8.5 10 3l7 5.5V16a1 1 0 0 1-1 1h-3.5v-4.5h-5V17H4a1 1 0 0 1-1-1V8.5Z"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 function BrandBlock({ brand, priority }: { brand: Brand; priority?: boolean }) {
   return (
     <Link
@@ -42,6 +62,10 @@ export function SiteHeader({ common }: { common: CommonContent }) {
   const pathname = usePathname();
   const locale = useLocale() as Locale;
 
+  const homeItem = common.nav.find((item) => item.icon === "home");
+  // On mobile the home icon lives in the brand row, so drop it from the menu list.
+  const mobileNav = common.nav.filter((item) => item.icon !== "home");
+
   /**
    * Anchor nav items (Projekte, Crew) point at a section on another page, so
    * they render as a plain <a> with the localized path + hash.
@@ -66,22 +90,24 @@ export function SiteHeader({ common }: { common: CommonContent }) {
         href={item.href}
         onClick={() => setMenuOpen(false)}
         aria-current={isActive ? "page" : undefined}
+        aria-label={item.icon ? item.label : undefined}
+        title={item.icon ? item.label : undefined}
         className={className(isActive)}
       >
-        {item.label}
+        {item.icon === "home" ? <HomeIcon /> : item.label}
       </Link>
     );
   };
 
   const desktopLinkClass = (active: boolean) =>
-    `border-b-2 px-3 py-3.5 text-sm font-medium transition-colors ${
+    `inline-flex items-center border-b-2 px-4 py-3.5 text-sm font-medium transition-colors ${
       active
         ? "border-gold text-gold"
         : "border-transparent text-white/90 hover:border-gold/50 hover:text-gold"
     }`;
 
   const mobileLinkClass = (active: boolean) =>
-    `rounded-md px-3 py-2.5 text-base font-medium ${
+    `inline-flex items-center rounded-md px-3 py-2.5 text-base font-medium ${
       active ? "text-gold" : "text-white/90 hover:text-gold"
     }`;
 
@@ -96,7 +122,16 @@ export function SiteHeader({ common }: { common: CommonContent }) {
 
       {/* Mobile brand row — all three brands, wrapping so they never overflow */}
       <div className="flex items-center justify-between gap-3 px-4 py-3 md:hidden">
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5">
+        <div className="flex min-w-0 flex-wrap items-center gap-x-3 gap-y-1.5">
+          {/* Home icon sits to the left of the three brand logos */}
+          <Link
+            href="/"
+            aria-label={homeItem?.label}
+            title={homeItem?.label}
+            className="shrink-0 rounded-md p-1 text-navy hover:text-gold-deep"
+          >
+            <HomeIcon />
+          </Link>
           {common.brands.map((brand, index) => (
             <Link key={brand.id} href={brand.href} className="block">
               <Image
@@ -158,7 +193,7 @@ export function SiteHeader({ common }: { common: CommonContent }) {
       {menuOpen && (
         <div id="mobile-menu" className="bg-navy md:hidden">
           <nav aria-label={common.header.navLabel} className="flex flex-col px-4 py-3">
-            {common.nav.map((item) => renderNavLink(item, mobileLinkClass))}
+            {mobileNav.map((item) => renderNavLink(item, mobileLinkClass))}
             <div className="mt-3 flex items-center justify-between border-t border-white/15 px-3 pt-4 pb-2">
               <LanguageSwitcher label={common.header.languageLabel} />
               <CallbackButton className="rounded-lg bg-gold px-4 py-2 text-sm font-semibold text-navy">

@@ -32,10 +32,7 @@
     }
   ],
   "nav": [
-    { "label": "Home", "href": "/" },
-    { "label": "Moving", "href": "/umzug" },
-    { "label": "BayReno", "href": "/bayreno" },
-    { "label": "Clearance", "href": "/entruempelung" },
+    { "label": "Home", "href": "/", "icon": "home" },
     { "label": "Projects", "href": "/", "hash": "projekte" },
     { "label": "Crew", "href": "/", "hash": "crew" },
     { "label": "Packages", "href": "/pakete" },

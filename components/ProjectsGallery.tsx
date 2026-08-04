@@ -59,7 +59,7 @@ export function ProjectsGallery({ content }: { content: ProjectsContent }) {
   return (
     <div>
       {/* Project folders */}
-      <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:gap-6 lg:grid-cols-3">
         {content.projects.map((project) => {
           const images = projectImages(project.slug, project.count);
           const first = images[0];
@@ -89,7 +89,7 @@ export function ProjectsGallery({ content }: { content: ProjectsContent }) {
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                     sizes="(min-width: 1024px) 190px, (min-width: 640px) 45vw, 45vw"
                   />
-                  <span className="absolute left-2 top-2 rounded bg-navy-deep/75 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white/90">
+                  <span className="absolute left-1.5 top-1.5 hidden rounded bg-navy-deep/75 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white/90 sm:block">
                     {content.beforeLabel}
                   </span>
                 </div>
@@ -103,20 +103,20 @@ export function ProjectsGallery({ content }: { content: ProjectsContent }) {
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                     sizes="(min-width: 1024px) 190px, (min-width: 640px) 45vw, 45vw"
                   />
-                  <span className="absolute right-2 top-2 rounded bg-gold px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-navy">
+                  <span className="absolute right-1.5 top-1.5 hidden rounded bg-gold px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-navy sm:block">
                     {content.afterLabel}
                   </span>
                 </div>
 
                 {/* Name sits over the preview */}
-                <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-deep via-navy-deep/80 to-transparent px-4 pb-3 pt-10">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-gold">
+                <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-deep via-navy-deep/80 to-transparent px-2.5 pb-2 pt-8 sm:px-4 sm:pb-3 sm:pt-10">
+                  <p className="hidden text-[11px] font-semibold uppercase tracking-[0.14em] text-gold sm:block">
                     {project.brand}
                   </p>
-                  <h3 className="font-display text-lg font-semibold leading-tight text-white">
+                  <h3 className="font-display text-[13px] font-semibold leading-tight text-white sm:text-lg">
                     {project.name}
                   </h3>
-                  <p className="mt-0.5 text-xs text-white/70">
+                  <p className="mt-0.5 text-[10px] text-white/70 sm:text-xs">
                     {project.count} {content.photosLabel}
                   </p>
                 </div>
@@ -138,7 +138,7 @@ export function ProjectsGallery({ content }: { content: ProjectsContent }) {
               : "border-gold/60 hover:border-gold"
           }`}
         >
-          <div className="relative aspect-[16/9] w-full shrink-0 sm:aspect-auto sm:h-48 sm:w-2/5">
+          <div className="relative aspect-[2/1] w-full shrink-0 sm:aspect-auto sm:h-48 sm:w-2/5">
             <Image
               src={content.crew.images[0]}
               alt={content.crew.title}
@@ -155,14 +155,14 @@ export function ProjectsGallery({ content }: { content: ProjectsContent }) {
               className="absolute bottom-3 right-3 h-16 w-16 rounded-lg border-2 border-white/80 object-cover shadow-lg"
             />
           </div>
-          <div className="flex flex-1 flex-col justify-center bg-navy px-6 py-6">
+          <div className="flex flex-1 flex-col justify-center bg-navy px-5 py-5 sm:px-6 sm:py-6">
             <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gold">
               {content.crew.eyebrow}
             </p>
-            <h3 className="mt-1 font-display text-2xl font-semibold text-white">
+            <h3 className="mt-1 font-display text-xl font-semibold text-white sm:text-2xl">
               {content.crew.title}
             </h3>
-            <p className="mt-2 max-w-xl leading-relaxed text-white/70">
+            <p className="mt-2 max-w-xl text-sm leading-relaxed text-white/70 sm:text-base">
               {content.crew.description}
             </p>
             <span className="mt-3 text-sm font-semibold text-gold">
@@ -176,14 +176,14 @@ export function ProjectsGallery({ content }: { content: ProjectsContent }) {
       {openSlug && (
         <div
           ref={viewerRef}
-          className="mt-8 scroll-mt-24 rounded-xl border border-hairline bg-white p-6 shadow-card"
+          className="mt-6 scroll-mt-24 rounded-xl border border-hairline bg-white p-4 shadow-card sm:mt-8 sm:p-6"
         >
           <div className="flex items-start justify-between gap-4">
             <div>
-              <h3 className="font-display text-2xl font-semibold text-navy">
+              <h3 className="font-display text-xl font-semibold text-navy sm:text-2xl">
                 {openTitle}
               </h3>
-              <p className="mt-1 max-w-2xl text-anthracite/80">
+              <p className="mt-1 max-w-2xl text-sm text-anthracite/80 sm:text-base">
                 {openDescription}
               </p>
             </div>
@@ -197,7 +197,7 @@ export function ProjectsGallery({ content }: { content: ProjectsContent }) {
             </button>
           </div>
 
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+          <div className="mt-4 grid gap-3 sm:mt-6 sm:grid-cols-2 sm:gap-4">
             {openImages.map((src, index) => (
               <figure key={src} className="overflow-hidden rounded-lg bg-cream">
                 <Image

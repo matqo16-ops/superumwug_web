@@ -61,8 +61,8 @@ export function Hero({
             width={940}
             height={1592}
             priority
-            className="mt-10 hidden h-[26rem] w-auto justify-self-end lg:mt-0 lg:block"
-            sizes="260px"
+            className="mt-8 ml-auto block h-48 w-auto sm:h-64 lg:mt-0 lg:h-[26rem]"
+            sizes="(min-width: 1024px) 260px, 170px"
           />
         )}
       </div>
