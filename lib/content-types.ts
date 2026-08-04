@@ -73,6 +73,17 @@ export interface ChatWidgetContent {
   callbackLink: string;
   gdprNote: string;
   gdprLinkLabel: string;
+  voiceStart: string;
+  voiceStop: string;
+  voiceHint: string;
+  voiceListening: string;
+  voiceRequesting: string;
+  micNotice: string;
+  micDenied: string;
+  voiceUnsupported: string;
+  voiceError: string;
+  speakOn: string;
+  speakOff: string;
 }
 
 export interface CommonContent {

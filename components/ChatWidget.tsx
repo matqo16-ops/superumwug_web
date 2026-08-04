@@ -4,8 +4,15 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import type { ChatWidgetContent } from "@/lib/content-types";
+import {
+  isSpeechRecognitionSupported,
+  isSpeechSynthesisSupported,
+  speak,
+  stopSpeaking,
+} from "@/lib/speech";
 import { useCallbackModal } from "./CallbackProvider";
 import { OPEN_CHAT_EVENT } from "./ChatCtaButton";
+import { VoiceButton, type VoiceState } from "./VoiceButton";
 
 interface ChatMessage {
   role: "user" | "assistant";
@@ -37,6 +44,10 @@ export function ChatWidget({ strings }: { strings: ChatWidgetContent }) {
   const [status, setStatus] = useState<
     "idle" | "streaming" | "unavailable" | "error"
   >("idle");
+  const [voiceState, setVoiceState] = useState<VoiceState>("idle");
+  const [speakReplies, setSpeakReplies] = useState(false);
+  const [voiceSupported, setVoiceSupported] = useState(false);
+  const [ttsSupported, setTtsSupported] = useState(false);
 
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -49,10 +60,19 @@ export function ChatWidget({ strings }: { strings: ChatWidgetContent }) {
     } catch {
       // corrupted storage — start fresh
     }
+    // Feature-detect after mount so SSR markup and hydration stay identical.
+    setVoiceSupported(isSpeechRecognitionSupported());
+    setTtsSupported(isSpeechSynthesisSupported());
+
     const onOpen = () => setIsOpen(true);
     window.addEventListener(OPEN_CHAT_EVENT, onOpen);
     return () => window.removeEventListener(OPEN_CHAT_EVENT, onOpen);
   }, []);
+
+  // Never keep talking after the panel is closed.
+  useEffect(() => {
+    if (!isOpen) stopSpeaking();
+  }, [isOpen]);
 
   useEffect(() => {
     if (messages.length > 0) {
@@ -79,8 +99,9 @@ export function ChatWidget({ strings }: { strings: ChatWidgetContent }) {
     return () => document.removeEventListener("keydown", onKeyDown);
   }, [isOpen]);
 
-  const send = useCallback(async () => {
-    const question = input.trim();
+  const send = useCallback(
+    async (override?: string) => {
+    const question = (override ?? input).trim();
     if (!question || status === "streaming") return;
     setInput("");
     setStatus("streaming");
@@ -121,10 +142,14 @@ export function ChatWidget({ strings }: { strings: ChatWidgetContent }) {
         ]);
       }
       setStatus("idle");
+      // Read the finished answer aloud when the visitor is using voice mode.
+      if (speakReplies) speak(reply, locale);
     } catch {
       setStatus("error");
     }
-  }, [input, status, messages, locale, pathname]);
+    },
+    [input, status, messages, locale, pathname, speakReplies],
+  );
 
   return (
     <>
@@ -216,6 +241,37 @@ export function ChatWidget({ strings }: { strings: ChatWidgetContent }) {
             )}
           </div>
 
+          {/* Voice status / microphone permission notice */}
+          {voiceState !== "idle" && (
+            <p
+              role={
+                voiceState === "denied" ||
+                voiceState === "unsupported" ||
+                voiceState === "error"
+                  ? "alert"
+                  : "status"
+              }
+              className={`border-t px-4 py-2 text-xs leading-snug ${
+                voiceState === "denied" ||
+                voiceState === "unsupported" ||
+                voiceState === "error"
+                  ? "border-error/25 bg-error/5 text-error"
+                  : "border-hairline bg-gold/10 text-anthracite"
+              }`}
+            >
+              {voiceState === "listening" && (
+                <span className="flex items-center gap-2 font-medium">
+                  <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-error" />
+                  {strings.voiceListening}
+                </span>
+              )}
+              {voiceState === "requesting" && strings.micNotice}
+              {voiceState === "denied" && strings.micDenied}
+              {voiceState === "unsupported" && strings.voiceUnsupported}
+              {voiceState === "error" && strings.voiceError}
+            </p>
+          )}
+
           <form
             className="flex items-center gap-2 border-t border-hairline bg-white px-3 py-3"
             onSubmit={(event) => {
@@ -223,23 +279,83 @@ export function ChatWidget({ strings }: { strings: ChatWidgetContent }) {
               void send();
             }}
           >
+            {voiceSupported && (
+              <VoiceButton
+                strings={strings}
+                locale={locale}
+                disabled={status === "streaming"}
+                onStateChange={setVoiceState}
+                onInterim={setInput}
+                onFinal={(text) => {
+                  // Speaking implies the visitor wants to hear the reply.
+                  setSpeakReplies(true);
+                  void send(text);
+                }}
+              />
+            )}
             <input
               ref={inputRef}
               type="text"
               value={input}
               onChange={(event) => setInput(event.target.value)}
-              placeholder={strings.placeholder}
+              placeholder={
+                voiceState === "listening" ? strings.voiceListening : strings.placeholder
+              }
               maxLength={1000}
-              className="flex-1 rounded-lg border border-hairline px-3 py-2 text-sm focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/40"
+              className="min-w-0 flex-1 rounded-lg border border-hairline px-3 py-2 text-sm focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/40"
             />
             <button
               type="submit"
               disabled={status === "streaming" || input.trim() === ""}
-              className="rounded-lg bg-gold px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-gold-deep hover:text-white disabled:cursor-not-allowed disabled:opacity-50"
+              className="shrink-0 rounded-lg bg-gold px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-gold-deep hover:text-white disabled:cursor-not-allowed disabled:opacity-50"
             >
               {strings.send}
             </button>
           </form>
+
+          {/* Voice hint + read-aloud toggle */}
+          {(voiceSupported || ttsSupported) && (
+            <div className="flex items-center justify-between gap-3 border-t border-hairline bg-white px-4 py-2 text-[11px] text-anthracite/70">
+              {voiceSupported ? <span>{strings.voiceHint}</span> : <span />}
+              {ttsSupported && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSpeakReplies((on) => {
+                      if (on) stopSpeaking();
+                      return !on;
+                    });
+                  }}
+                  aria-pressed={speakReplies}
+                  className={`flex shrink-0 items-center gap-1.5 rounded-full border px-2.5 py-1 font-medium transition-colors ${
+                    speakReplies
+                      ? "border-gold bg-gold/15 text-gold-deep"
+                      : "border-hairline hover:border-gold"
+                  }`}
+                >
+                  <svg width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                    <path d="M7 2 4 4.5H2v5h2L7 12V2Z" fill="currentColor" />
+                    {speakReplies ? (
+                      <path
+                        d="M9.5 5a3 3 0 0 1 0 4M11.3 3.2a5.5 5.5 0 0 1 0 7.6"
+                        stroke="currentColor"
+                        strokeWidth="1.3"
+                        strokeLinecap="round"
+                      />
+                    ) : (
+                      <path
+                        d="M9.8 5.2 12.6 8M12.6 5.2 9.8 8"
+                        stroke="currentColor"
+                        strokeWidth="1.3"
+                        strokeLinecap="round"
+                      />
+                    )}
+                  </svg>
+                  {speakReplies ? strings.speakOff : strings.speakOn}
+                </button>
+              )}
+            </div>
+          )}
 
           <p className="border-t border-hairline bg-cream px-4 py-2 text-[11px] leading-snug text-anthracite/60">
             {strings.gdprNote}

@@ -122,7 +122,18 @@
     "error": "The reply could not be loaded. Please try again or request a callback.",
     "callbackLink": "Request a callback",
     "gdprNote": "Chat transcripts are stored to improve quality. Details: ",
-    "gdprLinkLabel": "Privacy Policy"
+    "gdprLinkLabel": "Privacy Policy",
+    "voiceStart": "Start voice input",
+    "voiceStop": "Stop voice input",
+    "voiceHint": "Just speak — no typing needed.",
+    "voiceListening": "Listening …",
+    "voiceRequesting": "Requesting microphone …",
+    "micNotice": "Voice input needs access to your microphone. Please confirm your browser's prompt.",
+    "micDenied": "No access to the microphone. Please allow microphone access in your browser settings and try again.",
+    "voiceUnsupported": "Your browser doesn't support voice input. Please use Chrome, Edge or Safari — or simply type your question.",
+    "voiceError": "Voice input was interrupted. Please try again.",
+    "speakOn": "Read answers aloud",
+    "speakOff": "Turn off read-aloud"
   },
   "notFound": {
     "code": "404",

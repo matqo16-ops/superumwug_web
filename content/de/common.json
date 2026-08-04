@@ -122,7 +122,18 @@
     "error": "Die Antwort konnte nicht geladen werden. Bitte versuchen Sie es erneut oder fordern Sie einen Rückruf an.",
     "callbackLink": "Rückruf anfordern",
     "gdprNote": "Chat-Verläufe werden zur Qualitätsverbesserung gespeichert. Details: ",
-    "gdprLinkLabel": "Datenschutz"
+    "gdprLinkLabel": "Datenschutz",
+    "voiceStart": "Spracheingabe starten",
+    "voiceStop": "Spracheingabe beenden",
+    "voiceHint": "Sprechen Sie einfach — tippen ist nicht nötig.",
+    "voiceListening": "Ich höre zu …",
+    "voiceRequesting": "Mikrofon wird angefragt …",
+    "micNotice": "Für die Spracheingabe benötigen wir Zugriff auf Ihr Mikrofon. Bitte bestätigen Sie die Abfrage Ihres Browsers.",
+    "micDenied": "Kein Zugriff auf das Mikrofon. Bitte erlauben Sie den Mikrofonzugriff in den Einstellungen Ihres Browsers und versuchen Sie es erneut.",
+    "voiceUnsupported": "Ihr Browser unterstützt keine Spracheingabe. Nutzen Sie bitte Chrome, Edge oder Safari — oder schreiben Sie Ihre Frage einfach.",
+    "voiceError": "Die Spracheingabe wurde unterbrochen. Bitte versuchen Sie es erneut.",
+    "speakOn": "Antworten vorlesen",
+    "speakOff": "Vorlesen ausschalten"
   },
   "notFound": {
     "code": "404",
