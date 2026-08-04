@@ -9,7 +9,7 @@
   "crew": {
     "eyebrow": "Das Team",
     "title": "Lernen Sie unsere Crew kennen",
-    "description": "Hinter jedem Auftrag stehen echte Menschen. Das sind die Kolleginnen und Kollegen, die bei Ihnen vor Ort sind.",
+    "description": "Unsere Kolleginnen und Kollegen behandeln Ihr Eigentum mit größter Sorgfalt — vom ersten Karton bis zur letzten Schraube.",
     "cta": "Crew ansehen",
     "images": [
       "/projects/crew/1.png",
@@ -20,7 +20,8 @@
       "/projects/crew/6.jpg",
       "/projects/crew/7.jpg",
       "/projects/crew/8.jpg"
-    ]
+    ],
+    "cover": "/projects/crew/7.jpg"
   },
   "projects": [
     {

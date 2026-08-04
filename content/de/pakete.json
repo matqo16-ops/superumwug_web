@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Leistungspakete: Umzug, Entrümpelung, Renovierung | Super Umzug",
-    "description": "Drei kombinierte Pakete für Firmenumzug, Vermieter und Hausverwaltungen. Umzug mit Renovierung aus einer Hand in München."
+    "description": "Drei kombinierte Pakete für Privatumzug, Firmenumzug sowie Vermieter und Hausverwaltungen. Umzug mit Renovierung aus einer Hand in München."
   },
   "hero": {
     "eyebrow": "Pakete",
@@ -18,8 +18,37 @@
   },
   "packages": [
     {
-      "id": "paket-1",
+      "id": "paket-privatumzug",
       "kicker": "Paket 1",
+      "name": "Privatumzug Komplett",
+      "forWhom": "Privathaushalte, die in eine neue Wohnung oder ein neues Haus umziehen und den Umzug komplett abgeben möchten.",
+      "included": [
+        {
+          "title": "Beratung & Planung",
+          "body": "Termin vor Ort oder per Video, danach ein verbindlicher Zeitplan und ein klarer Kostenrahmen."
+        },
+        {
+          "title": "Verpackung",
+          "body": "Professionelles Verpackungsmaterial, auf Wunsch verpackt unser Team Ihren gesamten Hausstand."
+        },
+        {
+          "title": "Demontage & Montage",
+          "body": "Schränke, Betten und Küchen werden fachgerecht abgebaut und am Zielort wieder aufgebaut."
+        },
+        {
+          "title": "Transport mit Unbeschädigt-Garantie",
+          "body": "Gesicherter Transport durch geschulte Teams — mit voller Werterstattung im Schadensfall."
+        },
+        {
+          "title": "Entsorgung & besenreine Übergabe",
+          "body": "Aussortiertes wird fachgerecht entsorgt, die alte Wohnung besenrein übergeben."
+        }
+      ],
+      "outcome": "Sie verbringen die erste Nacht im neuen Zuhause, während alles bereits steht — ohne Umzugsstress und ohne Diskussionen bei der Wohnungsübergabe."
+    },
+    {
+      "id": "paket-firmenumzug",
+      "kicker": "Paket 2",
       "name": "Firmenumzug Komplett",
       "forWhom": "Unternehmen, die einen Standort auflösen und einen neuen beziehen — mit voller Kautionsrückgabe im Blick.",
       "included": [
@@ -47,18 +76,22 @@
       "outcome": "Ein abgeschlossener Standortwechsel ohne Nachforderungen des Vermieters — organisiert von einem einzigen Team."
     },
     {
-      "id": "paket-2",
-      "kicker": "Paket 2",
-      "name": "Rundum-Service für Vermieter",
-      "forWhom": "Vermieter und Kapitalanleger, die eine Bestandsimmobilie (z. B. nach dem Kauf eines Altbaus) vermietungsfertig machen wollen.",
+      "id": "paket-vermieter",
+      "kicker": "Paket 3",
+      "name": "Rundum-Service für Vermieter und Hausverwaltungen",
+      "forWhom": "Vermieter, Kapitalanleger und Hausverwaltungen, die eine Einheit nach dem Kauf oder nach dem Auszug eines Mieters schnell wieder vermietungsfertig machen wollen.",
       "included": [
         {
           "title": "Vollständige Entrümpelung",
-          "body": "Alles Vorhandene wird fachgerecht entfernt und entsorgt."
+          "body": "Zurückgelassenes Inventar wird fachgerecht entfernt und entsorgt."
+        },
+        {
+          "title": "Schadensbehebung",
+          "body": "Beseitigung von Mängeln und Schäden aus dem vorherigen Mietverhältnis."
         },
         {
           "title": "Renovierung nach Wunsch",
-          "body": "Von der Grundsanierung bis zum gehobenen Ausbau — durch BayReno."
+          "body": "Von der Schönheitsreparatur über Malerarbeiten bis zur Grundsanierung — durch BayReno."
         },
         {
           "title": "Möblierung & Ausstattung",
@@ -69,32 +102,24 @@
           "body": "Die Einheit ist besichtigungs- und vermietungsbereit."
         }
       ],
-      "outcome": "Aus einer unrenovierten Bestandsimmobilie wird eine vermietungsfertige Einheit — ohne dass Sie mehrere Gewerke koordinieren müssen."
-    },
-    {
-      "id": "paket-4",
-      "kicker": "Paket 3",
-      "name": "Full Service für Hausverwaltungen",
-      "forWhom": "Hausverwaltungen, die eine Einheit nach Auszug schnell und in gutem Zustand wieder vermieten möchten.",
-      "included": [
-        {
-          "title": "Wohnungsentrümpelung",
-          "body": "Zurückgelassenes Inventar wird fachgerecht entfernt."
-        },
-        {
-          "title": "Schadensbehebung",
-          "body": "Beseitigung von Mängeln und Schäden aus dem vorherigen Mietverhältnis."
-        },
-        {
-          "title": "Renovierung & Malerarbeiten",
-          "body": "Wände, Böden, Sanitär — je nach Bedarf, durch BayReno."
-        },
-        {
-          "title": "Vermietungsfertige Übergabe",
-          "body": "Die Einheit ist besichtigungsbereit für den nächsten Mieter."
-        }
-      ],
-      "outcome": "Kürzere Leerstandszeiten, ein Ansprechpartner für alle Gewerke, planbare Abläufe für wiederkehrende Aufträge."
+      "outcome": "Kürzere Leerstandszeiten und eine vermietungsfertige Einheit — ein Ansprechpartner für alle Gewerke, mit planbaren Abläufen auch bei wiederkehrenden Aufträgen."
     }
-  ]
+  ],
+  "bonus": {
+    "eyebrow": "Bonus-Service",
+    "badge": "Unabhängig von allen Paketen buchbar",
+    "name": "Besichtigungsservice für Immobilien",
+    "body": "Sie interessieren sich für eine Immobilie und wollen vor dem Kauf wissen, was es kostet, sie in Ihren Wunschzustand zu bringen? Wir besichtigen jede Immobilie — ganz unabhängig davon, ob Sie danach ein Paket buchen oder nicht.",
+    "includes": [
+      "Gemeinsame Begehung der Immobilie vor Ort",
+      "Systematische Aufnahme aller Räume und Gewerke",
+      "Realistische Kosteneinschätzung für den Zielzustand",
+      "Schwierigkeitsgrad je Position: einfach / mittel / anspruchsvoll"
+    ],
+    "priceLabel": "Festpreis",
+    "price": "290 €",
+    "priceNote": "inkl. Vor-Ort-Termin, Zustandsaufnahme und schriftlicher Kosteneinschätzung",
+    "orderCta": "Jetzt telefonisch beauftragen",
+    "askCta": "Mehr erfahren — Assistent fragen"
+  }
 }

@@ -37,24 +37,37 @@ export function SiteFooter({
             })}
           </div>
 
+          {/* On mobile the character moves into the contact panel below. */}
           <Image
             src="/images/header-char.png"
             alt={common.characterAlt}
             width={940}
             height={1592}
-            className="ml-auto block h-28 w-auto md:h-44"
+            className="hidden h-44 w-auto justify-self-end md:block"
             sizes="140px"
           />
         </div>
 
-        <div className="mt-10 flex flex-col gap-3 border-t border-white/15 pt-8 text-sm sm:flex-row sm:items-center sm:justify-between">
-          <p>{common.footer.serviceArea}</p>
-          <p>
-            {common.footer.phoneLabel}: <span className="text-white">{phone}</span>
-          </p>
-          <CallbackButton className="w-fit font-medium text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold">
-            {common.footer.callbackLink}
-          </CallbackButton>
+        {/* Service area · phone · callback — shares its panel with the character on mobile */}
+        <div className="mt-10 flex items-center justify-between gap-4 border-t border-white/15 pt-8">
+          <div className="flex flex-1 flex-col gap-3 text-sm sm:flex-row sm:items-center sm:justify-between">
+            <p>{common.footer.serviceArea}</p>
+            <p>
+              {common.footer.phoneLabel}:{" "}
+              <span className="text-white">{phone}</span>
+            </p>
+            <CallbackButton className="w-fit font-medium text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold">
+              {common.footer.callbackLink}
+            </CallbackButton>
+          </div>
+          <Image
+            src="/images/header-char.png"
+            alt={common.characterAlt}
+            width={940}
+            height={1592}
+            className="block h-32 w-auto shrink-0 md:hidden"
+            sizes="100px"
+          />
         </div>
 
         <div className="mt-8 flex flex-col gap-3 border-t border-white/15 pt-6 text-sm text-white/60 sm:flex-row sm:items-center sm:justify-between">

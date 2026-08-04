@@ -41,16 +41,16 @@
     "intro": "When more than one trade is needed, save time with a package from one provider.",
     "cards": [
       {
+        "title": "Home Relocation Complete",
+        "body": "Consultation, packing, assembly, transport — and a broom-clean handover of your old flat."
+      },
+      {
         "title": "Corporate Move Complete",
         "body": "Move-out, move-in, disposal and handover in contractual condition."
       },
       {
-        "title": "Full-Service for Landlords",
-        "body": "From purchase to rental: clearance, renovation, furnishing."
-      },
-      {
-        "title": "Full Service for Property Managers",
-        "body": "Clearance, damage repair, renovation — everything to re-let a unit."
+        "title": "Full-Service for Landlords and Property Managers",
+        "body": "Clearance, damage repair, renovation and furnishing — through to rental-ready."
       }
     ],
     "cta": "See details"

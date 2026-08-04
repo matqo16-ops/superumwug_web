@@ -9,7 +9,7 @@
   "crew": {
     "eyebrow": "The team",
     "title": "Meet our crew",
-    "description": "There are real people behind every job. These are the colleagues who show up at your door.",
+    "description": "Our colleagues handle your property with the utmost care — from the first box to the last screw.",
     "cta": "Meet the crew",
     "images": [
       "/projects/crew/1.png",
@@ -20,7 +20,8 @@
       "/projects/crew/6.jpg",
       "/projects/crew/7.jpg",
       "/projects/crew/8.jpg"
-    ]
+    ],
+    "cover": "/projects/crew/7.jpg"
   },
   "projects": [
     {

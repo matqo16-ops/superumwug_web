@@ -80,6 +80,7 @@
       "message": "Your message (optional)"
     },
     "timeOptions": [
+      { "value": "sofort", "label": "As soon as possible" },
       { "value": "vormittags", "label": "Morning" },
       { "value": "nachmittags", "label": "Afternoon" },
       { "value": "abends", "label": "Evening" }
@@ -90,10 +91,12 @@
       { "value": "renovierung", "label": "Renovation (BayReno)" },
       { "value": "entruempelung", "label": "Clearance" },
       { "value": "besichtigungsservice", "label": "Inspection service (€290)" },
-      { "value": "paket-1", "label": "Package 1: Corporate Move Complete" },
-      { "value": "paket-2", "label": "Package 2: Full-Service for Landlords" },
-      { "value": "paket-3", "label": "Package 3: Inspection Service" },
-      { "value": "paket-4", "label": "Package 4: Full Service for Property Managers" },
+      { "value": "paket-privatumzug", "label": "Package 1: Home Relocation Complete" },
+      { "value": "paket-firmenumzug", "label": "Package 2: Corporate Move Complete" },
+      {
+        "value": "paket-vermieter",
+        "label": "Package 3: Full-Service for Landlords and Property Managers"
+      },
       { "value": "b2b", "label": "B2B partnership" },
       { "value": "sonstiges", "label": "Other" }
     ],

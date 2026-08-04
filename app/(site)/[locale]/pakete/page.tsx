@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { getCommon, getPakete } from "@/lib/content";
+import { getCommon, getPakete, getSiteData } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { CallbackButton } from "@/components/CallbackButton";
 import { ChatCta } from "@/components/ChatCta";
@@ -23,6 +23,7 @@ export default async function PaketePage({ params }: Props) {
   setRequestLocale(locale);
   const content = getPakete(locale);
   const common = getCommon(locale);
+  const site = getSiteData();
   const { labels } = content;
 
   return (
@@ -100,6 +101,78 @@ export default async function PaketePage({ params }: Props) {
               </div>
             </article>
           ))}
+        </div>
+      </Section>
+
+      {/* Bonus service — visually separate from the packages above */}
+      <Section variant="light" id="besichtigungsservice">
+        <div className="rounded-xl border-2 border-dashed border-gold/70 bg-cream p-7 sm:p-10">
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="rounded-full bg-gold px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-navy">
+              {content.bonus.eyebrow}
+            </span>
+            <span className="text-xs font-medium uppercase tracking-wide text-anthracite/60">
+              {content.bonus.badge}
+            </span>
+          </div>
+
+          <div className="mt-5 grid gap-8 lg:grid-cols-[1.2fr_1fr] lg:items-start">
+            <div>
+              <h2 className="font-display text-2xl font-semibold text-navy sm:text-3xl">
+                {content.bonus.name}
+              </h2>
+              <p className="mt-3 leading-relaxed text-anthracite/85">
+                {content.bonus.body}
+              </p>
+              <ul className="mt-5 space-y-2.5">
+                {content.bonus.includes.map((item) => (
+                  <li key={item} className="flex gap-3 text-anthracite/90">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 18 18"
+                      fill="none"
+                      aria-hidden="true"
+                      className="mt-0.5 shrink-0 text-gold-deep"
+                    >
+                      <circle cx="9" cy="9" r="8" stroke="currentColor" strokeWidth="1.5" />
+                      <path
+                        d="m5.5 9 2.3 2.3L12.5 6.6"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="rounded-xl bg-navy p-7 text-center">
+              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-gold">
+                {content.bonus.priceLabel}
+              </p>
+              <p className="mt-1 font-display text-5xl font-semibold text-white">
+                {content.bonus.price}
+              </p>
+              <p className="mt-3 text-sm leading-relaxed text-white/70">
+                {content.bonus.priceNote}
+              </p>
+              <div className="mt-6 flex flex-col gap-3">
+                <a
+                  href={`tel:${site.organization.phone.replace(/[^+0-9]/g, "")}`}
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-gold px-5 py-3 font-semibold text-navy transition-colors hover:bg-gold-deep hover:text-white"
+                >
+                  {content.bonus.orderCta}
+                </a>
+                <ChatCtaButton className="inline-flex items-center justify-center gap-2 rounded-lg border-[1.5px] border-white/70 px-5 py-3 text-sm font-semibold text-white transition-colors hover:border-gold hover:text-gold">
+                  {content.bonus.askCta}
+                </ChatCtaButton>
+              </div>
+            </div>
+          </div>
         </div>
       </Section>
 

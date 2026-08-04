@@ -80,6 +80,7 @@
       "message": "Ihre Nachricht (optional)"
     },
     "timeOptions": [
+      { "value": "sofort", "label": "So schnell wie möglich" },
       { "value": "vormittags", "label": "Vormittags" },
       { "value": "nachmittags", "label": "Nachmittags" },
       { "value": "abends", "label": "Abends" }
@@ -90,10 +91,12 @@
       { "value": "renovierung", "label": "Renovierung (BayReno)" },
       { "value": "entruempelung", "label": "Entrümpelung" },
       { "value": "besichtigungsservice", "label": "Besichtigungsservice (290 €)" },
-      { "value": "paket-1", "label": "Paket 1: Firmenumzug Komplett" },
-      { "value": "paket-2", "label": "Paket 2: Rundum-Service für Vermieter" },
-      { "value": "paket-3", "label": "Paket 3: Besichtigungsservice" },
-      { "value": "paket-4", "label": "Paket 4: Full Service für Hausverwaltungen" },
+      { "value": "paket-privatumzug", "label": "Paket 1: Privatumzug Komplett" },
+      { "value": "paket-firmenumzug", "label": "Paket 2: Firmenumzug Komplett" },
+      {
+        "value": "paket-vermieter",
+        "label": "Paket 3: Rundum-Service für Vermieter und Hausverwaltungen"
+      },
       { "value": "b2b", "label": "B2B-Partnerschaft" },
       { "value": "sonstiges", "label": "Sonstiges" }
     ],

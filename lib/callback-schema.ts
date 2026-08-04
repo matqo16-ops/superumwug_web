@@ -8,17 +8,16 @@ export const callbackSchema = z.object({
     .min(5)
     .max(40)
     .regex(/^[+0-9 ()/.-]+$/, "invalid phone characters"),
-  preferredTime: z.enum(["vormittags", "nachmittags", "abends"]),
+  preferredTime: z.enum(["sofort", "vormittags", "nachmittags", "abends"]),
   topic: z
     .enum([
       "umzug",
       "renovierung",
       "entruempelung",
       "besichtigungsservice",
-      "paket-1",
-      "paket-2",
-      "paket-3",
-      "paket-4",
+      "paket-privatumzug",
+      "paket-firmenumzug",
+      "paket-vermieter",
       "b2b",
       "sonstiges",
     ])

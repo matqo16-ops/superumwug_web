@@ -140,19 +140,11 @@ export function ProjectsGallery({ content }: { content: ProjectsContent }) {
         >
           <div className="relative aspect-[2/1] w-full shrink-0 sm:aspect-auto sm:h-48 sm:w-2/5">
             <Image
-              src={content.crew.images[0]}
+              src={content.crew.cover ?? content.crew.images[0]}
               alt={content.crew.title}
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
               sizes="(min-width: 640px) 40vw, 100vw"
-            />
-            <Image
-              src={content.crew.images[content.crew.images.length - 1]}
-              alt=""
-              width={200}
-              height={200}
-              aria-hidden="true"
-              className="absolute bottom-3 right-3 h-16 w-16 rounded-lg border-2 border-white/80 object-cover shadow-lg"
             />
           </div>
           <div className="flex flex-1 flex-col justify-center bg-navy px-5 py-5 sm:px-6 sm:py-6">

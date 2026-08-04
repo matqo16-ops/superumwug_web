@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Bundle Packages: Moving, Clearance, Renovation | Super Umzug",
-    "description": "Three combined packages for corporate moves, landlords and property managers. Moving with renovation from one team in Munich."
+    "description": "Three combined packages for home relocation, corporate moves, and landlords and property managers. Moving with renovation from one team in Munich."
   },
   "hero": {
     "eyebrow": "Packages",
@@ -18,8 +18,37 @@
   },
   "packages": [
     {
-      "id": "paket-1",
+      "id": "paket-privatumzug",
       "kicker": "Package 1",
+      "name": "Home Relocation Complete",
+      "forWhom": "Private households moving to a new apartment or house who want to hand over the entire move.",
+      "included": [
+        {
+          "title": "Consultation & planning",
+          "body": "An on-site or video appointment, followed by a binding schedule and a clear cost framework."
+        },
+        {
+          "title": "Packing",
+          "body": "Professional packing materials — or our team packs your entire household for you."
+        },
+        {
+          "title": "Disassembly & assembly",
+          "body": "Wardrobes, beds and kitchens are properly dismantled and rebuilt at the destination."
+        },
+        {
+          "title": "Transport with our damage-free guarantee",
+          "body": "Secured transport by trained crews — with full value compensation if anything is damaged."
+        },
+        {
+          "title": "Disposal & broom-clean handover",
+          "body": "Anything you sort out is disposed of properly and the old flat is handed over broom-clean."
+        }
+      ],
+      "outcome": "You spend the first night in your new home with everything already in place — no moving stress, and no arguments at the handover of your old flat."
+    },
+    {
+      "id": "paket-firmenumzug",
+      "kicker": "Package 2",
       "name": "Corporate Move Complete",
       "forWhom": "Companies relocating from one site to another — with full deposit return in mind.",
       "included": [
@@ -47,18 +76,22 @@
       "outcome": "A completed relocation with no follow-up claims from your landlord — organized by a single team."
     },
     {
-      "id": "paket-2",
-      "kicker": "Package 2",
-      "name": "Full-Service for Landlords",
-      "forWhom": "Landlords and property investors preparing an existing property (e.g. after buying an older building) for rental.",
+      "id": "paket-vermieter",
+      "kicker": "Package 3",
+      "name": "Full-Service for Landlords and Property Managers",
+      "forWhom": "Landlords, property investors and property managers who need a unit rental-ready again quickly — after a purchase or after a tenant moves out.",
       "included": [
         {
           "title": "Complete clearance",
-          "body": "Everything currently in the unit is removed and disposed of properly."
+          "body": "Items left behind are removed and disposed of properly."
+        },
+        {
+          "title": "Damage repair",
+          "body": "Fixing defects and damage from the previous tenancy."
         },
         {
           "title": "Renovation to your specification",
-          "body": "From basic refurbishment to premium fit-out — delivered via BayReno."
+          "body": "From cosmetic repairs and painting through to full refurbishment — delivered via BayReno."
         },
         {
           "title": "Furnishing & equipping",
@@ -69,32 +102,24 @@
           "body": "The unit is ready to view and ready to let."
         }
       ],
-      "outcome": "An unrenovated property becomes a rental-ready unit — without you having to coordinate multiple trades."
-    },
-    {
-      "id": "paket-4",
-      "kicker": "Package 3",
-      "name": "Full Service for Property Managers",
-      "forWhom": "Property managers who need a unit re-let quickly and in good condition after a tenant moves out.",
-      "included": [
-        {
-          "title": "Unit clearance",
-          "body": "Items left behind are removed professionally."
-        },
-        {
-          "title": "Damage repair",
-          "body": "Fixing defects and damage from the previous tenancy."
-        },
-        {
-          "title": "Renovation & painting",
-          "body": "Walls, floors, plumbing — as needed, delivered via BayReno."
-        },
-        {
-          "title": "Rental-ready handover",
-          "body": "The unit is ready to show to the next tenant."
-        }
-      ],
-      "outcome": "Shorter vacancy periods, one contact for every trade, predictable processes for recurring work."
+      "outcome": "Shorter vacancy periods and a rental-ready unit — one contact for every trade, with predictable processes for recurring work."
     }
-  ]
+  ],
+  "bonus": {
+    "eyebrow": "Bonus service",
+    "badge": "Bookable independently of any package",
+    "name": "Property inspection service",
+    "body": "Interested in a property and want to know, before you buy, what it would cost to bring it to the condition you want? We inspect any property — entirely independently of whether you book a package afterwards or not.",
+    "includes": [
+      "A joint on-site walkthrough of the property",
+      "Systematic assessment of all rooms and trades",
+      "A realistic cost estimate for your target condition",
+      "Difficulty rating per item: easy / medium / demanding"
+    ],
+    "priceLabel": "Flat fee",
+    "price": "€290",
+    "priceNote": "includes the on-site appointment, condition assessment and written cost estimate",
+    "orderCta": "Call to order",
+    "askCta": "Ask more — talk to our assistant"
+  }
 }

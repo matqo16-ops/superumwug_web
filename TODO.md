@@ -62,10 +62,12 @@ Every `[PRICE]`, `[PRICE/RATE]`, `[PRICE/DISCOUNT]` marker (sections 3, 4 and th
 section 6): the 3 package prices, per-service move/clearance/renovation pricing, the B2B referral
 commission and the corporate partner discount.
 
-> **Exception — already priced:** the Besichtigungsservice is fixed at **290 €** and is shown
-> publicly on the landing page. The chatbot is explicitly allowed to quote it. If you change that
-> fee, update it in **three** places: `content/de/home.json`, `content/en/home.json` (the
-> `inspection` block) and section 3a of `content/chatbot-knowledge-base.md`.
+> **Exception — already priced:** the Besichtigungsservice is fixed at **290 €**, shown publicly on
+> the landing page and again on `/pakete` as a standalone bonus service. The chatbot is explicitly
+> allowed to quote it. If you change that fee, update it in **five** places: the `inspection` block
+> in `content/de/home.json` and `content/en/home.json`, the `bonus` block in
+> `content/de/pakete.json` and `content/en/pakete.json`, and section 3a of
+> `content/chatbot-knowledge-base.md`.
 
 **Until you fill these in, the chatbot will not state any number** — the system prompt forbids
 inventing prices, so it gives the qualitative answer and offers a callback instead. This is by

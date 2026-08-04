@@ -216,6 +216,19 @@ export interface PaketeContent {
     callbackButton: string;
   };
   packages: PackageItem[];
+  /** Standalone offer shown apart from the packages. */
+  bonus: {
+    eyebrow: string;
+    badge: string;
+    name: string;
+    body: string;
+    includes: string[];
+    priceLabel: string;
+    price: string;
+    priceNote: string;
+    orderCta: string;
+    askCta: string;
+  };
 }
 
 export interface ProjectItem {
@@ -239,6 +252,8 @@ export interface ProjectsContent {
     title: string;
     description: string;
     cta: string;
+    /** Large card image; falls back to the first gallery image. */
+    cover?: string;
     images: string[];
   };
   projects: ProjectItem[];

@@ -62,24 +62,27 @@ clients), `/kontakt` (contact & callback form). The landing page also has a proj
 
 ## 3. Bundle packages (Pakete) — combined services
 
-### Paket 1 — Firmenumzug Komplett (Corporate Move Complete)
+### Paket 1 — Privatumzug Komplett (Home Relocation Complete)
+For: private households moving to a new apartment or house who want to hand over the whole move.
+Includes: consultation and planning with a binding schedule, packing (materials or full packing by
+our team), disassembly and reassembly of furniture, secured transport under the Unbeschädigt-
+Garantie, plus disposal of anything sorted out and a broom-clean handover of the old flat.
+Price: `[PRICE — e.g. starting from €X, quote after a viewing]`
+
+### Paket 2 — Firmenumzug Komplett (Corporate Move Complete)
 For: companies relocating from one site to another.
 Includes: complete move-out, move-in at the new location, disposal of everything no longer
 needed, restoration of the old premises to the condition required by the lease, so the deposit
 is returned in full.
 Price: `[PRICE — e.g. starting from €X, quote after site assessment]`
 
-### Paket 2 — Rundum-Service für Vermieter (Full-Service for Landlords)
-For: landlords/investors preparing a purchased property (e.g. an older building) for rental.
-Includes: full clearance, renovation to the requested condition (via BayReno), furnishing and
-equipping, rental-ready handover.
+### Paket 3 — Rundum-Service für Vermieter und Hausverwaltungen (Full-Service for Landlords and Property Managers)
+For: landlords, investors AND property managers preparing a unit for rental — after a purchase or
+after a tenant moves out. This single package now covers both audiences.
+Includes: full clearance of anything left behind, repair of damage from the previous tenancy,
+renovation to the requested condition from cosmetic repairs and painting through to full
+refurbishment (via BayReno), furnishing and equipping on request, and a rental-ready handover.
 Price: `[PRICE — project-based, quote after inspection]`
-
-### Paket 3 — Full Service für Hausverwaltungen (Full Service for Property Managers)
-For: property managers needing a unit re-let quickly after a tenant moves out.
-Includes: unit clearance, damage repair, renovation and painting — everything to make the unit
-rentable again, from one provider.
-Price: `[PRICE — volume/partner pricing, see B2B conditions below]`
 
 For all three packages: the site never displays a fixed number — always answer general pricing
 questions with a realistic range only if `[PRICE]` has been filled in, or otherwise say pricing
@@ -89,8 +92,9 @@ depends on scope and offer the callback form for a personalized quote.
 
 ## 3a. Besichtigungsservice (Inspection Service) — fixed price, 290 €
 
-This is our one publicly priced product, presented on the landing page
-(`/#besichtigungsservice`) rather than as a bundle package. **You may state this price: 290 €.**
+This is our one publicly priced product. It is presented on the landing page
+(`/#besichtigungsservice`) and again on `/pakete` as a bonus service, deliberately independent of
+the three bundle packages — it can be booked on its own. **You may state this price: 290 €.**
 
 For: prospective buyers who want to know, before purchasing, what it would cost to bring a
 property to their desired condition.
@@ -151,9 +155,9 @@ form so the team can confirm feasibility on a case-by-case basis — don't refus
 | Haushaltsauflösung (full household clearance) | `[PRICE]` — quote-based |
 | Renovation, cosmetic repair (BayReno) | `[PRICE]` |
 | Renovation, full refurbishment (BayReno) | `[PRICE]` — quote-based |
-| Paket 1 — Firmenumzug Komplett | `[PRICE]` |
-| Paket 2 — Rundum-Service für Vermieter | `[PRICE]` |
-| Paket 3 — Full Service für Hausverwaltungen | `[PRICE]` |
+| Paket 1 — Privatumzug Komplett | `[PRICE]` |
+| Paket 2 — Firmenumzug Komplett | `[PRICE]` |
+| Paket 3 — Rundum-Service für Vermieter und Hausverwaltungen | `[PRICE]` |
 | Besichtigungsservice | **290 €** — already fixed, may be quoted |
 | B2B referral commission | `[PRICE/RATE]` |
 | B2B corporate partner discount | `[PRICE/DISCOUNT]` |

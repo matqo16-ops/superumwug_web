@@ -41,16 +41,16 @@
     "intro": "Wenn mehr als ein Gewerk gefragt ist, sparen Sie Zeit mit einem Paket aus einer Hand.",
     "cards": [
       {
+        "title": "Privatumzug Komplett",
+        "body": "Beratung, Verpackung, Montage, Transport — und besenreine Übergabe der alten Wohnung."
+      },
+      {
         "title": "Firmenumzug Komplett",
         "body": "Auszug, Einzug, Entsorgung und Rückgabe im vertragsgemäßen Zustand."
       },
       {
-        "title": "Rundum-Service für Vermieter",
-        "body": "Vom Ankauf bis zur Vermietung: Entrümpelung, Renovierung, Möblierung."
-      },
-      {
-        "title": "Full Service für Hausverwaltungen",
-        "body": "Entrümpelung, Schadensbehebung, Renovierung — alles für die Neuvermietung."
+        "title": "Rundum-Service für Vermieter und Hausverwaltungen",
+        "body": "Entrümpelung, Schadensbehebung, Renovierung und Möblierung — bis vermietungsfertig."
       }
     ],
     "cta": "Details ansehen"

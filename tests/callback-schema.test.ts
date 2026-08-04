@@ -40,6 +40,34 @@ describe("callbackSchema", () => {
     ).toBe(false);
   });
 
+  it("accepts the as-soon-as-possible preferred time", () => {
+    expect(
+      callbackSchema.safeParse({ ...validPayload, preferredTime: "sofort" })
+        .success,
+    ).toBe(true);
+  });
+
+  it("accepts the current package topics", () => {
+    for (const topic of [
+      "paket-privatumzug",
+      "paket-firmenumzug",
+      "paket-vermieter",
+      "besichtigungsservice",
+    ]) {
+      expect(callbackSchema.safeParse({ ...validPayload, topic }).success).toBe(
+        true,
+      );
+    }
+  });
+
+  it("rejects retired package topics", () => {
+    for (const topic of ["paket-3", "paket-4"]) {
+      expect(callbackSchema.safeParse({ ...validPayload, topic }).success).toBe(
+        false,
+      );
+    }
+  });
+
   it("rejects an unknown preferred time", () => {
     expect(
       callbackSchema.safeParse({ ...validPayload, preferredTime: "midnight" })
