@@ -42,6 +42,15 @@
       ]
     },
     {
+      "heading": "4a. Voice input and speech output in the chat",
+      "paragraphs": [
+        "The chat assistant optionally offers a voice function. It only becomes active if you click the microphone button yourself and confirm your browser's microphone prompt. Without that explicit action no microphone is activated and no audio is recorded.",
+        "For speech recognition and speech output we use the browser's built-in Web Speech API. We do not operate our own speech service and do not integrate any additional provider. Please note: depending on your browser, the browser vendor (e.g. Google for Chrome or Apple for Safari) processes the speech recording on its own servers in order to convert it into text. We have no influence over that processing by the browser vendor; their privacy terms apply.",
+        "We ourselves receive only the finished text of your voice input — exactly as if you had typed it. That text is treated like any other chat message and stored as described in section 4. We neither receive nor store any audio recording.",
+        "The legal basis is Art. 6(1)(a) GDPR (your consent by actively starting voice input). You can simply not use the voice function and type your question instead at any time."
+      ]
+    },
+    {
       "heading": "5. Hosting (Vercel)",
       "paragraphs": [
         "This website is hosted by Vercel Inc. (USA). When you visit the website, Vercel processes technically necessary connection data (including IP address, date and time of access, page visited, browser identifier) in server log files in order to deliver the website securely and reliably.",

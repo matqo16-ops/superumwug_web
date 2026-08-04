@@ -2,8 +2,11 @@
 
 This file is loaded server-side into the chatbot's system prompt. It is the ONLY source of
 truth the assistant may answer from. Fill in every `[PRICE]` and `[PLACEHOLDER]` field before
-launch — until then, the assistant must never state a number and must offer the callback form
-for pricing questions instead.
+launch — while a field is still an unfilled `[PRICE]` placeholder, the assistant must not state
+a number for it and must offer the callback form instead.
+
+**The one exception is the Besichtigungsservice at 290 €** (section 3a): that price is final and
+may always be quoted.
 
 ---
 
@@ -18,18 +21,23 @@ Umgebung (Munich and surroundings)**:
 2. **Super Entrümpelung** — clearance company. Apartment/house/cellar/office clearance,
    Haushaltsauflösung (full household clearances, e.g. after a bereavement), proper disposal and
    recycling, besenreine Übergabe (broom-clean handover).
-3. **BayReno (Bayerische Renovierung)** — renovation company, a separate business, reachable at
-   https://www.bayreno.de. When a visitor asks about renovation-only work with no moving/
-   clearance component, point them to BayReno's own site rather than quoting on their behalf.
+3. **BayReno (Bayerische Renovierung)** — renovation company. Painting and wallpapering,
+   flooring (laminate, vinyl, parquet, tiles), bathroom and plumbing, kitchen assembly and
+   conversion, drywall and electrics via specialist partners, and full refurbishments with all
+   trades coordinated. Works on fixed, binding dates with a clean site and a joint handover.
+   Details are on our own `/bayreno` page — answer renovation questions directly from this
+   document; there is no need to send visitors elsewhere.
 
 All three coordinate together for combined jobs (see "Bundle packages" below), which is the core
 differentiator: one point of contact for a move + clearance + renovation, instead of three
 separate vendors.
 
-Website pages the assistant may point to: `/umzug` (moving), `/entruempelung` (clearance),
-`/pakete` (bundle packages), `/b2b` (partners & corporate clients), `/kontakt` (contact &
-callback form). English visitors: `/en/moving`, `/en/clearance`, `/en/packages`, `/en/b2b`,
-`/en/contact`.
+Website pages the assistant may point to: `/umzug` (moving), `/bayreno` (renovation),
+`/entruempelung` (clearance), `/pakete` (bundle packages), `/b2b` (partners & corporate
+clients), `/kontakt` (contact & callback form). The landing page also has a projects gallery
+(`/#projekte`), a "meet the crew" section (`/#crew`) and the inspection-service offer
+(`/#besichtigungsservice`). English visitors: `/en/moving`, `/en/bayreno`, `/en/clearance`,
+`/en/packages`, `/en/b2b`, `/en/contact`.
 
 ---
 
@@ -67,23 +75,36 @@ Includes: full clearance, renovation to the requested condition (via BayReno), f
 equipping, rental-ready handover.
 Price: `[PRICE — project-based, quote after inspection]`
 
-### Paket 3 — Besichtigungsservice (Inspection Service)
-For: prospective buyers who want to know, before purchasing, what it would cost to bring a
-property to their desired condition.
-Includes: on-site inspection, systematic condition assessment, a cost estimate for reaching the
-target condition, and a difficulty rating per task (easy/medium/demanding) so the buyer can
-decide what to DIY and what needs a professional.
-Price: `[PRICE — fixed fee for the inspection/estimate itself, e.g. €X]`
-
-### Paket 4 — Full Service für Hausverwaltungen (Full Service for Property Managers)
+### Paket 3 — Full Service für Hausverwaltungen (Full Service for Property Managers)
 For: property managers needing a unit re-let quickly after a tenant moves out.
 Includes: unit clearance, damage repair, renovation and painting — everything to make the unit
 rentable again, from one provider.
 Price: `[PRICE — volume/partner pricing, see B2B conditions below]`
 
-For all four packages: the site never displays a fixed number — always answer general pricing
+For all three packages: the site never displays a fixed number — always answer general pricing
 questions with a realistic range only if `[PRICE]` has been filled in, or otherwise say pricing
 depends on scope and offer the callback form for a personalized quote.
+
+---
+
+## 3a. Besichtigungsservice (Inspection Service) — fixed price, 290 €
+
+This is our one publicly priced product, presented on the landing page
+(`/#besichtigungsservice`) rather than as a bundle package. **You may state this price: 290 €.**
+
+For: prospective buyers who want to know, before purchasing, what it would cost to bring a
+property to their desired condition.
+
+Includes, for a flat fee of **290 €**:
+- a joint on-site walkthrough of the property,
+- systematic assessment of all rooms and relevant trades,
+- a realistic written cost estimate for reaching the target condition,
+- a difficulty rating per item (easy / medium / demanding) so the buyer can decide what to do
+  themselves and what to leave to professionals.
+
+To order it, visitors can call us directly (button "Jetzt telefonisch beauftragen" on the
+landing page) or request a callback. If someone asks what the inspection costs, answer plainly:
+290 € as a flat fee, including the on-site appointment and the written estimate.
 
 ---
 
@@ -128,10 +149,12 @@ form so the team can confirm feasibility on a case-by-case basis — don't refus
 | Clearance, small apartment | `[PRICE]` |
 | Clearance, house/large apartment | `[PRICE]` |
 | Haushaltsauflösung (full household clearance) | `[PRICE]` — quote-based |
+| Renovation, cosmetic repair (BayReno) | `[PRICE]` |
+| Renovation, full refurbishment (BayReno) | `[PRICE]` — quote-based |
 | Paket 1 — Firmenumzug Komplett | `[PRICE]` |
 | Paket 2 — Rundum-Service für Vermieter | `[PRICE]` |
-| Paket 3 — Besichtigungsservice | `[PRICE]` |
-| Paket 4 — Full Service für Hausverwaltungen | `[PRICE]` |
+| Paket 3 — Full Service für Hausverwaltungen | `[PRICE]` |
+| Besichtigungsservice | **290 €** — already fixed, may be quoted |
 | B2B referral commission | `[PRICE/RATE]` |
 | B2B corporate partner discount | `[PRICE/DISCOUNT]` |
 

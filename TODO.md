@@ -59,8 +59,13 @@ Datenschutz and contact page all reference them and search engines cross-check.
 ### A5. Prices & B2B rates (`content/chatbot-knowledge-base.md`)
 
 Every `[PRICE]`, `[PRICE/RATE]`, `[PRICE/DISCOUNT]` marker (sections 3, 4 and the table in
-section 6): the 4 package prices, per-service move/clearance pricing, the B2B referral commission
-and the corporate partner discount.
+section 6): the 3 package prices, per-service move/clearance/renovation pricing, the B2B referral
+commission and the corporate partner discount.
+
+> **Exception — already priced:** the Besichtigungsservice is fixed at **290 €** and is shown
+> publicly on the landing page. The chatbot is explicitly allowed to quote it. If you change that
+> fee, update it in **three** places: `content/de/home.json`, `content/en/home.json` (the
+> `inspection` block) and section 3a of `content/chatbot-knowledge-base.md`.
 
 **Until you fill these in, the chatbot will not state any number** — the system prompt forbids
 inventing prices, so it gives the qualitative answer and offers a callback instead. This is by
@@ -93,9 +98,15 @@ After setting `DATABASE_URL`, run the one-time migration: `npm run migrate` (see
 
 ## C. Assets you may want to replace (optional — the site ships with working stand-ins)
 
-- **Photos** — the site uses styled placeholder blocks where photos belong. Drop real images into
-  `public/images/` and swap the `PlaceholderImage` components; the shot list is in
-  `public/images/README.md`.
+- **Photos** — real project photos are already live in the Projekte gallery. The remaining styled
+  placeholder blocks are on the B2B teaser and a few section images; drop real images into
+  `public/images/` and swap the `PlaceholderImage` components (shot list in
+  `public/images/README.md`).
+- **Projects gallery** (`content/de|en/projekte.json` + `public/projects/`) — to add a project,
+  create `public/projects/<slug>/` with `1.jpg … n.jpg` (first = before, last = after, since the
+  card preview shows exactly those two) and add an entry with `slug`, `name`, `brand`,
+  `description` and `count` to both locale files. The crew folder lists its files explicitly
+  because one of them is a `.png`.
 - **Service-area map** — `public/images/muenchen-karte.svg` is a hand-built stylized map (no
   external map service, so no consent banner needed). Replace with a real static map if preferred.
 - **OpenGraph image** — add `public/images/og-image.jpg` (1200×630) and reference it in

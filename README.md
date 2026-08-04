@@ -12,6 +12,11 @@ Router) + TypeScript + Tailwind CSS v4, deployable to Vercel.
 - **Custom Claude chatbot** — floating widget → `POST /api/chat` streams `claude-haiku-4-5`,
   grounded only in the knowledge base, transcripts logged to Neon Postgres, reviewable at
   `/admin/chats` (HTTP Basic Auth).
+- **German voice interface** — speech-to-text and read-aloud via the browser-native Web Speech
+  API (no paid vendor, no API key). The mic button renders live frequency bars from the real
+  microphone amplitude; Firefox degrades to text-only with a notice.
+- **Projects gallery** — folder cards previewing before/after, expanding to an embedded viewer
+  that shows every photo of the folder at once, plus a highlighted "Meet the crew" folder.
 - **Callback form** — the only form → `POST /api/callback` → Resend email (zod-validated,
   honeypot + rate-limited). No database; the email is the record.
 - **Static-first** — every page prerenders; only the two API routes and the admin area are
@@ -35,11 +40,12 @@ npm run dev                  # http://localhost:3000
 ## Layout
 
 ```
-app/(site)/[locale]/   Localized pages (home, umzug, entruempelung, pakete, b2b, kontakt, legal)
+app/(site)/[locale]/   Localized pages (home, umzug, bayreno, entruempelung, pakete, b2b, kontakt, legal)
 app/(admin)/admin/     Chat-log dashboard (Basic Auth, noindex)
 app/api/{callback,chat} Route handlers
 components/             Reusable section/card/UI + callback modal + chat widget
 content/{de,en}/       All page copy (JSON) · site.json · chatbot-knowledge-base.md
+public/projects/       Project galleries (one folder per project) + crew photos
 i18n/                  next-intl routing, navigation, request config
 lib/                   content loader, seo, schemas, email, db, rate-limit, chat helpers
 scripts/migrate.mjs    Neon schema migration

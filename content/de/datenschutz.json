@@ -42,6 +42,15 @@
       ]
     },
     {
+      "heading": "4a. Spracheingabe und Sprachausgabe im Chat",
+      "paragraphs": [
+        "Der Chat-Assistent bietet optional eine Sprachfunktion an. Diese wird ausschließlich aktiv, wenn Sie die Mikrofon-Schaltfläche selbst anklicken und die Mikrofon-Abfrage Ihres Browsers bestätigen. Ohne diese ausdrückliche Handlung wird kein Mikrofon aktiviert und kein Ton aufgezeichnet.",
+        "Für die Spracherkennung und die Sprachausgabe nutzen wir die im Browser eingebaute Web Speech API. Wir betreiben dafür keinen eigenen Sprachdienst und binden keinen zusätzlichen Anbieter ein. Bitte beachten Sie: Je nach Browser verarbeitet der Browser-Hersteller (z. B. Google bei Chrome oder Apple bei Safari) die Sprachaufnahme auf seinen eigenen Servern, um sie in Text umzuwandeln. Auf diese Verarbeitung durch den Browser-Hersteller haben wir keinen Einfluss; es gelten dessen Datenschutzbestimmungen.",
+        "Wir selbst erhalten ausschließlich den fertigen Text Ihrer Spracheingabe — genau so, als hätten Sie ihn eingetippt. Dieser Text wird wie jede andere Chat-Nachricht behandelt und gemäß Ziffer 4 gespeichert. Eine Audioaufnahme wird von uns weder empfangen noch gespeichert.",
+        "Rechtsgrundlage ist Art. 6 Abs. 1 lit. a DSGVO (Ihre Einwilligung durch das aktive Starten der Spracheingabe). Sie können die Sprachfunktion jederzeit ungenutzt lassen und Ihre Frage stattdessen eintippen."
+      ]
+    },
+    {
       "heading": "5. Hosting (Vercel)",
       "paragraphs": [
         "Diese Website wird bei Vercel Inc. (USA) gehostet. Beim Aufruf der Website verarbeitet Vercel technisch notwendige Verbindungsdaten (u. a. IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browser-Kennung) in Server-Logfiles, um die Website sicher und stabil auszuliefern.",
