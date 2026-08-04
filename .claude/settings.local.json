@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "PowerShell(node -v)",
-      "PowerShell(npm -v)"
+      "PowerShell(npm -v)",
+      "Bash(cd \"C:\\\\Users\\\\gromo\\\\OneDrive\\\\Počítač\" 2>/dev/null && ls -d */ 2>/dev/null | head -50; echo \"=== searching for 'umzug media' ===\"; find \"C:\\\\Users\\\\gromo\\\\OneDrive\" -maxdepth 3 -type d -iname \"*umzug media*\" 2>/dev/null | head)"
     ]
   }
 }

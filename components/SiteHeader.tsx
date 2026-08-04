@@ -94,26 +94,47 @@ export function SiteHeader({ common }: { common: CommonContent }) {
         ))}
       </div>
 
-      {/* Mobile brand row */}
-      <div className="flex items-center justify-between px-4 py-3 md:hidden">
-        <Link href="/" className="block">
-          <Image
-            src={common.brands[0].logo}
-            alt={common.brands[0].logoAlt}
-            width={logoSizes.umzug.width}
-            height={logoSizes.umzug.height}
-            priority
-            className="h-7 w-auto"
-            sizes="150px"
-          />
-        </Link>
+      {/* Mobile brand row — all three brands, wrapping so they never overflow */}
+      <div className="flex items-center justify-between gap-3 px-4 py-3 md:hidden">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5">
+          {common.brands.map((brand, index) => {
+            const logo = (
+              <Image
+                src={brand.logo}
+                alt={brand.logoAlt}
+                width={logoSizes[brand.id].width}
+                height={logoSizes[brand.id].height}
+                priority={index === 0}
+                className="h-6 w-auto"
+                sizes="100px"
+              />
+            );
+            return brand.externalHref ? (
+              <a
+                key={brand.id}
+                href={brand.externalHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${brand.name} — ${brand.externalNote ?? ""}`}
+                className="flex items-center gap-1 text-anthracite/50"
+              >
+                {logo}
+                <ExternalIcon />
+              </a>
+            ) : (
+              <Link key={brand.id} href={brand.href!} className="block">
+                {logo}
+              </Link>
+            );
+          })}
+        </div>
         <button
           type="button"
           onClick={() => setMenuOpen((open) => !open)}
           aria-expanded={menuOpen}
           aria-controls="mobile-menu"
           aria-label={menuOpen ? common.header.menuClose : common.header.menuOpen}
-          className="rounded-md p-2 text-navy"
+          className="shrink-0 rounded-md p-2 text-navy"
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
             {menuOpen ? (
@@ -185,14 +206,6 @@ export function SiteHeader({ common }: { common: CommonContent }) {
                 {item.label}
               </Link>
             ))}
-            <a
-              href={common.brands[2].externalHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-md px-3 py-2.5 text-base font-medium text-white/90 hover:text-gold"
-            >
-              {common.brands[2].name} <ExternalIcon />
-            </a>
             <div className="mt-3 flex items-center justify-between border-t border-white/15 px-3 pt-4 pb-2">
               <LanguageSwitcher label={common.header.languageLabel} />
               <CallbackButton className="rounded-lg bg-gold px-4 py-2 text-sm font-semibold text-navy">
