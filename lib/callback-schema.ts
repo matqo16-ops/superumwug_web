@@ -12,7 +12,9 @@ export const callbackSchema = z.object({
   topic: z
     .enum([
       "umzug",
+      "renovierung",
       "entruempelung",
+      "besichtigungsservice",
       "paket-1",
       "paket-2",
       "paket-3",

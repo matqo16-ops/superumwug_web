@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import type { Hero as HeroContent } from "@/lib/content-types";
 import { eyebrow } from "@/lib/styles";
 
@@ -7,15 +8,23 @@ export function Hero({
   content,
   actions,
   badges,
+  character,
 }: {
   content: HeroContent;
   /** Rendered CTA buttons (client components wired to modal/chat). */
   actions?: ReactNode;
   badges?: string[];
+  /** Alt text for the brand character shown on the right; omit to hide it. */
+  character?: string;
 }) {
   return (
     <div className="bg-navy-deep">
-      <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+      <div
+        className={`mx-auto max-w-6xl px-6 py-20 md:py-28 ${
+          character ? "lg:grid lg:grid-cols-[1fr_auto] lg:items-end lg:gap-10" : ""
+        }`}
+      >
+        <div>
         <p className={eyebrow}>{content.eyebrow}</p>
         <h1 className="mt-4 max-w-4xl font-display text-4xl font-semibold leading-tight text-white md:text-5xl md:leading-tight">
           {content.headline}
@@ -42,6 +51,19 @@ export function Hero({
               </li>
             ))}
           </ul>
+        )}
+        </div>
+
+        {character && (
+          <Image
+            src="/images/header-char.png"
+            alt={character}
+            width={940}
+            height={1592}
+            priority
+            className="mt-10 hidden h-[26rem] w-auto justify-self-end lg:mt-0 lg:block"
+            sizes="260px"
+          />
         )}
       </div>
     </div>

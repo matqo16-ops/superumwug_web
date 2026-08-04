@@ -6,19 +6,19 @@ export interface PageMeta {
 }
 
 export interface Brand {
-  id: "umzug" | "entruempelung" | "bayreno";
+  id: "umzug" | "bayreno" | "entruempelung";
   name: string;
   tagline: string;
-  href?: AppPathname;
-  externalHref?: string;
+  href: AppPathname;
   logo: string;
   logoAlt: string;
-  externalNote?: string;
 }
 
 export interface NavItem {
   label: string;
   href: AppPathname;
+  /** When set, the link targets a section anchor on `href` (e.g. the landing page). */
+  hash?: string;
 }
 
 export interface Option {
@@ -78,6 +78,7 @@ export interface ChatWidgetContent {
 export interface CommonContent {
   meta: { siteName: string; localeName: string };
   skipToContent: string;
+  characterAlt: string;
   brands: Brand[];
   nav: NavItem[];
   header: {
@@ -150,6 +151,15 @@ export interface UmzugContent {
     steps: TitledItem[];
     finePrint: string;
   };
+  faq: { headline: string; items: FaqItem[] };
+}
+
+export interface BayrenoContent {
+  meta: PageMeta;
+  hero: Hero;
+  services: { headline: string; items: TitledItem[] };
+  process: { headline: string; steps: TitledItem[] };
+  combo: { headline: string; body: string; cta: string };
   faq: { headline: string; items: FaqItem[] };
 }
 

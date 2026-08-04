@@ -4,6 +4,7 @@ import path from "path";
 import type { Locale } from "@/i18n/routing";
 import type {
   B2bContent,
+  BayrenoContent,
   CommonContent,
   EntruempelungContent,
   HomeContent,
@@ -34,6 +35,8 @@ export const getHome = (locale: Locale) =>
   readJson<HomeContent>(locale, "home.json");
 export const getUmzug = (locale: Locale) =>
   readJson<UmzugContent>(locale, "umzug.json");
+export const getBayreno = (locale: Locale) =>
+  readJson<BayrenoContent>(locale, "bayreno.json");
 export const getEntruempelung = (locale: Locale) =>
   readJson<EntruempelungContent>(locale, "entruempelung.json");
 export const getPakete = (locale: Locale) =>

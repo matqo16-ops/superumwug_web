@@ -25,14 +25,14 @@
         "cta": "Mehr erfahren"
       },
       {
-        "brandId": "entruempelung",
-        "body": "Wohnungen, Häuser, Keller und Büros — fachgerecht entrümpelt und besenrein übergeben.",
+        "brandId": "bayreno",
+        "body": "Renovierung und Sanierung mit bayerischer Handwerkstradition — termintreu und sauber.",
         "cta": "Mehr erfahren"
       },
       {
-        "brandId": "bayreno",
-        "body": "Renovierung und Sanierung mit bayerischer Handwerkstradition.",
-        "cta": "Zu BayReno"
+        "brandId": "entruempelung",
+        "body": "Wohnungen, Häuser, Keller und Büros — fachgerecht entrümpelt und besenrein übergeben.",
+        "cta": "Mehr erfahren"
       }
     ]
   },

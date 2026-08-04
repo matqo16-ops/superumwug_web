@@ -11,6 +11,7 @@ export const routing = defineRouting({
   pathnames: {
     "/": "/",
     "/umzug": { de: "/umzug", en: "/moving" },
+    "/bayreno": "/bayreno",
     "/entruempelung": { de: "/entruempelung", en: "/clearance" },
     "/pakete": { de: "/pakete", en: "/packages" },
     "/b2b": "/b2b",

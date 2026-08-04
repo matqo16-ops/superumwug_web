@@ -60,6 +60,7 @@ export default async function HomePage({ params }: Props) {
       <Hero
         content={home.hero}
         badges={home.badges}
+        character={common.characterAlt}
         actions={
           <>
             <CallbackButton className={btnPrimary}>
@@ -80,15 +81,14 @@ export default async function HomePage({ params }: Props) {
             const brand = common.brands.find(
               (entry) => entry.id === card.brandId,
             )!;
-            const inner = (
-              <>
+            return (
+              <Link
+                key={card.brandId}
+                href={brand.href}
+                className="group block rounded-xl border border-hairline bg-white p-7 shadow-card transition-colors hover:border-gold"
+              >
                 <h3 className="font-display text-xl font-semibold text-navy group-hover:text-gold-deep">
                   {brand.name}
-                  {brand.externalHref && (
-                    <span aria-hidden="true" className="ml-1.5 text-base">
-                      ↗
-                    </span>
-                  )}
                 </h3>
                 <p className="mt-3 leading-relaxed text-anthracite/85">
                   {card.body}
@@ -96,24 +96,6 @@ export default async function HomePage({ params }: Props) {
                 <span className="mt-4 inline-block font-semibold text-gold-deep">
                   {card.cta} →
                 </span>
-              </>
-            );
-            const cardClasses =
-              "group block rounded-xl border border-hairline bg-white p-7 shadow-card transition-colors hover:border-gold";
-            return brand.externalHref ? (
-              <a
-                key={card.brandId}
-                href={brand.externalHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`${brand.name} — ${brand.externalNote ?? ""}`}
-                className={cardClasses}
-              >
-                {inner}
-              </a>
-            ) : (
-              <Link key={card.brandId} href={brand.href!} className={cardClasses}>
-                {inner}
               </Link>
             );
           })}

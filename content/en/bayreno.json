@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "BayReno — Renovation & Refurbishment in Munich | Bayerische Renovierung",
+    "description": "BayReno: renovation, refurbishment, painting and flooring in Munich and the surrounding area. On schedule, clean, from one provider — combinable with moving and clearance."
+  },
+  "hero": {
+    "eyebrow": "BayReno — Bavarian renovation",
+    "headline": "Renovation with Bavarian craftsmanship — on schedule and clean",
+    "subheadline": "From cosmetic repairs to full refurbishment: BayReno brings apartments, houses and commercial space in Munich to the condition you need — with fixed dates and one point of contact.",
+    "primaryCta": "Request a callback",
+    "secondaryCta": "See our services"
+  },
+  "services": {
+    "headline": "Services",
+    "items": [
+      {
+        "title": "Painting & wallpapering",
+        "body": "Walls and ceilings painted, papered and filled — properly masked, low-dust working."
+      },
+      {
+        "title": "Flooring",
+        "body": "Laminate, vinyl, parquet and tiles: laid, sanded or replaced."
+      },
+      {
+        "title": "Bathroom & plumbing",
+        "body": "From replacing individual fixtures to a complete bathroom rebuild."
+      },
+      {
+        "title": "Kitchen",
+        "body": "Assembly, conversion and connection — including adapting to existing connections."
+      },
+      {
+        "title": "Drywall & electrics",
+        "body": "New partition walls, suspended ceilings, wiring and lighting renewed via specialist partners."
+      },
+      {
+        "title": "Full refurbishment",
+        "body": "All trades coordinated: one schedule, one contact, one handover date."
+      }
+    ]
+  },
+  "process": {
+    "headline": "How we work",
+    "steps": [
+      {
+        "title": "Inspection",
+        "body": "We look at the space and agree exactly what condition it should be in at the end."
+      },
+      {
+        "title": "Fixed quote",
+        "body": "You receive a transparent quote with a clear scope of work — no surprises."
+      },
+      {
+        "title": "Binding dates",
+        "body": "We set the start and completion dates, and we stick to them."
+      },
+      {
+        "title": "Execution",
+        "body": "Clean working practices, floors and furniture protected, daily site cleaning."
+      },
+      {
+        "title": "Handover",
+        "body": "A joint walkthrough and handover — we're only finished when you're satisfied."
+      }
+    ]
+  },
+  "combo": {
+    "headline": "Strongest in combination",
+    "body": "BayReno works hand in hand with Super Umzug and Super Entrümpelung. When a property first needs clearing, then renovating, then moving into, we coordinate every step through one contact — saving you time, coordination and vacancy.",
+    "cta": "See combined packages"
+  },
+  "faq": {
+    "headline": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What does a renovation cost?",
+        "answer": "It depends on floor area, condition and the standard you want. After a short inspection you receive a fixed quote — you're also welcome to ask our chat assistant or request a callback."
+      },
+      {
+        "question": "How long does a renovation take?",
+        "answer": "Cosmetic repairs are often done within a few days; a full refurbishment takes several weeks depending on scope. We give you the binding timeframe with the quote."
+      },
+      {
+        "question": "Can I stay in the apartment during the work?",
+        "answer": "For individual trades, yes. For a full refurbishment we recommend moving out — or we work room by room so you can stay."
+      },
+      {
+        "question": "Do you take on small jobs too?",
+        "answer": "Yes. We also handle single rooms, touch-ups and cosmetic repairs before a handover."
+      },
+      {
+        "question": "Do you work for property managers and landlords?",
+        "answer": "Yes, that's one of our specialities. For recurring work we offer fixed partner rates and priority scheduling — see B2B & Partners."
+      }
+    ]
+  }
+}

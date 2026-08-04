@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "BayReno — Renovierung & Sanierung in München | Bayerische Renovierung",
+    "description": "BayReno: Renovierung, Sanierung, Maler- und Bodenarbeiten in München und Umgebung. Termintreu, sauber, aus einer Hand — kombinierbar mit Umzug und Entrümpelung."
+  },
+  "hero": {
+    "eyebrow": "BayReno — Bayerische Renovierung",
+    "headline": "Renovierung mit bayerischer Handwerkstradition — termintreu und sauber",
+    "subheadline": "Von der Schönheitsreparatur bis zur Komplettsanierung: BayReno bringt Wohnungen, Häuser und Gewerbeflächen in München in den Zustand, den Sie brauchen — mit festen Terminen und einem Ansprechpartner.",
+    "primaryCta": "Rückruf anfordern",
+    "secondaryCta": "Leistungen ansehen"
+  },
+  "services": {
+    "headline": "Leistungen",
+    "items": [
+      {
+        "title": "Maler- & Tapezierarbeiten",
+        "body": "Wände und Decken streichen, tapezieren, spachteln — sauber abgeklebt, staubarm gearbeitet."
+      },
+      {
+        "title": "Böden",
+        "body": "Laminat, Vinyl, Parkett und Fliesen: verlegen, abschleifen oder ersetzen."
+      },
+      {
+        "title": "Bad & Sanitär",
+        "body": "Von der Erneuerung einzelner Objekte bis zum kompletten Badumbau."
+      },
+      {
+        "title": "Küche",
+        "body": "Aufbau, Umbau und Anschluss — inklusive Anpassung an vorhandene Anschlüsse."
+      },
+      {
+        "title": "Trockenbau & Elektrik",
+        "body": "Wände ziehen, Decken abhängen, Leitungen und Beleuchtung erneuern durch Fachpartner."
+      },
+      {
+        "title": "Komplettsanierung",
+        "body": "Alle Gewerke koordiniert: ein Zeitplan, ein Ansprechpartner, ein Abnahmetermin."
+      }
+    ]
+  },
+  "process": {
+    "headline": "So arbeiten wir",
+    "steps": [
+      {
+        "title": "Besichtigung",
+        "body": "Wir sehen uns die Fläche an und klären, welcher Zustand am Ende stehen soll."
+      },
+      {
+        "title": "Festes Angebot",
+        "body": "Sie erhalten ein transparentes Angebot mit klarem Leistungsumfang — ohne Überraschungen."
+      },
+      {
+        "title": "Verbindlicher Termin",
+        "body": "Wir legen Start und Fertigstellung fest und halten uns daran."
+      },
+      {
+        "title": "Ausführung",
+        "body": "Saubere Arbeitsweise, Schutz von Böden und Möbeln, tägliche Baustellenreinigung."
+      },
+      {
+        "title": "Abnahme",
+        "body": "Gemeinsame Begehung und Übergabe — erst wenn Sie zufrieden sind, sind wir fertig."
+      }
+    ]
+  },
+  "combo": {
+    "headline": "Stark in Kombination",
+    "body": "BayReno arbeitet Hand in Hand mit Super Umzug und Super Entrümpelung. Wird eine Fläche erst geräumt, dann renoviert und anschließend bezogen, koordinieren wir alle Schritte über einen Ansprechpartner — das spart Zeit, Abstimmung und Leerstand.",
+    "cta": "Kombinierte Pakete ansehen"
+  },
+  "faq": {
+    "headline": "Häufige Fragen",
+    "items": [
+      {
+        "question": "Was kostet eine Renovierung?",
+        "answer": "Der Preis hängt von Fläche, Zustand und gewünschtem Standard ab. Nach einer kurzen Besichtigung erhalten Sie ein festes Angebot — fragen Sie gern auch unseren Chat-Assistenten oder fordern Sie einen Rückruf an."
+      },
+      {
+        "question": "Wie lange dauert eine Renovierung?",
+        "answer": "Eine Schönheitsreparatur ist oft in wenigen Tagen erledigt, eine Komplettsanierung dauert je nach Umfang mehrere Wochen. Den verbindlichen Zeitrahmen nennen wir Ihnen im Angebot."
+      },
+      {
+        "question": "Kann ich während der Arbeiten in der Wohnung bleiben?",
+        "answer": "Bei einzelnen Gewerken ja. Bei einer Komplettsanierung empfehlen wir den Auszug — oder wir arbeiten raumweise, damit Sie wohnen bleiben können."
+      },
+      {
+        "question": "Übernehmen Sie auch kleine Aufträge?",
+        "answer": "Ja. Auch einzelne Räume, Ausbesserungen oder Schönheitsreparaturen vor der Wohnungsübergabe führen wir aus."
+      },
+      {
+        "question": "Arbeiten Sie auch für Hausverwaltungen und Vermieter?",
+        "answer": "Ja, das ist einer unserer Schwerpunkte. Für wiederkehrende Aufträge bieten wir feste Partnerkonditionen und bevorzugte Terminplanung — siehe B2B & Partner."
+      }
+    ]
+  }
+}

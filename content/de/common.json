@@ -4,6 +4,7 @@
     "localeName": "Deutsch"
   },
   "skipToContent": "Zum Inhalt springen",
+  "characterAlt": "Mitarbeiter von BayReno im Team-Shirt mit Daumen nach oben",
   "brands": [
     {
       "id": "umzug",
@@ -14,27 +15,29 @@
       "logoAlt": "Super Umzug Logo"
     },
     {
+      "id": "bayreno",
+      "name": "BayReno",
+      "tagline": "Bayerische Renovierung — Handwerk mit Termintreue.",
+      "href": "/bayreno",
+      "logo": "/logos/bayreno.png",
+      "logoAlt": "BayReno Logo"
+    },
+    {
       "id": "entruempelung",
       "name": "Super Entrümpelung",
       "tagline": "Entrümpelung & Haushaltsauflösung — schnell, sauber, fair.",
       "href": "/entruempelung",
       "logo": "/logos/super-entruempelung.png",
       "logoAlt": "Super Entrümpelung Logo"
-    },
-    {
-      "id": "bayreno",
-      "name": "BayReno",
-      "tagline": "Bayerische Renovierung — Handwerk mit Termintreue.",
-      "externalHref": "https://www.bayreno.de",
-      "logo": "/logos/bayreno.png",
-      "logoAlt": "BayReno Logo",
-      "externalNote": "Öffnet bayreno.de in einem neuen Tab"
     }
   ],
   "nav": [
     { "label": "Start", "href": "/" },
     { "label": "Umzug", "href": "/umzug" },
+    { "label": "BayReno", "href": "/bayreno" },
     { "label": "Entrümpelung", "href": "/entruempelung" },
+    { "label": "Projekte", "href": "/", "hash": "projekte" },
+    { "label": "Crew", "href": "/", "hash": "crew" },
     { "label": "Pakete", "href": "/pakete" },
     { "label": "B2B/Partner", "href": "/b2b" },
     { "label": "Kontakt", "href": "/kontakt" }
@@ -56,8 +59,8 @@
   "footer": {
     "brandLines": [
       { "id": "umzug", "text": "Umzüge für Privat & Gewerbe" },
-      { "id": "entruempelung", "text": "Entrümpelung & Haushaltsauflösung" },
-      { "id": "bayreno", "text": "Bayerische Renovierung" }
+      { "id": "bayreno", "text": "Bayerische Renovierung" },
+      { "id": "entruempelung", "text": "Entrümpelung & Haushaltsauflösung" }
     ],
     "serviceArea": "Einsatzgebiet: München und Umgebung",
     "phoneLabel": "Telefon",
@@ -87,7 +90,9 @@
     "topicPlaceholder": "Bitte wählen (optional)",
     "topicOptions": [
       { "value": "umzug", "label": "Umzug" },
+      { "value": "renovierung", "label": "Renovierung (BayReno)" },
       { "value": "entruempelung", "label": "Entrümpelung" },
+      { "value": "besichtigungsservice", "label": "Besichtigungsservice (290 €)" },
       { "value": "paket-1", "label": "Paket 1: Firmenumzug Komplett" },
       { "value": "paket-2", "label": "Paket 2: Rundum-Service für Vermieter" },
       { "value": "paket-3", "label": "Paket 3: Besichtigungsservice" },

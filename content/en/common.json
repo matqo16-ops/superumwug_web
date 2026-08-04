@@ -4,6 +4,7 @@
     "localeName": "English"
   },
   "skipToContent": "Skip to content",
+  "characterAlt": "BayReno team member in a branded shirt giving a thumbs up",
   "brands": [
     {
       "id": "umzug",
@@ -14,27 +15,29 @@
       "logoAlt": "Super Umzug logo"
     },
     {
+      "id": "bayreno",
+      "name": "BayReno",
+      "tagline": "Bavarian renovation — craftsmanship you can schedule around.",
+      "href": "/bayreno",
+      "logo": "/logos/bayreno.png",
+      "logoAlt": "BayReno logo"
+    },
+    {
       "id": "entruempelung",
       "name": "Super Entrümpelung",
       "tagline": "Clearance & house clearances — fast, clean, fair.",
       "href": "/entruempelung",
       "logo": "/logos/super-entruempelung.png",
       "logoAlt": "Super Entrümpelung logo"
-    },
-    {
-      "id": "bayreno",
-      "name": "BayReno",
-      "tagline": "Bavarian renovation — craftsmanship you can schedule around.",
-      "externalHref": "https://www.bayreno.de",
-      "logo": "/logos/bayreno.png",
-      "logoAlt": "BayReno logo",
-      "externalNote": "Opens bayreno.de in a new tab"
     }
   ],
   "nav": [
     { "label": "Home", "href": "/" },
     { "label": "Moving", "href": "/umzug" },
+    { "label": "BayReno", "href": "/bayreno" },
     { "label": "Clearance", "href": "/entruempelung" },
+    { "label": "Projects", "href": "/", "hash": "projekte" },
+    { "label": "Crew", "href": "/", "hash": "crew" },
     { "label": "Packages", "href": "/pakete" },
     { "label": "B2B/Partners", "href": "/b2b" },
     { "label": "Contact", "href": "/kontakt" }
@@ -56,8 +59,8 @@
   "footer": {
     "brandLines": [
       { "id": "umzug", "text": "Moving for private & commercial clients" },
-      { "id": "entruempelung", "text": "Clearance & house clearances" },
-      { "id": "bayreno", "text": "Bavarian renovation" }
+      { "id": "bayreno", "text": "Bavarian renovation" },
+      { "id": "entruempelung", "text": "Clearance & house clearances" }
     ],
     "serviceArea": "Service area: Munich and surroundings",
     "phoneLabel": "Phone",
@@ -87,7 +90,9 @@
     "topicPlaceholder": "Please choose (optional)",
     "topicOptions": [
       { "value": "umzug", "label": "Moving" },
+      { "value": "renovierung", "label": "Renovation (BayReno)" },
       { "value": "entruempelung", "label": "Clearance" },
+      { "value": "besichtigungsservice", "label": "Inspection service (€290)" },
       { "value": "paket-1", "label": "Package 1: Corporate Move Complete" },
       { "value": "paket-2", "label": "Package 2: Full-Service for Landlords" },
       { "value": "paket-3", "label": "Package 3: Inspection Service" },

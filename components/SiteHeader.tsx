@@ -2,81 +2,37 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Link, usePathname } from "@/i18n/navigation";
-import type { Brand, CommonContent } from "@/lib/content-types";
+import { useLocale } from "next-intl";
+import { Link, usePathname, getPathname } from "@/i18n/navigation";
+import type { Locale } from "@/i18n/routing";
+import type { Brand, CommonContent, NavItem } from "@/lib/content-types";
 import { CallbackButton } from "./CallbackButton";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const logoSizes: Record<Brand["id"], { width: number; height: number }> = {
   umzug: { width: 2031, height: 774 },
-  entruempelung: { width: 2033, height: 774 },
   bayreno: { width: 2048, height: 512 },
+  entruempelung: { width: 2033, height: 774 },
 };
 
-function ExternalIcon() {
-  return (
-    <svg
-      width="12"
-      height="12"
-      viewBox="0 0 12 12"
-      fill="none"
-      aria-hidden="true"
-      className="inline-block shrink-0"
-    >
-      <path
-        d="M4.5 2H10v5.5M10 2 2 10"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
 function BrandBlock({ brand, priority }: { brand: Brand; priority?: boolean }) {
-  const logo = (
-    <Image
-      src={brand.logo}
-      alt={brand.logoAlt}
-      width={logoSizes[brand.id].width}
-      height={logoSizes[brand.id].height}
-      priority={priority}
-      className="h-8 w-auto"
-      sizes="180px"
-    />
-  );
-  const tagline = (
-    <span className="mt-1.5 block text-xs leading-snug text-anthracite/70">
-      {brand.tagline}
-    </span>
-  );
-
-  if (brand.externalHref) {
-    return (
-      <a
-        href={brand.externalHref}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group block rounded-lg p-2 transition-colors hover:bg-cream"
-        aria-label={`${brand.name} — ${brand.externalNote ?? ""}`}
-      >
-        <span className="flex items-center gap-1.5 text-anthracite/60 group-hover:text-gold-deep">
-          {logo}
-          <ExternalIcon />
-        </span>
-        {tagline}
-      </a>
-    );
-  }
   return (
     <Link
-      // Brand hrefs come from content JSON and match the pathnames config.
-      href={brand.href!}
+      href={brand.href}
       className="block rounded-lg p-2 transition-colors hover:bg-cream"
     >
-      {logo}
-      {tagline}
+      <Image
+        src={brand.logo}
+        alt={brand.logoAlt}
+        width={logoSizes[brand.id].width}
+        height={logoSizes[brand.id].height}
+        priority={priority}
+        className="h-8 w-auto"
+        sizes="180px"
+      />
+      <span className="mt-1.5 block text-xs leading-snug text-anthracite/70">
+        {brand.tagline}
+      </span>
     </Link>
   );
 }
@@ -84,10 +40,54 @@ function BrandBlock({ brand, priority }: { brand: Brand; priority?: boolean }) {
 export function SiteHeader({ common }: { common: CommonContent }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
+  const locale = useLocale() as Locale;
+
+  /**
+   * Anchor nav items (Projekte, Crew) point at a section on another page, so
+   * they render as a plain <a> with the localized path + hash.
+   */
+  const renderNavLink = (item: NavItem, className: (active: boolean) => string) => {
+    if (item.hash) {
+      return (
+        <a
+          key={`${item.href}#${item.hash}`}
+          href={`${getPathname({ locale, href: item.href })}#${item.hash}`}
+          onClick={() => setMenuOpen(false)}
+          className={className(false)}
+        >
+          {item.label}
+        </a>
+      );
+    }
+    const isActive = pathname === item.href;
+    return (
+      <Link
+        key={item.href}
+        href={item.href}
+        onClick={() => setMenuOpen(false)}
+        aria-current={isActive ? "page" : undefined}
+        className={className(isActive)}
+      >
+        {item.label}
+      </Link>
+    );
+  };
+
+  const desktopLinkClass = (active: boolean) =>
+    `border-b-2 px-3 py-3.5 text-sm font-medium transition-colors ${
+      active
+        ? "border-gold text-gold"
+        : "border-transparent text-white/90 hover:border-gold/50 hover:text-gold"
+    }`;
+
+  const mobileLinkClass = (active: boolean) =>
+    `rounded-md px-3 py-2.5 text-base font-medium ${
+      active ? "text-gold" : "text-white/90 hover:text-gold"
+    }`;
 
   return (
     <header className="border-b border-navy bg-white">
-      {/* Brand row */}
+      {/* Brand row — Super Umzug · BayReno · Super Entrümpelung */}
       <div className="mx-auto hidden max-w-6xl items-stretch justify-between gap-4 px-6 py-4 md:flex">
         {common.brands.map((brand, index) => (
           <BrandBlock key={brand.id} brand={brand} priority={index === 0} />
@@ -97,8 +97,8 @@ export function SiteHeader({ common }: { common: CommonContent }) {
       {/* Mobile brand row — all three brands, wrapping so they never overflow */}
       <div className="flex items-center justify-between gap-3 px-4 py-3 md:hidden">
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5">
-          {common.brands.map((brand, index) => {
-            const logo = (
+          {common.brands.map((brand, index) => (
+            <Link key={brand.id} href={brand.href} className="block">
               <Image
                 src={brand.logo}
                 alt={brand.logoAlt}
@@ -108,25 +108,8 @@ export function SiteHeader({ common }: { common: CommonContent }) {
                 className="h-6 w-auto"
                 sizes="100px"
               />
-            );
-            return brand.externalHref ? (
-              <a
-                key={brand.id}
-                href={brand.externalHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`${brand.name} — ${brand.externalNote ?? ""}`}
-                className="flex items-center gap-1 text-anthracite/50"
-              >
-                {logo}
-                <ExternalIcon />
-              </a>
-            ) : (
-              <Link key={brand.id} href={brand.href!} className="block">
-                {logo}
-              </Link>
-            );
-          })}
+            </Link>
+          ))}
         </div>
         <button
           type="button"
@@ -160,25 +143,9 @@ export function SiteHeader({ common }: { common: CommonContent }) {
       <div className="hidden bg-navy md:block">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6">
           <nav aria-label={common.header.navLabel} className="flex items-center">
-            {common.nav.map((item) => {
-              const isActive = pathname === item.href;
-              return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  aria-current={isActive ? "page" : undefined}
-                  className={`border-b-2 px-4 py-3.5 text-sm font-medium transition-colors ${
-                    isActive
-                      ? "border-gold text-gold"
-                      : "border-transparent text-white/90 hover:border-gold/50 hover:text-gold"
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              );
-            })}
+            {common.nav.map((item) => renderNavLink(item, desktopLinkClass))}
           </nav>
-          <div className="flex items-center gap-5">
+          <div className="flex shrink-0 items-center gap-5">
             <LanguageSwitcher label={common.header.languageLabel} />
             <CallbackButton className="my-2 rounded-lg bg-gold px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-gold-deep hover:text-white">
               {common.header.callbackButton}
@@ -191,21 +158,7 @@ export function SiteHeader({ common }: { common: CommonContent }) {
       {menuOpen && (
         <div id="mobile-menu" className="bg-navy md:hidden">
           <nav aria-label={common.header.navLabel} className="flex flex-col px-4 py-3">
-            {common.nav.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setMenuOpen(false)}
-                aria-current={pathname === item.href ? "page" : undefined}
-                className={`rounded-md px-3 py-2.5 text-base font-medium ${
-                  pathname === item.href
-                    ? "text-gold"
-                    : "text-white/90 hover:text-gold"
-                }`}
-              >
-                {item.label}
-              </Link>
-            ))}
+            {common.nav.map((item) => renderNavLink(item, mobileLinkClass))}
             <div className="mt-3 flex items-center justify-between border-t border-white/15 px-3 pt-4 pb-2">
               <LanguageSwitcher label={common.header.languageLabel} />
               <CallbackButton className="rounded-lg bg-gold px-4 py-2 text-sm font-semibold text-navy">
