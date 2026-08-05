@@ -48,6 +48,7 @@ export default async function UmzugPage({ params }: Props) {
 
       <Hero
         content={content.hero}
+        character={common.characters.umzug}
         actions={
           <>
             <CallbackButton topic="umzug" className={btnPrimary}>

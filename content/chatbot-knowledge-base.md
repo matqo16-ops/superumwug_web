@@ -66,7 +66,8 @@ clients), `/kontakt` (contact & callback form). The landing page also has a proj
 For: private households moving to a new apartment or house who want to hand over the whole move.
 Includes: consultation and planning with a binding schedule, packing (materials or full packing by
 our team), disassembly and reassembly of furniture, secured transport under the Unbeschädigt-
-Garantie, plus disposal of anything sorted out and a broom-clean handover of the old flat.
+Garantie, optional partial or complete renovation of the old or new home via BayReno, plus
+disposal of anything sorted out and a broom-clean handover of the old flat.
 Price: `[PRICE — e.g. starting from €X, quote after a viewing]`
 
 ### Paket 2 — Firmenumzug Komplett (Corporate Move Complete)

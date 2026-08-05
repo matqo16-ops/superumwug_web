@@ -46,7 +46,7 @@ export function SectionHeading({
         </p>
       )}
       <h2
-        className={`mt-2 font-display text-3xl font-semibold md:text-4xl ${
+        className={`mt-2 hyphens-auto break-words font-display text-3xl font-semibold md:text-4xl ${
           onDark ? "text-white" : "text-navy"
         }`}
       >

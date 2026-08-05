@@ -48,6 +48,7 @@ export default async function EntruempelungPage({ params }: Props) {
 
       <Hero
         content={content.hero}
+        character={common.characters.entruempelung}
         actions={
           <>
             <CallbackButton topic="entruempelung" className={btnPrimary}>

@@ -63,7 +63,7 @@ export default async function HomePage({ params }: Props) {
       <Hero
         content={home.hero}
         badges={home.badges}
-        character={common.characterAlt}
+        character={common.characters.bayreno}
         actions={
           <>
             <CallbackButton className={btnPrimary}>

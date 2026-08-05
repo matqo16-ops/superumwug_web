@@ -32,12 +32,33 @@
     }
   ],
   "nav": [
-    { "label": "Startseite", "href": "/", "icon": "home" },
-    { "label": "Projekte", "href": "/", "hash": "projekte" },
-    { "label": "Crew", "href": "/", "hash": "crew" },
-    { "label": "Pakete", "href": "/pakete" },
-    { "label": "B2B/Partner", "href": "/b2b" },
-    { "label": "Kontakt", "href": "/kontakt" }
+    {
+      "label": "Startseite",
+      "href": "/",
+      "icon": "home"
+    },
+    {
+      "label": "Projekte",
+      "href": "/",
+      "hash": "projekte"
+    },
+    {
+      "label": "Crew",
+      "href": "/",
+      "hash": "crew"
+    },
+    {
+      "label": "Pakete",
+      "href": "/pakete"
+    },
+    {
+      "label": "B2B/Partner",
+      "href": "/b2b"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt"
+    }
   ],
   "header": {
     "callbackButton": "Rückruf anfordern",
@@ -55,17 +76,32 @@
   },
   "footer": {
     "brandLines": [
-      { "id": "umzug", "text": "Umzüge für Privat & Gewerbe" },
-      { "id": "bayreno", "text": "Bayerische Renovierung" },
-      { "id": "entruempelung", "text": "Entrümpelung & Haushaltsauflösung" }
+      {
+        "id": "umzug",
+        "text": "Umzüge für Privat & Gewerbe"
+      },
+      {
+        "id": "bayreno",
+        "text": "Bayerische Renovierung"
+      },
+      {
+        "id": "entruempelung",
+        "text": "Entrümpelung & Haushaltsauflösung"
+      }
     ],
     "serviceArea": "Einsatzgebiet: München und Umgebung",
     "phoneLabel": "Telefon",
     "callbackLink": "Rückruf anfordern",
     "legalNavLabel": "Rechtliches",
     "legalLinks": [
-      { "label": "Impressum", "href": "/impressum" },
-      { "label": "Datenschutz", "href": "/datenschutz" }
+      {
+        "label": "Impressum",
+        "href": "/impressum"
+      },
+      {
+        "label": "Datenschutz",
+        "href": "/datenschutz"
+      }
     ],
     "copyright": "© 2026 Super Umzug · Super Entrümpelung · BayReno. Alle Rechte vorbehalten."
   },
@@ -80,25 +116,61 @@
       "message": "Ihre Nachricht (optional)"
     },
     "timeOptions": [
-      { "value": "sofort", "label": "So schnell wie möglich" },
-      { "value": "vormittags", "label": "Vormittags" },
-      { "value": "nachmittags", "label": "Nachmittags" },
-      { "value": "abends", "label": "Abends" }
+      {
+        "value": "sofort",
+        "label": "So schnell wie möglich"
+      },
+      {
+        "value": "vormittags",
+        "label": "Vormittags"
+      },
+      {
+        "value": "nachmittags",
+        "label": "Nachmittags"
+      },
+      {
+        "value": "abends",
+        "label": "Abends"
+      }
     ],
     "topicPlaceholder": "Bitte wählen (optional)",
     "topicOptions": [
-      { "value": "umzug", "label": "Umzug" },
-      { "value": "renovierung", "label": "Renovierung (BayReno)" },
-      { "value": "entruempelung", "label": "Entrümpelung" },
-      { "value": "besichtigungsservice", "label": "Besichtigungsservice (290 €)" },
-      { "value": "paket-privatumzug", "label": "Paket 1: Privatumzug Komplett" },
-      { "value": "paket-firmenumzug", "label": "Paket 2: Firmenumzug Komplett" },
+      {
+        "value": "umzug",
+        "label": "Umzug"
+      },
+      {
+        "value": "renovierung",
+        "label": "Renovierung (BayReno)"
+      },
+      {
+        "value": "entruempelung",
+        "label": "Entrümpelung"
+      },
+      {
+        "value": "besichtigungsservice",
+        "label": "Besichtigungsservice (290 €)"
+      },
+      {
+        "value": "paket-privatumzug",
+        "label": "Paket 1: Privatumzug Komplett"
+      },
+      {
+        "value": "paket-firmenumzug",
+        "label": "Paket 2: Firmenumzug Komplett"
+      },
       {
         "value": "paket-vermieter",
         "label": "Paket 3: Rundum-Service für Vermieter und Hausverwaltungen"
       },
-      { "value": "b2b", "label": "B2B-Partnerschaft" },
-      { "value": "sonstiges", "label": "Sonstiges" }
+      {
+        "value": "b2b",
+        "label": "B2B-Partnerschaft"
+      },
+      {
+        "value": "sonstiges",
+        "label": "Sonstiges"
+      }
     ],
     "consentPrefix": "Ich stimme zu, dass meine Angaben zur Bearbeitung meiner Anfrage gemäß der ",
     "consentLinkLabel": "Datenschutzerklärung",
@@ -140,5 +212,25 @@
     "title": "Seite nicht gefunden",
     "body": "Die angeforderte Seite existiert nicht oder wurde verschoben.",
     "homeLink": "Zur Startseite"
+  },
+  "characters": {
+    "bayreno": {
+      "src": "/images/header-char.png",
+      "width": 940,
+      "height": 1592,
+      "alt": "Mitarbeiter von BayReno im Team-Shirt mit Daumen nach oben"
+    },
+    "umzug": {
+      "src": "/images/umzug-char.png",
+      "width": 630,
+      "height": 1431,
+      "alt": "Mitarbeiter von Super Umzug im Team-Shirt mit Daumen nach oben"
+    },
+    "entruempelung": {
+      "src": "/images/entruempelung-char.png",
+      "width": 617,
+      "height": 1435,
+      "alt": "Mitarbeiter von Super Entrümpelung im Team-Shirt mit Daumen nach oben"
+    }
   }
 }

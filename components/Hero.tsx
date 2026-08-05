@@ -1,9 +1,10 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
-import type { Hero as HeroContent } from "@/lib/content-types";
+import type {
+  CharacterImage,
+  Hero as HeroContent,
+} from "@/lib/content-types";
 import { eyebrow } from "@/lib/styles";
-
-const CHARACTER_SRC = "/images/header-char.png";
 
 /** Shared page hero on deep navy — headline in Fraunces, restrained gold accents. */
 export function Hero({
@@ -16,8 +17,8 @@ export function Hero({
   /** Rendered CTA buttons (client components wired to modal/chat). */
   actions?: ReactNode;
   badges?: string[];
-  /** Alt text for the brand character; omit to hide it. */
-  character?: string;
+  /** Brand character shown beside the hero; omit to hide it. */
+  character?: CharacterImage;
 }) {
   return (
     <div className="bg-navy-deep">
@@ -28,7 +29,9 @@ export function Hero({
       >
         <div>
           <p className={eyebrow}>{content.eyebrow}</p>
-          <h1 className="mt-4 max-w-4xl font-display text-4xl font-semibold leading-tight text-white md:text-5xl md:leading-tight">
+          {/* Smaller on the narrowest phones so long German compounds
+              (Haushaltsauflösung) fit the column instead of breaking mid-word. */}
+          <h1 className="mt-4 max-w-4xl hyphens-auto break-words font-display text-3xl font-semibold leading-tight text-white sm:text-4xl md:text-5xl md:leading-tight">
             {content.headline}
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/75">
@@ -45,10 +48,10 @@ export function Hero({
               )}
               {character && (
                 <Image
-                  src={CHARACTER_SRC}
-                  alt={character}
-                  width={940}
-                  height={1592}
+                  src={character.src}
+                  alt={character.alt}
+                  width={character.width}
+                  height={character.height}
                   priority
                   className="block h-36 w-auto shrink-0 sm:h-44 lg:hidden"
                   sizes="110px"
@@ -81,11 +84,11 @@ export function Hero({
         {/* Desktop: aligned to the top of the hero so the whole figure stays above the fold. */}
         {character && (
           <Image
-            src={CHARACTER_SRC}
+            src={character.src}
             alt=""
             aria-hidden="true"
-            width={940}
-            height={1592}
+            width={character.width}
+            height={character.height}
             priority
             className="hidden h-[23rem] w-auto lg:block xl:h-[25rem]"
             sizes="250px"

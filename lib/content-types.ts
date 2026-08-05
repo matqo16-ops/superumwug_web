@@ -14,6 +14,14 @@ export interface Brand {
   logoAlt: string;
 }
 
+/** Brand mascot photo used in page heroes. */
+export interface CharacterImage {
+  src: string;
+  width: number;
+  height: number;
+  alt: string;
+}
+
 export interface NavItem {
   label: string;
   href: AppPathname;
@@ -91,7 +99,10 @@ export interface ChatWidgetContent {
 export interface CommonContent {
   meta: { siteName: string; localeName: string };
   skipToContent: string;
+  /** Alt text for the character used site-wide in the footer. */
   characterAlt: string;
+  /** Per-brand hero characters, keyed by brand id. */
+  characters: Record<Brand["id"], CharacterImage>;
   brands: Brand[];
   nav: NavItem[];
   header: {

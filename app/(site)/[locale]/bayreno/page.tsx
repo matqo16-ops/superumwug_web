@@ -48,7 +48,7 @@ export default async function BayrenoPage({ params }: Props) {
 
       <Hero
         content={content.hero}
-        character={common.characterAlt}
+        character={common.characters.bayreno}
         actions={
           <>
             <CallbackButton topic="renovierung" className={btnPrimary}>
