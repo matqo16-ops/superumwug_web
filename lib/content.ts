@@ -4,13 +4,14 @@ import path from "path";
 import type { Locale } from "@/i18n/routing";
 import type {
   B2bContent,
-  BayrenoContent,
+  BlogIndexContent,
+  KomplettserviceContent,
   CommonContent,
   EntruempelungContent,
   HomeContent,
   KontaktContent,
   LegalContent,
-  PaketeContent,
+  RenovierungContent,
   ProjectsContent,
   SiteData,
   UmzugContent,
@@ -36,12 +37,12 @@ export const getHome = (locale: Locale) =>
   readJson<HomeContent>(locale, "home.json");
 export const getUmzug = (locale: Locale) =>
   readJson<UmzugContent>(locale, "umzug.json");
-export const getBayreno = (locale: Locale) =>
-  readJson<BayrenoContent>(locale, "bayreno.json");
+export const getRenovierung = (locale: Locale) =>
+  readJson<RenovierungContent>(locale, "renovierung.json");
 export const getEntruempelung = (locale: Locale) =>
   readJson<EntruempelungContent>(locale, "entruempelung.json");
-export const getPakete = (locale: Locale) =>
-  readJson<PaketeContent>(locale, "pakete.json");
+export const getKomplettservice = (locale: Locale) =>
+  readJson<KomplettserviceContent>(locale, "komplettservice.json");
 export const getProjects = (locale: Locale) =>
   readJson<ProjectsContent>(locale, "projekte.json");
 export const getB2b = (locale: Locale) =>
@@ -52,6 +53,9 @@ export const getImpressum = (locale: Locale) =>
   readJson<LegalContent>(locale, "impressum.json");
 export const getDatenschutz = (locale: Locale) =>
   readJson<LegalContent>(locale, "datenschutz.json");
+
+export const getBlogIndexContent = () =>
+  readJson<BlogIndexContent>("de", "blog.json");
 
 export function getKnowledgeBase(): string {
   return fs.readFileSync(

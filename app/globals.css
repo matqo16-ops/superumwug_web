@@ -40,6 +40,104 @@ body {
   color: var(--color-navy);
 }
 
+/* Long-form article body rendered from markdown (blog posts). */
+.prose-mmoving {
+  color: color-mix(in srgb, var(--color-anthracite) 88%, transparent);
+  line-height: 1.7;
+}
+.prose-mmoving > * + * {
+  margin-top: 1.1rem;
+}
+.prose-mmoving h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.65rem;
+  line-height: 1.25;
+  color: var(--color-navy);
+  margin-top: 2.75rem;
+  hyphens: auto;
+}
+.prose-mmoving h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--color-navy);
+  margin-top: 2rem;
+}
+.prose-mmoving strong {
+  color: var(--color-navy);
+  font-weight: 600;
+}
+.prose-mmoving a {
+  color: var(--color-gold-deep);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--color-gold) 45%, transparent);
+}
+.prose-mmoving a:hover {
+  text-decoration-color: var(--color-gold);
+}
+.prose-mmoving ul,
+.prose-mmoving ol {
+  padding-left: 1.35rem;
+}
+.prose-mmoving ul {
+  list-style: disc;
+}
+.prose-mmoving ol {
+  list-style: decimal;
+}
+.prose-mmoving li + li {
+  margin-top: 0.4rem;
+}
+.prose-mmoving li::marker {
+  color: var(--color-gold-deep);
+}
+.prose-mmoving blockquote {
+  border-left: 3px solid var(--color-gold);
+  background: color-mix(in srgb, var(--color-gold) 8%, transparent);
+  padding: 0.85rem 1.15rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 0.95rem;
+}
+.prose-mmoving blockquote > * + * {
+  margin-top: 0.6rem;
+}
+/* Wide price tables must scroll inside the column, never widen the page. */
+.prose-mmoving table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.94rem;
+}
+.prose-mmoving th,
+.prose-mmoving td {
+  border: 1px solid var(--color-hairline);
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+.prose-mmoving th {
+  background: var(--color-navy);
+  color: #fff;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.prose-mmoving tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--color-cream) 60%, transparent);
+}
+/* Markdown task-list syntax is used for the checklist article. */
+.prose-mmoving input[type="checkbox"] {
+  margin-right: 0.5rem;
+  accent-color: var(--color-gold-deep);
+}
+.prose-mmoving ul:has(input[type="checkbox"]) {
+  list-style: none;
+  padding-left: 0;
+}
+
 /* FAQ accordion marker */
 details.faq-item > summary {
   list-style: none;

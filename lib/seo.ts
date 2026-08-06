@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { getPathname } from "@/i18n/navigation";
-import { routing, type AppPathname, type Locale } from "@/i18n/routing";
+import { routing, type StaticPathname, type Locale } from "@/i18n/routing";
 import type { PageMeta } from "./content-types";
 
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://mmoving.de";
 
-function absoluteUrl(locale: Locale, href: AppPathname): string {
+function absoluteUrl(locale: Locale, href: StaticPathname): string {
   return SITE_URL + getPathname({ locale, href });
 }
 
@@ -16,7 +16,7 @@ function absoluteUrl(locale: Locale, href: AppPathname): string {
  */
 export function pageMetadata(
   locale: Locale,
-  href: AppPathname,
+  href: StaticPathname,
   meta: PageMeta,
 ): Metadata {
   const canonical = absoluteUrl(locale, href);

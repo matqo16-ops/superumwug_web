@@ -18,7 +18,7 @@
       "id": "bayreno",
       "name": "BayReno",
       "tagline": "Bavarian renovation — craftsmanship you can schedule around.",
-      "href": "/bayreno",
+      "href": "/renovierung",
       "logo": "/logos/bayreno.png",
       "logoAlt": "BayReno logo"
     },
@@ -48,8 +48,8 @@
       "hash": "crew"
     },
     {
-      "label": "Packages",
-      "href": "/pakete"
+      "label": "Full service",
+      "href": "/komplettservice"
     },
     {
       "label": "B2B/Partners",

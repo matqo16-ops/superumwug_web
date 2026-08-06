@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
-import { getBayreno, getCommon, getSiteData } from "@/lib/content";
+import { getRenovierung, getCommon, getSiteData } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { btnOutlineOnDark, btnOutlineOnLight, btnPrimary } from "@/lib/styles";
 import { CallbackButton } from "@/components/CallbackButton";
@@ -18,13 +18,13 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  return pageMetadata(locale, "/bayreno", getBayreno(locale).meta);
+  return pageMetadata(locale, "/renovierung", getRenovierung(locale).meta);
 }
 
 export default async function BayrenoPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const content = getBayreno(locale);
+  const content = getRenovierung(locale);
   const common = getCommon(locale);
   const site = getSiteData();
 
@@ -107,7 +107,7 @@ export default async function BayrenoPage({ params }: Props) {
         <SectionHeading intro={content.combo.body}>
           {content.combo.headline}
         </SectionHeading>
-        <Link href="/pakete" className={`${btnOutlineOnLight} mt-8`}>
+        <Link href="/komplettservice" className={`${btnOutlineOnLight} mt-8`}>
           {content.combo.cta}
         </Link>
       </Section>

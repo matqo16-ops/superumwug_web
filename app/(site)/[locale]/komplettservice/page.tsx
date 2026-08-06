@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { getCommon, getPakete, getSiteData } from "@/lib/content";
+import { getCommon, getKomplettservice, getSiteData } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 import { CallbackButton } from "@/components/CallbackButton";
 import { ChatCta } from "@/components/ChatCta";
@@ -15,13 +15,13 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  return pageMetadata(locale, "/pakete", getPakete(locale).meta);
+  return pageMetadata(locale, "/komplettservice", getKomplettservice(locale).meta);
 }
 
 export default async function PaketePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const content = getPakete(locale);
+  const content = getKomplettservice(locale);
   const common = getCommon(locale);
   const site = getSiteData();
   const { labels } = content;

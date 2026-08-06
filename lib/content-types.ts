@@ -1,4 +1,4 @@
-import type { AppPathname } from "@/i18n/routing";
+import type { StaticPathname } from "@/i18n/routing";
 
 export interface PageMeta {
   title: string;
@@ -9,7 +9,7 @@ export interface Brand {
   id: "umzug" | "bayreno" | "entruempelung";
   name: string;
   tagline: string;
-  href: AppPathname;
+  href: StaticPathname;
   logo: string;
   logoAlt: string;
 }
@@ -24,7 +24,7 @@ export interface CharacterImage {
 
 export interface NavItem {
   label: string;
-  href: AppPathname;
+  href: StaticPathname;
   /** When set, the link targets a section anchor on `href` (e.g. the landing page). */
   hash?: string;
   /** Renders as an icon instead of text; `label` becomes the accessible name. */
@@ -135,7 +135,7 @@ export interface CommonContent {
     phoneLabel: string;
     callbackLink: string;
     legalNavLabel: string;
-    legalLinks: { label: string; href: AppPathname }[];
+    legalLinks: { label: string; href: StaticPathname }[];
     copyright: string;
   };
   callbackForm: CallbackFormContent;
@@ -199,7 +199,7 @@ export interface UmzugContent {
   faq: { headline: string; items: FaqItem[] };
 }
 
-export interface BayrenoContent {
+export interface RenovierungContent {
   meta: PageMeta;
   hero: Hero;
   services: { headline: string; items: TitledItem[] };
@@ -225,7 +225,7 @@ export interface PackageItem {
   outcome: string;
 }
 
-export interface PaketeContent {
+export interface KomplettserviceContent {
   meta: PageMeta;
   hero: Hero;
   labels: {
@@ -308,6 +308,22 @@ export interface LegalContent {
   title: string;
   intro: string;
   sections: { heading: string; paragraphs: string[] }[];
+}
+
+export interface BlogIndexContent {
+  meta: PageMeta;
+  headline: string;
+  intro: string;
+  breadcrumbLabel: string;
+  homeLabel: string;
+  blogLabel: string;
+  readingTimeSuffix: string;
+  publishedLabel: string;
+  readMore: string;
+  faqHeadline: string;
+  relatedHeadline: string;
+  backToBlog: string;
+  moreArticles: string;
 }
 
 export interface SiteData {

@@ -18,7 +18,7 @@
       "id": "bayreno",
       "name": "BayReno",
       "tagline": "Bayerische Renovierung — Handwerk mit Termintreue.",
-      "href": "/bayreno",
+      "href": "/renovierung",
       "logo": "/logos/bayreno.png",
       "logoAlt": "BayReno Logo"
     },
@@ -48,8 +48,8 @@
       "hash": "crew"
     },
     {
-      "label": "Pakete",
-      "href": "/pakete"
+      "label": "Komplettservice",
+      "href": "/komplettservice"
     },
     {
       "label": "B2B/Partner",

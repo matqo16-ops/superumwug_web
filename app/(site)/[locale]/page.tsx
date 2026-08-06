@@ -69,7 +69,7 @@ export default async function HomePage({ params }: Props) {
             <CallbackButton className={btnPrimary}>
               {home.hero.primaryCta}
             </CallbackButton>
-            <Link href="/pakete" className={btnOutlineOnDark}>
+            <Link href="/komplettservice" className={btnOutlineOnDark}>
               {home.hero.secondaryCta}
             </Link>
           </>
@@ -197,7 +197,7 @@ export default async function HomePage({ params }: Props) {
           {home.packagesSection.cards.map((card) => (
             <Link
               key={card.title}
-              href="/pakete"
+              href="/komplettservice"
               className="group rounded-xl border border-white/15 bg-white/5 p-7 transition-colors hover:border-gold"
             >
               <h3 className="font-display text-xl font-semibold text-white group-hover:text-gold">
