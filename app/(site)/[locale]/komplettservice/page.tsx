@@ -2,12 +2,22 @@ import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { getCommon, getKomplettservice, getSiteData } from "@/lib/content";
+import { absoluteUrl, serviceSchema } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
 import { CallbackButton } from "@/components/CallbackButton";
 import { ChatCta } from "@/components/ChatCta";
 import { ChatCtaButton } from "@/components/ChatCtaButton";
 import { Hero } from "@/components/Hero";
-import { Section } from "@/components/Section";
+import { Section, SectionHeading } from "@/components/Section";
+import {
+  AreasServed,
+  CrossLinks,
+  EntityFacts,
+  ServiceLead,
+} from "@/components/ServiceSections";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Faq } from "@/components/Faq";
+import { JsonLd } from "@/components/JsonLd";
 
 interface Props {
   params: Promise<{ locale: Locale }>;
@@ -28,7 +38,65 @@ export default async function PaketePage({ params }: Props) {
 
   return (
     <>
+      <JsonLd
+        data={serviceSchema({
+          locale,
+          href: "/komplettservice",
+          serviceType:
+            locale === "de"
+              ? "Komplettservice Umzug, Entrümpelung und Renovierung München"
+              : "Full service moving, clearance and renovation Munich",
+          name: content.meta.title,
+          description: content.lead,
+          offers: content.packages.map((pkg) => ({
+            name: pkg.name,
+            description: pkg.forWhom,
+          })),
+        })}
+      />
+
       <Hero content={content.hero} />
+
+      <Breadcrumbs
+        label="Breadcrumb"
+        items={[
+          {
+            label: locale === "de" ? "Startseite" : "Home",
+            href: "/",
+            url: absoluteUrl(locale, "/"),
+          },
+          {
+            label: locale === "de" ? "Komplettservice" : "Full service",
+            url: absoluteUrl(locale, "/komplettservice"),
+          },
+        ]}
+      />
+
+      <Section variant="light">
+        <ServiceLead text={content.lead} />
+      </Section>
+
+      {/* Sequence — the order the three trades run in */}
+      <Section variant="cream">
+        <SectionHeading intro={content.sequence.intro}>
+          {content.sequence.headline}
+        </SectionHeading>
+        <ol className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {content.sequence.steps.map((step) => (
+            <li
+              key={step.title}
+              className="rounded-xl border border-hairline bg-white p-6 shadow-card"
+            >
+              <h3 className="font-display text-lg font-semibold text-navy">
+                {step.title}
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-anthracite/85">
+                {step.body}
+              </p>
+            </li>
+          ))}
+        </ol>
+      </Section>
 
       <Section variant="cream">
         <div className="grid gap-8 lg:grid-cols-2">
@@ -176,7 +244,61 @@ export default async function PaketePage({ params }: Props) {
         </div>
       </Section>
 
+      {/* Savings comparison */}
+      <Section variant="light" id="ersparnis">
+        <SectionHeading intro={content.savings.intro}>
+          {content.savings.headline}
+        </SectionHeading>
+        <div className="mt-8 overflow-x-auto rounded-xl border border-hairline bg-white shadow-card">
+          <table className="w-full border-collapse text-sm">
+            <thead>
+              <tr className="bg-navy text-left text-white">
+                {content.savings.columns.map((column) => (
+                  <th key={column} className="whitespace-nowrap px-4 py-3 font-semibold">
+                    {column}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {content.savings.rows.map((row) => (
+                <tr key={row[0]} className="border-t border-hairline even:bg-cream/60">
+                  {row.map((cell, index) => (
+                    <td
+                      key={index}
+                      className={`px-4 py-3 align-top ${
+                        index === row.length - 1
+                          ? "font-semibold text-navy"
+                          : "text-anthracite/85"
+                      }`}
+                    >
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-6 max-w-3xl border-l-2 border-gold pl-4 text-sm leading-relaxed text-anthracite/70">
+          {content.savings.note}
+        </p>
+      </Section>
+
+      <AreasServed content={content.areas} />
+
       <ChatCta content={common.chatCta} />
+
+      <Section variant="cream">
+        <Faq
+          headline={content.faq.headline}
+          items={content.faq.items}
+          pageUrl={absoluteUrl(locale, "/komplettservice")}
+        />
+      </Section>
+
+      <EntityFacts content={content.entity} />
+      <CrossLinks content={content.crossLinks} />
     </>
   );
 }

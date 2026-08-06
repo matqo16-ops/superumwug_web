@@ -57,10 +57,53 @@
     "body": "Tell us a bit about yourself — we'll get back to you with the right terms.",
     "selectorLabel": "I am:",
     "selectorOptions": [
-      { "value": "vermittler", "label": "Referral partner" },
-      { "value": "firmenkunde", "label": "Corporate client" }
+      {
+        "value": "vermittler",
+        "label": "Referral partner"
+      },
+      {
+        "value": "firmenkunde",
+        "label": "Corporate client"
+      }
     ],
     "companyLabel": "Your company / industry (optional)",
     "submit": "Send request"
+  },
+  "faq": {
+    "headline": "Frequently asked questions from partners and corporate clients",
+    "items": [
+      {
+        "question": "How high is the referral commission?",
+        "answer": "The commission is agreed individually based on order volume and frequency, and paid for every referred job that completes. We give you the specific terms in an initial call — request a callback for that."
+      },
+      {
+        "question": "Who qualifies as a referral partner?",
+        "answer": "Estate agents, relocation services, property managers, refurbishment consultants and anyone regularly advising clients with moving, clearance or renovation needs. You send the lead, we handle consultation, quote and delivery."
+      },
+      {
+        "question": "What does priority scheduling mean?",
+        "answer": "Requests from partners and corporate clients are scheduled first. That matters most for tenant changes at month-end, when capacity in Munich is tight."
+      },
+      {
+        "question": "Do I get a dedicated contact?",
+        "answer": "Yes. You get one fixed contact across all three brands — moving, clearance and renovation — instead of rotating responsibility per trade."
+      },
+      {
+        "question": "How do partner rates for corporate clients work?",
+        "answer": "Instead of one-off quotes we agree fixed, discounted terms for recurring work. That makes your budgeting predictable and removes the quoting phase from every job."
+      },
+      {
+        "question": "Can you handle several units at once?",
+        "answer": "Yes. For property managers and real-estate companies we handle multiple units in parallel or in series, on one schedule and with one contact."
+      },
+      {
+        "question": "How quickly is a unit re-lettable?",
+        "answer": "With a tightly sequenced process — clearance, damage repair, painting, final cleaning — a standard flat is usually ready to let within a week. Split across several firms the same steps typically take two to four weeks."
+      },
+      {
+        "question": "Is there a minimum order volume?",
+        "answer": "No. Partner terms are based on expected regularity, not a fixed minimum. Smaller property managers receive fixed prices and priority dates too."
+      }
+    ]
   }
 }

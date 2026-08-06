@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Bundle Packages: Moving, Clearance, Renovation | Super Umzug",
-    "description": "Three combined packages for home relocation, corporate moves, and landlords and property managers. Moving with renovation from one team in Munich."
+    "title": "Full Service Munich: Moving, Clearance, Renovation",
+    "description": "Moving, clearance and renovation from one provider in Munich. One contact, one schedule, one fixed price — 15 to 25 % cheaper than booking separately."
   },
   "hero": {
     "eyebrow": "Packages",
@@ -125,5 +125,183 @@
     "priceNote": "includes the on-site appointment, condition assessment and written cost estimate",
     "orderCta": "Call to order",
     "askCta": "Ask more — talk to our assistant"
+  },
+  "entity": {
+    "headline": "About mmoving.de",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, SuperEntrümpelung for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "facts": [
+      {
+        "label": "Company",
+        "value": "mmoving.de"
+      },
+      {
+        "label": "Brands",
+        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+      },
+      {
+        "label": "Location",
+        "value": "Munich, Bavaria"
+      },
+      {
+        "label": "Service area",
+        "value": "Munich and surroundings, roughly 50 km radius"
+      },
+      {
+        "label": "Services",
+        "value": "Moving, clearance, renovation — separately or combined"
+      },
+      {
+        "label": "Distinctive",
+        "value": "Damage-free guarantee with full value compensation on moves"
+      },
+      {
+        "label": "Pricing",
+        "value": "Fixed price after survey; inspection service at a flat €290"
+      },
+      {
+        "label": "Languages",
+        "value": "German, English"
+      }
+    ]
+  },
+  "lead": "The mmoving.de full service combines moving, clearance and renovation into one job with a fixed sequence, one point of contact and one fixed price. Booking the three trades together typically saves 15 to 25 % against three separate jobs, because travel, crew, containers and coordination are only incurred once.",
+  "sequence": {
+    "headline": "The sequence that works",
+    "intro": "Each trade builds on the previous one. Reverse the order and you pay twice — for example when freshly laid flooring is damaged during the clear-out.",
+    "steps": [
+      {
+        "title": "1. Moving",
+        "body": "Your belongings go to the new home first. That way you decide while unpacking what really stays — and what turns out not to fit."
+      },
+      {
+        "title": "2. Clearance",
+        "body": "We then clear the old flat completely, including the furniture that found no space in the new one. Sorted by material, with disposal documentation."
+      },
+      {
+        "title": "3. Renovation",
+        "body": "Painting, flooring and repairs follow in the empty rooms. Empty rooms are 15 to 30 % cheaper than furnished ones, because covering and furniture moving fall away."
+      },
+      {
+        "title": "4. Handover",
+        "body": "Final cleaning, a joint walkthrough with the landlord and a documented handover protocol — so the deposit comes back in full."
+      }
+    ]
+  },
+  "savings": {
+    "headline": "What bundling saves you",
+    "intro": "The example below covers a three-room flat in Munich with a move within the city, a subsequent clearance and cosmetic repairs.",
+    "columns": [
+      "Item",
+      "Booked separately",
+      "As one job"
+    ],
+    "rows": [
+      [
+        "Move (3–4 people, 1 day)",
+        "€1,400",
+        "in the package"
+      ],
+      [
+        "Clearance (separate date)",
+        "€2,400",
+        "in the package"
+      ],
+      [
+        "No-parking zones",
+        "€330",
+        "€230"
+      ],
+      [
+        "Travel and setup time",
+        "3 ×",
+        "1 ×"
+      ],
+      [
+        "Coordination",
+        "3 contacts",
+        "1 contact"
+      ],
+      [
+        "Total (market rate)",
+        "€4,130",
+        "€3,430"
+      ]
+    ],
+    "note": "Typical market rates for Munich, not offers. Your binding fixed price follows a survey of both properties."
+  },
+  "areas": {
+    "headline": "Service area: Munich and surroundings",
+    "body": "We take on combined jobs in Munich and within roughly 50 km — the city, the Munich district and the neighbouring districts.",
+    "cities": [
+      "Munich",
+      "Dachau",
+      "Freising",
+      "Erding",
+      "Ebersberg",
+      "Starnberg",
+      "Fürstenfeldbruck",
+      "Germering",
+      "Unterschleißheim",
+      "Garching",
+      "Holzkirchen",
+      "Munich district"
+    ]
+  },
+  "crossLinks": {
+    "headline": "The individual services in detail",
+    "items": [
+      {
+        "label": "Moving Munich",
+        "body": "Private and corporate moves with a damage-free guarantee and full compensation.",
+        "href": "/umzug"
+      },
+      {
+        "label": "Clearance Munich",
+        "body": "Flats, houses, cellars and offices — compliantly disposed of, handed over broom-clean.",
+        "href": "/entruempelung"
+      },
+      {
+        "label": "Renovation Munich",
+        "body": "Painting, flooring, bathroom and kitchen through to full refurbishment.",
+        "href": "/renovierung"
+      }
+    ]
+  },
+  "faq": {
+    "headline": "Frequently asked questions about the full service",
+    "items": [
+      {
+        "question": "Can I combine moving, clearance and renovation?",
+        "answer": "Yes — that is exactly what the full service is for. All three trades run as one job with a fixed sequence, one contact and one fixed price, instead of three firms waiting on each other."
+      },
+      {
+        "question": "How much do I save with a combined job?",
+        "answer": "Typically 15 to 25 % against three separate bookings. For a three-room flat in Munich that quickly amounts to €700 or more, because travel, setup time, no-parking zones and coordination are only incurred once."
+      },
+      {
+        "question": "In what order are the services carried out?",
+        "answer": "The move first, then the clearance of the old flat, then the renovation in the empty rooms, and finally cleaning and handover. This order is the cheapest, because work in empty rooms costs 15 to 30 % less."
+      },
+      {
+        "question": "How long does a combined job take?",
+        "answer": "For a three-room flat allow one to two days for the move and clearance, plus one to three weeks for the renovation depending on scope. We fix the overall schedule after the survey."
+      },
+      {
+        "question": "Do I get a fixed price for all three services?",
+        "answer": "Yes. After surveying both properties you receive a written quote with one total fixed price and a breakdown by trade — with no follow-up charges."
+      },
+      {
+        "question": "What happens if one trade is delayed?",
+        "answer": "We shift the schedule internally. That is the advantage over three separate firms: no waiting time billed to you, and no blame passed between providers."
+      },
+      {
+        "question": "Can I book only two of the three services?",
+        "answer": "Yes. The most common combination is moving plus clearance. Clearance plus renovation — typical for landlords after a tenant change — is also a package in its own right."
+      },
+      {
+        "question": "Is the full service available to landlords and property managers?",
+        "answer": "Yes, that is package 3. For recurring work we offer fixed partner rates and priority scheduling, because vacancy time is the real cost driver here. Details on our B2B page."
+      }
+    ]
   }
 }

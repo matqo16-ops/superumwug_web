@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Clearance & House Clearances in Munich | Super Entrümpelung",
-    "description": "Clearance in Munich: apartments, houses, cellars, offices. House clearances, proper disposal, broom-clean handover. Request a fixed-price quote."
+    "title": "Clearance Munich & House Clearances | mmoving.de",
+    "description": "Clearance in Munich at a fixed price: flats, houses, cellars, offices. House clearances, compliant disposal, broom-clean handover."
   },
   "hero": {
     "eyebrow": "SuperEntrümpelung",
@@ -14,28 +14,28 @@
     "headline": "Services",
     "items": [
       {
-        "title": "Apartment clearance",
-        "body": "From single-room flats to detached houses."
+        "title": "Flat clearance",
+        "body": "From a one-room flat to a detached house, including cellar, attic and balcony. We clear completely, sort by material as we carry out and hand over broom-clean. Mark anything you want to keep — labelled items are left untouched."
       },
       {
         "title": "House clearances",
-        "body": "Complete clearance of a household, e.g. after a bereavement or move into care — handled with care and discretion."
+        "body": "The complete clearance of a household, for example after a bereavement or a move into care. We work discreetly, document finds such as documents, jewellery or cash and hand them to you. On request we handle everything without you being present — a key handover is enough."
       },
       {
-        "title": "Cellar, attic, garage",
-        "body": "Including hard-to-reach or densely packed spaces."
+        "title": "Cellar, attic and garage",
+        "body": "Including hard-to-reach, low or densely packed spaces. These areas are the most commonly overlooked in cost estimates and the main cause of follow-up charges — we record them explicitly during the survey."
       },
       {
-        "title": "Office & commercial clearance",
-        "body": "Office furniture, GDPR-compliant document destruction on request, technical equipment."
+        "title": "Office and commercial clearance",
+        "body": "Office furniture, IT equipment, stock and shop fittings. GDPR-compliant document destruction with a certificate on request, electrical appliances via approved take-back schemes. Outside business hours if you prefer."
       },
       {
-        "title": "Disposal & recycling",
-        "body": "Proper sorting, reuse where possible, compliant disposal of the remainder."
+        "title": "Disposal, recycling and value offset",
+        "body": "Sorted into bulky waste, wood, metal, paper, electrical appliances and hazardous waste. Usable items go to reuse rather than incineration. Good furniture, appliances, antiques and metals are offset against your final price. Disposal documentation on request."
       },
       {
         "title": "Broom-clean handover",
-        "body": "The space is handed over cleaned — ready to move into or sell."
+        "body": "Fully cleared, swept, free of waste and personal belongings, cupboards and floors empty. On request we add a deep clean including windows and sanitary fittings, or the cosmetic repairs, so the flat is handed over in contractual condition."
       }
     ]
   },
@@ -65,27 +65,230 @@
     ]
   },
   "faq": {
-    "headline": "Frequently asked questions",
+    "headline": "Frequently asked questions about clearance in Munich",
     "items": [
       {
-        "question": "What does a clearance cost?",
-        "answer": "Price depends on floor area, volume and accessibility. After a short inspection you receive a fixed-price quote — you're also welcome to ask our chat assistant."
+        "question": "What does a clearance in Munich cost?",
+        "answer": "Typical market rates are €35–70 per square metre. A 60 m² flat therefore runs about €1,800–3,500, a cellar unit from around €300, a detached house €4,500–9,000. After a short survey you receive a fixed price including disposal."
+      },
+      {
+        "question": "How long does a clearance take?",
+        "answer": "A cellar or garage is usually cleared in three to five hours, a two- to three-room flat in a working day, a detached house in two to four days. Volume, floor level and access decide."
+      },
+      {
+        "question": "Are disposal fees included in the price?",
+        "answer": "Yes. Our fixed price covers containers, landfill fees, crew, travel and the broom-clean handover. We do not add disposal charges afterwards."
       },
       {
         "question": "What happens to usable furniture and items?",
-        "answer": "We sort by material type and pass on usable items for reuse where possible, rather than disposing of them."
+        "answer": "We sort by material and pass usable items to reuse rather than disposal. Resalable items such as good furniture, appliances or antiques are offset against your price."
       },
       {
-        "question": "How quickly can a clearance take place?",
-        "answer": "Short-notice appointments are often available within a few days — ask about your preferred date."
+        "question": "Do you handle house clearances after a bereavement?",
+        "answer": "Yes. We know this is a sensitive matter and work discreetly. Documents, jewellery and cash are documented and handed to you. On request we handle everything without you being present."
       },
       {
-        "question": "Do you also handle house clearances after a bereavement?",
-        "answer": "Yes. We know this is a sensitive matter and handle it with care and discretion."
+        "question": "Do I have to be there during the clearance?",
+        "answer": "No. After the survey and a clear agreement on what stays and what goes, a key handover is enough. Many relatives who do not live in Munich handle the whole clearance remotely."
       },
       {
-        "question": "Is the space really broom-clean afterwards?",
-        "answer": "Yes — final cleaning is part of our standard process, so the space is ready for handover or sale."
+        "question": "Is the flat really broom-clean afterwards?",
+        "answer": "Yes — broom-clean is part of our standard process: fully cleared, swept, cupboards and floors empty. A deeper clean including windows and sanitary fittings is arranged separately."
+      },
+      {
+        "question": "Do you dispose of hazardous waste and electrical appliances?",
+        "answer": "Yes. Paints, varnishes, oils, chemicals and fluorescent tubes go to approved disposal routes, electrical appliances through the mandatory take-back scheme. Where asbestos is suspected we work exclusively with certified specialists."
+      }
+    ]
+  },
+  "lead": "SuperEntrümpelung clears flats, houses, cellars, attics and commercial space in Munich and the surrounding area — at a fixed price after a short survey. Typical market rates run €35–70 per square metre. We sort by material, dispose with documented proof and hand the space over broom-clean.",
+  "detail": {
+    "headline": "Clearance in Munich — services in detail",
+    "sections": [
+      {
+        "heading": "Flat clearance",
+        "body": "From a one-room flat to a detached house. A two- to three-room flat is usually cleared in a single working day, a house in two to four. Mark anything you want to keep — we do not touch labelled items."
+      },
+      {
+        "heading": "House clearances",
+        "body": "The complete clearance of a household, for example after a bereavement or a move into care. We work discreetly, document finds such as documents, jewellery or cash and hand them to you. On request we handle everything without you being present."
+      },
+      {
+        "heading": "Cellar, attic, garage",
+        "body": "Including hard-to-reach or densely packed spaces. Cellars and attics are the most commonly overlooked areas in cost estimates — we record them explicitly during the survey so there are no follow-up charges."
+      },
+      {
+        "heading": "Office and commercial clearance",
+        "body": "Office furniture, equipment and stock. GDPR-compliant document destruction with a certificate on request, electrical appliances via approved take-back schemes."
+      },
+      {
+        "heading": "Disposal, recycling and value offset",
+        "body": "We sort as we carry out: bulky waste, wood, metal, paper, electrical appliances and hazardous waste. Usable items go to reuse rather than incineration. Where we find resale value — good furniture, appliances, antiques, metals — we offset it against your price."
+      },
+      {
+        "heading": "Broom-clean handover",
+        "body": "Broom-clean means fully cleared, swept, free of waste and personal belongings, cupboards and floors empty. On request we also take on the final cleaning or the cosmetic repairs so the flat is handed over in contractual condition."
+      }
+    ]
+  },
+  "areas": {
+    "headline": "Service area: Munich and surroundings",
+    "body": "We clear in Munich and within roughly 50 km — across the city, the Munich district and the neighbouring districts.",
+    "cities": [
+      "Munich",
+      "Dachau",
+      "Freising",
+      "Erding",
+      "Ebersberg",
+      "Starnberg",
+      "Fürstenfeldbruck",
+      "Germering",
+      "Unterschleißheim",
+      "Garching",
+      "Holzkirchen",
+      "Munich district"
+    ]
+  },
+  "crossLinks": {
+    "headline": "Goes with your clearance",
+    "items": [
+      {
+        "label": "Moving with a damage-free guarantee",
+        "body": "Move first, clear second — so you decide what stays after unpacking.",
+        "href": "/umzug"
+      },
+      {
+        "label": "Renovation after clearance",
+        "body": "Painting and repairs in empty rooms — 15 to 30 % cheaper than in furnished ones.",
+        "href": "/renovierung"
+      },
+      {
+        "label": "Full service from one provider",
+        "body": "Clearance, renovation and moving as one job on one schedule.",
+        "href": "/komplettservice"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "What a clearance in Munich costs",
+    "intro": "We charge by actual volume in cubic metres and labour, not by floor area alone. The per-square-metre figure is a rough guide: a packed attic can cost more than an emptied flat of the same size.",
+    "columns": [
+      "Object",
+      "Area",
+      "Market rate",
+      "Duration"
+    ],
+    "rows": [
+      [
+        "Cellar unit / garage",
+        "6–15 m²",
+        "from €300 – 800",
+        "3–5 hours"
+      ],
+      [
+        "Attic",
+        "20–40 m²",
+        "€600 – 1,600",
+        "4–8 hours"
+      ],
+      [
+        "1-room flat",
+        "30–40 m²",
+        "€900 – 1,900",
+        "1 day"
+      ],
+      [
+        "2-room flat",
+        "55–70 m²",
+        "€1,800 – 3,500",
+        "1 day"
+      ],
+      [
+        "3-room flat",
+        "75–95 m²",
+        "€2,600 – 4,800",
+        "1–2 days"
+      ],
+      [
+        "Detached house",
+        "140–200 m²",
+        "€4,500 – 9,000",
+        "2–4 days"
+      ]
+    ],
+    "extras": [
+      "Surcharge per floor without a lift: 8–15 %",
+      "Hazardous waste (paints, oils, chemicals): from €150",
+      "No-parking zone: €80 – 150",
+      "Deep clean beyond broom-clean: €3 – 8 per m²",
+      "Value offset for resalable furniture: reduces the price"
+    ],
+    "note": "All figures are typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
+  },
+  "situations": {
+    "headline": "Typical reasons for a clearance",
+    "items": [
+      {
+        "title": "House clearance after a bereavement",
+        "body": "We secure documents and valuables, record what we find and clear discreetly. On request entirely without you being present."
+      },
+      {
+        "title": "Move into care",
+        "body": "Only part of the household moves. We transport what is chosen and clear the rest in one pass."
+      },
+      {
+        "title": "Handing a flat back to the landlord",
+        "body": "Cleared, swept, broom-clean — on request including the cosmetic repairs so the deposit comes back in full."
+      },
+      {
+        "title": "Tenant changes for landlords and property managers",
+        "body": "Remove abandoned contents, repair damage, renovate — so the unit is re-lettable quickly."
+      },
+      {
+        "title": "Clearing a cellar, attic or garage",
+        "body": "The classic starting point: years of accumulated contents, gone in a few hours."
+      },
+      {
+        "title": "Hoarded and neglected flats",
+        "body": "With protective equipment, a larger crew and disinfection on request. We work without judgement and without drawing attention."
+      }
+    ]
+  },
+  "entity": {
+    "headline": "About mmoving.de",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, SuperEntrümpelung for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "facts": [
+      {
+        "label": "Company",
+        "value": "mmoving.de"
+      },
+      {
+        "label": "Brands",
+        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+      },
+      {
+        "label": "Location",
+        "value": "Munich, Bavaria"
+      },
+      {
+        "label": "Service area",
+        "value": "Munich and surroundings, roughly 50 km radius"
+      },
+      {
+        "label": "Services",
+        "value": "Moving, clearance, renovation — separately or combined"
+      },
+      {
+        "label": "Distinctive",
+        "value": "Damage-free guarantee with full value compensation on moves"
+      },
+      {
+        "label": "Pricing",
+        "value": "Fixed price after survey; inspection service at a flat €290"
+      },
+      {
+        "label": "Languages",
+        "value": "German, English"
       }
     ]
   }

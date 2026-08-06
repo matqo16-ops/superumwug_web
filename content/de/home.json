@@ -79,5 +79,42 @@
   "callbackSection": {
     "headline": "Lieber gleich zurückgerufen werden?",
     "body": "Tragen Sie sich ein — wir melden uns zum gewünschten Zeitpunkt."
+  },
+  "faq": {
+    "headline": "Häufige Fragen zu mmoving.de",
+    "items": [
+      {
+        "question": "Welche Leistungen bietet mmoving.de in München an?",
+        "answer": "mmoving.de bündelt drei Leistungen für München und Umgebung: Umzüge (SuperUmzug), Entrümpelung und Haushaltsauflösung (SuperEntrümpelung) sowie Renovierung und Sanierung (BayReno). Sie können jede Leistung einzeln beauftragen oder alle drei als Komplettservice mit einem Ansprechpartner."
+      },
+      {
+        "question": "In welchem Gebiet sind Sie tätig?",
+        "answer": "In München und im Umkreis von rund 50 Kilometern — unter anderem Dachau, Freising, Erding, Ebersberg, Starnberg, Fürstenfeldbruck, Germering, Unterschleißheim, Garching und Holzkirchen sowie im gesamten Landkreis München. Fernumzüge führen wir deutschlandweit durch."
+      },
+      {
+        "question": "Was kostet ein Umzug mit Entrümpelung in München?",
+        "answer": "Das hängt von Volumen, Fläche und Umfang ab. Marktüblich liegt ein Umzug innerhalb Münchens bei 700 bis 2.800 € und eine Entrümpelung bei 35 bis 70 € pro Quadratmeter. Als kombinierter Auftrag sparen Sie erfahrungsgemäß 15 bis 25 %. Verbindlich wird der Preis nach einer kurzen Besichtigung."
+      },
+      {
+        "question": "Was kostet der Besichtigungsservice?",
+        "answer": "290 € zum Festpreis. Enthalten sind die gemeinsame Begehung der Immobilie, eine systematische Zustandsaufnahme aller Räume, eine realistische Kosteneinschätzung für den Wunschzustand und ein Schwierigkeitsgrad je Position. Der Service ist unabhängig von allen Paketen buchbar."
+      },
+      {
+        "question": "Was ist die Unbeschädigt-Garantie?",
+        "answer": "Unser Leistungsversprechen bei Umzügen: Wird beim Umzug etwas beschädigt, erstatten wir den vollen Wert des Gegenstands. Wir dokumentieren den Zustand wertvoller Gegenstände vor und nach dem Transport, damit die Prüfung im Schadensfall schnell und fair abläuft."
+      },
+      {
+        "question": "Wie schnell bekomme ich einen Termin?",
+        "answer": "Kurzfristige Termine sind für Entrümpelungen häufig innerhalb weniger Tage möglich. Für Umzüge empfehlen wir zwei bis drei Wochen Vorlauf, zum Monatsende zwischen Juni und September eher vier bis sechs Wochen. Im Rückrufformular können Sie „So schnell wie möglich“ auswählen."
+      },
+      {
+        "question": "Bekomme ich einen Festpreis oder wird nach Stunden abgerechnet?",
+        "answer": "Sie erhalten nach der Besichtigung einen schriftlichen Festpreis, inklusive Anfahrt, Personal, Material und — bei Entrümpelungen — aller Entsorgungsgebühren. Nachforderungen am Auftragstag gibt es bei uns nicht."
+      },
+      {
+        "question": "Arbeiten Sie auch für Hausverwaltungen und Firmenkunden?",
+        "answer": "Ja. Für Vermittler wie Makler und Hausverwaltungen zahlen wir eine Vermittlungsprovision, für Firmenkunden mit wiederkehrendem Bedarf gelten feste Partnerpreise und bevorzugte Terminplanung. Details finden Sie auf unserer B2B-Seite."
+      }
+    ]
   }
 }

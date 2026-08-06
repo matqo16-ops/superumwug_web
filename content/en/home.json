@@ -79,5 +79,42 @@
   "callbackSection": {
     "headline": "Prefer a callback right away?",
     "body": "Leave your details — we'll call at the time you prefer."
+  },
+  "faq": {
+    "headline": "Frequently asked questions about mmoving.de",
+    "items": [
+      {
+        "question": "What services does mmoving.de offer in Munich?",
+        "answer": "mmoving.de brings together three services for Munich and the surrounding area: moving (SuperUmzug), clearance and house clearances (SuperEntrümpelung), and renovation and refurbishment (BayReno). You can book each service on its own or all three as a full service with a single point of contact."
+      },
+      {
+        "question": "Which area do you cover?",
+        "answer": "Munich and roughly 50 km around it — including Dachau, Freising, Erding, Ebersberg, Starnberg, Fürstenfeldbruck, Germering, Unterschleißheim, Garching and Holzkirchen, plus the entire Munich district. Long-distance moves are handled Germany-wide."
+      },
+      {
+        "question": "What does a move with clearance in Munich cost?",
+        "answer": "It depends on volume, area and scope. Typical market rates are €700–2,800 for a move within Munich and €35–70 per square metre for a clearance. As a combined job you typically save 15 to 25 %. Your binding price follows a short survey."
+      },
+      {
+        "question": "What does the inspection service cost?",
+        "answer": "€290 as a flat fee. It covers a joint walkthrough of the property, a systematic condition assessment of every room, a realistic cost estimate for your target condition and a difficulty rating per item. It is bookable independently of any package."
+      },
+      {
+        "question": "What is the damage-free guarantee?",
+        "answer": "Our service promise on moves: if anything is damaged during the move, we reimburse its full value. We document the condition of valuable items before and after transport so any claim is reviewed quickly and fairly."
+      },
+      {
+        "question": "How quickly can I get an appointment?",
+        "answer": "Short-notice clearance dates are often available within a few days. For moves we recommend two to three weeks of lead time, or four to six weeks for month-end dates between June and September. The callback form lets you choose “as soon as possible”."
+      },
+      {
+        "question": "Do I get a fixed price or is it charged by the hour?",
+        "answer": "After the survey you receive a written fixed price, including travel, crew, materials and — for clearances — all disposal fees. We do not add charges on the day."
+      },
+      {
+        "question": "Do you work with property managers and corporate clients?",
+        "answer": "Yes. Referral partners such as estate agents and property managers receive a commission; corporate clients with recurring needs get fixed partner rates and priority scheduling. Details are on our B2B page."
+      }
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Umzug München mit Unbeschädigt-Garantie | Super Umzug",
-    "description": "Privat- und Firmenumzüge in München: Verpackung, Montage, Transport. Unbeschädigt-Garantie mit voller Werterstattung im Schadensfall. Jetzt Rückruf anfordern."
+    "title": "Umzug München — Umzugsunternehmen mit Garantie | mmoving.de",
+    "description": "Umzugsunternehmen für München und Umgebung: Privat- und Firmenumzüge, Verpackung, Montage, Transport. Unbeschädigt-Garantie mit voller Werterstattung."
   },
   "hero": {
     "eyebrow": "SuperUmzug",
@@ -68,27 +68,247 @@
     "finePrint": "Details, Ausschlüsse und Bedingungen der Unbeschädigt-Garantie: [PLATZHALTER RECHTLICHER TEXT/VERSICHERUNGSBEDINGUNGEN]."
   },
   "faq": {
-    "headline": "Häufige Fragen",
+    "headline": "Häufige Fragen zum Umzug in München",
     "items": [
       {
-        "question": "Was passiert, wenn beim Umzug etwas beschädigt wird?",
-        "answer": "Sie melden uns den Schaden mit Foto und kurzer Beschreibung. Da wir den Zustand vor und nach dem Umzug dokumentieren, ist die Prüfung schnell und fair — Sie erhalten den vollen Wert erstattet."
+        "question": "Was kostet ein Umzug in München?",
+        "answer": "Marktüblich 700 bis 1.400 € für eine 2-Zimmer-Wohnung innerhalb Münchens und 1.400 bis 2.800 € für vier Zimmer. Der Preis hängt von Volumen, Entfernung, Stockwerk und Zusatzleistungen ab. Nach einer kurzen Besichtigung erhalten Sie von uns einen verbindlichen Festpreis."
       },
       {
-        "question": "Wie weit im Voraus sollte ich meinen Umzug buchen?",
-        "answer": "Für Privatumzüge empfehlen wir 2–3 Wochen Vorlauf, für Firmenumzüge idealerweise 4–6 Wochen, damit wir außerhalb Ihrer Geschäftszeiten planen können. Kurzfristige Termine sind auf Anfrage möglich."
+        "question": "Wie früh sollte ich meinen Umzug buchen?",
+        "answer": "Für Privatumzüge empfehlen wir zwei bis drei Wochen Vorlauf, für Firmenumzüge vier bis sechs Wochen. Bei Umzügen zum Monatsende zwischen Juni und September sollten Sie vier bis sechs Wochen vorher anfragen, weil die Termine dann knapp sind."
+      },
+      {
+        "question": "Was passiert, wenn beim Umzug etwas beschädigt wird?",
+        "answer": "Sie melden uns den Schaden mit Foto und kurzer Beschreibung. Da wir den Zustand wertvoller Gegenstände vor und nach dem Umzug dokumentieren, ist die Prüfung schnell — Sie erhalten den vollen Wert erstattet. Das ist unsere Unbeschädigt-Garantie."
       },
       {
         "question": "Übernehmen Sie auch die Verpackung?",
-        "answer": "Ja, auf Wunsch verpacken wir Ihren gesamten Hausstand professionell — oder unterstützen punktuell bei empfindlichen Gegenständen."
-      },
-      {
-        "question": "Was kostet ein Umzug?",
-        "answer": "Der Preis hängt von Umfang, Distanz und Zusatzleistungen ab. Fragen Sie unseren Chat-Assistenten für eine erste Einschätzung oder fordern Sie einen Rückruf an."
+        "answer": "Ja. Auf Wunsch verpackt unser Team Ihren gesamten Hausstand professionell. Alternativ liefern wir nur das Material, und Sie packen selbst. Beachten Sie: Selbst gepackte Kartons sind bei Transportschäden meist eingeschränkt versichert."
       },
       {
         "question": "Sind meine Sachen während des Transports versichert?",
-        "answer": "Ja. Zusätzlich zur gesetzlichen Transportversicherung greift unsere Unbeschädigt-Garantie mit voller Werterstattung."
+        "answer": "Ja. Zusätzlich zur gesetzlichen Transportversicherung greift unsere Unbeschädigt-Garantie mit voller Werterstattung des beschädigten Gegenstands."
+      },
+      {
+        "question": "Beantragen Sie die Halteverbotszone?",
+        "answer": "Ja, für beide Adressen. In München braucht die Genehmigung je nach Stadtbezirk 7 bis 14 Tage Vorlauf — das ist die Frist, die am häufigsten unterschätzt wird. Die Gebühr liegt marktüblich bei 80 bis 150 € je Zone."
+      },
+      {
+        "question": "Ziehen Sie auch außerhalb von München um?",
+        "answer": "Ja. Wir arbeiten im gesamten Umkreis von rund 50 Kilometern um München, unter anderem in Dachau, Freising, Erding, Starnberg und Fürstenfeldbruck. Fernumzüge aus München heraus führen wir deutschlandweit durch."
+      },
+      {
+        "question": "Kann ich Umzug, Entrümpelung und Renovierung zusammen beauftragen?",
+        "answer": "Ja, das ist unser Komplettservice. Ein gemeinsamer Auftrag ist erfahrungsgemäß 15 bis 25 % günstiger als drei Einzelbeauftragungen, weil Anfahrt, Personal und Koordination nur einmal anfallen."
+      }
+    ]
+  },
+  "lead": "SuperUmzug ist das Umzugsunternehmen von mmoving.de für München und Umgebung. Wir übernehmen Privat- und Firmenumzüge vollständig — von der Planung über Verpackung, Möbelmontage und Transport bis zur besenreinen Übergabe der alten Wohnung. Als einziges Umzugsunternehmen im Raum München verbinden wir das mit einer Unbeschädigt-Garantie: Wird beim Umzug etwas beschädigt, erstatten wir den vollen Wert.",
+  "detail": {
+    "headline": "Umzug in München — so arbeiten wir",
+    "sections": [
+      {
+        "heading": "Privatumzüge",
+        "body": "Vom Einzimmerapartment bis zum Einfamilienhaus. Wir nehmen bei der Besichtigung das Volumen auf, kalkulieren Personal und Fahrzeug danach und nennen Ihnen einen Festpreis. Am Umzugstag arbeitet ein festes Team, das Sie vorher kennenlernen — keine wechselnden Subunternehmer."
+      },
+      {
+        "heading": "Firmenumzüge",
+        "body": "Büros, Praxen, Kanzleien und Lager ziehen wir außerhalb Ihrer Geschäftszeiten um, meist am Wochenende. Arbeitsplätze werden nummeriert demontiert und am neuen Standort in derselben Konfiguration wieder aufgebaut, damit der Betrieb am Montag weiterläuft. Aktenarchive transportieren wir verschlossen und nachvollziehbar."
+      },
+      {
+        "heading": "Verpackung und Möbelmontage",
+        "body": "Sie erhalten professionelles Verpackungsmaterial oder lassen komplett durch unser Team packen. Schränke, Betten, Küchen und Büromöbel werden fachgerecht demontiert, transportiert und am Zielort wieder aufgebaut — inklusive Anschluss von Waschmaschine und Geschirrspüler."
+      },
+      {
+        "heading": "Halteverbotszone, Möbellift und Einlagerung",
+        "body": "Die Halteverbotszone beantragen wir für beide Adressen; in München sind dafür je nach Stadtbezirk 7 bis 14 Tage Vorlauf nötig. Passen Möbel nicht durchs Treppenhaus, stellen wir einen Möbellift. Liegt zwischen Auszug und Einzug eine Lücke, lagern wir Ihr Umzugsgut trocken und gesichert ein."
+      },
+      {
+        "heading": "Was ein Umzug in München kostet",
+        "body": "Der Preis ergibt sich aus Volumen, Personal- und Zeitbedarf, Entfernung, Stockwerk und Zusatzleistungen. Marktüblich liegen Umzüge innerhalb Münchens bei 700 bis 1.400 € für eine 2-Zimmer-Wohnung und bei 1.400 bis 2.800 € für vier Zimmer. Verbindlich wird der Preis nach der Besichtigung — als Festpreis, ohne Nachforderungen. Eine ausführliche Aufschlüsselung finden Sie in unserem Ratgeber zu den Umzugskosten in München."
+      }
+    ]
+  },
+  "areas": {
+    "headline": "Einsatzgebiet: München und Umgebung",
+    "body": "Wir ziehen in München und im Umkreis von rund 50 Kilometern um — Stadtgebiet, Landkreis München und die umliegenden Landkreise. Fernumzüge aus München heraus führen wir deutschlandweit durch.",
+    "cities": [
+      "München",
+      "Dachau",
+      "Freising",
+      "Erding",
+      "Ebersberg",
+      "Starnberg",
+      "Fürstenfeldbruck",
+      "Germering",
+      "Unterschleißheim",
+      "Garching",
+      "Holzkirchen",
+      "Landkreis München"
+    ]
+  },
+  "crossLinks": {
+    "headline": "Passt zu Ihrem Umzug",
+    "items": [
+      {
+        "label": "Entrümpelung und Haushaltsauflösung",
+        "body": "Was nicht mit umzieht, entsorgen wir fachgerecht — im selben Auftrag und ohne zweite Anfahrt.",
+        "href": "/entruempelung"
+      },
+      {
+        "label": "Renovierung und Schönheitsreparaturen",
+        "body": "Malerarbeiten und Reparaturen in der alten oder neuen Wohnung, ausgeführt im leeren Raum.",
+        "href": "/renovierung"
+      },
+      {
+        "label": "Komplettservice aus einer Hand",
+        "body": "Umzug, Entrümpelung und Renovierung als ein Auftrag mit einer Reihenfolge und einem Festpreis.",
+        "href": "/komplettservice"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "Was ein Umzug in München kostet",
+    "intro": "Der Preis ergibt sich aus dem Umzugsvolumen in Kubikmetern, dem Personal- und Zeitbedarf, der Entfernung, dem Stockwerk und den gewählten Zusatzleistungen. Als Faustregel gilt: etwa 0,3 bis 0,5 m³ Umzugsgut pro Quadratmeter Wohnfläche.",
+    "columns": [
+      "Wohnung",
+      "Volumen",
+      "Team",
+      "Marktüblich"
+    ],
+    "rows": [
+      [
+        "1 Zimmer, 30–40 m²",
+        "12–18 m³",
+        "2 Personen",
+        "450 – 850 €"
+      ],
+      [
+        "2 Zimmer, 55–70 m²",
+        "20–30 m³",
+        "2–3 Personen",
+        "700 – 1.400 €"
+      ],
+      [
+        "3 Zimmer, 75–95 m²",
+        "30–40 m³",
+        "3–4 Personen",
+        "1.100 – 2.000 €"
+      ],
+      [
+        "4 Zimmer, 100–120 m²",
+        "40–55 m³",
+        "4 Personen",
+        "1.400 – 2.800 €"
+      ],
+      [
+        "Haus, 140–200 m²",
+        "60–90 m³",
+        "4–6 Personen",
+        "2.400 – 4.500 €"
+      ]
+    ],
+    "extras": [
+      "Verpackungsmaterial: 80 – 250 €",
+      "Vollverpackung durch das Team: 300 – 900 €",
+      "Möbeldemontage und -montage: 200 – 600 €",
+      "Küchenab- und -aufbau: 400 – 1.200 €",
+      "Halteverbotszone je Adresse: 80 – 150 €",
+      "Möbellift: 250 – 500 € pro Tag",
+      "Einlagerung: 60 – 150 € pro m³ und Monat"
+    ],
+    "note": "Alle Angaben sind marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+  },
+  "situations": {
+    "headline": "Typische Situationen, in denen wir umziehen",
+    "items": [
+      {
+        "title": "Wohnungswechsel innerhalb Münchens",
+        "body": "Der häufigste Fall: neue Wohnung im Stadtgebiet, Übergabe der alten am Monatsende. Wir legen Umzug, Entrümpelung und gegebenenfalls Schönheitsreparaturen so, dass der Übergabetermin sicher steht."
+      },
+      {
+        "title": "Umzug ins Umland",
+        "body": "Von München nach Dachau, Starnberg oder Erding — und umgekehrt. Die Entfernung fällt bis etwa 50 Kilometer kaum ins Gewicht, entscheidend bleibt das Volumen."
+      },
+      {
+        "title": "Umzug mit Zwischenlagerung",
+        "body": "Wenn zwischen Auszug und Einzug Wochen liegen, lagern wir Ihr Umzugsgut trocken und gesichert ein und liefern zum Wunschtermin nach."
+      },
+      {
+        "title": "Firmenumzug am Wochenende",
+        "body": "Büros, Praxen und Kanzleien ziehen wir außerhalb der Geschäftszeiten um. Arbeitsplätze werden nummeriert demontiert und identisch wieder aufgebaut."
+      },
+      {
+        "title": "Seniorenumzug",
+        "body": "Umzug in eine kleinere Wohnung oder ins Betreute Wohnen, meist verbunden mit einer Haushaltsauflösung. Wir gehen in Ruhe vor und stimmen jeden Schritt mit den Angehörigen ab."
+      },
+      {
+        "title": "Umzug nach Trennung oder Erbfall",
+        "body": "Wenn Hausrat aufgeteilt werden muss, transportieren wir an mehrere Zieladressen und entsorgen den Rest — in einem Auftrag."
+      }
+    ]
+  },
+  "entity": {
+    "headline": "Über mmoving.de",
+    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, SuperEntrümpelung für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
+    "facts": [
+      {
+        "label": "Unternehmen",
+        "value": "mmoving.de"
+      },
+      {
+        "label": "Marken",
+        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+      },
+      {
+        "label": "Standort",
+        "value": "München, Bayern"
+      },
+      {
+        "label": "Einsatzgebiet",
+        "value": "München und Umgebung, rund 50 km Umkreis"
+      },
+      {
+        "label": "Leistungen",
+        "value": "Umzug, Entrümpelung, Renovierung — einzeln oder kombiniert"
+      },
+      {
+        "label": "Besonderheit",
+        "value": "Unbeschädigt-Garantie mit voller Werterstattung bei Umzügen"
+      },
+      {
+        "label": "Preisbildung",
+        "value": "Festpreis nach Besichtigung; Besichtigungsservice zum Festpreis von 290 €"
+      },
+      {
+        "label": "Sprachen",
+        "value": "Deutsch, Englisch"
+      }
+    ]
+  },
+  "process": {
+    "headline": "So läuft Ihr Umzug ab",
+    "steps": [
+      {
+        "title": "Anfrage und Besichtigung",
+        "body": "Sie fordern einen Rückruf an, wir sehen uns die Wohnung vor Ort oder per Video an und nehmen das Volumen auf. Keller, Dachboden und Garage werden dabei ausdrücklich mit erfasst."
+      },
+      {
+        "title": "Festpreisangebot",
+        "body": "Sie erhalten ein schriftliches Angebot mit Leistungsumfang, Personal, Termin und Festpreis — ohne Nachforderungen am Umzugstag."
+      },
+      {
+        "title": "Vorbereitung",
+        "body": "Wir beantragen die Halteverbotszonen für beide Adressen, liefern auf Wunsch Verpackungsmaterial und stimmen den Ablauf mit Hausverwaltung oder Nachbarn ab."
+      },
+      {
+        "title": "Umzugstag",
+        "body": "Das Team dokumentiert den Zustand wertvoller und empfindlicher Gegenstände, demontiert, verlädt gesichert, transportiert und baut am Zielort wieder auf."
+      },
+      {
+        "title": "Übergabe und Garantie",
+        "body": "Wir prüfen den Zustand gemeinsam mit Ihnen am Zielort. Sollte doch etwas beschädigt sein, melden Sie es mit Foto — Sie erhalten den vollen Wert erstattet."
       }
     ]
   }

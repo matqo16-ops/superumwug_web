@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "BayReno — Renovierung & Sanierung in München | Bayerische Renovierung",
-    "description": "BayReno: Renovierung, Sanierung, Maler- und Bodenarbeiten in München und Umgebung. Termintreu, sauber, aus einer Hand — kombinierbar mit Umzug und Entrümpelung."
+    "title": "Renovierung München — Sanierung & Malerarbeiten | mmoving.de",
+    "description": "Renovierung und Sanierung in München: Malerarbeiten, Böden, Bad, Küche, Komplettsanierung. Feste Termine, saubere Baustelle, Festpreis nach Besichtigung."
   },
   "hero": {
     "eyebrow": "BayReno — Bayerische Renovierung",
@@ -14,28 +14,28 @@
     "headline": "Leistungen",
     "items": [
       {
-        "title": "Maler- & Tapezierarbeiten",
-        "body": "Wände und Decken streichen, tapezieren, spachteln — sauber abgeklebt, staubarm gearbeitet."
+        "title": "Malerarbeiten und Tapezieren",
+        "body": "Wände und Decken streichen, Altanstriche und Tapeten entfernen, Untergründe spachteln und grundieren, Heizkörper und Innentüren lackieren. In leeren Räumen arbeiten wir 15 bis 30 % günstiger, weil Abdecken, Möbelrücken und Zwischenreinigung entfallen."
       },
       {
-        "title": "Böden",
-        "body": "Laminat, Vinyl, Parkett und Fliesen: verlegen, abschleifen oder ersetzen."
+        "title": "Bodenbeläge",
+        "body": "Laminat, Vinyl, Designboden, Parkett und Fliesen — inklusive Rückbau und Entsorgung des Altbelags, Untergrundvorbereitung, Verlegung und Sockelleisten. Vorhandenes Parkett schleifen und versiegeln wir, wo ein Austausch nicht nötig ist."
       },
       {
-        "title": "Bad & Sanitär",
-        "body": "Von der Erneuerung einzelner Objekte bis zum kompletten Badumbau."
+        "title": "Bad und Sanitär",
+        "body": "Von der Teilmodernisierung mit neuen Armaturen, Duschabtrennung und Fliesenspiegel bis zur Komplettsanierung mit Rückbau, Abdichtung, Fliesenarbeiten und neuen Sanitärobjekten. Bodengleiche Duschen und barrierearme Umbauten führen wir ebenfalls aus."
       },
       {
-        "title": "Küche",
-        "body": "Aufbau, Umbau und Anschluss — inklusive Anpassung an vorhandene Anschlüsse."
+        "title": "Küche und Trockenbau",
+        "body": "Küchenmontage, -umbau und -demontage inklusive Anschluss von Spüle, Geschirrspüler und Herd. Trockenbau für Raumteiler, abgehängte Decken, Vorwandinstallationen und Dachschrägen — inklusive Spachteln und Schleifen bis zur Malerqualität."
       },
       {
-        "title": "Trockenbau & Elektrik",
-        "body": "Wände ziehen, Decken abhängen, Leitungen und Beleuchtung erneuern durch Fachpartner."
+        "title": "Elektrik und Fachpartner",
+        "body": "Elektro- und Gasarbeiten führen wir über zertifizierte Fachpartner aus, die wir koordinieren und terminlich einbinden. Sie behalten trotzdem einen einzigen Ansprechpartner für das gesamte Projekt."
       },
       {
-        "title": "Komplettsanierung",
-        "body": "Alle Gewerke koordiniert: ein Zeitplan, ein Ansprechpartner, ein Abnahmetermin."
+        "title": "Komplettsanierung mit Terminplan",
+        "body": "Bei Vollsanierungen übernehmen wir die Reihenfolge aller Gewerke: Rückbau, Elektrik und Sanitär, Trockenbau, Malerarbeiten, Bodenbelag, Küche, Endreinigung. Ein Ansprechpartner hält den Terminplan — statt dass mehrere Firmen aufeinander warten."
       }
     ]
   },
@@ -70,27 +70,226 @@
     "cta": "Kombinierte Pakete ansehen"
   },
   "faq": {
-    "headline": "Häufige Fragen",
+    "headline": "Häufige Fragen zur Renovierung in München",
     "items": [
       {
-        "question": "Was kostet eine Renovierung?",
-        "answer": "Der Preis hängt von Fläche, Zustand und gewünschtem Standard ab. Nach einer kurzen Besichtigung erhalten Sie ein festes Angebot — fragen Sie gern auch unseren Chat-Assistenten oder fordern Sie einen Rückruf an."
+        "question": "Was kostet eine Renovierung einer Wohnung in München?",
+        "answer": "Marktüblich 250 bis 600 € pro Quadratmeter Wohnfläche für eine Komplettrenovierung ohne Bad. Einzelne Gewerke: Malerarbeiten 12 bis 25 € pro Quadratmeter Wandfläche, Laminat 35 bis 55 € und Parkett 70 bis 130 € pro Quadratmeter inklusive Verlegung. Verbindlich wird der Preis nach Besichtigung."
       },
       {
-        "question": "Wie lange dauert eine Renovierung?",
-        "answer": "Eine Schönheitsreparatur ist oft in wenigen Tagen erledigt, eine Komplettsanierung dauert je nach Umfang mehrere Wochen. Den verbindlichen Zeitrahmen nennen wir Ihnen im Angebot."
+        "question": "Wie lange dauert eine Sanierung?",
+        "answer": "Malerarbeiten in einer 3-Zimmer-Wohnung dauern zwei bis vier Tage, ein Bodenwechsel drei bis fünf Tage, eine Badsanierung zwei bis drei Wochen. Für eine komplette Wohnungssanierung sollten Sie zwei bis sechs Wochen einplanen, abhängig von Umfang und Lieferzeiten."
       },
       {
-        "question": "Kann ich während der Arbeiten in der Wohnung bleiben?",
-        "answer": "Bei einzelnen Gewerken ja. Bei einer Komplettsanierung empfehlen wir den Auszug — oder wir arbeiten raumweise, damit Sie wohnen bleiben können."
+        "question": "In welcher Reihenfolge wird renoviert?",
+        "answer": "Zuerst Rückbau und Entrümpelung, dann Elektrik und Sanitär, danach Trockenbau und Verputzen, anschließend Malerarbeiten und zuletzt der Bodenbelag. Wer den Boden zuerst legt, beschädigt ihn bei allen folgenden Gewerken."
       },
       {
-        "question": "Übernehmen Sie auch kleine Aufträge?",
-        "answer": "Ja. Auch einzelne Räume, Ausbesserungen oder Schönheitsreparaturen vor der Wohnungsübergabe führen wir aus."
+        "question": "Ist eine Renovierung in der leeren Wohnung günstiger?",
+        "answer": "Ja, erfahrungsgemäß 15 bis 30 %. In leeren Räumen entfallen Abdecken, Möbelrücken und Zwischenreinigung, und die Gewerke arbeiten in einem Durchgang statt raumweise."
       },
       {
-        "question": "Arbeiten Sie auch für Hausverwaltungen und Vermieter?",
-        "answer": "Ja, das ist einer unserer Schwerpunkte. Für wiederkehrende Aufträge bieten wir feste Partnerkonditionen und bevorzugte Terminplanung — siehe B2B & Partner."
+        "question": "Muss ich beim Auszug renovieren?",
+        "answer": "Nur wenn eine wirksame Klausel im Mietvertrag steht und die Wohnung Ihnen renoviert übergeben wurde. Starre Fristenpläne sind laut BGH unwirksam. Wurde die Wohnung unrenoviert übergeben, entfällt die Pflicht zu Schönheitsreparaturen in der Regel vollständig."
+      },
+      {
+        "question": "Kann ich während der Renovierung in der Wohnung wohnen?",
+        "answer": "Technisch ja, praktisch selten sinnvoll. Staub, Gerüche und gesperrte Räume machen das Wohnen unangenehm, und die Arbeiten dauern deutlich länger. Bei Boden- oder Badarbeiten ist ein Auszug meist unumgänglich."
+      },
+      {
+        "question": "Übernehmen Sie auch einzelne Gewerke?",
+        "answer": "Ja. Sie können nur die Malerarbeiten, nur den Boden oder nur das Bad beauftragen. Bei mehreren Gewerken übernehmen wir zusätzlich die Koordination und den Terminplan."
+      },
+      {
+        "question": "Renovieren Sie auch für Vermieter und Hausverwaltungen?",
+        "answer": "Ja. Für wiederkehrende Aufträge bieten wir feste Partnerkonditionen und bevorzugte Terminplanung, damit Einheiten nach einem Mieterwechsel schnell wieder vermietbar sind. Details finden Sie auf unserer B2B-Seite."
+      }
+    ]
+  },
+  "lead": "BayReno ist die Renovierungsmarke von mmoving.de für München und Umgebung. Wir übernehmen Malerarbeiten, Bodenbeläge, Bad- und Küchenumbauten bis zur Komplettsanierung — als einzelnes Gewerk oder mit allen Gewerken koordiniert. Marktüblich liegen Malerarbeiten bei 12 bis 25 € pro Quadratmeter Wandfläche, eine Komplettrenovierung ohne Bad bei 250 bis 600 € pro Quadratmeter Wohnfläche.",
+  "detail": {
+    "headline": "Renovierung und Sanierung in München",
+    "sections": [
+      {
+        "heading": "Malerarbeiten und Tapezieren",
+        "body": "Wände und Decken streichen, Tapeten entfernen und neu anbringen, Heizkörper und Innentüren lackieren. In leeren Räumen arbeiten wir 15 bis 30 % günstiger als in möblierten, weil Abdecken, Möbelrücken und Zwischenreinigung entfallen."
+      },
+      {
+        "heading": "Bodenbeläge",
+        "body": "Laminat, Vinyl, Designboden, Parkett und Fliesen — inklusive Rückbau des Altbelags, Untergrundvorbereitung, Verlegung und Sockelleisten. Parkett schleifen und versiegeln wir auch dort, wo ein Austausch nicht nötig ist."
+      },
+      {
+        "heading": "Bad und Sanitär",
+        "body": "Von der Teilmodernisierung — neue Armaturen, Duschabtrennung, Fliesenspiegel — bis zur Komplettsanierung mit Rückbau, Abdichtung, Fliesenarbeiten und neuen Sanitärobjekten. Eine Badsanierung dauert je nach Umfang zwei bis drei Wochen."
+      },
+      {
+        "heading": "Küche und Trockenbau",
+        "body": "Küchenmontage, -umbau und -demontage inklusive Anschluss der Geräte. Trockenbau für Raumteiler, abgehängte Decken und Vorwandinstallationen. Elektroarbeiten führen wir über zertifizierte Fachpartner aus."
+      },
+      {
+        "heading": "Komplettsanierung mit koordinierten Gewerken",
+        "body": "Bei einer Vollsanierung übernehmen wir die Reihenfolge: Rückbau, Elektrik und Sanitär, Trockenbau und Verputzen, Malerarbeiten, Bodenbelag, dann Küche und Endreinigung. Ein Ansprechpartner hält den Terminplan — statt dass sich mehrere Firmen gegenseitig blockieren."
+      },
+      {
+        "heading": "Schönheitsreparaturen beim Auszug",
+        "body": "Wenn Ihr Mietvertrag Schönheitsreparaturen wirksam verlangt, führen wir sie fachgerecht und rechtzeitig zum Übergabetermin aus. Wichtig: Viele Renovierungsklauseln in älteren Mietverträgen sind unwirksam — prüfen Sie das, bevor Sie beauftragen."
+      }
+    ]
+  },
+  "areas": {
+    "headline": "Einsatzgebiet: München und Umgebung",
+    "body": "Wir renovieren in München und im Umkreis von rund 50 Kilometern — im Stadtgebiet, im Landkreis München und in den umliegenden Landkreisen.",
+    "cities": [
+      "München",
+      "Dachau",
+      "Freising",
+      "Erding",
+      "Ebersberg",
+      "Starnberg",
+      "Fürstenfeldbruck",
+      "Germering",
+      "Unterschleißheim",
+      "Garching",
+      "Holzkirchen",
+      "Landkreis München"
+    ]
+  },
+  "crossLinks": {
+    "headline": "Passt zu Ihrer Renovierung",
+    "items": [
+      {
+        "label": "Entrümpelung vor der Renovierung",
+        "body": "Leere Räume sind die Voraussetzung für schnelles und günstiges Arbeiten.",
+        "href": "/entruempelung"
+      },
+      {
+        "label": "Umzug mit Unbeschädigt-Garantie",
+        "body": "Erst raus, dann renovieren — wir stimmen beide Termine aufeinander ab.",
+        "href": "/umzug"
+      },
+      {
+        "label": "Komplettservice aus einer Hand",
+        "body": "Renovierung, Umzug und Entrümpelung als ein Auftrag mit einer Reihenfolge.",
+        "href": "/komplettservice"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "Was eine Renovierung in München kostet",
+    "intro": "Renovierungen werden nach Gewerk und Fläche kalkuliert. Entscheidend ist außerdem, ob in leeren oder möblierten Räumen gearbeitet wird — der Unterschied beträgt erfahrungsgemäß 15 bis 30 %.",
+    "columns": [
+      "Leistung",
+      "Marktüblich"
+    ],
+    "rows": [
+      [
+        "Malerarbeiten (Wand, gestrichen)",
+        "12 – 25 € / m² Wandfläche"
+      ],
+      [
+        "Tapezieren inkl. Material",
+        "18 – 35 € / m²"
+      ],
+      [
+        "Laminat verlegen",
+        "35 – 55 € / m²"
+      ],
+      [
+        "Vinyl / Designboden",
+        "45 – 75 € / m²"
+      ],
+      [
+        "Parkett verlegen und versiegeln",
+        "70 – 130 € / m²"
+      ],
+      [
+        "Fliesen legen",
+        "60 – 110 € / m²"
+      ],
+      [
+        "Badsanierung komplett (4–6 m²)",
+        "9.000 – 22.000 €"
+      ],
+      [
+        "Küchenmontage",
+        "400 – 1.200 €"
+      ],
+      [
+        "Komplettrenovierung Wohnung (ohne Bad)",
+        "250 – 600 € / m² Wohnfläche"
+      ]
+    ],
+    "extras": [
+      "Arbeiten in leeren Räumen: 15–30 % günstiger",
+      "Rückbau und Entsorgung des Altbelags: gesondert",
+      "Elektro- und Sanitärarbeiten über zertifizierte Fachpartner"
+    ],
+    "note": "Alle Angaben sind marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+  },
+  "situations": {
+    "headline": "Typische Renovierungsanlässe",
+    "items": [
+      {
+        "title": "Renovierung vor dem Einzug",
+        "body": "Der günstigste Zeitpunkt: leere Räume, alle Gewerke in einem Durchgang, und Sie ziehen nur einmal um."
+      },
+      {
+        "title": "Schönheitsreparaturen beim Auszug",
+        "body": "Wenn der Mietvertrag sie wirksam verlangt — fachgerecht ausgeführt und rechtzeitig zum Übergabetermin fertig."
+      },
+      {
+        "title": "Altbau nach dem Kauf",
+        "body": "Vom Rückbau über Elektrik und Sanitär bis zu Böden und Malerarbeiten, mit koordinierten Gewerken und einem Terminplan."
+      },
+      {
+        "title": "Bad- oder Küchenmodernisierung",
+        "body": "Als einzelnes Gewerk in bewohnter Wohnung oder als Teil einer Komplettsanierung."
+      },
+      {
+        "title": "Vermietungsfertig machen nach Mieterwechsel",
+        "body": "Schäden beheben, streichen, Böden instand setzen — kurze Leerstandszeiten sind hier der eigentliche Kostenfaktor."
+      },
+      {
+        "title": "Barrierearmer Umbau",
+        "body": "Bodengleiche Dusche, Schwellenabbau, Haltegriffe — häufig im Zusammenhang mit einem Seniorenumzug."
+      }
+    ]
+  },
+  "entity": {
+    "headline": "Über mmoving.de",
+    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, SuperEntrümpelung für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
+    "facts": [
+      {
+        "label": "Unternehmen",
+        "value": "mmoving.de"
+      },
+      {
+        "label": "Marken",
+        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+      },
+      {
+        "label": "Standort",
+        "value": "München, Bayern"
+      },
+      {
+        "label": "Einsatzgebiet",
+        "value": "München und Umgebung, rund 50 km Umkreis"
+      },
+      {
+        "label": "Leistungen",
+        "value": "Umzug, Entrümpelung, Renovierung — einzeln oder kombiniert"
+      },
+      {
+        "label": "Besonderheit",
+        "value": "Unbeschädigt-Garantie mit voller Werterstattung bei Umzügen"
+      },
+      {
+        "label": "Preisbildung",
+        "value": "Festpreis nach Besichtigung; Besichtigungsservice zum Festpreis von 290 €"
+      },
+      {
+        "label": "Sprachen",
+        "value": "Deutsch, Englisch"
       }
     ]
   }

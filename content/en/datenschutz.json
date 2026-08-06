@@ -65,6 +65,14 @@
       ]
     },
     {
+      "heading": "6a. Google Maps (two-click solution)",
+      "paragraphs": [
+        "On the contact page we offer a map of our service area via Google Maps (Google Ireland Limited, Ireland). The map is deliberately not loaded automatically: at first you only see a locally stored graphic. A connection to Google is established only once you actively click “Load Google Maps”.",
+        "With that click, your IP address and further connection data may be transmitted to and processed by Google, potentially also in the USA. The legal basis is your consent under Art. 6(1)(a) GDPR, given by clicking the button. You can withdraw it at any time by reloading the page and not activating the map again.",
+        "Further information is available in Google's privacy policy: https://policies.google.com/privacy"
+      ]
+    },
+    {
       "heading": "7. Your rights",
       "paragraphs": [
         "You have the right to access, rectification, erasure, restriction of processing, data portability, and objection to the processing of your personal data (Art. 15–21 GDPR).",
@@ -79,7 +87,9 @@
     },
     {
       "heading": "Last updated",
-      "paragraphs": ["[DATE OF LAST UPDATE]"]
+      "paragraphs": [
+        "[DATE OF LAST UPDATE]"
+      ]
     }
   ]
 }

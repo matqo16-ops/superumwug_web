@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { getCommon, getSiteData, getUmzug } from "@/lib/content";
+import { absoluteUrl, serviceSchema } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
 import { btnOutlineOnDark, btnPrimary } from "@/lib/styles";
 import { CallbackButton } from "@/components/CallbackButton";
@@ -11,6 +12,16 @@ import { Hero } from "@/components/Hero";
 import { JsonLd } from "@/components/JsonLd";
 import { PlaceholderImage } from "@/components/PlaceholderImage";
 import { Section, SectionHeading } from "@/components/Section";
+import {
+  AreasServed,
+  CrossLinks,
+  EntityFacts,
+  PricingTable,
+  ServiceDetail,
+  ServiceLead,
+  Situations,
+} from "@/components/ServiceSections";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 interface Props {
   params: Promise<{ locale: Locale }>;
@@ -28,19 +39,17 @@ export default async function UmzugPage({ params }: Props) {
   const common = getCommon(locale);
   const site = getSiteData();
 
-  const serviceJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    serviceType: "Umzug München",
-    provider: {
-      "@type": "MovingCompany",
-      name: "Super Umzug",
-      telephone: site.organization.phone,
-    },
-    areaServed: { "@type": "City", name: "München" },
-    description:
-      "Private und gewerbliche Umzüge in München mit Unbeschädigt-Garantie und voller Werterstattung im Schadensfall.",
-  };
+  const serviceJsonLd = serviceSchema({
+    locale,
+    href: "/umzug",
+    serviceType: locale === "de" ? "Umzug München" : "Moving Munich",
+    name: content.meta.title,
+    description: content.lead,
+    offers: content.services.items.map((item) => ({
+      name: item.title,
+      description: item.body,
+    })),
+  });
 
   return (
     <>
@@ -61,9 +70,27 @@ export default async function UmzugPage({ params }: Props) {
         }
       />
 
+      <Breadcrumbs
+        label={locale === "de" ? "Breadcrumb" : "Breadcrumb"}
+        items={[
+          {
+            label: locale === "de" ? "Startseite" : "Home",
+            href: "/",
+            url: absoluteUrl(locale, "/"),
+          },
+          {
+            label: locale === "de" ? "Umzug" : "Moving",
+            url: absoluteUrl(locale, "/umzug"),
+          },
+        ]}
+      />
+
       {/* Services */}
       <Section variant="cream">
         <SectionHeading>{content.services.headline}</SectionHeading>
+        <div className="mt-4">
+          <ServiceLead text={content.lead} />
+        </div>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {content.services.items.map((item) => (
             <div
@@ -137,11 +164,50 @@ export default async function UmzugPage({ params }: Props) {
         </p>
       </Section>
 
+      <ServiceDetail content={content.detail} />
+
+      {/* Process */}
+      <Section variant="cream">
+        <SectionHeading>{content.process.headline}</SectionHeading>
+        <ol className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {content.process.steps.map((step, index) => (
+            <li
+              key={step.title}
+              className="rounded-xl border border-hairline bg-white p-6 shadow-card"
+            >
+              <span
+                aria-hidden="true"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-navy font-display text-sm font-semibold text-gold"
+              >
+                {index + 1}
+              </span>
+              <h3 className="mt-3 font-display text-lg font-semibold text-navy">
+                {step.title}
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-anthracite/85">
+                {step.body}
+              </p>
+            </li>
+          ))}
+        </ol>
+      </Section>
+
+      <PricingTable content={content.pricing} />
+      <Situations content={content.situations} />
+      <AreasServed content={content.areas} />
+
       <ChatCta content={common.chatCta} />
 
       <Section variant="cream">
-        <Faq headline={content.faq.headline} items={content.faq.items} />
+        <Faq
+          headline={content.faq.headline}
+          items={content.faq.items}
+          pageUrl={absoluteUrl(locale, "/umzug")}
+        />
       </Section>
+
+      <EntityFacts content={content.entity} />
+      <CrossLinks content={content.crossLinks} />
     </>
   );
 }

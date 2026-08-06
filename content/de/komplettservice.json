@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Leistungspakete: Umzug, Entrümpelung, Renovierung | Super Umzug",
-    "description": "Drei kombinierte Pakete für Privatumzug, Firmenumzug sowie Vermieter und Hausverwaltungen. Umzug mit Renovierung aus einer Hand in München."
+    "title": "Komplettservice München: Umzug, Entrümpelung, Renovierung",
+    "description": "Umzug, Entrümpelung und Renovierung aus einer Hand in München. Ein Ansprechpartner, ein Terminplan, ein Festpreis — 15 bis 25 % günstiger als einzeln."
   },
   "hero": {
     "eyebrow": "Pakete",
@@ -125,5 +125,183 @@
     "priceNote": "inkl. Vor-Ort-Termin, Zustandsaufnahme und schriftlicher Kosteneinschätzung",
     "orderCta": "Jetzt telefonisch beauftragen",
     "askCta": "Mehr erfahren — Assistent fragen"
+  },
+  "entity": {
+    "headline": "Über mmoving.de",
+    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, SuperEntrümpelung für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
+    "facts": [
+      {
+        "label": "Unternehmen",
+        "value": "mmoving.de"
+      },
+      {
+        "label": "Marken",
+        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+      },
+      {
+        "label": "Standort",
+        "value": "München, Bayern"
+      },
+      {
+        "label": "Einsatzgebiet",
+        "value": "München und Umgebung, rund 50 km Umkreis"
+      },
+      {
+        "label": "Leistungen",
+        "value": "Umzug, Entrümpelung, Renovierung — einzeln oder kombiniert"
+      },
+      {
+        "label": "Besonderheit",
+        "value": "Unbeschädigt-Garantie mit voller Werterstattung bei Umzügen"
+      },
+      {
+        "label": "Preisbildung",
+        "value": "Festpreis nach Besichtigung; Besichtigungsservice zum Festpreis von 290 €"
+      },
+      {
+        "label": "Sprachen",
+        "value": "Deutsch, Englisch"
+      }
+    ]
+  },
+  "lead": "Der Komplettservice von mmoving.de verbindet Umzug, Entrümpelung und Renovierung zu einem Auftrag mit einer festgelegten Reihenfolge, einem Ansprechpartner und einem Festpreis. Wer die drei Gewerke gemeinsam beauftragt, spart erfahrungsgemäß 15 bis 25 % gegenüber drei Einzelaufträgen, weil Anfahrt, Personal, Container und Koordination nur einmal anfallen.",
+  "sequence": {
+    "headline": "Die Reihenfolge, die funktioniert",
+    "intro": "Jedes Gewerk baut auf dem vorherigen auf. Wer die Reihenfolge umdreht, zahlt doppelt — etwa wenn ein frisch verlegter Boden beim Ausräumen beschädigt wird.",
+    "steps": [
+      {
+        "title": "1. Umzug",
+        "body": "Zuerst geht das Umzugsgut in die neue Wohnung. So entscheiden Sie beim Einräumen, was wirklich bleibt — und was doch keinen Platz findet."
+      },
+      {
+        "title": "2. Entrümpelung",
+        "body": "Danach räumen wir die alte Wohnung vollständig, inklusive der Möbel, die in der neuen Wohnung keinen Platz gefunden haben. Getrennt nach Wertstoffen, mit Entsorgungsnachweis."
+      },
+      {
+        "title": "3. Renovierung",
+        "body": "In den leeren Räumen folgen Malerarbeiten, Bodenbeläge und Reparaturen. Leere Räume sind 15 bis 30 % günstiger als möblierte, weil Abdecken und Möbelrücken entfallen."
+      },
+      {
+        "title": "4. Übergabe",
+        "body": "Endreinigung, gemeinsame Begehung mit dem Vermieter und ein dokumentiertes Übergabeprotokoll — damit die Kaution vollständig zurückkommt."
+      }
+    ]
+  },
+  "savings": {
+    "headline": "Was Sie durch die Bündelung sparen",
+    "intro": "Das folgende Beispiel zeigt eine 3-Zimmer-Wohnung in München mit Umzug innerhalb der Stadt, anschließender Entrümpelung und Schönheitsreparaturen.",
+    "columns": [
+      "Position",
+      "Einzeln beauftragt",
+      "Als ein Auftrag"
+    ],
+    "rows": [
+      [
+        "Umzug (3–4 Personen, 1 Tag)",
+        "1.400 €",
+        "im Paket"
+      ],
+      [
+        "Entrümpelung (eigener Termin)",
+        "2.400 €",
+        "im Paket"
+      ],
+      [
+        "Halteverbotszonen",
+        "330 €",
+        "230 €"
+      ],
+      [
+        "Anfahrt und Rüstzeit",
+        "3 ×",
+        "1 ×"
+      ],
+      [
+        "Koordination",
+        "3 Ansprechpartner",
+        "1 Ansprechpartner"
+      ],
+      [
+        "Gesamt (marktüblich)",
+        "4.130 €",
+        "3.430 €"
+      ]
+    ],
+    "note": "Marktübliche Orientierungswerte für München, keine Angebote. Ihr verbindlicher Festpreis entsteht nach einer Besichtigung beider Wohnungen."
+  },
+  "areas": {
+    "headline": "Einsatzgebiet: München und Umgebung",
+    "body": "Wir übernehmen Komplettaufträge in München und im Umkreis von rund 50 Kilometern — im Stadtgebiet, im Landkreis München und in den umliegenden Landkreisen.",
+    "cities": [
+      "München",
+      "Dachau",
+      "Freising",
+      "Erding",
+      "Ebersberg",
+      "Starnberg",
+      "Fürstenfeldbruck",
+      "Germering",
+      "Unterschleißheim",
+      "Garching",
+      "Holzkirchen",
+      "Landkreis München"
+    ]
+  },
+  "crossLinks": {
+    "headline": "Die Einzelleistungen im Detail",
+    "items": [
+      {
+        "label": "Umzug München",
+        "body": "Privat- und Firmenumzüge mit Unbeschädigt-Garantie und voller Werterstattung.",
+        "href": "/umzug"
+      },
+      {
+        "label": "Entrümpelung München",
+        "body": "Wohnungen, Häuser, Keller und Büros — fachgerecht entsorgt, besenrein übergeben.",
+        "href": "/entruempelung"
+      },
+      {
+        "label": "Renovierung München",
+        "body": "Malerarbeiten, Böden, Bad und Küche bis zur Komplettsanierung.",
+        "href": "/renovierung"
+      }
+    ]
+  },
+  "faq": {
+    "headline": "Häufige Fragen zum Komplettservice",
+    "items": [
+      {
+        "question": "Kann ich Umzug, Entrümpelung und Renovierung kombinieren?",
+        "answer": "Ja, genau dafür ist der Komplettservice gemacht. Alle drei Gewerke laufen als ein Auftrag mit einer festgelegten Reihenfolge, einem Ansprechpartner und einem Festpreis — statt drei Firmen, die aufeinander warten."
+      },
+      {
+        "question": "Wie viel spare ich mit einem Komplettauftrag?",
+        "answer": "Erfahrungsgemäß 15 bis 25 % gegenüber drei Einzelbeauftragungen. Bei einer 3-Zimmer-Wohnung in München sind das schnell 700 € und mehr, weil Anfahrt, Rüstzeit, Halteverbotszonen und Koordination nur einmal anfallen."
+      },
+      {
+        "question": "In welcher Reihenfolge werden die Leistungen ausgeführt?",
+        "answer": "Zuerst der Umzug, dann die Entrümpelung der alten Wohnung, danach die Renovierung in den leeren Räumen und zuletzt Endreinigung und Übergabe. Diese Reihenfolge ist die günstigste, weil in leeren Räumen 15 bis 30 % günstiger gearbeitet wird."
+      },
+      {
+        "question": "Wie lange dauert ein Komplettauftrag?",
+        "answer": "Bei einer 3-Zimmer-Wohnung rechnen Sie mit ein bis zwei Tagen für Umzug und Entrümpelung und zusätzlich einer bis drei Wochen für die Renovierung, abhängig vom Umfang. Den Gesamtterminplan legen wir nach der Besichtigung fest."
+      },
+      {
+        "question": "Bekomme ich einen Festpreis für alle drei Leistungen?",
+        "answer": "Ja. Nach einer Besichtigung beider Wohnungen erhalten Sie ein schriftliches Angebot mit einem Gesamtfestpreis und einer Aufschlüsselung nach Gewerken — ohne Nachforderungen."
+      },
+      {
+        "question": "Was passiert, wenn sich ein Gewerk verzögert?",
+        "answer": "Wir verschieben den Zeitplan intern. Genau das ist der Vorteil gegenüber drei getrennten Firmen: Es gibt keine Wartezeiten, die Ihnen berechnet werden, und keine Schuldzuweisungen zwischen Anbietern."
+      },
+      {
+        "question": "Kann ich auch nur zwei der drei Leistungen buchen?",
+        "answer": "Ja. Die häufigste Kombination ist Umzug plus Entrümpelung. Auch Entrümpelung plus Renovierung — typisch für Vermieter nach einem Mieterwechsel — ist ein eigenständiges Paket."
+      },
+      {
+        "question": "Gibt es den Komplettservice auch für Vermieter und Hausverwaltungen?",
+        "answer": "Ja, das ist Paket 3. Für wiederkehrende Aufträge gelten feste Partnerkonditionen und bevorzugte Terminplanung, weil hier die Leerstandszeit der eigentliche Kostenfaktor ist. Details auf unserer B2B-Seite."
+      }
+    ]
   }
 }

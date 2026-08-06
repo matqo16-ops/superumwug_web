@@ -182,13 +182,42 @@ export interface HomeContent {
     askCta: string;
   };
   b2bSection: { headline: string; body: string; cta: string };
+  faq: { headline: string; items: FaqItem[] };
   callbackSection: { headline: string; body: string };
 }
 
-export interface UmzugContent {
+
+/** SEO/AEO blocks shared by every service landing page. */
+export interface ServiceSeoContent {
+  /** Direct, quotable answer in the first one or two sentences. */
+  lead: string;
+  detail: { headline: string; sections: { heading: string; body: string }[] };
+  pricing: {
+    headline: string;
+    intro: string;
+    columns: string[];
+    rows: string[][];
+    extras: string[];
+    note: string;
+  };
+  situations: { headline: string; items: TitledItem[] };
+  areas: { headline: string; body: string; cities: string[] };
+  crossLinks: {
+    headline: string;
+    items: { label: string; body: string; href: StaticPathname }[];
+  };
+  entity: {
+    headline: string;
+    body: string;
+    facts: { label: string; value: string }[];
+  };
+}
+
+export interface UmzugContent extends ServiceSeoContent {
   meta: PageMeta;
   hero: Hero;
   services: { headline: string; items: TitledItem[] };
+  process: { headline: string; steps: TitledItem[] };
   guarantee: {
     badge: string;
     headline: string;
@@ -199,7 +228,7 @@ export interface UmzugContent {
   faq: { headline: string; items: FaqItem[] };
 }
 
-export interface RenovierungContent {
+export interface RenovierungContent extends ServiceSeoContent {
   meta: PageMeta;
   hero: Hero;
   services: { headline: string; items: TitledItem[] };
@@ -208,7 +237,7 @@ export interface RenovierungContent {
   faq: { headline: string; items: FaqItem[] };
 }
 
-export interface EntruempelungContent {
+export interface EntruempelungContent extends ServiceSeoContent {
   meta: PageMeta;
   hero: Hero;
   services: { headline: string; items: TitledItem[] };
@@ -226,6 +255,19 @@ export interface PackageItem {
 }
 
 export interface KomplettserviceContent {
+  entity: ServiceSeoContent["entity"];
+  lead: string;
+  sequence: { headline: string; intro: string; steps: TitledItem[] };
+  savings: {
+    headline: string;
+    intro: string;
+    columns: string[];
+    rows: string[][];
+    note: string;
+  };
+  areas: ServiceSeoContent["areas"];
+  crossLinks: ServiceSeoContent["crossLinks"];
+  faq: { headline: string; items: FaqItem[] };
   meta: PageMeta;
   hero: Hero;
   labels: {
@@ -293,14 +335,23 @@ export interface B2bContent {
     companyLabel: string;
     submit: string;
   };
+  faq: { headline: string; items: FaqItem[] };
 }
 
 export interface KontaktContent {
   meta: PageMeta;
   hero: Hero;
   form: { headline: string; body: string };
-  serviceArea: { headline: string; body: string; mapAlt: string };
+  serviceArea: {
+    headline: string;
+    body: string;
+    mapAlt: string;
+    loadLabel: string;
+    privacyNote: string;
+    mapTitle: string;
+  };
   details: { headline: string; items: { label: string; value: string }[] };
+  faq: { headline: string; items: FaqItem[] };
 }
 
 export interface LegalContent {

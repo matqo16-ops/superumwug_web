@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Entrümpelung München & Haushaltsauflösung | Super Entrümpelung",
-    "description": "Entrümpelung München: Wohnungen, Häuser, Keller, Büros. Haushaltsauflösung, fachgerechte Entsorgung, besenreine Übergabe. Festpreisangebot anfordern."
+    "title": "Entrümpelung München & Haushaltsauflösung | mmoving.de",
+    "description": "Entrümpelung in München zum Festpreis: Wohnungen, Häuser, Keller, Büros. Haushaltsauflösung, fachgerechte Entsorgung, besenreine Übergabe."
   },
   "hero": {
     "eyebrow": "SuperEntrümpelung",
@@ -15,27 +15,27 @@
     "items": [
       {
         "title": "Wohnungsentrümpelung",
-        "body": "Von der Einzimmerwohnung bis zum Einfamilienhaus."
+        "body": "Von der Einzimmerwohnung bis zum Einfamilienhaus, inklusive Keller, Dachboden und Balkon. Wir räumen vollständig, trennen direkt beim Austragen nach Wertstoffen und übergeben besenrein. Was Sie behalten möchten, markieren Sie vorab — gekennzeichnete Gegenstände rühren wir nicht an."
       },
       {
         "title": "Haushaltsauflösung",
-        "body": "Komplette Auflösung eines Haushalts, z. B. im Todesfall oder bei Umzug ins Pflegeheim — einfühlsam und diskret."
+        "body": "Die komplette Auflösung eines Haushalts, etwa nach einem Todesfall oder beim Umzug ins Pflegeheim. Wir arbeiten diskret, dokumentieren Fundstücke wie Unterlagen, Schmuck oder Bargeld und übergeben sie Ihnen. Auf Wunsch wickeln wir alles ohne Ihre Anwesenheit ab — es genügt eine Schlüsselübergabe."
       },
       {
-        "title": "Keller, Dachboden, Garage",
-        "body": "Auch schwer zugängliche oder vollgestellte Räume."
+        "title": "Keller, Dachboden und Garage",
+        "body": "Auch schwer zugängliche, niedrige oder dicht vollgestellte Räume. Diese Bereiche werden bei Kostenschätzungen am häufigsten übersehen und sind der Hauptgrund für Nachforderungen — wir nehmen sie bei der Besichtigung ausdrücklich mit auf."
       },
       {
-        "title": "Büro- & Gewerberäumung",
-        "body": "Büromöbel, Aktenvernichtung nach DSGVO auf Anfrage, technische Geräte."
+        "title": "Büro- und Gewerberäumung",
+        "body": "Büromöbel, IT-Technik, Lagerbestände und Ladeneinrichtungen. Aktenvernichtung nach DSGVO mit Vernichtungsnachweis auf Anfrage, Elektroaltgeräte über zugelassene Rücknahmestellen. Auf Wunsch außerhalb der Geschäftszeiten."
       },
       {
-        "title": "Entsorgung & Recycling",
-        "body": "Fachgerechte Trennung, Wiederverwertung wo möglich, ordnungsgemäße Entsorgung des Rests."
+        "title": "Entsorgung, Recycling und Wertanrechnung",
+        "body": "Getrennt wird nach Sperrmüll, Holz, Metall, Papier, Elektroaltgeräten und Sondermüll. Brauchbares geht in die Wiederverwendung statt in die Verbrennung. Gut erhaltene Möbel, Geräte, Antiquitäten und Metalle rechnen wir als Wertanrechnung gegen und senken damit Ihren Endpreis. Auf Wunsch erhalten Sie einen Entsorgungsnachweis."
       },
       {
         "title": "Besenreine Übergabe",
-        "body": "Der Raum wird gereinigt übergeben — bezugs- oder verkaufsfertig."
+        "body": "Vollständig geräumt, gekehrt, frei von Müll und persönlichen Gegenständen, Schränke und Böden leer. Auf Wunsch ergänzen wir eine Grundreinigung mit Fenstern und Sanitär oder die Schönheitsreparaturen, damit die Wohnung im vertragsgemäßen Zustand übergeben wird."
       }
     ]
   },
@@ -65,27 +65,230 @@
     ]
   },
   "faq": {
-    "headline": "Häufige Fragen",
+    "headline": "Häufige Fragen zur Entrümpelung in München",
     "items": [
       {
-        "question": "Was kostet eine Entrümpelung?",
-        "answer": "Der Preis richtet sich nach Fläche, Menge und Zugänglichkeit. Nach kurzer Besichtigung erhalten Sie ein Festpreisangebot — fragen Sie auch gern unseren Chat-Assistenten."
+        "question": "Was kostet eine Entrümpelung in München?",
+        "answer": "Marktüblich 35 bis 70 € pro Quadratmeter. Eine 60-m²-Wohnung liegt damit bei rund 1.800 bis 3.500 €, ein Kellerabteil ab etwa 300 €, ein Einfamilienhaus bei 4.500 bis 9.000 €. Nach kurzer Besichtigung erhalten Sie einen Festpreis inklusive Entsorgung."
+      },
+      {
+        "question": "Wie lange dauert eine Entrümpelung?",
+        "answer": "Ein Keller oder eine Garage ist meist in drei bis fünf Stunden geräumt, eine 2- bis 3-Zimmer-Wohnung an einem Arbeitstag, ein Einfamilienhaus in zwei bis vier Tagen. Entscheidend sind Menge, Stockwerk und Zugänglichkeit."
+      },
+      {
+        "question": "Sind die Entsorgungsgebühren im Preis enthalten?",
+        "answer": "Ja. Unser Festpreis enthält Container, Deponiegebühren, Personal, Anfahrt und die besenreine Übergabe. Nachforderungen für Entsorgungsgebühren gibt es bei uns nicht."
       },
       {
         "question": "Was passiert mit brauchbaren Möbeln und Gegenständen?",
-        "answer": "Wir trennen nach Wertstoffen und geben Brauchbares wo möglich zur Wiederverwertung weiter, statt es zu entsorgen."
-      },
-      {
-        "question": "Wie schnell kann eine Entrümpelung stattfinden?",
-        "answer": "Kurzfristige Termine sind häufig innerhalb weniger Tage möglich — fragen Sie nach Ihrem Wunschtermin."
+        "answer": "Wir trennen nach Wertstoffen und führen Brauchbares der Wiederverwendung zu, statt es zu entsorgen. Verwertbares wie gut erhaltene Möbel, Elektrogeräte oder Antiquitäten rechnen wir als Wertanrechnung gegen und senken damit Ihren Preis."
       },
       {
         "question": "Übernehmen Sie auch Haushaltsauflösungen im Todesfall?",
-        "answer": "Ja. Wir wissen, dass das ein sensibles Thema ist, und gehen entsprechend einfühlsam und diskret vor."
+        "answer": "Ja. Wir wissen, dass das ein sensibles Thema ist, und gehen einfühlsam und diskret vor. Unterlagen, Schmuck und Bargeld dokumentieren wir und übergeben sie Ihnen. Auf Wunsch wickeln wir alles ohne Ihre Anwesenheit ab."
+      },
+      {
+        "question": "Muss ich bei der Entrümpelung anwesend sein?",
+        "answer": "Nein. Nach der Besichtigung und einer klaren Absprache, was bleibt und was geht, genügt eine Schlüsselübergabe. Viele Angehörige, die nicht in München wohnen, wickeln die Räumung so aus der Ferne ab."
       },
       {
         "question": "Ist die Wohnung danach wirklich besenrein?",
-        "answer": "Ja — Endreinigung ist Teil unseres Standardablaufs, sodass die Fläche übergabe- oder verkaufsfertig ist."
+        "answer": "Ja — die Endreinigung im Sinne von besenrein ist Teil unseres Standardablaufs: vollständig geräumt, gekehrt, Schränke und Böden leer. Eine darüber hinausgehende Grundreinigung mit Fenstern und Sanitär vereinbaren wir gesondert."
+      },
+      {
+        "question": "Entsorgen Sie auch Sondermüll und Elektrogeräte?",
+        "answer": "Ja. Farben, Lacke, Öle, Chemikalien und Leuchtstoffröhren führen wir getrennt zugelassenen Entsorgungswegen zu, Elektroaltgeräte gehen über die vorgeschriebene Rücknahme. Bei Asbestverdacht arbeiten wir ausschließlich mit zertifizierten Fachbetrieben."
+      }
+    ]
+  },
+  "lead": "SuperEntrümpelung entrümpelt Wohnungen, Häuser, Keller, Dachböden und Gewerbeflächen in München und Umgebung — zum Festpreis nach kurzer Besichtigung. Marktüblich liegt eine Entrümpelung bei 35 bis 70 € pro Quadratmeter. Wir trennen fachgerecht nach Wertstoffen, entsorgen mit Nachweis und übergeben die Fläche besenrein.",
+  "detail": {
+    "headline": "Entrümpelung in München — Leistungen im Detail",
+    "sections": [
+      {
+        "heading": "Wohnungsentrümpelung",
+        "body": "Von der Einzimmerwohnung bis zum Einfamilienhaus. Eine 2- bis 3-Zimmer-Wohnung räumen wir in der Regel an einem Arbeitstag, ein Haus in zwei bis vier Tagen. Was Sie behalten möchten, markieren Sie vorher — wir rühren nichts an, was gekennzeichnet ist."
+      },
+      {
+        "heading": "Haushaltsauflösung",
+        "body": "Die komplette Auflösung eines Haushalts, etwa nach einem Todesfall oder beim Umzug ins Pflegeheim. Wir gehen einfühlsam und diskret vor, dokumentieren Fundstücke wie Unterlagen, Schmuck oder Bargeld und übergeben sie Ihnen. Auf Wunsch wickeln wir die Auflösung vollständig ohne Ihre Anwesenheit ab."
+      },
+      {
+        "heading": "Keller, Dachboden, Garage",
+        "body": "Auch schwer zugängliche oder dicht vollgestellte Räume. Gerade Keller und Dachböden werden bei der Kostenschätzung am häufigsten übersehen — wir nehmen sie bei der Besichtigung ausdrücklich mit auf, damit es keine Nachforderungen gibt."
+      },
+      {
+        "heading": "Büro- und Gewerberäumung",
+        "body": "Büromöbel, Technik und Lagerbestände. Aktenvernichtung nach DSGVO mit Vernichtungsnachweis auf Anfrage, Elektroaltgeräte über zugelassene Rücknahmestellen."
+      },
+      {
+        "heading": "Entsorgung, Recycling und Wertanrechnung",
+        "body": "Wir trennen direkt beim Austragen nach Sperrmüll, Holz, Metall, Papier, Elektroaltgeräten und Sondermüll. Brauchbares geht in die Wiederverwendung statt in die Verbrennung. Findet sich Verwertbares — gut erhaltene Möbel, Geräte, Antiquitäten, Metalle — rechnen wir den geschätzten Wert gegen und senken damit Ihren Endpreis."
+      },
+      {
+        "heading": "Besenreine Übergabe",
+        "body": "Besenrein heißt: vollständig geräumt, gekehrt, frei von Müll und persönlichen Gegenständen, Schränke und Böden leer. Auf Wunsch übernehmen wir zusätzlich die Endreinigung oder die Schönheitsreparaturen, damit die Wohnung im vertragsgemäßen Zustand übergeben wird."
+      }
+    ]
+  },
+  "areas": {
+    "headline": "Einsatzgebiet: München und Umgebung",
+    "body": "Wir entrümpeln in München und im Umkreis von rund 50 Kilometern — im gesamten Stadtgebiet, im Landkreis München und in den umliegenden Landkreisen.",
+    "cities": [
+      "München",
+      "Dachau",
+      "Freising",
+      "Erding",
+      "Ebersberg",
+      "Starnberg",
+      "Fürstenfeldbruck",
+      "Germering",
+      "Unterschleißheim",
+      "Garching",
+      "Holzkirchen",
+      "Landkreis München"
+    ]
+  },
+  "crossLinks": {
+    "headline": "Passt zu Ihrer Entrümpelung",
+    "items": [
+      {
+        "label": "Umzug mit Unbeschädigt-Garantie",
+        "body": "Erst umziehen, dann entrümpeln — so entscheiden Sie nach dem Einräumen, was wirklich bleibt.",
+        "href": "/umzug"
+      },
+      {
+        "label": "Renovierung nach der Räumung",
+        "body": "Malerarbeiten und Reparaturen in den leeren Räumen — dort 15 bis 30 % günstiger als in möblierten.",
+        "href": "/renovierung"
+      },
+      {
+        "label": "Komplettservice aus einer Hand",
+        "body": "Entrümpelung, Renovierung und Umzug als ein Auftrag mit einem Terminplan.",
+        "href": "/komplettservice"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "Was eine Entrümpelung in München kostet",
+    "intro": "Abgerechnet wird nach tatsächlichem Volumen in Kubikmetern und Arbeitsaufwand, nicht allein nach Fläche. Der Quadratmeterpreis ist eine grobe Orientierung: Ein vollgestellter Dachboden kann teurer sein als eine leergeräumte Wohnung derselben Größe.",
+    "columns": [
+      "Objekt",
+      "Fläche",
+      "Marktüblich",
+      "Dauer"
+    ],
+    "rows": [
+      [
+        "Kellerabteil / Garage",
+        "6–15 m²",
+        "ab 300 – 800 €",
+        "3–5 Stunden"
+      ],
+      [
+        "Dachboden",
+        "20–40 m²",
+        "600 – 1.600 €",
+        "4–8 Stunden"
+      ],
+      [
+        "1-Zimmer-Wohnung",
+        "30–40 m²",
+        "900 – 1.900 €",
+        "1 Tag"
+      ],
+      [
+        "2-Zimmer-Wohnung",
+        "55–70 m²",
+        "1.800 – 3.500 €",
+        "1 Tag"
+      ],
+      [
+        "3-Zimmer-Wohnung",
+        "75–95 m²",
+        "2.600 – 4.800 €",
+        "1–2 Tage"
+      ],
+      [
+        "Einfamilienhaus",
+        "140–200 m²",
+        "4.500 – 9.000 €",
+        "2–4 Tage"
+      ]
+    ],
+    "extras": [
+      "Zuschlag je Etage ohne Aufzug: 8–15 %",
+      "Sondermüll (Farben, Öle, Chemikalien): ab 150 €",
+      "Halteverbotszone: 80 – 150 €",
+      "Endreinigung über besenrein hinaus: 3 – 8 € pro m²",
+      "Wertanrechnung für verwertbare Möbel: senkt den Preis"
+    ],
+    "note": "Alle Angaben sind marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+  },
+  "situations": {
+    "headline": "Typische Anlässe für eine Entrümpelung",
+    "items": [
+      {
+        "title": "Haushaltsauflösung im Todesfall",
+        "body": "Wir sichern Unterlagen und Wertsachen, dokumentieren Fundstücke und räumen diskret. Auf Wunsch vollständig ohne Ihre Anwesenheit."
+      },
+      {
+        "title": "Umzug ins Pflegeheim",
+        "body": "Nur ein Teil des Hausrats zieht mit. Wir transportieren das Ausgewählte und entrümpeln den Rest in einem Durchgang."
+      },
+      {
+        "title": "Wohnungsübergabe an den Vermieter",
+        "body": "Geräumt, gekehrt, besenrein — auf Wunsch inklusive der Schönheitsreparaturen, damit die Kaution vollständig zurückkommt."
+      },
+      {
+        "title": "Mieterwechsel für Vermieter und Hausverwaltungen",
+        "body": "Zurückgelassenes Inventar entfernen, Schäden beheben, renovieren — damit die Einheit schnell wieder vermietbar ist."
+      },
+      {
+        "title": "Keller, Dachboden oder Garage ausräumen",
+        "body": "Der klassische Einstieg: über Jahre gewachsener Bestand, der in wenigen Stunden verschwindet."
+      },
+      {
+        "title": "Messie-Wohnungen und Verwahrlosung",
+        "body": "Mit Schutzausrüstung, mehr Personal und auf Wunsch Desinfektion. Wir gehen ohne Vorwurf und ohne Aufsehen vor."
+      }
+    ]
+  },
+  "entity": {
+    "headline": "Über mmoving.de",
+    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, SuperEntrümpelung für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
+    "facts": [
+      {
+        "label": "Unternehmen",
+        "value": "mmoving.de"
+      },
+      {
+        "label": "Marken",
+        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+      },
+      {
+        "label": "Standort",
+        "value": "München, Bayern"
+      },
+      {
+        "label": "Einsatzgebiet",
+        "value": "München und Umgebung, rund 50 km Umkreis"
+      },
+      {
+        "label": "Leistungen",
+        "value": "Umzug, Entrümpelung, Renovierung — einzeln oder kombiniert"
+      },
+      {
+        "label": "Besonderheit",
+        "value": "Unbeschädigt-Garantie mit voller Werterstattung bei Umzügen"
+      },
+      {
+        "label": "Preisbildung",
+        "value": "Festpreis nach Besichtigung; Besichtigungsservice zum Festpreis von 290 €"
+      },
+      {
+        "label": "Sprachen",
+        "value": "Deutsch, Englisch"
       }
     ]
   }

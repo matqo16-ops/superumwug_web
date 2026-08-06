@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { getB2b, getCommon } from "@/lib/content";
+import { absoluteUrl } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
 import { CallbackForm } from "@/components/CallbackForm";
 import { ChatCta } from "@/components/ChatCta";
 import { Hero } from "@/components/Hero";
 import { Section, SectionHeading } from "@/components/Section";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Faq } from "@/components/Faq";
 
 interface Props {
   params: Promise<{ locale: Locale }>;
@@ -68,6 +71,18 @@ export default async function B2bPage({ params }: Props) {
     <>
       <Hero content={content.hero} />
 
+      <Breadcrumbs
+        label="Breadcrumb"
+        items={[
+          {
+            label: locale === "de" ? "Startseite" : "Home",
+            href: "/",
+            url: absoluteUrl(locale, "/"),
+          },
+          { label: "B2B", url: absoluteUrl(locale, "/b2b") },
+        ]}
+      />
+
       <Section variant="cream">
         <SectionHeading intro={content.referral.body}>
           {content.referral.headline}
@@ -80,6 +95,14 @@ export default async function B2bPage({ params }: Props) {
           {content.corporate.headline}
         </SectionHeading>
         <BenefitGrid benefits={content.corporate.benefits} />
+      </Section>
+
+      <Section variant="cream">
+        <Faq
+          headline={content.faq.headline}
+          items={content.faq.items}
+          pageUrl={absoluteUrl(locale, "/b2b")}
+        />
       </Section>
 
       <ChatCta content={common.chatCta} />

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Moving in Munich with a Damage-Free Guarantee | Super Umzug",
-    "description": "Private and corporate moves in Munich: packing, assembly, transport. Damage-free guarantee with full value compensation. Request a callback today."
+    "title": "Moving Company Munich — Damage-Free Guarantee | mmoving.de",
+    "description": "Moving company for Munich and the surrounding area: private and corporate moves, packing, assembly, transport. Damage-free guarantee with full compensation."
   },
   "hero": {
     "eyebrow": "SuperUmzug",
@@ -68,27 +68,247 @@
     "finePrint": "Details, exclusions and terms of the damage-free guarantee: [PLACEHOLDER LEGAL TEXT/INSURANCE TERMS]."
   },
   "faq": {
-    "headline": "Frequently asked questions",
+    "headline": "Frequently asked questions about moving in Munich",
     "items": [
       {
-        "question": "What happens if something is damaged during my move?",
-        "answer": "Report the damage to us with a photo and short description. Since we document condition before and after the move, review is fast and fair — you receive full value compensation."
+        "question": "What does a move in Munich cost?",
+        "answer": "Typical market rates are €700–1,400 for a two-room flat within Munich and €1,400–2,800 for four rooms. The price depends on volume, distance, floor level and add-ons. After a short survey you receive a binding fixed price from us."
       },
       {
         "question": "How far in advance should I book my move?",
-        "answer": "For private moves we recommend 2–3 weeks' notice; for corporate moves ideally 4–6 weeks, so we can plan outside your business hours. Short-notice dates are available on request."
+        "answer": "Two to three weeks for private moves, four to six weeks for corporate moves. For a move at month-end between June and September, ask four to six weeks ahead — those dates fill up quickly."
+      },
+      {
+        "question": "What happens if something is damaged during my move?",
+        "answer": "Report it with a photo and a short description. Because we document the condition of valuable items before and after the move, review is fast — you receive full value compensation. That is our damage-free guarantee."
       },
       {
         "question": "Do you also handle packing?",
-        "answer": "Yes — on request we pack your entire household professionally, or assist selectively with delicate items."
-      },
-      {
-        "question": "What does a move cost?",
-        "answer": "Price depends on scope, distance and add-ons. Ask our chat assistant for an initial estimate, or request a callback."
+        "answer": "Yes. On request our team packs your entire household professionally. Alternatively we deliver only the materials and you pack yourself. Note that self-packed boxes are usually only partly covered against transport damage."
       },
       {
         "question": "Is my property insured during transport?",
-        "answer": "Yes. In addition to statutory transport insurance, our damage-free guarantee applies with full value compensation."
+        "answer": "Yes. In addition to statutory transport insurance, our damage-free guarantee applies with full value compensation for the damaged item."
+      },
+      {
+        "question": "Do you apply for the no-parking zone?",
+        "answer": "Yes, at both addresses. In Munich the permit needs 7 to 14 days of lead time depending on the district. The fee is typically €80–150 per zone."
+      },
+      {
+        "question": "Do you move outside Munich as well?",
+        "answer": "Yes. We work throughout a radius of roughly 50 km around Munich, including Dachau, Freising, Erding, Starnberg and Fürstenfeldbruck. Long-distance moves out of Munich are handled Germany-wide."
+      },
+      {
+        "question": "Can I book moving, clearance and renovation together?",
+        "answer": "Yes — that is our full service. A combined job is typically 15–25 % cheaper than three separate ones, because travel, crew and coordination are only incurred once."
+      }
+    ]
+  },
+  "lead": "SuperUmzug is the moving arm of mmoving.de, serving Munich and the surrounding area. We handle private and corporate moves end to end — planning, packing, furniture assembly, transport and a broom-clean handover of the old flat. All of it backed by our damage-free guarantee: if anything is damaged during the move, we reimburse its full value.",
+  "detail": {
+    "headline": "How we move you in Munich",
+    "sections": [
+      {
+        "heading": "Private moves",
+        "body": "From a studio flat to a detached house. We assess the volume during the survey, size the crew and vehicle accordingly and give you a fixed price. On moving day you get a settled team you have met beforehand — no rotating subcontractors."
+      },
+      {
+        "heading": "Corporate moves",
+        "body": "Offices, practices and warehouses are moved outside your business hours, usually at the weekend. Workstations are dismantled with numbered labels and rebuilt in the same configuration at the new site so work resumes on Monday. Archives are transported sealed and traceable."
+      },
+      {
+        "heading": "Packing and furniture assembly",
+        "body": "You get professional packing materials, or our team packs everything for you. Wardrobes, beds, kitchens and office furniture are properly dismantled, transported and reassembled on site — including reconnecting washing machine and dishwasher."
+      },
+      {
+        "heading": "No-parking zone, furniture lift and storage",
+        "body": "We apply for the no-parking zone at both addresses; in Munich that needs 7 to 14 days of lead time depending on the district. If furniture will not fit through the stairwell we bring a furniture lift. If there is a gap between move-out and move-in, we store your belongings dry and secured."
+      },
+      {
+        "heading": "What a move in Munich costs",
+        "body": "Price follows volume, crew and time, distance, floor level and add-ons. Typical market rates within Munich are €700–1,400 for a two-room flat and €1,400–2,800 for four rooms. Your binding fixed price comes after the survey — with no follow-up charges."
+      }
+    ]
+  },
+  "areas": {
+    "headline": "Service area: Munich and surroundings",
+    "body": "We move within Munich and roughly 50 km around it — the city, the Munich district and the neighbouring districts. Long-distance moves out of Munich are handled Germany-wide.",
+    "cities": [
+      "Munich",
+      "Dachau",
+      "Freising",
+      "Erding",
+      "Ebersberg",
+      "Starnberg",
+      "Fürstenfeldbruck",
+      "Germering",
+      "Unterschleißheim",
+      "Garching",
+      "Holzkirchen",
+      "Munich district"
+    ]
+  },
+  "crossLinks": {
+    "headline": "Goes with your move",
+    "items": [
+      {
+        "label": "Clearance and house clearances",
+        "body": "Whatever is not moving with you is disposed of properly — same job, no second callout.",
+        "href": "/entruempelung"
+      },
+      {
+        "label": "Renovation and cosmetic repairs",
+        "body": "Painting and repairs in the old or new flat, carried out while the rooms are empty.",
+        "href": "/renovierung"
+      },
+      {
+        "label": "Full service from one provider",
+        "body": "Moving, clearance and renovation as one job with one sequence and one fixed price.",
+        "href": "/komplettservice"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "What a move in Munich costs",
+    "intro": "The price follows the volume in cubic metres, the crew and time needed, the distance, the floor level and the add-ons you choose. Rule of thumb: roughly 0.3 to 0.5 m³ of goods per square metre of floor area.",
+    "columns": [
+      "Flat",
+      "Volume",
+      "Crew",
+      "Market rate"
+    ],
+    "rows": [
+      [
+        "1 room, 30–40 m²",
+        "12–18 m³",
+        "2 people",
+        "€450 – 850"
+      ],
+      [
+        "2 rooms, 55–70 m²",
+        "20–30 m³",
+        "2–3 people",
+        "€700 – 1,400"
+      ],
+      [
+        "3 rooms, 75–95 m²",
+        "30–40 m³",
+        "3–4 people",
+        "€1,100 – 2,000"
+      ],
+      [
+        "4 rooms, 100–120 m²",
+        "40–55 m³",
+        "4 people",
+        "€1,400 – 2,800"
+      ],
+      [
+        "House, 140–200 m²",
+        "60–90 m³",
+        "4–6 people",
+        "€2,400 – 4,500"
+      ]
+    ],
+    "extras": [
+      "Packing materials: €80 – 250",
+      "Full packing by our team: €300 – 900",
+      "Furniture dis/assembly: €200 – 600",
+      "Kitchen removal and installation: €400 – 1,200",
+      "No-parking zone per address: €80 – 150",
+      "Furniture lift: €250 – 500 per day",
+      "Storage: €60 – 150 per m³ per month"
+    ],
+    "note": "All figures are typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
+  },
+  "situations": {
+    "headline": "Typical situations we move",
+    "items": [
+      {
+        "title": "Moving within Munich",
+        "body": "The most common case: a new flat in the city, handover of the old one at month-end. We schedule move, clearance and any cosmetic repairs so the handover date holds."
+      },
+      {
+        "title": "Moving to the surrounding area",
+        "body": "From Munich to Dachau, Starnberg or Erding — and back. Up to about 50 km the distance barely matters; volume is what counts."
+      },
+      {
+        "title": "Moving with interim storage",
+        "body": "When weeks pass between move-out and move-in, we store your belongings dry and secured and deliver on your chosen date."
+      },
+      {
+        "title": "Corporate move at the weekend",
+        "body": "Offices, practices and law firms are moved outside business hours. Workstations are dismantled with numbered labels and rebuilt identically."
+      },
+      {
+        "title": "Senior moves",
+        "body": "A move to a smaller flat or into assisted living, usually combined with a household clearance. We work calmly and agree every step with the family."
+      },
+      {
+        "title": "Moving after separation or inheritance",
+        "body": "Where a household has to be split, we deliver to several destinations and dispose of the rest — in one job."
+      }
+    ]
+  },
+  "entity": {
+    "headline": "About mmoving.de",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, SuperEntrümpelung for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "facts": [
+      {
+        "label": "Company",
+        "value": "mmoving.de"
+      },
+      {
+        "label": "Brands",
+        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+      },
+      {
+        "label": "Location",
+        "value": "Munich, Bavaria"
+      },
+      {
+        "label": "Service area",
+        "value": "Munich and surroundings, roughly 50 km radius"
+      },
+      {
+        "label": "Services",
+        "value": "Moving, clearance, renovation — separately or combined"
+      },
+      {
+        "label": "Distinctive",
+        "value": "Damage-free guarantee with full value compensation on moves"
+      },
+      {
+        "label": "Pricing",
+        "value": "Fixed price after survey; inspection service at a flat €290"
+      },
+      {
+        "label": "Languages",
+        "value": "German, English"
+      }
+    ]
+  },
+  "process": {
+    "headline": "How your move works",
+    "steps": [
+      {
+        "title": "Enquiry and survey",
+        "body": "You request a callback, we view the flat on site or by video and record the volume. Cellar, attic and garage are explicitly included."
+      },
+      {
+        "title": "Fixed-price quote",
+        "body": "You receive a written quote covering scope, crew, date and fixed price — with no follow-up charges on moving day."
+      },
+      {
+        "title": "Preparation",
+        "body": "We apply for the no-parking zones at both addresses, deliver packing materials on request and align the schedule with the building management or neighbours."
+      },
+      {
+        "title": "Moving day",
+        "body": "The team documents the condition of valuable and delicate items, dismantles, loads securely, transports and reassembles at the destination."
+      },
+      {
+        "title": "Handover and guarantee",
+        "body": "We check the condition together with you at the destination. Should anything be damaged after all, report it with a photo — you receive full value compensation."
       }
     ]
   }

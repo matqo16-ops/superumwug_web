@@ -3,6 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { getCommon, getHome, getProjects, getSiteData } from "@/lib/content";
+import { absoluteUrl, localBusinessSchema } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
 import { btnOutlineOnDark, btnOutlineOnLight, btnPrimary } from "@/lib/styles";
 import { CallbackButton } from "@/components/CallbackButton";
@@ -14,6 +15,7 @@ import { ProjectsGallery } from "@/components/ProjectsGallery";
 import { JsonLd } from "@/components/JsonLd";
 import { PlaceholderImage } from "@/components/PlaceholderImage";
 import { Section, SectionHeading } from "@/components/Section";
+import { Faq } from "@/components/Faq";
 
 interface Props {
   params: Promise<{ locale: Locale }>;
@@ -32,29 +34,7 @@ export default async function HomePage({ params }: Props) {
   const projects = getProjects(locale);
   const site = getSiteData();
 
-  const localBusinessJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "MovingCompany",
-    name: site.organization.name,
-    alternateName: ["Super Entrümpelung"],
-    url: `${site.siteUrl}/`,
-    telephone: site.organization.phone,
-    email: site.organization.email,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: site.organization.streetAddress,
-      addressLocality: site.organization.addressLocality,
-      postalCode: site.organization.postalCode,
-      addressCountry: site.organization.addressCountry,
-    },
-    areaServed: { "@type": "City", name: "München" },
-    sameAs: [site.bayrenoUrl],
-    makesOffer: [
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Umzug München" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Entrümpelung München" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Haushaltsauflösung München" } },
-    ],
-  };
+  const localBusinessJsonLd = localBusinessSchema(locale);
 
   return (
     <>
@@ -228,6 +208,14 @@ export default async function HomePage({ params }: Props) {
             className="aspect-[4/3]"
           />
         </div>
+      </Section>
+
+      <Section variant="light">
+        <Faq
+          headline={home.faq.headline}
+          items={home.faq.items}
+          pageUrl={absoluteUrl(locale, "/")}
+        />
       </Section>
 
       <ChatCta content={common.chatCta} />

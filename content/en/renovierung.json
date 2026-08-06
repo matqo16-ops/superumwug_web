@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "BayReno — Renovation & Refurbishment in Munich | Bayerische Renovierung",
-    "description": "BayReno: renovation, refurbishment, painting and flooring in Munich and the surrounding area. On schedule, clean, from one provider — combinable with moving and clearance."
+    "title": "Renovation Munich — Refurbishment & Painting | mmoving.de",
+    "description": "Renovation and refurbishment in Munich: painting, flooring, bathroom, kitchen, full refurbishment. Fixed dates, clean site, fixed price after survey."
   },
   "hero": {
     "eyebrow": "BayReno — Bavarian renovation",
@@ -14,28 +14,28 @@
     "headline": "Services",
     "items": [
       {
-        "title": "Painting & wallpapering",
-        "body": "Walls and ceilings painted, papered and filled — properly masked, low-dust working."
+        "title": "Painting and wallpapering",
+        "body": "Walls and ceilings painted, old coatings and wallpaper stripped, substrates filled and primed, radiators and internal doors lacquered. In empty rooms we work 15 to 30 % cheaper, because covering, furniture moving and interim cleaning all fall away."
       },
       {
         "title": "Flooring",
-        "body": "Laminate, vinyl, parquet and tiles: laid, sanded or replaced."
+        "body": "Laminate, vinyl, design flooring, parquet and tiles — including removal and disposal of the old covering, subfloor preparation, laying and skirting. Existing parquet is sanded and sealed where a full replacement is not needed."
       },
       {
-        "title": "Bathroom & plumbing",
-        "body": "From replacing individual fixtures to a complete bathroom rebuild."
+        "title": "Bathroom and plumbing",
+        "body": "From partial modernisation with new fittings, shower enclosure and tiled splashback through to full refurbishment with strip-out, sealing, tiling and new sanitary ware. Level-access showers and low-barrier conversions are part of the range."
       },
       {
-        "title": "Kitchen",
-        "body": "Assembly, conversion and connection — including adapting to existing connections."
+        "title": "Kitchen and drywall",
+        "body": "Kitchen installation, conversion and removal including connection of sink, dishwasher and hob. Drywall for room dividers, suspended ceilings, pre-wall installations and sloped ceilings — filled and sanded to paint quality."
       },
       {
-        "title": "Drywall & electrics",
-        "body": "New partition walls, suspended ceilings, wiring and lighting renewed via specialist partners."
+        "title": "Electrics and specialist partners",
+        "body": "Electrical and gas work is delivered through certified specialist partners whom we coordinate and schedule. You still keep a single point of contact for the entire project."
       },
       {
-        "title": "Full refurbishment",
-        "body": "All trades coordinated: one schedule, one contact, one handover date."
+        "title": "Full refurbishment with a schedule",
+        "body": "For full refurbishments we own the sequence of every trade: strip-out, electrics and plumbing, drywall, painting, flooring, kitchen, final cleaning. One contact holds the schedule — instead of several firms waiting on each other."
       }
     ]
   },
@@ -70,27 +70,226 @@
     "cta": "See combined packages"
   },
   "faq": {
-    "headline": "Frequently asked questions",
+    "headline": "Frequently asked questions about renovation in Munich",
     "items": [
       {
-        "question": "What does a renovation cost?",
-        "answer": "It depends on floor area, condition and the standard you want. After a short inspection you receive a fixed quote — you're also welcome to ask our chat assistant or request a callback."
+        "question": "What does renovating a flat in Munich cost?",
+        "answer": "Typical market rates are €250–600 per square metre of floor area for a full renovation excluding the bathroom. Individual trades: painting €12–25 per square metre of wall, laminate €35–55 and parquet €70–130 per square metre including laying. Your binding price follows the survey."
       },
       {
-        "question": "How long does a renovation take?",
-        "answer": "Cosmetic repairs are often done within a few days; a full refurbishment takes several weeks depending on scope. We give you the binding timeframe with the quote."
+        "question": "How long does a refurbishment take?",
+        "answer": "Painting a three-room flat takes two to four days, a floor replacement three to five days, a bathroom refurbishment two to three weeks. Allow two to six weeks for a complete flat renovation, depending on scope and lead times."
       },
       {
-        "question": "Can I stay in the apartment during the work?",
-        "answer": "For individual trades, yes. For a full refurbishment we recommend moving out — or we work room by room so you can stay."
+        "question": "In what order should renovation work happen?",
+        "answer": "Strip-out and clearance first, then electrics and plumbing, then drywall and plastering, then painting, and flooring last. Laying the floor first means damaging it during every trade that follows."
       },
       {
-        "question": "Do you take on small jobs too?",
-        "answer": "Yes. We also handle single rooms, touch-ups and cosmetic repairs before a handover."
+        "question": "Is renovating an empty flat cheaper?",
+        "answer": "Yes, typically 15 to 30 %. Empty rooms remove covering, furniture moving and interim cleaning, and the trades work in one pass rather than room by room."
       },
       {
-        "question": "Do you work for property managers and landlords?",
-        "answer": "Yes, that's one of our specialities. For recurring work we offer fixed partner rates and priority scheduling — see B2B & Partners."
+        "question": "Do I have to renovate when I move out?",
+        "answer": "Only if your tenancy agreement contains a valid clause and the flat was handed to you renovated. Rigid renovation schedules are unenforceable under German case law. If the flat was handed over unrenovated, the obligation usually falls away entirely."
+      },
+      {
+        "question": "Can I live in the flat during the renovation?",
+        "answer": "Technically yes, but rarely sensible. Dust, smells and blocked rooms make it unpleasant and the work takes considerably longer. For flooring or bathroom work, moving out is usually unavoidable."
+      },
+      {
+        "question": "Do you take on individual trades?",
+        "answer": "Yes. You can commission only the painting, only the flooring or only the bathroom. Where several trades are involved we also take on coordination and the schedule."
+      },
+      {
+        "question": "Do you work for landlords and property managers?",
+        "answer": "Yes. For recurring work we offer fixed partner rates and priority scheduling so units are re-lettable quickly after a tenant change. Details are on our B2B page."
+      }
+    ]
+  },
+  "lead": "BayReno is the renovation brand of mmoving.de for Munich and the surrounding area. We handle painting, flooring, bathroom and kitchen conversions through to full refurbishment — as a single trade or with every trade coordinated. Typical market rates are €12–25 per square metre of wall for painting, and €250–600 per square metre of floor area for a full renovation excluding the bathroom.",
+  "detail": {
+    "headline": "Renovation and refurbishment in Munich",
+    "sections": [
+      {
+        "heading": "Painting and wallpapering",
+        "body": "Walls and ceilings painted, wallpaper stripped and re-hung, radiators and internal doors lacquered. In empty rooms we work 15 to 30 % cheaper than in furnished ones, because covering, moving furniture and interim cleaning all fall away."
+      },
+      {
+        "heading": "Flooring",
+        "body": "Laminate, vinyl, design flooring, parquet and tiles — including removal of the old covering, subfloor preparation, laying and skirting. We also sand and seal parquet where a full replacement is not needed."
+      },
+      {
+        "heading": "Bathroom and plumbing",
+        "body": "From partial modernisation — new fittings, shower enclosure, tiled splashback — through to full refurbishment with strip-out, sealing, tiling and new sanitary ware. A bathroom refurbishment takes two to three weeks depending on scope."
+      },
+      {
+        "heading": "Kitchen and drywall",
+        "body": "Kitchen installation, conversion and removal including appliance connection. Drywall for room dividers, suspended ceilings and pre-wall installations. Electrical work is delivered through certified specialist partners."
+      },
+      {
+        "heading": "Full refurbishment with coordinated trades",
+        "body": "For a full refurbishment we own the sequence: strip-out, electrics and plumbing, drywall and plastering, painting, flooring, then kitchen and final cleaning. One contact holds the schedule — instead of several firms blocking each other."
+      },
+      {
+        "heading": "Cosmetic repairs on move-out",
+        "body": "Where your tenancy agreement validly requires cosmetic repairs, we carry them out properly and in time for the handover date. Note that many renovation clauses in older German tenancy agreements are unenforceable — check before you commission the work."
+      }
+    ]
+  },
+  "areas": {
+    "headline": "Service area: Munich and surroundings",
+    "body": "We renovate in Munich and within roughly 50 km — the city, the Munich district and the neighbouring districts.",
+    "cities": [
+      "Munich",
+      "Dachau",
+      "Freising",
+      "Erding",
+      "Ebersberg",
+      "Starnberg",
+      "Fürstenfeldbruck",
+      "Germering",
+      "Unterschleißheim",
+      "Garching",
+      "Holzkirchen",
+      "Munich district"
+    ]
+  },
+  "crossLinks": {
+    "headline": "Goes with your renovation",
+    "items": [
+      {
+        "label": "Clearance before renovation",
+        "body": "Empty rooms are the precondition for fast, affordable work.",
+        "href": "/entruempelung"
+      },
+      {
+        "label": "Moving with a damage-free guarantee",
+        "body": "Move out first, then renovate — we align both dates.",
+        "href": "/umzug"
+      },
+      {
+        "label": "Full service from one provider",
+        "body": "Renovation, moving and clearance as one job with one sequence.",
+        "href": "/komplettservice"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "What a renovation in Munich costs",
+    "intro": "Renovation is priced by trade and area. Whether the rooms are empty or furnished also matters — the difference is typically 15 to 30 %.",
+    "columns": [
+      "Service",
+      "Market rate"
+    ],
+    "rows": [
+      [
+        "Painting (wall, painted)",
+        "€12 – 25 / m² of wall"
+      ],
+      [
+        "Wallpapering incl. material",
+        "€18 – 35 / m²"
+      ],
+      [
+        "Laminate laying",
+        "€35 – 55 / m²"
+      ],
+      [
+        "Vinyl / design flooring",
+        "€45 – 75 / m²"
+      ],
+      [
+        "Parquet laying and sealing",
+        "€70 – 130 / m²"
+      ],
+      [
+        "Tiling",
+        "€60 – 110 / m²"
+      ],
+      [
+        "Full bathroom refurbishment (4–6 m²)",
+        "€9,000 – 22,000"
+      ],
+      [
+        "Kitchen installation",
+        "€400 – 1,200"
+      ],
+      [
+        "Full flat renovation (excl. bathroom)",
+        "€250 – 600 / m² of floor area"
+      ]
+    ],
+    "extras": [
+      "Work in empty rooms: 15–30 % cheaper",
+      "Strip-out and disposal of the old covering: charged separately",
+      "Electrical and plumbing work via certified specialist partners"
+    ],
+    "note": "All figures are typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
+  },
+  "situations": {
+    "headline": "Typical renovation situations",
+    "items": [
+      {
+        "title": "Renovation before moving in",
+        "body": "The cheapest moment: empty rooms, every trade in one pass, and you only move once."
+      },
+      {
+        "title": "Cosmetic repairs on move-out",
+        "body": "Where the tenancy agreement validly requires them — properly executed and finished in time for the handover."
+      },
+      {
+        "title": "Period property after purchase",
+        "body": "From strip-out through electrics and plumbing to flooring and painting, with coordinated trades and one schedule."
+      },
+      {
+        "title": "Bathroom or kitchen modernisation",
+        "body": "As a single trade in an occupied flat, or as part of a full refurbishment."
+      },
+      {
+        "title": "Making a unit re-lettable after a tenant change",
+        "body": "Repair damage, paint, restore floors — here the real cost driver is vacancy time."
+      },
+      {
+        "title": "Low-barrier conversion",
+        "body": "Level-access shower, threshold removal, grab rails — often alongside a senior move."
+      }
+    ]
+  },
+  "entity": {
+    "headline": "About mmoving.de",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, SuperEntrümpelung for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "facts": [
+      {
+        "label": "Company",
+        "value": "mmoving.de"
+      },
+      {
+        "label": "Brands",
+        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+      },
+      {
+        "label": "Location",
+        "value": "Munich, Bavaria"
+      },
+      {
+        "label": "Service area",
+        "value": "Munich and surroundings, roughly 50 km radius"
+      },
+      {
+        "label": "Services",
+        "value": "Moving, clearance, renovation — separately or combined"
+      },
+      {
+        "label": "Distinctive",
+        "value": "Damage-free guarantee with full value compensation on moves"
+      },
+      {
+        "label": "Pricing",
+        "value": "Fixed price after survey; inspection service at a flat €290"
+      },
+      {
+        "label": "Languages",
+        "value": "German, English"
       }
     ]
   }

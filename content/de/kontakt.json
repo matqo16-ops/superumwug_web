@@ -15,15 +15,67 @@
   "serviceArea": {
     "headline": "Unser Einsatzgebiet",
     "body": "Wir sind für Sie in München und Umgebung im Einsatz.",
-    "mapAlt": "Stilisierte Karte von München und Umgebung — Einsatzgebiet von Super Umzug, Super Entrümpelung und BayReno"
+    "mapAlt": "Stilisierte Karte von München und Umgebung — Einsatzgebiet von Super Umzug, Super Entrümpelung und BayReno",
+    "loadLabel": "Google Maps laden",
+    "privacyNote": "Mit dem Laden der Karte akzeptieren Sie die Datenschutzerklärung von Google. Es werden erst dann Daten an Google übertragen.",
+    "mapTitle": "Karte des Einsatzgebiets München und Umgebung"
   },
   "details": {
     "headline": "Direkter Kontakt",
     "items": [
-      { "label": "Telefon", "value": "[TELEFON]" },
-      { "label": "E-Mail", "value": "[E-MAIL]" },
-      { "label": "Adresse", "value": "[ADRESSE]" },
-      { "label": "Erreichbarkeit", "value": "[ERREICHBARKEITSZEITEN, z. B. Mo–Fr 8–18 Uhr, Sa 9–14 Uhr]" }
+      {
+        "label": "Telefon",
+        "value": "[TELEFON]"
+      },
+      {
+        "label": "E-Mail",
+        "value": "[E-MAIL]"
+      },
+      {
+        "label": "Adresse",
+        "value": "[ADRESSE]"
+      },
+      {
+        "label": "Erreichbarkeit",
+        "value": "[ERREICHBARKEITSZEITEN, z. B. Mo–Fr 8–18 Uhr, Sa 9–14 Uhr]"
+      }
+    ]
+  },
+  "faq": {
+    "headline": "Häufige Fragen zu Kontakt und Ablauf",
+    "items": [
+      {
+        "question": "Wie erreiche ich mmoving.de am schnellsten?",
+        "answer": "Über das Rückrufformular auf dieser Seite. Sie wählen eine Wunschzeit — auch „So schnell wie möglich“ — und wir melden uns telefonisch. Für sofortige Antworten zu Leistungen und Abläufen steht der Chat-Assistent rund um die Uhr bereit, auch per Spracheingabe."
+      },
+      {
+        "question": "Was kostet eine Beratung oder ein Angebot?",
+        "answer": "Beratung und Angebot sind kostenlos und unverbindlich. Nur der Besichtigungsservice für Immobilienkäufer ist eine eigenständige Leistung zum Festpreis von 290 €."
+      },
+      {
+        "question": "Muss die Besichtigung vor Ort stattfinden?",
+        "answer": "Nicht zwingend. Bei überschaubarem Umfang genügt eine Besichtigung per Foto oder Video. Bei größeren Wohnungen, Häusern und Komplettaufträgen empfehlen wir einen Termin vor Ort, weil die Volumenschätzung dann deutlich genauer ist."
+      },
+      {
+        "question": "In welchem Umkreis sind Sie tätig?",
+        "answer": "In München und im Umkreis von rund 50 Kilometern, unter anderem in Dachau, Freising, Erding, Ebersberg, Starnberg, Fürstenfeldbruck und im gesamten Landkreis München. Fragen Sie bei Adressen außerhalb einfach an — wir prüfen die Machbarkeit im Einzelfall."
+      },
+      {
+        "question": "Sprechen Sie Englisch?",
+        "answer": "Ja. Beratung, Angebot und Abwicklung sind auf Deutsch und Englisch möglich. Die englische Fassung dieser Website erreichen Sie über den Sprachumschalter oben."
+      },
+      {
+        "question": "Wann sind Sie erreichbar?",
+        "answer": "Montag bis Freitag von 8 bis 18 Uhr und samstags von 9 bis 14 Uhr. Rückrufanfragen und Chat-Anfragen können Sie rund um die Uhr stellen — wir melden uns zum nächstmöglichen Zeitpunkt."
+      },
+      {
+        "question": "Wie läuft es nach meiner Anfrage weiter?",
+        "answer": "Wir rufen zur gewünschten Zeit zurück und klären den Umfang. Danach folgt die Besichtigung vor Ort oder per Video, anschließend erhalten Sie ein schriftliches Festpreisangebot mit Termin. Erst dann entscheiden Sie."
+      },
+      {
+        "question": "Was passiert mit meinen Daten aus dem Formular?",
+        "answer": "Ihre Angaben werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet und als E-Mail an unser Team übermittelt. Es gibt keine Weitergabe zu Werbezwecken. Details stehen in unserer Datenschutzerklärung."
+      }
     ]
   }
 }

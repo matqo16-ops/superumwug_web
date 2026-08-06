@@ -57,10 +57,53 @@
     "body": "Erzählen Sie uns kurz von sich — wir melden uns mit den passenden Konditionen.",
     "selectorLabel": "Ich bin:",
     "selectorOptions": [
-      { "value": "vermittler", "label": "Vermittler" },
-      { "value": "firmenkunde", "label": "Firmenkunde" }
+      {
+        "value": "vermittler",
+        "label": "Vermittler"
+      },
+      {
+        "value": "firmenkunde",
+        "label": "Firmenkunde"
+      }
     ],
     "companyLabel": "Ihr Unternehmen / Ihre Branche (optional)",
     "submit": "Anfrage senden"
+  },
+  "faq": {
+    "headline": "Häufige Fragen von Partnern und Firmenkunden",
+    "items": [
+      {
+        "question": "Wie hoch ist die Vermittlungsprovision?",
+        "answer": "Die Provision wird je nach Auftragsvolumen und Häufigkeit individuell vereinbart und für jeden vermittelten und abgeschlossenen Auftrag ausgezahlt. Die konkreten Konditionen nennen wir Ihnen im Erstgespräch — fordern Sie dafür einen Rückruf an."
+      },
+      {
+        "question": "Wer kommt als Vermittler infrage?",
+        "answer": "Immobilienmakler, Relocation-Services, Hausverwaltungen, Sanierungsberater und alle, die regelmäßig Kunden mit Umzugs-, Entrümpelungs- oder Renovierungsbedarf betreuen. Sie melden den Kontakt, wir übernehmen Beratung, Angebot und Durchführung."
+      },
+      {
+        "question": "Was bedeutet bevorzugte Terminplanung?",
+        "answer": "Anfragen von Partnern und Firmenkunden werden vorrangig eingeplant. Gerade bei Mieterwechseln zum Monatsende, wenn die Kapazitäten in München knapp sind, ist das der entscheidende Vorteil."
+      },
+      {
+        "question": "Bekomme ich einen festen Ansprechpartner?",
+        "answer": "Ja. Sie erhalten einen festen Kontakt für alle drei Marken — Umzug, Entrümpelung und Renovierung — statt wechselnder Zuständigkeiten je Gewerk."
+      },
+      {
+        "question": "Wie funktionieren Partnerpreise für Firmenkunden?",
+        "answer": "Statt Einzelangeboten vereinbaren wir feste, vergünstigte Konditionen für wiederkehrende Aufträge. Das macht Ihre Kalkulation planbar und spart bei jedem Auftrag die Angebotsphase."
+      },
+      {
+        "question": "Können Sie mehrere Einheiten gleichzeitig abwickeln?",
+        "answer": "Ja. Für Hausverwaltungen und Immobilienunternehmen übernehmen wir mehrere Einheiten parallel oder in Serie, mit einem gemeinsamen Terminplan und einer Ansprechperson."
+      },
+      {
+        "question": "Wie schnell ist eine Einheit wieder vermietbar?",
+        "answer": "Bei einem durchgetakteten Ablauf — Entrümpelung, Schadensbehebung, Malerarbeiten, Endreinigung — ist eine Standardwohnung in der Regel innerhalb einer Woche wieder vermietungsfertig. Werden dieselben Schritte an mehrere Firmen vergeben, dauert es erfahrungsgemäß zwei bis vier Wochen."
+      },
+      {
+        "question": "Gibt es eine Mindestauftragsmenge?",
+        "answer": "Nein. Partnerkonditionen richten sich nach der erwarteten Regelmäßigkeit, nicht nach einer festen Mindestmenge. Auch als kleinere Hausverwaltung erhalten Sie feste Preise und bevorzugte Termine."
+      }
+    ]
   }
 }

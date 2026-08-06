@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { getCommon, getEntruempelung, getSiteData } from "@/lib/content";
+import { absoluteUrl, serviceSchema } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
 import { btnOutlineOnDark, btnPrimary } from "@/lib/styles";
 import { CallbackButton } from "@/components/CallbackButton";
@@ -11,6 +12,16 @@ import { Hero } from "@/components/Hero";
 import { JsonLd } from "@/components/JsonLd";
 import { PlaceholderImage } from "@/components/PlaceholderImage";
 import { Section, SectionHeading } from "@/components/Section";
+import {
+  AreasServed,
+  CrossLinks,
+  EntityFacts,
+  PricingTable,
+  ServiceDetail,
+  ServiceLead,
+  Situations,
+} from "@/components/ServiceSections";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 interface Props {
   params: Promise<{ locale: Locale }>;
@@ -28,19 +39,17 @@ export default async function EntruempelungPage({ params }: Props) {
   const common = getCommon(locale);
   const site = getSiteData();
 
-  const serviceJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    serviceType: "Entrümpelung München",
-    provider: {
-      "@type": "LocalBusiness",
-      name: "Super Entrümpelung",
-      telephone: site.organization.phone,
-    },
-    areaServed: { "@type": "City", name: "München" },
-    description:
-      "Entrümpelung und Haushaltsauflösung in München mit fachgerechter Entsorgung und besenreiner Übergabe.",
-  };
+  const serviceJsonLd = serviceSchema({
+    locale,
+    href: "/entruempelung",
+    serviceType: locale === "de" ? "Entrümpelung München" : "Clearance Munich",
+    name: content.meta.title,
+    description: content.lead,
+    offers: content.services.items.map((item) => ({
+      name: item.title,
+      description: item.body,
+    })),
+  });
 
   return (
     <>
@@ -61,9 +70,27 @@ export default async function EntruempelungPage({ params }: Props) {
         }
       />
 
+      <Breadcrumbs
+        label="Breadcrumb"
+        items={[
+          {
+            label: locale === "de" ? "Startseite" : "Home",
+            href: "/",
+            url: absoluteUrl(locale, "/"),
+          },
+          {
+            label: locale === "de" ? "Entrümpelung" : "Clearance",
+            url: absoluteUrl(locale, "/entruempelung"),
+          },
+        ]}
+      />
+
       {/* Services */}
       <Section variant="cream">
         <SectionHeading>{content.services.headline}</SectionHeading>
+        <div className="mt-4">
+          <ServiceLead text={content.lead} />
+        </div>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {content.services.items.map((item) => (
             <div
@@ -110,11 +137,23 @@ export default async function EntruempelungPage({ params }: Props) {
         </div>
       </Section>
 
+      <ServiceDetail content={content.detail} />
+      <PricingTable content={content.pricing} />
+      <Situations content={content.situations} />
+      <AreasServed content={content.areas} />
+
       <ChatCta content={common.chatCta} />
 
       <Section variant="cream">
-        <Faq headline={content.faq.headline} items={content.faq.items} />
+        <Faq
+          headline={content.faq.headline}
+          items={content.faq.items}
+          pageUrl={absoluteUrl(locale, "/entruempelung")}
+        />
       </Section>
+
+      <EntityFacts content={content.entity} />
+      <CrossLinks content={content.crossLinks} />
     </>
   );
 }

@@ -65,6 +65,14 @@
       ]
     },
     {
+      "heading": "6a. Google Maps (Zwei-Klick-Lösung)",
+      "paragraphs": [
+        "Auf der Kontaktseite bieten wir eine Karte unseres Einsatzgebiets über Google Maps an (Google Ireland Limited, Irland). Die Karte wird bewusst nicht automatisch geladen: Zunächst sehen Sie nur eine lokal gespeicherte Grafik. Erst wenn Sie aktiv auf „Google Maps laden“ klicken, wird eine Verbindung zu Google hergestellt.",
+        "Mit diesem Klick können Ihre IP-Adresse und weitere Verbindungsdaten an Google übertragen und dort verarbeitet werden, gegebenenfalls auch in den USA. Rechtsgrundlage ist Ihre Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO, die Sie durch das Anklicken der Schaltfläche erteilen. Sie können sie jederzeit widerrufen, indem Sie die Seite neu laden und die Karte nicht erneut aktivieren.",
+        "Weitere Informationen finden Sie in der Datenschutzerklärung von Google: https://policies.google.com/privacy"
+      ]
+    },
+    {
       "heading": "7. Ihre Rechte",
       "paragraphs": [
         "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten (Art. 15–21 DSGVO).",
@@ -79,7 +87,9 @@
     },
     {
       "heading": "Stand",
-      "paragraphs": ["[DATUM DER LETZTEN AKTUALISIERUNG]"]
+      "paragraphs": [
+        "[DATUM DER LETZTEN AKTUALISIERUNG]"
+      ]
     }
   ]
 }

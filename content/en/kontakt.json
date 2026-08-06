@@ -15,15 +15,67 @@
   "serviceArea": {
     "headline": "Our service area",
     "body": "We operate in Munich and the surrounding area.",
-    "mapAlt": "Stylized map of Munich and surroundings — service area of Super Umzug, Super Entrümpelung and BayReno"
+    "mapAlt": "Stylized map of Munich and surroundings — service area of Super Umzug, Super Entrümpelung and BayReno",
+    "loadLabel": "Load Google Maps",
+    "privacyNote": "Loading the map means accepting Google's privacy policy. No data is sent to Google before that.",
+    "mapTitle": "Map of the service area Munich and surroundings"
   },
   "details": {
     "headline": "Direct contact",
     "items": [
-      { "label": "Phone", "value": "[TELEFON]" },
-      { "label": "Email", "value": "[E-MAIL]" },
-      { "label": "Address", "value": "[ADRESSE]" },
-      { "label": "Hours", "value": "[AVAILABILITY HOURS, e.g. Mon–Fri 8am–6pm, Sat 9am–2pm]" }
+      {
+        "label": "Phone",
+        "value": "[TELEFON]"
+      },
+      {
+        "label": "Email",
+        "value": "[E-MAIL]"
+      },
+      {
+        "label": "Address",
+        "value": "[ADRESSE]"
+      },
+      {
+        "label": "Hours",
+        "value": "[AVAILABILITY HOURS, e.g. Mon–Fri 8am–6pm, Sat 9am–2pm]"
+      }
+    ]
+  },
+  "faq": {
+    "headline": "Frequently asked questions about contact and process",
+    "items": [
+      {
+        "question": "What is the fastest way to reach mmoving.de?",
+        "answer": "The callback form on this page. You pick a preferred time — including “as soon as possible” — and we call you back. For instant answers about services and processes, the chat assistant is available around the clock, including by voice."
+      },
+      {
+        "question": "What does a consultation or quote cost?",
+        "answer": "Advice and quotes are free and without obligation. Only the inspection service for property buyers is a separate service at a flat fee of €290."
+      },
+      {
+        "question": "Does the survey have to be on site?",
+        "answer": "Not necessarily. For a manageable scope a survey by photo or video is enough. For larger flats, houses and combined jobs we recommend an on-site appointment, because the volume estimate is far more accurate."
+      },
+      {
+        "question": "What radius do you cover?",
+        "answer": "Munich and roughly 50 km around it, including Dachau, Freising, Erding, Ebersberg, Starnberg, Fürstenfeldbruck and the entire Munich district. For addresses outside that, just ask — we assess feasibility case by case."
+      },
+      {
+        "question": "Do you speak English?",
+        "answer": "Yes. Advice, quoting and delivery are available in German and English. You can reach the English version of this site via the language switch at the top."
+      },
+      {
+        "question": "When are you available?",
+        "answer": "Monday to Friday from 8am to 6pm and Saturdays from 9am to 2pm. Callback and chat requests can be submitted around the clock — we respond at the next available time."
+      },
+      {
+        "question": "What happens after my enquiry?",
+        "answer": "We call back at your chosen time and clarify the scope. A survey follows on site or by video, after which you receive a written fixed-price quote with a date. Only then do you decide."
+      },
+      {
+        "question": "What happens to the data from the form?",
+        "answer": "Your details are used solely to process your enquiry and are sent to our team by email. Nothing is passed on for advertising purposes. Details are in our privacy policy."
+      }
     ]
   }
 }

@@ -3,6 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { getRenovierung, getCommon, getSiteData } from "@/lib/content";
+import { absoluteUrl, serviceSchema } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
 import { btnOutlineOnDark, btnOutlineOnLight, btnPrimary } from "@/lib/styles";
 import { CallbackButton } from "@/components/CallbackButton";
@@ -11,6 +12,16 @@ import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
 import { JsonLd } from "@/components/JsonLd";
 import { Section, SectionHeading } from "@/components/Section";
+import {
+  AreasServed,
+  CrossLinks,
+  EntityFacts,
+  PricingTable,
+  ServiceDetail,
+  ServiceLead,
+  Situations,
+} from "@/components/ServiceSections";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 interface Props {
   params: Promise<{ locale: Locale }>;
@@ -28,19 +39,17 @@ export default async function BayrenoPage({ params }: Props) {
   const common = getCommon(locale);
   const site = getSiteData();
 
-  const serviceJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    serviceType: "Renovierung München",
-    provider: {
-      "@type": "HomeAndConstructionBusiness",
-      name: "BayReno — Bayerische Renovierung",
-      telephone: site.organization.phone,
-    },
-    areaServed: { "@type": "City", name: "München" },
-    description:
-      "Renovierung und Sanierung in München: Maler-, Boden-, Bad- und Trockenbauarbeiten sowie Komplettsanierungen — termintreu und aus einer Hand.",
-  };
+  const serviceJsonLd = serviceSchema({
+    locale,
+    href: "/renovierung",
+    serviceType: locale === "de" ? "Renovierung München" : "Renovation Munich",
+    name: content.meta.title,
+    description: content.lead,
+    offers: content.services.items.map((item) => ({
+      name: item.title,
+      description: item.body,
+    })),
+  });
 
   return (
     <>
@@ -112,11 +121,23 @@ export default async function BayrenoPage({ params }: Props) {
         </Link>
       </Section>
 
+      <ServiceDetail content={content.detail} />
+      <PricingTable content={content.pricing} />
+      <Situations content={content.situations} />
+      <AreasServed content={content.areas} />
+
       <ChatCta content={common.chatCta} />
 
       <Section variant="cream">
-        <Faq headline={content.faq.headline} items={content.faq.items} />
+        <Faq
+          headline={content.faq.headline}
+          items={content.faq.items}
+          pageUrl={absoluteUrl(locale, "/renovierung")}
+        />
       </Section>
+
+      <EntityFacts content={content.entity} />
+      <CrossLinks content={content.crossLinks} />
     </>
   );
 }
