@@ -1,64 +1,45 @@
-"use client";
-
-import { useState } from "react";
 import Image from "next/image";
 
 /**
- * Two-click Google Maps embed.
+ * Service-area map, rendered immediately — no click-to-load gate.
  *
- * The iframe is only mounted after the visitor explicitly asks for it, so no
- * request reaches Google — and no consent banner is required — until then.
- * Until clicked, the hand-drawn service-area SVG is shown instead.
+ * The map is a self-hosted SVG generated from real WGS84 coordinates
+ * (public/images/einsatzgebiet-muenchen.svg), so every town sits at its true
+ * position and the 50 km ring is drawn to scale. Because nothing is fetched
+ * from a third party, it paints instantly, costs no extra requests and needs no
+ * cookie consent. The link below opens the interactive Google map in a new tab
+ * for anyone who wants to pan and zoom.
  */
 export function ServiceAreaMap({
-  placeholderAlt,
-  loadLabel,
-  privacyNote,
-  mapTitle,
+  alt,
+  openLabel,
+  caption,
 }: {
-  placeholderAlt: string;
-  loadLabel: string;
-  privacyNote: string;
-  mapTitle: string;
+  alt: string;
+  openLabel: string;
+  caption: string;
 }) {
-  const [loaded, setLoaded] = useState(false);
-
-  if (loaded) {
-    return (
-      <iframe
-        title={mapTitle}
-        // Munich city plus the metropolitan area, at a zoom that shows the
-        // roughly 50 km service radius.
-        src="https://www.google.com/maps?q=M%C3%BCnchen,%20Bayern,%20Deutschland&z=9&output=embed"
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-        className="h-[380px] w-full rounded-xl border border-hairline shadow-card"
-        allowFullScreen
-      />
-    );
-  }
-
   return (
-    <div className="relative overflow-hidden rounded-xl border border-hairline shadow-card">
+    <figure>
       <Image
-        src="/images/muenchen-karte.svg"
-        alt={placeholderAlt}
-        width={800}
-        height={600}
-        className="w-full"
+        src="/images/einsatzgebiet-muenchen.svg"
+        alt={alt}
+        width={900}
+        height={900}
+        priority
+        className="w-full rounded-xl border border-hairline shadow-card"
       />
-      <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-navy-deep/70 p-6 text-center">
-        <button
-          type="button"
-          onClick={() => setLoaded(true)}
-          className="rounded-lg bg-gold px-6 py-3 font-semibold text-navy transition-colors hover:bg-gold-deep hover:text-white"
+      <figcaption className="mt-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-1 text-sm text-anthracite/70">
+        <span>{caption}</span>
+        <a
+          href="https://www.google.com/maps/place/M%C3%BCnchen/@48.1351,11.582,9z"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-gold-deep underline decoration-gold/40 underline-offset-4 hover:decoration-gold"
         >
-          {loadLabel}
-        </button>
-        <p className="max-w-sm text-xs leading-relaxed text-white/80">
-          {privacyNote}
-        </p>
-      </div>
-    </div>
+          {openLabel} ↗
+        </a>
+      </figcaption>
+    </figure>
   );
 }

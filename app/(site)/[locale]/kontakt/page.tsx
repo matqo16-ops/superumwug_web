@@ -64,10 +64,9 @@ export default async function KontaktPage({ params }: Props) {
             </SectionHeading>
             <div className="mt-8">
               <ServiceAreaMap
-                placeholderAlt={content.serviceArea.mapAlt}
-                loadLabel={content.serviceArea.loadLabel}
-                privacyNote={content.serviceArea.privacyNote}
-                mapTitle={content.serviceArea.mapTitle}
+                alt={content.serviceArea.mapAlt}
+                caption={content.serviceArea.mapCaption}
+                openLabel={content.serviceArea.mapOpenLabel}
               />
             </div>
 

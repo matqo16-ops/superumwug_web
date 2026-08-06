@@ -346,9 +346,8 @@ export interface KontaktContent {
     headline: string;
     body: string;
     mapAlt: string;
-    loadLabel: string;
-    privacyNote: string;
-    mapTitle: string;
+    mapCaption: string;
+    mapOpenLabel: string;
   };
   details: { headline: string; items: { label: string; value: string }[] };
   faq: { headline: string; items: FaqItem[] };

@@ -127,9 +127,10 @@ business node:
 - `robots.txt` — allows all, disallows `/admin` and `/api`, points at the sitemap.
 - Images: AVIF/WebP enabled via `next.config.ts`; `next/image` lazy-loads by
   default with `priority` only on above-the-fold art.
-- Google Maps on `/kontakt` sits behind a **two-click gate** — nothing is
-  requested from Google until the visitor clicks, so the site still needs no
-  consent banner. Privacy policy documents it in both languages.
+- Service-area map on `/kontakt` is a self-hosted SVG generated from real WGS84
+  coordinates: every town sits at its true relative position and the 50 km ring
+  is drawn to the same scale. It renders immediately (no click, no third-party
+  request, no consent banner) and links out to the interactive Google map.
 - Every page keeps its callback CTA, the chatbot CTA and the floating assistant.
 
 ---

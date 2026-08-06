@@ -15,10 +15,9 @@
   "serviceArea": {
     "headline": "Our service area",
     "body": "We operate in Munich and the surrounding area.",
-    "mapAlt": "Stylized map of Munich and surroundings — service area of Super Umzug, Super Entrümpelung and BayReno",
-    "loadLabel": "Load Google Maps",
-    "privacyNote": "Loading the map means accepting Google's privacy policy. No data is sent to Google before that.",
-    "mapTitle": "Map of the service area Munich and surroundings"
+    "mapAlt": "Map of the service area: Munich with Dachau, Freising, Erding, Ebersberg, Starnberg, Fürstenfeldbruck, Germering, Garching, Holzkirchen and Bad Tölz within roughly 50 kilometres",
+    "mapCaption": "Munich and the surrounding area within roughly 50 km — every marked town is inside our service area.",
+    "mapOpenLabel": "Open in Google Maps"
   },
   "details": {
     "headline": "Direct contact",

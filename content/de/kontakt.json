@@ -15,10 +15,9 @@
   "serviceArea": {
     "headline": "Unser Einsatzgebiet",
     "body": "Wir sind für Sie in München und Umgebung im Einsatz.",
-    "mapAlt": "Stilisierte Karte von München und Umgebung — Einsatzgebiet von Super Umzug, Super Entrümpelung und BayReno",
-    "loadLabel": "Google Maps laden",
-    "privacyNote": "Mit dem Laden der Karte akzeptieren Sie die Datenschutzerklärung von Google. Es werden erst dann Daten an Google übertragen.",
-    "mapTitle": "Karte des Einsatzgebiets München und Umgebung"
+    "mapAlt": "Karte des Einsatzgebiets: München mit Dachau, Freising, Erding, Ebersberg, Starnberg, Fürstenfeldbruck, Germering, Garching, Holzkirchen und Bad Tölz im Umkreis von rund 50 Kilometern",
+    "mapCaption": "München und Umgebung im Umkreis von rund 50 km — alle markierten Orte liegen in unserem Einsatzgebiet.",
+    "mapOpenLabel": "In Google Maps öffnen"
   },
   "details": {
     "headline": "Direkter Kontakt",
