@@ -103,6 +103,16 @@ export interface CommonContent {
   characterAlt: string;
   /** Per-brand hero characters, keyed by brand id. */
   characters: Record<Brand["id"], CharacterImage>;
+  /** Umbrella mmoving.de mark, split so it can be laid out horizontally. */
+  siteLogo: {
+    hexagon: string;
+    hexagonWidth: number;
+    hexagonHeight: number;
+    wordmark: string;
+    wordmarkWidth: number;
+    wordmarkHeight: number;
+    alt: string;
+  };
   brands: Brand[];
   nav: NavItem[];
   header: {

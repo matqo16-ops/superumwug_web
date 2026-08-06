@@ -4,7 +4,7 @@ import { routing, type AppPathname, type Locale } from "@/i18n/routing";
 import type { PageMeta } from "./content-types";
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.superumzug.de";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://mmoving.de";
 
 function absoluteUrl(locale: Locale, href: AppPathname): string {
   return SITE_URL + getPathname({ locale, href });

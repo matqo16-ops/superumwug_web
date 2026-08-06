@@ -113,24 +113,62 @@ export function SiteHeader({ common }: { common: CommonContent }) {
 
   return (
     <header className="border-b border-navy bg-white">
-      {/* Brand row — Super Umzug · BayReno · Super Entrümpelung */}
-      <div className="mx-auto hidden max-w-6xl items-stretch justify-between gap-4 px-6 py-4 md:flex">
-        {common.brands.map((brand, index) => (
-          <BrandBlock key={brand.id} brand={brand} priority={index === 0} />
-        ))}
+      {/* Brand row — mmoving.de umbrella mark, then the three brands */}
+      <div className="mx-auto hidden max-w-6xl items-center gap-5 px-6 py-4 md:flex lg:gap-7">
+        <Link
+          href="/"
+          aria-label={common.siteLogo.alt}
+          className="flex shrink-0 items-center gap-2.5 rounded-lg p-1 transition-opacity hover:opacity-80"
+        >
+          <Image
+            src={common.siteLogo.hexagon}
+            alt=""
+            aria-hidden="true"
+            width={common.siteLogo.hexagonWidth}
+            height={common.siteLogo.hexagonHeight}
+            priority
+            className="h-11 w-auto"
+            sizes="44px"
+          />
+          <Image
+            src={common.siteLogo.wordmark}
+            alt=""
+            aria-hidden="true"
+            width={common.siteLogo.wordmarkWidth}
+            height={common.siteLogo.wordmarkHeight}
+            priority
+            className="hidden h-4 w-auto lg:block"
+            sizes="110px"
+          />
+        </Link>
+        <span aria-hidden="true" className="h-10 w-px shrink-0 bg-hairline" />
+        <div className="flex flex-1 items-stretch justify-between gap-4">
+          {common.brands.map((brand, index) => (
+            <BrandBlock key={brand.id} brand={brand} priority={index === 0} />
+          ))}
+        </div>
       </div>
 
       {/* Mobile brand row — all three brands, wrapping so they never overflow */}
       <div className="flex items-center justify-between gap-3 px-4 py-3 md:hidden">
         <div className="flex min-w-0 flex-wrap items-center gap-x-3 gap-y-1.5">
-          {/* Home icon sits to the left of the three brand logos */}
+          {/* The mmoving mark doubles as the home link, left of the three brands */}
           <Link
             href="/"
-            aria-label={homeItem?.label}
+            aria-label={common.siteLogo.alt}
             title={homeItem?.label}
-            className="shrink-0 rounded-md p-1 text-navy hover:text-gold-deep"
+            className="shrink-0"
           >
-            <HomeIcon />
+            <Image
+              src={common.siteLogo.hexagon}
+              alt=""
+              aria-hidden="true"
+              width={common.siteLogo.hexagonWidth}
+              height={common.siteLogo.hexagonHeight}
+              priority
+              className="h-7 w-auto"
+              sizes="28px"
+            />
           </Link>
           {common.brands.map((brand, index) => (
             <Link key={brand.id} href={brand.href} className="block">

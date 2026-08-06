@@ -1,4 +1,4 @@
-# TODO — before superumzug.de goes live
+# TODO — before mmoving.de goes live
 
 Two kinds of work remain: **(A)** fill in the `[PLACEHOLDER]` values in the content files, and
 **(B)** set the environment variables in Vercel. Nothing in the code is blocking — the site
@@ -92,7 +92,7 @@ the site still builds and renders without them, degrading gracefully (see notes)
 | `DATABASE_URL` | Neon Postgres — stores chat transcripts | Chat still works; transcripts aren't logged; `/admin/chats` shows a setup notice |
 | `ADMIN_USER` | HTTP Basic Auth username for `/admin` | `/admin` returns 503 "not configured" |
 | `ADMIN_PASSWORD` | HTTP Basic Auth password for `/admin` | Same as above |
-| `NEXT_PUBLIC_SITE_URL` | Canonical/hreflang/sitemap base URL | Defaults to `https://www.superumzug.de` |
+| `NEXT_PUBLIC_SITE_URL` | Canonical/hreflang/sitemap base URL | Defaults to `https://mmoving.de` |
 
 After setting `DATABASE_URL`, run the one-time migration: `npm run migrate` (see `DEPLOY.md` §4).
 

@@ -1,4 +1,4 @@
-# superumzug.de
+# mmoving.de
 
 Production website for three Munich brands under one roof — **Super Umzug** (moving),
 **Super Entrümpelung** (clearance) and **BayReno** (renovation, external). Next.js 15 (App

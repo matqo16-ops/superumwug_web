@@ -232,5 +232,14 @@
       "height": 1435,
       "alt": "Mitarbeiter von Super Entrümpelung im Team-Shirt mit Daumen nach oben"
     }
+  },
+  "siteLogo": {
+    "hexagon": "/logos/mmoving-hexagon.png",
+    "hexagonWidth": 599,
+    "hexagonHeight": 671,
+    "wordmark": "/logos/mmoving-wordmark.png",
+    "wordmarkWidth": 909,
+    "wordmarkHeight": 145,
+    "alt": "mmoving.de — Umzug, Entrümpelung und Renovierung aus einer Hand"
   }
 }

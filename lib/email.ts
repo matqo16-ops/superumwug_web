@@ -31,8 +31,8 @@ export async function sendCallbackEmail(data: CallbackRequest): Promise<void> {
 
   const { error } = await resend.emails.send({
     // Works out of the box on the Resend free tier; switch to a verified
-    // domain sender (e.g. website@superumzug.de) once DNS is set up.
-    from: process.env.CALLBACK_FROM_EMAIL ?? "Superumzug Website <onboarding@resend.dev>",
+    // domain sender (e.g. website@mmoving.de) once DNS is set up.
+    from: process.env.CALLBACK_FROM_EMAIL ?? "mmoving.de Website <onboarding@resend.dev>",
     to,
     subject: `Neue Rückrufanfrage: ${data.name}${data.topic ? ` (${data.topic})` : ""}`,
     text: lines.join("\n"),

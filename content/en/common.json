@@ -232,5 +232,14 @@
       "height": 1435,
       "alt": "Super Entrümpelung team member in a branded shirt giving a thumbs up"
     }
+  },
+  "siteLogo": {
+    "hexagon": "/logos/mmoving-hexagon.png",
+    "hexagonWidth": 599,
+    "hexagonHeight": 671,
+    "wordmark": "/logos/mmoving-wordmark.png",
+    "wordmarkWidth": 909,
+    "wordmarkHeight": 145,
+    "alt": "mmoving.de — moving, clearance and renovation from one team"
   }
 }

@@ -1,7 +1,7 @@
-# Deploying superumzug.de
+# Deploying mmoving.de
 
 This is a standard Next.js 15 (App Router) app — deploy it to **Vercel** and point the
-`superumzug.de` domain at it. Follow the steps in order. Everything marked 🔑 is an environment
+`mmoving.de` domain at it. Follow the steps in order. Everything marked 🔑 is an environment
 variable you'll collect along the way and paste into Vercel in Step 3.
 
 **What you'll set up:** GitHub repo → Vercel project → Neon Postgres (chat logging) → Anthropic
@@ -53,7 +53,7 @@ same set for reference.
 | 🔑 `CALLBACK_FROM_EMAIL` | *(optional)* verified sender — Step 6 |
 | 🔑 `ADMIN_USER` | You choose — Step 7 |
 | 🔑 `ADMIN_PASSWORD` | You choose (use a strong password) — Step 7 |
-| 🔑 `NEXT_PUBLIC_SITE_URL` | `https://www.superumzug.de` (set once the domain is live) |
+| 🔑 `NEXT_PUBLIC_SITE_URL` | `https://mmoving.de` (set once the domain is live) |
 
 Every variable is optional for the build to succeed — the site degrades gracefully if one is
 missing (see `TODO.md` §B) — but you'll want them all set for the live site.
@@ -111,12 +111,12 @@ email is the record).
 1. Sign up at **resend.com** (free tier: 100 emails/day, 3,000/month — ample).
 2. **API Keys → Create API Key** → copy into 🔑 `RESEND_API_KEY`.
 3. Set 🔑 `CALLBACK_TO_EMAIL` to the inbox that should receive callback requests (e.g.
-   `anfragen@superumzug.de` or any address you check).
+   `anfragen@mmoving.de` or any address you check).
 4. **Sender address (recommended):** by default emails are sent from Resend's shared
    `onboarding@resend.dev`, which works immediately but may land in spam. To send from your own
-   domain: in Resend, **Domains → Add Domain** (`superumzug.de`), add the DKIM/SPF records Resend
+   domain: in Resend, **Domains → Add Domain** (`mmoving.de`), add the DKIM/SPF records Resend
    shows you to your DNS, then set 🔑 `CALLBACK_FROM_EMAIL` to something like
-   `Super Umzug <website@superumzug.de>`.
+   `mmoving.de <website@mmoving.de>`.
 
 ---
 
@@ -125,7 +125,7 @@ email is the record).
 The chat-log dashboard is protected by HTTP Basic Auth (enforced in `middleware.ts`).
 
 - Set 🔑 `ADMIN_USER` (e.g. `admin`) and 🔑 `ADMIN_PASSWORD` (a strong, unique password).
-- Visit `https://www.superumzug.de/admin/chats` and enter them when the browser prompts.
+- Visit `https://mmoving.de/admin/chats` and enter them when the browser prompts.
 - `/admin` is `noindex` (via header + metadata + robots.txt) and excluded from the sitemap.
 
 ---
@@ -143,17 +143,17 @@ open the `*.vercel.app` URL to smoke-test:
 
 ---
 
-## 9. Point the superumzug.de domain at Vercel
+## 9. Point the mmoving.de domain at Vercel
 
-1. In Vercel: **Project → Settings → Domains → Add** → enter `superumzug.de`. Add `www.superumzug.de`
-   too; Vercel will offer to redirect one to the other — the site's canonical URLs use **`www`**,
-   so set **`www.superumzug.de` as primary** and redirect the apex to it.
+1. In Vercel: **Project → Settings → Domains → Add** → enter `mmoving.de`. Add `www.mmoving.de`
+   too; Vercel will offer to redirect one to the other — the site's canonical URLs use the **bare
+   domain** (matching the logo), so set **`mmoving.de` as primary** and let `www` redirect to it.
 2. Vercel shows the exact DNS records to create. At your **domain registrar / DNS provider**, set:
 
    | Type | Name / Host | Value | Purpose |
    |---|---|---|---|
-   | `A` | `@` (apex `superumzug.de`) | `76.76.21.21` | Points the apex at Vercel |
-   | `CNAME` | `www` | `cname.vercel-dns.com` | Points `www` at Vercel |
+   | `A` | `@` (apex `mmoving.de`) | `76.76.21.21` | Points the apex at Vercel |
+   | `CNAME` | `www` | `cname.vercel-dns.com` | Points `www` at Vercel (redirects to the apex) |
 
    > Use the values **Vercel shows you** if they differ — Vercel occasionally updates the target
    > IP/CNAME. The apex `A` record and the `www` `CNAME` are the two you need. Delete any old
@@ -164,12 +164,12 @@ open the `*.vercel.app` URL to smoke-test:
 
 3. Back in Vercel, wait for the domain to verify (DNS can take minutes to a few hours). Vercel
    issues the TLS certificate automatically once DNS resolves.
-4. Set 🔑 `NEXT_PUBLIC_SITE_URL` to `https://www.superumzug.de` and redeploy so canonical tags,
+4. Set 🔑 `NEXT_PUBLIC_SITE_URL` to `https://mmoving.de` and redeploy so canonical tags,
    `hreflang`, `sitemap.xml` and `robots.txt` use the real domain.
 
 ### DKIM/SPF (only if you set up a custom email sender in Step 6)
 
-If you added `superumzug.de` as a Resend sending domain, also add the DKIM `TXT`/`CNAME` and SPF
+If you added `mmoving.de` as a Resend sending domain, also add the DKIM `TXT`/`CNAME` and SPF
 `TXT` records Resend generates (they'll be in the Resend Domains page). These are separate from
 the two Vercel records above.
 
@@ -177,7 +177,7 @@ the two Vercel records above.
 
 ## 10. Post-launch
 
-- **Submit the sitemap** to Google Search Console: `https://www.superumzug.de/sitemap.xml`.
+- **Submit the sitemap** to Google Search Console: `https://mmoving.de/sitemap.xml`.
 - **Fill in the placeholders** — see `TODO.md`. Especially the Impressum and Datenschutz fields
   (an incomplete Impressum is a legal risk in Germany) and the chatbot price table.
 - **Editing copy later:** change the relevant file under `content/`, commit, push — Vercel
