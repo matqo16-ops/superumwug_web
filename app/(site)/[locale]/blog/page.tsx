@@ -8,7 +8,8 @@ import { getBlogIndexContent } from "@/lib/content";
 import { absoluteUrl } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { Section, SectionHeading } from "@/components/Section";
+import { Section } from "@/components/Section";
+import { Faq } from "@/components/Faq";
 
 interface Props {
   params: Promise<{ locale: Locale }>;
@@ -40,7 +41,14 @@ export default async function BlogIndexPage({ params }: Props) {
       />
 
       <Section variant="cream">
-        <SectionHeading intro={content.intro}>{content.headline}</SectionHeading>
+        <div className="max-w-3xl">
+          <h1 className="font-display text-3xl font-semibold text-navy sm:text-4xl">
+            {content.headline}
+          </h1>
+          <p className="mt-4 text-lg leading-relaxed text-anthracite/80">
+            {content.intro}
+          </p>
+        </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {articles.map((article) => (
@@ -80,6 +88,14 @@ export default async function BlogIndexPage({ params }: Props) {
             </article>
           ))}
         </div>
+      </Section>
+
+      <Section variant="light">
+        <Faq
+          headline={content.faq.headline}
+          items={content.faq.items}
+          pageUrl={absoluteUrl(locale, "/blog")}
+        />
       </Section>
     </>
   );

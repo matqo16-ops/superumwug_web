@@ -11,8 +11,14 @@
     "Umzug Kosten berechnen"
   ],
   "related": [
-    { "label": "Umzug München — Leistungen & Unbeschädigt-Garantie", "href": "/umzug" },
-    { "label": "Komplettservice: Umzug, Entrümpelung und Renovierung", "href": "/komplettservice" }
+    {
+      "label": "Umzug München — Leistungen & Unbeschädigt-Garantie",
+      "href": "/umzug"
+    },
+    {
+      "label": "Komplettservice: Umzug, Entrümpelung und Renovierung",
+      "href": "/komplettservice"
+    }
   ],
   "faq": [
     {
@@ -52,7 +58,8 @@
     "headline": "Festpreis für Ihren Umzug in München",
     "body": "Wir sehen uns Ihre Wohnung vor Ort oder per Video an und nennen Ihnen einen verbindlichen Festpreis — inklusive Unbeschädigt-Garantie mit voller Werterstattung.",
     "button": "Rückruf anfordern"
-  }
+  },
+  "metaTitle": "Umzugskosten München: Womit muss ich rechnen?"
 }
 ---
 

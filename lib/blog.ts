@@ -15,6 +15,8 @@ import type { FaqItem } from "./content-types";
  */
 export interface BlogFrontMatter {
   title: string;
+  /** Shorter <title> when the H1 headline exceeds 60 characters. */
+  metaTitle?: string;
   /** Meta description, max 155 chars. */
   description: string;
   /** Short summary shown on the index card. */
@@ -39,7 +41,7 @@ export interface BlogArticle extends BlogFrontMatter {
 export interface BlogSummary
   extends Pick<
     BlogFrontMatter,
-    "title" | "description" | "excerpt" | "datePublished" | "keywords"
+    "title" | "metaTitle" | "description" | "excerpt" | "datePublished" | "keywords"
   > {
   slug: string;
   readingMinutes: number;
@@ -92,9 +94,10 @@ export function getBlogIndex(): BlogSummary[] {
     .map((slug) => getBlogArticle(slug))
     .filter((article): article is BlogArticle => article !== null)
     .sort((a, b) => b.datePublished.localeCompare(a.datePublished))
-    .map(({ slug, title, description, excerpt, datePublished, keywords, readingMinutes }) => ({
+    .map(({ slug, title, metaTitle, description, excerpt, datePublished, keywords, readingMinutes }) => ({
       slug,
       title,
+      metaTitle,
       description,
       excerpt,
       datePublished,

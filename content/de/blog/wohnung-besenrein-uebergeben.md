@@ -11,8 +11,14 @@
     "Wohnung übergeben Vermieter"
   ],
   "related": [
-    { "label": "Entrümpelung & besenreine Übergabe München", "href": "/entruempelung" },
-    { "label": "Renovierung & Schönheitsreparaturen München", "href": "/renovierung" }
+    {
+      "label": "Entrümpelung & besenreine Übergabe München",
+      "href": "/entruempelung"
+    },
+    {
+      "label": "Renovierung & Schönheitsreparaturen München",
+      "href": "/renovierung"
+    }
   ],
   "faq": [
     {
@@ -52,7 +58,8 @@
     "headline": "Besenreine Übergabe — ohne Diskussion am Übergabetag",
     "body": "Wir räumen, entsorgen und übergeben die Wohnung besenrein. Auf Wunsch inklusive Schönheitsreparaturen, damit die Kaution vollständig zurückkommt.",
     "button": "Rückruf anfordern"
-  }
+  },
+  "metaTitle": "Wohnung besenrein übergeben: Was gilt?"
 }
 ---
 

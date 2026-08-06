@@ -11,9 +11,18 @@
     "Umzug Entrümpelung Renovierung"
   ],
   "related": [
-    { "label": "Komplettservice: Umzug, Entrümpelung und Renovierung", "href": "/komplettservice" },
-    { "label": "Umzug München", "href": "/umzug" },
-    { "label": "Entrümpelung München", "href": "/entruempelung" }
+    {
+      "label": "Komplettservice: Umzug, Entrümpelung und Renovierung",
+      "href": "/komplettservice"
+    },
+    {
+      "label": "Umzug München",
+      "href": "/umzug"
+    },
+    {
+      "label": "Entrümpelung München",
+      "href": "/entruempelung"
+    }
   ],
   "faq": [
     {
@@ -53,7 +62,8 @@
     "headline": "Umzug, Entrümpelung und Renovierung in einem Auftrag",
     "body": "Ein Ansprechpartner, ein Terminplan, ein Festpreis. Wir sehen uns beide Wohnungen an und legen die Reihenfolge fest, die für Sie am schnellsten zum Ziel führt.",
     "button": "Rückruf anfordern"
-  }
+  },
+  "metaTitle": "Umzug und Entrümpelung kombinieren"
 }
 ---
 

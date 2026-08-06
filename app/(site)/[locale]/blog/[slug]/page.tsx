@@ -31,7 +31,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const url = `${SITE_URL}/blog/${slug}`;
   return {
-    title: article.title,
+    // The long, readable H1 stays; the <title> uses the shorter variant so it
+    // fits inside Google's ~60-character cutoff.
+    title: article.metaTitle ?? article.title,
     description: article.description,
     keywords: article.keywords,
     // The article exists in German only, so no hreflang alternates here.

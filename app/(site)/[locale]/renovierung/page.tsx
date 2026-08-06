@@ -70,9 +70,27 @@ export default async function BayrenoPage({ params }: Props) {
         }
       />
 
+      <Breadcrumbs
+        label="Breadcrumb"
+        items={[
+          {
+            label: locale === "de" ? "Startseite" : "Home",
+            href: "/",
+            url: absoluteUrl(locale, "/"),
+          },
+          {
+            label: locale === "de" ? "Renovierung" : "Renovation",
+            url: absoluteUrl(locale, "/renovierung"),
+          },
+        ]}
+      />
+
       {/* Services */}
       <Section variant="cream" id="leistungen">
         <SectionHeading>{content.services.headline}</SectionHeading>
+        <div className="mt-4">
+          <ServiceLead text={content.lead} />
+        </div>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {content.services.items.map((item) => (
             <div

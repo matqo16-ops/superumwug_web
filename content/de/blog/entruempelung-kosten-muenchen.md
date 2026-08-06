@@ -11,8 +11,14 @@
     "Entrümpelung Kosten pro qm"
   ],
   "related": [
-    { "label": "Entrümpelung München — Leistungen & Ablauf", "href": "/entruempelung" },
-    { "label": "Komplettservice: Umzug, Entrümpelung und Renovierung", "href": "/komplettservice" }
+    {
+      "label": "Entrümpelung München — Leistungen & Ablauf",
+      "href": "/entruempelung"
+    },
+    {
+      "label": "Komplettservice: Umzug, Entrümpelung und Renovierung",
+      "href": "/komplettservice"
+    }
   ],
   "faq": [
     {
@@ -52,7 +58,8 @@
     "headline": "Festpreis für Ihre Entrümpelung in München",
     "body": "Nach einer kurzen Besichtigung vor Ort oder per Foto und Video erhalten Sie ein verbindliches Festpreisangebot — inklusive Entsorgung und besenreiner Übergabe.",
     "button": "Rückruf anfordern"
-  }
+  },
+  "metaTitle": "Entrümpelung München: Kosten & Preise 2026"
 }
 ---
 

@@ -14,5 +14,34 @@
   "faqHeadline": "Häufige Fragen zu diesem Thema",
   "relatedHeadline": "Passende Leistungen",
   "backToBlog": "Alle Ratgeber-Artikel",
-  "moreArticles": "Weitere Artikel"
+  "moreArticles": "Weitere Artikel",
+  "faq": {
+    "headline": "Häufige Fragen zu Kosten und Abläufen",
+    "items": [
+      {
+        "question": "Was kostet ein Umzug in München?",
+        "answer": "Marktüblich 700 bis 1.400 € für eine 2-Zimmer-Wohnung innerhalb Münchens und 1.400 bis 2.800 € für vier Zimmer. Entscheidend sind Volumen, Entfernung, Stockwerk und Zusatzleistungen. Die vollständige Aufschlüsselung steht im Artikel zu den Umzugskosten."
+      },
+      {
+        "question": "Was kostet eine Entrümpelung in München?",
+        "answer": "Marktüblich 35 bis 70 € pro Quadratmeter. Eine 60-m²-Wohnung liegt damit bei etwa 1.800 bis 3.500 €, ein Einfamilienhaus bei 4.500 bis 9.000 €. Details und Rechenbeispiele finden Sie im Artikel zu den Entrümpelungskosten."
+      },
+      {
+        "question": "Was kostet eine Renovierung in München?",
+        "answer": "Malerarbeiten liegen marktüblich bei 12 bis 25 € pro Quadratmeter Wandfläche, eine Komplettrenovierung ohne Bad bei 250 bis 600 € pro Quadratmeter Wohnfläche. In leeren Räumen ist die Arbeit 15 bis 30 % günstiger."
+      },
+      {
+        "question": "Lohnt es sich, Umzug und Entrümpelung zu kombinieren?",
+        "answer": "Ja. Ein gemeinsamer Auftrag ist erfahrungsgemäß 15 bis 25 % günstiger als zwei getrennte, weil Anfahrt, Rüstzeit, Halteverbotszone und Koordination nur einmal anfallen."
+      },
+      {
+        "question": "Muss ich beim Auszug renovieren?",
+        "answer": "Nur wenn eine wirksame Klausel im Mietvertrag steht und die Wohnung renoviert übergeben wurde. Starre Fristenpläne sind laut BGH unwirksam. Wurde die Wohnung unrenoviert übergeben, entfällt die Pflicht in der Regel ganz."
+      },
+      {
+        "question": "Was bedeutet besenreine Übergabe?",
+        "answer": "Vollständig geräumt, gekehrt, frei von Müll und persönlichen Gegenständen, Schränke und Böden leer. Fenster putzen, Backofen reinigen oder Streichen gehören ausdrücklich nicht dazu."
+      }
+    ]
+  }
 }

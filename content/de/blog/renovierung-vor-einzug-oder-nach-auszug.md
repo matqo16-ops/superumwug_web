@@ -11,8 +11,14 @@
     "Renovierung Mietwohnung"
   ],
   "related": [
-    { "label": "Renovierung & Sanierung München", "href": "/renovierung" },
-    { "label": "Komplettservice: Umzug, Entrümpelung und Renovierung", "href": "/komplettservice" }
+    {
+      "label": "Renovierung & Sanierung München",
+      "href": "/renovierung"
+    },
+    {
+      "label": "Komplettservice: Umzug, Entrümpelung und Renovierung",
+      "href": "/komplettservice"
+    }
   ],
   "faq": [
     {
@@ -52,7 +58,8 @@
     "headline": "Renovierung und Umzug aus einer Hand planen",
     "body": "Wir sehen uns beide Wohnungen an, legen die Reihenfolge fest und koordinieren Renovierung, Umzug und Übergabe so, dass Sie nur einmal umziehen.",
     "button": "Rückruf anfordern"
-  }
+  },
+  "metaTitle": "Renovieren vor Einzug oder nach Auszug?"
 }
 ---
 

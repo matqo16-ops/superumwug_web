@@ -375,6 +375,7 @@ export interface BlogIndexContent {
   relatedHeadline: string;
   backToBlog: string;
   moreArticles: string;
+  faq: { headline: string; items: FaqItem[] };
 }
 
 export interface SiteData {

@@ -11,8 +11,14 @@
     "muss ich beim Auszug streichen"
   ],
   "related": [
-    { "label": "Renovierung & Schönheitsreparaturen München", "href": "/renovierung" },
-    { "label": "Entrümpelung & besenreine Übergabe", "href": "/entruempelung" }
+    {
+      "label": "Renovierung & Schönheitsreparaturen München",
+      "href": "/renovierung"
+    },
+    {
+      "label": "Entrümpelung & besenreine Übergabe",
+      "href": "/entruempelung"
+    }
   ],
   "faq": [
     {
@@ -52,7 +58,8 @@
     "headline": "Schönheitsreparaturen fachgerecht erledigen lassen",
     "body": "Wenn Ihr Mietvertrag Renovierung wirksam verlangt, übernehmen wir Malerarbeiten und Reparaturen — sauber ausgeführt und rechtzeitig zum Übergabetermin.",
     "button": "Rückruf anfordern"
-  }
+  },
+  "metaTitle": "Renovierungspflicht beim Auszug: Ihre Rechte"
 }
 ---
 

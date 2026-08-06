@@ -11,8 +11,14 @@
     "Haushaltsauflösung Kosten"
   ],
   "related": [
-    { "label": "Entrümpelung & Haushaltsauflösung München", "href": "/entruempelung" },
-    { "label": "Komplettservice: Umzug, Entrümpelung und Renovierung", "href": "/komplettservice" }
+    {
+      "label": "Entrümpelung & Haushaltsauflösung München",
+      "href": "/entruempelung"
+    },
+    {
+      "label": "Komplettservice: Umzug, Entrümpelung und Renovierung",
+      "href": "/komplettservice"
+    }
   ],
   "faq": [
     {
@@ -52,7 +58,8 @@
     "headline": "Haushaltsauflösung in München — diskret und zum Festpreis",
     "body": "Wir sichten die Wohnung, stimmen ab, was bleibt, und übernehmen Räumung, Entsorgung und besenreine Übergabe. Auf Wunsch komplett ohne Ihre Anwesenheit.",
     "button": "Rückruf anfordern"
-  }
+  },
+  "metaTitle": "Haushaltsauflösung: Ablauf, Dauer, Kosten"
 }
 ---
 

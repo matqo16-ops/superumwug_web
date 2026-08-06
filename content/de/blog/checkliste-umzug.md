@@ -11,8 +11,14 @@
     "Umzug München Checkliste"
   ],
   "related": [
-    { "label": "Umzug München — Leistungen & Ablauf", "href": "/umzug" },
-    { "label": "Komplettservice: Umzug, Entrümpelung und Renovierung", "href": "/komplettservice" }
+    {
+      "label": "Umzug München — Leistungen & Ablauf",
+      "href": "/umzug"
+    },
+    {
+      "label": "Komplettservice: Umzug, Entrümpelung und Renovierung",
+      "href": "/komplettservice"
+    }
   ],
   "faq": [
     {
@@ -52,7 +58,8 @@
     "headline": "Umzugstermin in München sichern",
     "body": "Wir nehmen das Volumen auf, nennen Ihnen einen Festpreis und halten den Termin — mit Unbeschädigt-Garantie und voller Werterstattung im Schadensfall.",
     "button": "Rückruf anfordern"
-  }
+  },
+  "metaTitle": "Checkliste Umzug: Zeitplan 8 Wochen vorher"
 }
 ---
 
