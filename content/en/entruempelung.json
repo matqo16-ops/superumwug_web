@@ -4,7 +4,7 @@
     "description": "Clearance in Munich at a fixed price: flats, houses, cellars, offices. House clearances, compliant disposal, broom-clean handover."
   },
   "hero": {
-    "eyebrow": "SuperEntrümpelung",
+    "eyebrow": "Entrümpelung München",
     "headline": "Clearance and house clearances in Munich — fast, clean, fairly priced.",
     "subheadline": "Apartments, houses, cellars, attics and offices — cleared professionally, disposed of responsibly, handed over broom-clean.",
     "primaryCta": "Request a callback",
@@ -101,7 +101,7 @@
       }
     ]
   },
-  "lead": "SuperEntrümpelung clears flats, houses, cellars, attics and commercial space in Munich and the surrounding area — at a fixed price after a short survey. Typical market rates run €35–70 per square metre. We sort by material, dispose with documented proof and hand the space over broom-clean.",
+  "lead": "Entrümpelung München clears flats, houses, cellars, attics and commercial space in Munich and the surrounding area — at a fixed price after a short survey. Typical market rates run €35–70 per square metre. We sort by material, dispose with documented proof and hand the space over broom-clean.",
   "detail": {
     "headline": "Clearance in Munich — services in detail",
     "sections": [
@@ -255,7 +255,7 @@
   },
   "entity": {
     "headline": "About mmoving.de",
-    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, SuperEntrümpelung for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
     "facts": [
       {
         "label": "Company",
@@ -263,7 +263,7 @@
       },
       {
         "label": "Brands",
-        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+        "value": "SuperUmzug · Entrümpelung München · BayReno"
       },
       {
         "label": "Location",

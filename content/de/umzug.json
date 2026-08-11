@@ -100,7 +100,7 @@
       },
       {
         "question": "Kann ich Umzug, Entrümpelung und Renovierung zusammen beauftragen?",
-        "answer": "Ja, das ist unser Komplettservice. Ein gemeinsamer Auftrag ist erfahrungsgemäß 15 bis 25 % günstiger als drei Einzelbeauftragungen, weil Anfahrt, Personal und Koordination nur einmal anfallen."
+        "answer": "Ja, das ist unser Komplettservice. Ein gemeinsamer Auftrag ist erfahrungsgemäß 20 bis 35 % günstiger als drei Einzelbeauftragungen, weil Anfahrt, Rüstzeit und Koordination nur einmal anfallen und dadurch deutlich weniger Arbeitsstunden gebraucht werden."
       }
     ]
   },
@@ -247,7 +247,7 @@
   },
   "entity": {
     "headline": "Über mmoving.de",
-    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, SuperEntrümpelung für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
+    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
     "facts": [
       {
         "label": "Unternehmen",
@@ -255,7 +255,7 @@
       },
       {
         "label": "Marken",
-        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+        "value": "SuperUmzug · Entrümpelung München · BayReno"
       },
       {
         "label": "Standort",

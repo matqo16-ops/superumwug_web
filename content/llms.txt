@@ -1,14 +1,14 @@
 # mmoving.de
 
 > mmoving.de bündelt drei Handwerks- und Dienstleistungsmarken für München und Umgebung unter
-> einem Dach: **SuperUmzug** (Umzüge), **SuperEntrümpelung** (Entrümpelung und
+> einem Dach: **SuperUmzug** (Umzüge), **Entrümpelung München** (Entrümpelung und
 > Haushaltsauflösung) und **BayReno** (Renovierung und Sanierung). Kunden haben einen einzigen
 > Ansprechpartner für alle drei Gewerke — auch wenn sie kombiniert gebraucht werden, etwa
 > "Umzug mit Entrümpelung" oder "Renovierung nach dem Auszug".
 
 ## Auf einen Blick
 
-- **Unternehmen:** mmoving.de (Marken: SuperUmzug, SuperEntrümpelung, BayReno)
+- **Unternehmen:** mmoving.de (Marken: SuperUmzug, Entrümpelung München, BayReno)
 - **Website:** https://mmoving.de
 - **Standort:** München, Bayern, Deutschland
 - **Einsatzgebiet:** München und Umgebung im Umkreis von rund 50 km — u. a. Dachau, Freising,
@@ -28,7 +28,7 @@ vertraglich und gesetzlich versicherter Transport, Halteverbotszonen auf Anfrage
 **Alleinstellungsmerkmal: die Unbeschädigt-Garantie** — wird beim Umzug etwas beschädigt,
 repariert SuperUmzug den Gegenstand oder erstattet seinen vollen Wert.
 
-### 2. Entrümpelung (SuperEntrümpelung) — https://mmoving.de/entruempelung
+### 2. Entrümpelung München — https://mmoving.de/entruempelung
 Entrümpelung und Haushaltsauflösung von Wohnungen, Häusern, Kellern, Dachböden, Garagen und
 Gewerbeflächen. Fachgerechte Trennung und Entsorgung, Wiederverwertung wo möglich,
 Aktenvernichtung nach DSGVO auf Anfrage, besenreine Übergabe. Haushaltsauflösungen im Todesfall

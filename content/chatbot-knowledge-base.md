@@ -1,4 +1,4 @@
-# Chatbot Knowledge Base — Super Umzug / Super Entrümpelung / BayReno
+# Chatbot Knowledge Base — Super Umzug / Entrümpelung München / BayReno
 
 This file is loaded server-side into the chatbot's system prompt. It is the ONLY source of
 truth the assistant may answer from. Fill in every `[PRICE]` and `[PLACEHOLDER]` field before
@@ -18,7 +18,7 @@ Umgebung (Munich and surroundings)**:
 1. **Super Umzug** — moving company. Private and corporate moves, packing, furniture
    assembly/disassembly, transport. Flagship promise: the **Unbeschädigt-Garantie** (damage-free
    guarantee) — full value compensation if anything is damaged during the move.
-2. **Super Entrümpelung** — clearance company. Apartment/house/cellar/office clearance,
+2. **Entrümpelung München** — clearance company. Apartment/house/cellar/office clearance,
    Haushaltsauflösung (full household clearances, e.g. after a bereavement), proper disposal and
    recycling, besenreine Übergabe (broom-clean handover).
 3. **BayReno (Bayerische Renovierung)** — renovation company. Painting and wallpapering,

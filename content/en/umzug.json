@@ -100,7 +100,7 @@
       },
       {
         "question": "Can I book moving, clearance and renovation together?",
-        "answer": "Yes — that is our full service. A combined job is typically 15–25 % cheaper than three separate ones, because travel, crew and coordination are only incurred once."
+        "answer": "Yes — that is our full service. A combined job is typically 20–35 % cheaper than three separate ones, because travel, setup time and coordination are only incurred once, which means significantly fewer work-hours."
       }
     ]
   },
@@ -247,7 +247,7 @@
   },
   "entity": {
     "headline": "About mmoving.de",
-    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, SuperEntrümpelung for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
     "facts": [
       {
         "label": "Company",
@@ -255,7 +255,7 @@
       },
       {
         "label": "Brands",
-        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+        "value": "SuperUmzug · Entrümpelung München · BayReno"
       },
       {
         "label": "Location",

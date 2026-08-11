@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Full Service Munich: Moving, Clearance, Renovation",
-    "description": "Moving, clearance and renovation from one provider in Munich. One contact, one schedule, one fixed price — 15 to 25 % cheaper than booking separately."
+    "description": "Moving, clearance and renovation from one provider in Munich. One contact, one schedule, one fixed price — 20 to 35 % cheaper than booking separately."
   },
   "hero": {
     "eyebrow": "Packages",
@@ -37,7 +37,7 @@
         },
         {
           "title": "Transport with our damage-free guarantee",
-          "body": "Secured transport by trained crews — with full value compensation if anything is damaged."
+          "body": "Secured transport by trained crews — repair or full value compensation if anything is damaged, insured by contract and by law."
         },
         {
           "title": "Optional renovation",
@@ -128,7 +128,7 @@
   },
   "entity": {
     "headline": "About mmoving.de",
-    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, SuperEntrümpelung for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
     "facts": [
       {
         "label": "Company",
@@ -136,7 +136,7 @@
       },
       {
         "label": "Brands",
-        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+        "value": "SuperUmzug · Entrümpelung München · BayReno"
       },
       {
         "label": "Location",
@@ -152,7 +152,7 @@
       },
       {
         "label": "Distinctive",
-        "value": "Damage-free guarantee with full value compensation on moves"
+        "value": "Damage-free guarantee: repair or full value compensation, insured by contract and by law on moves"
       },
       {
         "label": "Pricing",
@@ -164,7 +164,7 @@
       }
     ]
   },
-  "lead": "The mmoving.de full service combines moving, clearance and renovation into one job with a fixed sequence, one point of contact and one fixed price. Booking the three trades together typically saves 15 to 25 % against three separate jobs, because travel, crew, containers and coordination are only incurred once.",
+  "lead": "The mmoving.de full service combines moving, clearance and renovation into one job with a fixed sequence, one point of contact and one fixed price. Booking the three trades together typically saves 20 to 35 % against three separate jobs — mainly because travel, setup time and coordination are only incurred once, which means significantly fewer work-hours overall.",
   "sequence": {
     "headline": "The sequence that works",
     "intro": "Each trade builds on the previous one. Reverse the order and you pay twice — for example when freshly laid flooring is damaged during the clear-out.",
@@ -207,14 +207,9 @@
         "in the package"
       ],
       [
-        "No-parking zones",
-        "€330",
-        "€230"
-      ],
-      [
-        "Travel and setup time",
-        "3 ×",
-        "1 ×"
+        "Travel and setup time (3 dates instead of 1)",
+        "approx. €450",
+        "in the package"
       ],
       [
         "Coordination",
@@ -222,12 +217,17 @@
         "1 contact"
       ],
       [
+        "Work days (approx.)",
+        "6–7 days, spread over 3 separate dates",
+        "3–4 days in one stretch"
+      ],
+      [
         "Total (market rate)",
-        "€4,130",
-        "€3,430"
+        "€4,250",
+        "€3,100"
       ]
     ],
-    "note": "Typical market rates for Munich, not offers. Your binding fixed price follows a survey of both properties."
+    "note": "Typical market rates for Munich, not offers. Fewer separate dates mean less travel and setup time — that saves work-hours and shows up directly in the price. Your binding fixed price follows a survey of both properties."
   },
   "areas": {
     "headline": "Service area: Munich and surroundings",
@@ -276,7 +276,7 @@
       },
       {
         "question": "How much do I save with a combined job?",
-        "answer": "Typically 15 to 25 % against three separate bookings. For a three-room flat in Munich that quickly amounts to €700 or more, because travel, setup time, no-parking zones and coordination are only incurred once."
+        "answer": "Typically 20 to 35 % against three separate bookings. For a three-room flat in Munich that quickly amounts to over €1,000 — mainly because travel, setup time and coordination are only incurred once, which means noticeably fewer work-hours."
       },
       {
         "question": "In what order are the services carried out?",

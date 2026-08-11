@@ -15,15 +15,16 @@ three services under one roof, one contact and one contract:
 |---|---|---|
 | **SuperUmzug** | Umzüge (moving), private + corporate | `/umzug` |
 | **BayReno** | Renovierung / Sanierung (renovation) | `/renovierung` |
-| **SuperEntrümpelung** | Entrümpelung + Haushaltsauflösung (clearance) | `/entruempelung` |
+| **Entrümpelung München** | Entrümpelung + Haushaltsauflösung (clearance) | `/entruempelung` |
 
 Brand order everywhere (header, footer, cards) is **SuperUmzug → BayReno →
-SuperEntrümpelung**. In hero blocks the brand names are written as **one word**
-(`SuperUmzug`, `SuperEntrümpelung`); elsewhere the two-word form still appears —
-see Open Questions.
+Entrümpelung München**. `SuperUmzug` is written as one word everywhere, including
+hero blocks; `Entrümpelung München` (renamed from `Super Entrümpelung` /
+`SuperEntrümpelung`) is always the two-word form, matching its logo.
 
-**Flagship promise:** the *Unbeschädigt-Garantie* — full value compensation if
-anything is damaged during a move.
+**Flagship promise:** the *Unbeschädigt-Garantie* — repair or full value
+compensation if anything is damaged during a move, with belongings insured by
+contract and by law for a customer-determined value.
 
 **Service area:** Munich + ~50 km radius (Dachau, Freising, Erding, Ebersberg,
 Starnberg, Fürstenfeldbruck, Germering, Unterschleißheim, Garching, Holzkirchen,
@@ -288,11 +289,9 @@ Setup instructions: `DEPLOY.md`. Placeholder inventory: `TODO.md`.
 
 ## 11. Open questions the owner hasn't answered
 
-- **One-word brand names site-wide?** Currently `SuperUmzug` /
-  `SuperEntrümpelung` appear only in **hero blocks** (as instructed). Brand
-  cards, footer, page titles and the Impressum still use the two-word form. This
-  is visibly inconsistent on the homepage. Recommendation: one word everywhere in
-  display copy, two-word left in the Impressum trademark note.
+- **One-word brand name site-wide for SuperUmzug?** `SuperUmzug` is already one
+  word everywhere. `Entrümpelung München` is intentionally two words everywhere
+  (brand rename to match its new logo) — no inconsistency left to resolve there.
 - **Page titles / JSON-LD name** still say "Super Umzug" in places rather than
   "mmoving.de" — changing them shifts SEO signals, so it was left to the owner.
 - **Interactive Google Maps?** The current map is self-hosted and accurate. A

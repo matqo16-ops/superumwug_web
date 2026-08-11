@@ -1,6 +1,6 @@
 {
   "meta": {
-    "siteName": "Super Umzug",
+    "siteName": "mmoving.de",
     "localeName": "English"
   },
   "skipToContent": "Skip to content",
@@ -24,11 +24,11 @@
     },
     {
       "id": "entruempelung",
-      "name": "Super Entrümpelung",
+      "name": "Entrümpelung München",
       "tagline": "Clearance & house clearances — fast, clean, fair.",
       "href": "/entruempelung",
       "logo": "/logos/super-entruempelung.png",
-      "logoAlt": "Super Entrümpelung logo"
+      "logoAlt": "Entrümpelung München logo"
     }
   ],
   "nav": [
@@ -103,7 +103,7 @@
         "href": "/datenschutz"
       }
     ],
-    "copyright": "© 2026 Super Umzug · Super Entrümpelung · BayReno. All rights reserved."
+    "copyright": "© 2026 Super Umzug · Entrümpelung München · BayReno. All rights reserved."
   },
   "callbackForm": {
     "title": "Request a callback",
@@ -230,7 +230,7 @@
       "src": "/images/entruempelung-char.png",
       "width": 617,
       "height": 1435,
-      "alt": "Super Entrümpelung team member in a branded shirt giving a thumbs up"
+      "alt": "Entrümpelung München team member in a branded shirt giving a thumbs up"
     }
   },
   "siteLogo": {

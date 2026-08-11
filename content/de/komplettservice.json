@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Komplettservice München: Umzug, Entrümpelung, Renovierung",
-    "description": "Umzug, Entrümpelung und Renovierung aus einer Hand in München. Ein Ansprechpartner, ein Terminplan, ein Festpreis — 15 bis 25 % günstiger als einzeln."
+    "description": "Umzug, Entrümpelung und Renovierung aus einer Hand in München. Ein Ansprechpartner, ein Terminplan, ein Festpreis — 20 bis 35 % günstiger als einzeln."
   },
   "hero": {
     "eyebrow": "Pakete",
@@ -37,7 +37,7 @@
         },
         {
           "title": "Transport mit Unbeschädigt-Garantie",
-          "body": "Gesicherter Transport durch geschulte Teams — mit voller Werterstattung im Schadensfall."
+          "body": "Gesicherter Transport durch geschulte Teams — im Schadensfall Reparatur oder volle Werterstattung, vertraglich und gesetzlich versichert."
         },
         {
           "title": "Optionale Renovierung",
@@ -128,7 +128,7 @@
   },
   "entity": {
     "headline": "Über mmoving.de",
-    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, SuperEntrümpelung für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
+    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
     "facts": [
       {
         "label": "Unternehmen",
@@ -136,7 +136,7 @@
       },
       {
         "label": "Marken",
-        "value": "SuperUmzug · SuperEntrümpelung · BayReno"
+        "value": "SuperUmzug · Entrümpelung München · BayReno"
       },
       {
         "label": "Standort",
@@ -152,7 +152,7 @@
       },
       {
         "label": "Besonderheit",
-        "value": "Unbeschädigt-Garantie mit voller Werterstattung bei Umzügen"
+        "value": "Unbeschädigt-Garantie: Reparatur oder volle Werterstattung, vertraglich und gesetzlich versichert bei Umzügen"
       },
       {
         "label": "Preisbildung",
@@ -164,7 +164,7 @@
       }
     ]
   },
-  "lead": "Der Komplettservice von mmoving.de verbindet Umzug, Entrümpelung und Renovierung zu einem Auftrag mit einer festgelegten Reihenfolge, einem Ansprechpartner und einem Festpreis. Wer die drei Gewerke gemeinsam beauftragt, spart erfahrungsgemäß 15 bis 25 % gegenüber drei Einzelaufträgen, weil Anfahrt, Personal, Container und Koordination nur einmal anfallen.",
+  "lead": "Der Komplettservice von mmoving.de verbindet Umzug, Entrümpelung und Renovierung zu einem Auftrag mit einer festgelegten Reihenfolge, einem Ansprechpartner und einem Festpreis. Wer die drei Gewerke gemeinsam beauftragt, spart erfahrungsgemäß 20 bis 35 % gegenüber drei Einzelaufträgen — vor allem, weil Anfahrt, Rüstzeit und Koordination nur einmal anfallen und dadurch deutlich weniger Arbeitsstunden gebraucht werden.",
   "sequence": {
     "headline": "Die Reihenfolge, die funktioniert",
     "intro": "Jedes Gewerk baut auf dem vorherigen auf. Wer die Reihenfolge umdreht, zahlt doppelt — etwa wenn ein frisch verlegter Boden beim Ausräumen beschädigt wird.",
@@ -207,14 +207,9 @@
         "im Paket"
       ],
       [
-        "Halteverbotszonen",
-        "330 €",
-        "230 €"
-      ],
-      [
-        "Anfahrt und Rüstzeit",
-        "3 ×",
-        "1 ×"
+        "Anfahrt und Rüstzeit (3 statt 1 Termin)",
+        "ca. 450 €",
+        "im Paket"
       ],
       [
         "Koordination",
@@ -222,12 +217,17 @@
         "1 Ansprechpartner"
       ],
       [
+        "Arbeitstage (ca.)",
+        "6–7 Tage, auf 3 Einzeltermine verteilt",
+        "3–4 Tage am Stück"
+      ],
+      [
         "Gesamt (marktüblich)",
-        "4.130 €",
-        "3.430 €"
+        "4.250 €",
+        "3.100 €"
       ]
     ],
-    "note": "Marktübliche Orientierungswerte für München, keine Angebote. Ihr verbindlicher Festpreis entsteht nach einer Besichtigung beider Wohnungen."
+    "note": "Marktübliche Orientierungswerte für München, keine Angebote. Weniger Einzeltermine bedeuten weniger Anfahrts- und Rüstzeit — das spart Arbeitsstunden und wirkt sich direkt auf den Preis aus. Ihr verbindlicher Festpreis entsteht nach einer Besichtigung beider Wohnungen."
   },
   "areas": {
     "headline": "Einsatzgebiet: München und Umgebung",
@@ -252,7 +252,7 @@
     "items": [
       {
         "label": "Umzug München",
-        "body": "Privat- und Firmenumzüge mit Unbeschädigt-Garantie und voller Werterstattung.",
+        "body": "Privat- und Firmenumzüge mit Unbeschädigt-Garantie: Reparatur oder volle Werterstattung.",
         "href": "/umzug"
       },
       {
@@ -276,7 +276,7 @@
       },
       {
         "question": "Wie viel spare ich mit einem Komplettauftrag?",
-        "answer": "Erfahrungsgemäß 15 bis 25 % gegenüber drei Einzelbeauftragungen. Bei einer 3-Zimmer-Wohnung in München sind das schnell 700 € und mehr, weil Anfahrt, Rüstzeit, Halteverbotszonen und Koordination nur einmal anfallen."
+        "answer": "Erfahrungsgemäß 20 bis 35 % gegenüber drei Einzelbeauftragungen. Bei einer 3-Zimmer-Wohnung in München sind das schnell über 1.000 € — vor allem, weil Anfahrt, Rüstzeit und Koordination nur einmal anfallen und dadurch spürbar weniger Arbeitsstunden gebraucht werden."
       },
       {
         "question": "In welcher Reihenfolge werden die Leistungen ausgeführt?",

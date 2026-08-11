@@ -39,10 +39,10 @@ export function SiteFooter({
 
           {/* On mobile the character moves into the contact panel below. */}
           <Image
-            src="/images/header-char.png"
+            src={common.characters.bayreno.src}
             alt={common.characterAlt}
-            width={940}
-            height={1592}
+            width={common.characters.bayreno.width}
+            height={common.characters.bayreno.height}
             className="hidden h-44 w-auto justify-self-end md:block"
             sizes="140px"
           />

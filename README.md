@@ -1,7 +1,7 @@
 # mmoving.de
 
 Production website for three Munich brands under one roof — **Super Umzug** (moving),
-**Super Entrümpelung** (clearance) and **BayReno** (renovation, external). Next.js 15 (App
+**Entrümpelung München** (clearance) and **BayReno** (renovation, external). Next.js 15 (App
 Router) + TypeScript + Tailwind CSS v4, deployable to Vercel.
 
 - **Bilingual** — German primary at `/…`, English at `/en/…` (next-intl, localized slugs,

@@ -42,7 +42,7 @@ export function localBusinessSchema(locale: Locale) {
     "@id": BUSINESS_ID,
     name: "mmoving.de",
     legalName: org.legalName,
-    alternateName: ["SuperUmzug", "SuperEntrümpelung", "BayReno"],
+    alternateName: ["SuperUmzug", "Entrümpelung München", "BayReno"],
     url: `${SITE_URL}/`,
     telephone: org.phone,
     email: org.email,

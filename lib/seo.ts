@@ -34,7 +34,7 @@ export function pageMetadata(
       title: meta.title,
       description: meta.description,
       url: canonical,
-      siteName: "Super Umzug",
+      siteName: "mmoving.de",
       locale: locale === "de" ? "de_DE" : "en_US",
       type: "website",
     },
