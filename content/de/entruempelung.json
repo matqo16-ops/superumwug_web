@@ -30,8 +30,8 @@
         "body": "Büromöbel, IT-Technik, Lagerbestände und Ladeneinrichtungen. Aktenvernichtung nach DSGVO mit Vernichtungsnachweis auf Anfrage, Elektroaltgeräte über zugelassene Rücknahmestellen. Auf Wunsch außerhalb der Geschäftszeiten."
       },
       {
-        "title": "Entsorgung, Recycling und Wertanrechnung",
-        "body": "Getrennt wird nach Sperrmüll, Holz, Metall, Papier, Elektroaltgeräten und Sondermüll. Brauchbares geht in die Wiederverwendung statt in die Verbrennung. Gut erhaltene Möbel, Geräte, Antiquitäten und Metalle rechnen wir als Wertanrechnung gegen und senken damit Ihren Endpreis. Auf Wunsch erhalten Sie einen Entsorgungsnachweis."
+        "title": "Entsorgung und Recycling",
+        "body": "Getrennt wird nach Sperrmüll, Holz, Metall, Papier, Elektroaltgeräten und Sondermüll. Brauchbares geht in die Wiederverwendung statt in die Verbrennung. Auf Wunsch erhalten Sie einen Entsorgungsnachweis."
       },
       {
         "title": "Besenreine Übergabe",
@@ -81,7 +81,7 @@
       },
       {
         "question": "Was passiert mit brauchbaren Möbeln und Gegenständen?",
-        "answer": "Wir trennen nach Wertstoffen und führen Brauchbares der Wiederverwendung zu, statt es zu entsorgen. Verwertbares wie gut erhaltene Möbel, Elektrogeräte oder Antiquitäten rechnen wir als Wertanrechnung gegen und senken damit Ihren Preis."
+        "answer": "Wir trennen nach Wertstoffen und führen Brauchbares der Wiederverwendung zu, statt es zu entsorgen — umweltgerecht und fachgerecht dokumentiert."
       },
       {
         "question": "Übernehmen Sie auch Haushaltsauflösungen im Todesfall?",
@@ -122,8 +122,8 @@
         "body": "Büromöbel, Technik und Lagerbestände. Aktenvernichtung nach DSGVO mit Vernichtungsnachweis auf Anfrage, Elektroaltgeräte über zugelassene Rücknahmestellen."
       },
       {
-        "heading": "Entsorgung, Recycling und Wertanrechnung",
-        "body": "Wir trennen direkt beim Austragen nach Sperrmüll, Holz, Metall, Papier, Elektroaltgeräten und Sondermüll. Brauchbares geht in die Wiederverwendung statt in die Verbrennung. Findet sich Verwertbares — gut erhaltene Möbel, Geräte, Antiquitäten, Metalle — rechnen wir den geschätzten Wert gegen und senken damit Ihren Endpreis."
+        "heading": "Entsorgung und Recycling",
+        "body": "Wir trennen direkt beim Austragen nach Sperrmüll, Holz, Metall, Papier, Elektroaltgeräten und Sondermüll. Brauchbares geht in die Wiederverwendung statt in die Verbrennung."
       },
       {
         "heading": "Besenreine Übergabe",
@@ -171,7 +171,7 @@
   },
   "pricing": {
     "headline": "Was eine Entrümpelung in München kostet",
-    "intro": "Abgerechnet wird nach tatsächlichem Volumen in Kubikmetern und Arbeitsaufwand, nicht allein nach Fläche. Der Quadratmeterpreis ist eine grobe Orientierung: Ein vollgestellter Dachboden kann teurer sein als eine leergeräumte Wohnung derselben Größe.",
+    "intro": "Der Preis richtet sich vor allem nach dem Arbeitsaufwand und der Menge des zu entsorgenden Guts, nicht allein nach der Fläche. Der Quadratmeterpreis ist deshalb nur eine grobe Orientierung: In einem stark vollgestellten Raum steigt der Preis proportional zur Menge — ein vollgestellter Dachboden kann teurer sein als eine leergeräumte Wohnung derselben Größe. Auch der Trageweg zählt: Steht das Fahrzeug nicht direkt vor dem Eingang, wirkt sich die zusätzliche Tragezeit auf den Endpreis aus.",
     "columns": [
       "Objekt",
       "Fläche",
@@ -219,9 +219,8 @@
     "extras": [
       "Zuschlag je Etage ohne Aufzug: 8–15 %",
       "Sondermüll (Farben, Öle, Chemikalien): ab 150 €",
-      "Halteverbotszone: 80 – 150 €",
-      "Endreinigung über besenrein hinaus: 3 – 8 € pro m²",
-      "Wertanrechnung für verwertbare Möbel: senkt den Preis"
+      "Halteverbotszone: 250 € (Beantragung rund 3 Wochen im Voraus)",
+      "Endreinigung über besenrein hinaus: 3 – 8 € pro m²"
     ],
     "note": "Alle Angaben sind marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
   },
@@ -280,7 +279,7 @@
       },
       {
         "label": "Besonderheit",
-        "value": "Unbeschädigt-Garantie mit voller Werterstattung bei Umzügen"
+        "value": "Unbeschädigt-Garantie: Reparatur oder volle Werterstattung, vertraglich und gesetzlich versichert bei Umzügen"
       },
       {
         "label": "Preisbildung",

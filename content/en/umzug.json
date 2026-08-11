@@ -31,18 +31,18 @@
       },
       {
         "title": "Transport",
-        "body": "Our own fleet, experienced crews, insured transport."
+        "body": "Our own fleet, experienced crews, transport insured by contract and by law for a value you determine yourself."
       },
       {
         "title": "Add-ons",
-        "body": "No-parking zones, furniture lift, temporary storage on request."
+        "body": "No-parking zones on request."
       }
     ]
   },
   "guarantee": {
-    "badge": "Damage-free guarantee · Full value compensation if damaged",
+    "badge": "Damage-free guarantee · Repair or full value compensation if damaged",
     "headline": "The Damage-Free Guarantee",
-    "lead": "We don't just promise care — we guarantee the outcome: if anything is damaged during your move, we pay full value compensation.",
+    "lead": "We don't just promise care — we guarantee the outcome: if anything is damaged during your move, we repair it or pay full value compensation, whichever makes more sense for you. Your belongings are insured by contract and by law throughout the move, for a value you determine yourself.",
     "steps": [
       {
         "title": "Documentation before the move",
@@ -61,11 +61,11 @@
         "body": "If something is damaged regardless, let us know — simply, with a photo and short description."
       },
       {
-        "title": "Full value compensation",
-        "body": "After review, we reimburse the full value of the damaged item — no fine-print games."
+        "title": "Repair or full value compensation",
+        "body": "After review, we repair the damaged item or reimburse its full value — no fine-print games."
       }
     ],
-    "finePrint": "Details, exclusions and terms of the damage-free guarantee: [PLACEHOLDER LEGAL TEXT/INSURANCE TERMS]."
+    "finePrint": "Details, exclusions and terms of the damage-free guarantee: [PLACEHOLDER LEGAL TEXT/INSURANCE TERMS]. Your belongings are insured by contract and by law throughout transport — you determine the insured value yourself."
   },
   "faq": {
     "headline": "Frequently asked questions about moving in Munich",
@@ -80,7 +80,7 @@
       },
       {
         "question": "What happens if something is damaged during my move?",
-        "answer": "Report it with a photo and a short description. Because we document the condition of valuable items before and after the move, review is fast — you receive full value compensation. That is our damage-free guarantee."
+        "answer": "Report it with a photo and a short description. Because we document the condition of valuable items before and after the move, review is fast — we repair the item or reimburse its full value. That is our damage-free guarantee."
       },
       {
         "question": "Do you also handle packing?",
@@ -88,11 +88,11 @@
       },
       {
         "question": "Is my property insured during transport?",
-        "answer": "Yes. In addition to statutory transport insurance, our damage-free guarantee applies with full value compensation for the damaged item."
+        "answer": "Yes. Your belongings are insured by contract and by law throughout the move, for a value you determine yourself. On top of that, our damage-free guarantee applies: we repair the damaged item or reimburse its full value."
       },
       {
         "question": "Do you apply for the no-parking zone?",
-        "answer": "Yes, at both addresses. In Munich the permit needs 7 to 14 days of lead time depending on the district. The fee is typically €80–150 per zone."
+        "answer": "Yes, at both addresses. The permit takes about three weeks to arrange. The fee is €250 per address. Without a no-parking zone, the vehicle may end up further from the entrance, and the extra carrying time is reflected in the final price."
       },
       {
         "question": "Do you move outside Munich as well?",
@@ -104,7 +104,7 @@
       }
     ]
   },
-  "lead": "SuperUmzug is the moving arm of mmoving.de, serving Munich and the surrounding area. We handle private and corporate moves end to end — planning, packing, furniture assembly, transport and a broom-clean handover of the old flat. All of it backed by our damage-free guarantee: if anything is damaged during the move, we reimburse its full value.",
+  "lead": "SuperUmzug is the moving arm of mmoving.de, serving Munich and the surrounding area. We handle private and corporate moves end to end — planning, packing, furniture assembly, transport and a broom-clean handover of the old flat. All of it backed by our damage-free guarantee: if anything is damaged during the move, we repair it or reimburse its full value. Your belongings are insured by contract and by law throughout the move, for a value you determine yourself.",
   "detail": {
     "headline": "How we move you in Munich",
     "sections": [
@@ -121,8 +121,8 @@
         "body": "You get professional packing materials, or our team packs everything for you. Wardrobes, beds, kitchens and office furniture are properly dismantled, transported and reassembled on site — including reconnecting washing machine and dishwasher."
       },
       {
-        "heading": "No-parking zone, furniture lift and storage",
-        "body": "We apply for the no-parking zone at both addresses; in Munich that needs 7 to 14 days of lead time depending on the district. If furniture will not fit through the stairwell we bring a furniture lift. If there is a gap between move-out and move-in, we store your belongings dry and secured."
+        "heading": "No-parking zone and carrying distance",
+        "body": "On request we set up a no-parking zone at each address; the permit takes about three weeks to arrange and costs €250 per address. It's almost always worth it: if the vehicle can't park right at the entrance, the carrying distance grows, and the extra carrying time is reflected directly in the final price."
       },
       {
         "heading": "What a move in Munich costs",
@@ -170,7 +170,7 @@
   },
   "pricing": {
     "headline": "What a move in Munich costs",
-    "intro": "The price follows the volume in cubic metres, the crew and time needed, the distance, the floor level and the add-ons you choose. Rule of thumb: roughly 0.3 to 0.5 m³ of goods per square metre of floor area.",
+    "intro": "The price follows the volume in cubic metres, the crew and time needed, the distance, the floor level and the add-ons you choose. Rule of thumb: roughly 0.3 to 0.5 m³ of goods per square metre of floor area. Carrying distance matters too: if the vehicle can't park right at the entrance, the extra carrying time is reflected in the final price.",
     "columns": [
       "Flat",
       "Volume",
@@ -214,9 +214,9 @@
       "Full packing by our team: €300 – 900",
       "Furniture dis/assembly: €200 – 600",
       "Kitchen removal and installation: €400 – 1,200",
-      "No-parking zone per address: €80 – 150",
-      "Furniture lift: €250 – 500 per day",
-      "Storage: €60 – 150 per m³ per month"
+      "Extra vehicle (car): €15 per hour",
+      "Mileage rate: €0.55 per kilometre",
+      "No-parking zone per address: €250 (arrange about 3 weeks ahead)"
     ],
     "note": "All figures are typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
   },
@@ -230,10 +230,6 @@
       {
         "title": "Moving to the surrounding area",
         "body": "From Munich to Dachau, Starnberg or Erding — and back. Up to about 50 km the distance barely matters; volume is what counts."
-      },
-      {
-        "title": "Moving with interim storage",
-        "body": "When weeks pass between move-out and move-in, we store your belongings dry and secured and deliver on your chosen date."
       },
       {
         "title": "Corporate move at the weekend",
@@ -275,7 +271,7 @@
       },
       {
         "label": "Distinctive",
-        "value": "Damage-free guarantee with full value compensation on moves"
+        "value": "Damage-free guarantee: repair or full value compensation, insured by contract and by law on moves"
       },
       {
         "label": "Pricing",
@@ -308,7 +304,7 @@
       },
       {
         "title": "Handover and guarantee",
-        "body": "We check the condition together with you at the destination. Should anything be damaged after all, report it with a photo — you receive full value compensation."
+        "body": "We check the condition together with you at the destination. Should anything be damaged after all, report it with a photo — we repair it or reimburse its full value."
       }
     ]
   }

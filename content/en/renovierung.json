@@ -19,7 +19,7 @@
       },
       {
         "title": "Flooring",
-        "body": "Laminate, vinyl, design flooring, parquet and tiles — including removal and disposal of the old covering, subfloor preparation, laying and skirting. Existing parquet is sanded and sealed where a full replacement is not needed."
+        "body": "Vinyl, design flooring, parquet, laminate and tiles — including removal and disposal of the old covering, subfloor preparation, laying and skirting. Existing parquet is sanded and sealed where a full replacement is not needed."
       },
       {
         "title": "Bathroom and plumbing",
@@ -116,7 +116,7 @@
       },
       {
         "heading": "Flooring",
-        "body": "Laminate, vinyl, design flooring, parquet and tiles — including removal of the old covering, subfloor preparation, laying and skirting. We also sand and seal parquet where a full replacement is not needed."
+        "body": "Vinyl, design flooring, parquet, laminate and tiles — including removal of the old covering, subfloor preparation, laying and skirting. We also sand and seal parquet where a full replacement is not needed."
       },
       {
         "heading": "Bathroom and plumbing",
@@ -187,20 +187,16 @@
         "€12 – 25 / m² of wall"
       ],
       [
-        "Wallpapering incl. material",
-        "€18 – 35 / m²"
-      ],
-      [
-        "Laminate laying",
-        "€35 – 55 / m²"
-      ],
-      [
         "Vinyl / design flooring",
         "€45 – 75 / m²"
       ],
       [
         "Parquet laying and sealing",
         "€70 – 130 / m²"
+      ],
+      [
+        "Laminate laying",
+        "€35 – 55 / m²"
       ],
       [
         "Tiling",
@@ -211,7 +207,7 @@
         "€9,000 – 22,000"
       ],
       [
-        "Kitchen installation",
+        "Assembly and disassembly of furniture or a kitchen",
         "€400 – 1,200"
       ],
       [
@@ -219,12 +215,8 @@
         "€250 – 600 / m² of floor area"
       ]
     ],
-    "extras": [
-      "Work in empty rooms: 15–30 % cheaper",
-      "Strip-out and disposal of the old covering: charged separately",
-      "Electrical and plumbing work via certified specialist partners"
-    ],
-    "note": "All figures are typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
+    "extras": [],
+    "note": "All figures are typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video. On kitchens, it's often worth comparing: buying a new kitchen is frequently more cost-effective than removing and reinstalling the existing one."
   },
   "situations": {
     "headline": "Typical renovation situations",
@@ -281,7 +273,7 @@
       },
       {
         "label": "Distinctive",
-        "value": "Damage-free guarantee with full value compensation on moves"
+        "value": "Damage-free guarantee: repair or full value compensation, insured by contract and by law on moves"
       },
       {
         "label": "Pricing",

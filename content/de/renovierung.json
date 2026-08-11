@@ -19,7 +19,7 @@
       },
       {
         "title": "Bodenbeläge",
-        "body": "Laminat, Vinyl, Designboden, Parkett und Fliesen — inklusive Rückbau und Entsorgung des Altbelags, Untergrundvorbereitung, Verlegung und Sockelleisten. Vorhandenes Parkett schleifen und versiegeln wir, wo ein Austausch nicht nötig ist."
+        "body": "Vinyl, Designboden, Parkett, Laminat und Fliesen — inklusive Rückbau und Entsorgung des Altbelags, Untergrundvorbereitung, Verlegung und Sockelleisten. Vorhandenes Parkett schleifen und versiegeln wir, wo ein Austausch nicht nötig ist."
       },
       {
         "title": "Bad und Sanitär",
@@ -116,7 +116,7 @@
       },
       {
         "heading": "Bodenbeläge",
-        "body": "Laminat, Vinyl, Designboden, Parkett und Fliesen — inklusive Rückbau des Altbelags, Untergrundvorbereitung, Verlegung und Sockelleisten. Parkett schleifen und versiegeln wir auch dort, wo ein Austausch nicht nötig ist."
+        "body": "Vinyl, Designboden, Parkett, Laminat und Fliesen — inklusive Rückbau des Altbelags, Untergrundvorbereitung, Verlegung und Sockelleisten. Parkett schleifen und versiegeln wir auch dort, wo ein Austausch nicht nötig ist."
       },
       {
         "heading": "Bad und Sanitär",
@@ -187,20 +187,16 @@
         "12 – 25 € / m² Wandfläche"
       ],
       [
-        "Tapezieren inkl. Material",
-        "18 – 35 € / m²"
-      ],
-      [
-        "Laminat verlegen",
-        "35 – 55 € / m²"
-      ],
-      [
         "Vinyl / Designboden",
         "45 – 75 € / m²"
       ],
       [
         "Parkett verlegen und versiegeln",
         "70 – 130 € / m²"
+      ],
+      [
+        "Laminat verlegen",
+        "35 – 55 € / m²"
       ],
       [
         "Fliesen legen",
@@ -211,7 +207,7 @@
         "9.000 – 22.000 €"
       ],
       [
-        "Küchenmontage",
+        "Montage und Demontage von Möbeln oder einer Küche",
         "400 – 1.200 €"
       ],
       [
@@ -219,12 +215,8 @@
         "250 – 600 € / m² Wohnfläche"
       ]
     ],
-    "extras": [
-      "Arbeiten in leeren Räumen: 15–30 % günstiger",
-      "Rückbau und Entsorgung des Altbelags: gesondert",
-      "Elektro- und Sanitärarbeiten über zertifizierte Fachpartner"
-    ],
-    "note": "Alle Angaben sind marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+    "extras": [],
+    "note": "Alle Angaben sind marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video. Bei einer Küche lohnt sich oft der Vergleich: Eine Neuanschaffung ist häufig wirtschaftlicher als der Ab- und Wiederaufbau der bestehenden Küche."
   },
   "situations": {
     "headline": "Typische Renovierungsanlässe",
@@ -281,7 +273,7 @@
       },
       {
         "label": "Besonderheit",
-        "value": "Unbeschädigt-Garantie mit voller Werterstattung bei Umzügen"
+        "value": "Unbeschädigt-Garantie: Reparatur oder volle Werterstattung, vertraglich und gesetzlich versichert bei Umzügen"
       },
       {
         "label": "Preisbildung",

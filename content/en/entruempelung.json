@@ -30,8 +30,8 @@
         "body": "Office furniture, IT equipment, stock and shop fittings. GDPR-compliant document destruction with a certificate on request, electrical appliances via approved take-back schemes. Outside business hours if you prefer."
       },
       {
-        "title": "Disposal, recycling and value offset",
-        "body": "Sorted into bulky waste, wood, metal, paper, electrical appliances and hazardous waste. Usable items go to reuse rather than incineration. Good furniture, appliances, antiques and metals are offset against your final price. Disposal documentation on request."
+        "title": "Disposal and recycling",
+        "body": "Sorted into bulky waste, wood, metal, paper, electrical appliances and hazardous waste. Usable items go to reuse rather than incineration. Disposal documentation on request."
       },
       {
         "title": "Broom-clean handover",
@@ -81,7 +81,7 @@
       },
       {
         "question": "What happens to usable furniture and items?",
-        "answer": "We sort by material and pass usable items to reuse rather than disposal. Resalable items such as good furniture, appliances or antiques are offset against your price."
+        "answer": "We sort by material and pass usable items to reuse rather than disposal — handled responsibly and documented properly."
       },
       {
         "question": "Do you handle house clearances after a bereavement?",
@@ -122,8 +122,8 @@
         "body": "Office furniture, equipment and stock. GDPR-compliant document destruction with a certificate on request, electrical appliances via approved take-back schemes."
       },
       {
-        "heading": "Disposal, recycling and value offset",
-        "body": "We sort as we carry out: bulky waste, wood, metal, paper, electrical appliances and hazardous waste. Usable items go to reuse rather than incineration. Where we find resale value — good furniture, appliances, antiques, metals — we offset it against your price."
+        "heading": "Disposal and recycling",
+        "body": "We sort as we carry out: bulky waste, wood, metal, paper, electrical appliances and hazardous waste. Usable items go to reuse rather than incineration."
       },
       {
         "heading": "Broom-clean handover",
@@ -171,7 +171,7 @@
   },
   "pricing": {
     "headline": "What a clearance in Munich costs",
-    "intro": "We charge by actual volume in cubic metres and labour, not by floor area alone. The per-square-metre figure is a rough guide: a packed attic can cost more than an emptied flat of the same size.",
+    "intro": "The price is driven mainly by labour and the amount of waste to remove, not floor area alone. The per-square-metre figure is only a rough guide: in a heavily overcrowded room the price rises in proportion to the volume — a packed attic can cost more than an emptied flat of the same size. Carrying distance matters too: if the vehicle can't park right at the entrance, the extra carrying time is reflected in the final price.",
     "columns": [
       "Object",
       "Area",
@@ -219,9 +219,8 @@
     "extras": [
       "Surcharge per floor without a lift: 8–15 %",
       "Hazardous waste (paints, oils, chemicals): from €150",
-      "No-parking zone: €80 – 150",
-      "Deep clean beyond broom-clean: €3 – 8 per m²",
-      "Value offset for resalable furniture: reduces the price"
+      "No-parking zone: €250 (arrange about 3 weeks ahead)",
+      "Deep clean beyond broom-clean: €3 – 8 per m²"
     ],
     "note": "All figures are typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
   },
@@ -280,7 +279,7 @@
       },
       {
         "label": "Distinctive",
-        "value": "Damage-free guarantee with full value compensation on moves"
+        "value": "Damage-free guarantee: repair or full value compensation, insured by contract and by law on moves"
       },
       {
         "label": "Pricing",

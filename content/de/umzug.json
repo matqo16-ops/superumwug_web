@@ -31,18 +31,18 @@
       },
       {
         "title": "Transport",
-        "body": "Eigener Fuhrpark, erfahrene Teams, versicherter Transport."
+        "body": "Eigener Fuhrpark, erfahrene Teams, vertraglich und gesetzlich versicherter Transport zu einem Wert, den Sie selbst bestimmen."
       },
       {
         "title": "Zusatzleistungen",
-        "body": "Halteverbotszonen, Möbellift, Einlagerung auf Anfrage."
+        "body": "Halteverbotszonen auf Anfrage."
       }
     ]
   },
   "guarantee": {
-    "badge": "Unbeschädigt-Garantie · Volle Werterstattung im Schadensfall",
+    "badge": "Unbeschädigt-Garantie · Reparatur oder volle Werterstattung im Schadensfall",
     "headline": "Die Unbeschädigt-Garantie",
-    "lead": "Wir versprechen nicht nur Sorgfalt — wir garantieren das Ergebnis: Kommt bei Ihrem Umzug etwas zu Schaden, erstatten wir den vollen Wert.",
+    "lead": "Wir versprechen nicht nur Sorgfalt — wir garantieren das Ergebnis: Kommt bei Ihrem Umzug etwas zu Schaden, übernehmen wir die Reparatur oder erstatten den vollen Wert — je nachdem, was für Sie sinnvoller ist. Ihr Hab und Gut ist während des gesamten Umzugs vertraglich und gesetzlich versichert, für einen Wert, den Sie selbst bestimmen.",
     "steps": [
       {
         "title": "Dokumentation vor dem Umzug",
@@ -61,11 +61,11 @@
         "body": "Sollte dennoch etwas beschädigt werden, melden Sie es uns — unkompliziert, mit Foto und kurzer Beschreibung."
       },
       {
-        "title": "Volle Werterstattung",
-        "body": "Nach Prüfung erstatten wir den vollen Wert des beschädigten Gegenstands — ohne Wenn und Aber."
+        "title": "Reparatur oder volle Werterstattung",
+        "body": "Nach Prüfung reparieren wir den beschädigten Gegenstand oder erstatten seinen vollen Wert — ohne Wenn und Aber."
       }
     ],
-    "finePrint": "Details, Ausschlüsse und Bedingungen der Unbeschädigt-Garantie: [PLATZHALTER RECHTLICHER TEXT/VERSICHERUNGSBEDINGUNGEN]."
+    "finePrint": "Details, Ausschlüsse und Bedingungen der Unbeschädigt-Garantie: [PLATZHALTER RECHTLICHER TEXT/VERSICHERUNGSBEDINGUNGEN]. Ihr Hab und Gut ist während des gesamten Transports vertraglich und gesetzlich versichert — der versicherte Wert wird von Ihnen selbst festgelegt."
   },
   "faq": {
     "headline": "Häufige Fragen zum Umzug in München",
@@ -80,7 +80,7 @@
       },
       {
         "question": "Was passiert, wenn beim Umzug etwas beschädigt wird?",
-        "answer": "Sie melden uns den Schaden mit Foto und kurzer Beschreibung. Da wir den Zustand wertvoller Gegenstände vor und nach dem Umzug dokumentieren, ist die Prüfung schnell — Sie erhalten den vollen Wert erstattet. Das ist unsere Unbeschädigt-Garantie."
+        "answer": "Sie melden uns den Schaden mit Foto und kurzer Beschreibung. Da wir den Zustand wertvoller Gegenstände vor und nach dem Umzug dokumentieren, ist die Prüfung schnell — wir reparieren den Gegenstand oder erstatten seinen vollen Wert. Das ist unsere Unbeschädigt-Garantie."
       },
       {
         "question": "Übernehmen Sie auch die Verpackung?",
@@ -88,11 +88,11 @@
       },
       {
         "question": "Sind meine Sachen während des Transports versichert?",
-        "answer": "Ja. Zusätzlich zur gesetzlichen Transportversicherung greift unsere Unbeschädigt-Garantie mit voller Werterstattung des beschädigten Gegenstands."
+        "answer": "Ja. Ihr Hab und Gut ist während des gesamten Umzugs vertraglich und gesetzlich versichert, für einen Wert, den Sie selbst bestimmen. Zusätzlich greift unsere Unbeschädigt-Garantie: Wir reparieren den beschädigten Gegenstand oder erstatten seinen vollen Wert."
       },
       {
         "question": "Beantragen Sie die Halteverbotszone?",
-        "answer": "Ja, für beide Adressen. In München braucht die Genehmigung je nach Stadtbezirk 7 bis 14 Tage Vorlauf — das ist die Frist, die am häufigsten unterschätzt wird. Die Gebühr liegt marktüblich bei 80 bis 150 € je Zone."
+        "answer": "Ja, für beide Adressen. Die Beantragung dauert rund drei Wochen — das ist die Frist, die am häufigsten unterschätzt wird. Die Gebühr liegt bei 250 € je Adresse. Steht das Fahrzeug ohne Halteverbotszone nicht direkt vor dem Eingang, verlängert sich der Trageweg, und die zusätzliche Tragezeit wirkt sich auf den Endpreis aus."
       },
       {
         "question": "Ziehen Sie auch außerhalb von München um?",
@@ -104,7 +104,7 @@
       }
     ]
   },
-  "lead": "SuperUmzug ist das Umzugsunternehmen von mmoving.de für München und Umgebung. Wir übernehmen Privat- und Firmenumzüge vollständig — von der Planung über Verpackung, Möbelmontage und Transport bis zur besenreinen Übergabe der alten Wohnung. Als einziges Umzugsunternehmen im Raum München verbinden wir das mit einer Unbeschädigt-Garantie: Wird beim Umzug etwas beschädigt, erstatten wir den vollen Wert.",
+  "lead": "SuperUmzug ist das Umzugsunternehmen von mmoving.de für München und Umgebung. Wir übernehmen Privat- und Firmenumzüge vollständig — von der Planung über Verpackung, Möbelmontage und Transport bis zur besenreinen Übergabe der alten Wohnung. Als einziges Umzugsunternehmen im Raum München verbinden wir das mit einer Unbeschädigt-Garantie: Wird beim Umzug etwas beschädigt, übernehmen wir die Reparatur oder erstatten den vollen Wert. Ihr Hab und Gut ist während des gesamten Umzugs vertraglich und gesetzlich versichert, für einen Wert, den Sie selbst bestimmen.",
   "detail": {
     "headline": "Umzug in München — so arbeiten wir",
     "sections": [
@@ -121,8 +121,8 @@
         "body": "Sie erhalten professionelles Verpackungsmaterial oder lassen komplett durch unser Team packen. Schränke, Betten, Küchen und Büromöbel werden fachgerecht demontiert, transportiert und am Zielort wieder aufgebaut — inklusive Anschluss von Waschmaschine und Geschirrspüler."
       },
       {
-        "heading": "Halteverbotszone, Möbellift und Einlagerung",
-        "body": "Die Halteverbotszone beantragen wir für beide Adressen; in München sind dafür je nach Stadtbezirk 7 bis 14 Tage Vorlauf nötig. Passen Möbel nicht durchs Treppenhaus, stellen wir einen Möbellift. Liegt zwischen Auszug und Einzug eine Lücke, lagern wir Ihr Umzugsgut trocken und gesichert ein."
+        "heading": "Halteverbotszone und Trageweg",
+        "body": "Auf Wunsch richten wir für jede Adresse eine Halteverbotszone ein; die Beantragung dauert rund drei Wochen, die Gebühr beträgt 250 € je Adresse. Das lohnt sich fast immer: Steht das Fahrzeug nicht direkt vor dem Eingang, verlängert sich der Trageweg, und die zusätzliche Tragezeit wirkt sich unmittelbar auf den Endpreis aus."
       },
       {
         "heading": "Was ein Umzug in München kostet",
@@ -170,7 +170,7 @@
   },
   "pricing": {
     "headline": "Was ein Umzug in München kostet",
-    "intro": "Der Preis ergibt sich aus dem Umzugsvolumen in Kubikmetern, dem Personal- und Zeitbedarf, der Entfernung, dem Stockwerk und den gewählten Zusatzleistungen. Als Faustregel gilt: etwa 0,3 bis 0,5 m³ Umzugsgut pro Quadratmeter Wohnfläche.",
+    "intro": "Der Preis ergibt sich aus dem Umzugsvolumen in Kubikmetern, dem Personal- und Zeitbedarf, der Entfernung, dem Stockwerk und den gewählten Zusatzleistungen. Als Faustregel gilt: etwa 0,3 bis 0,5 m³ Umzugsgut pro Quadratmeter Wohnfläche. Auch der Trageweg zählt: Steht das Fahrzeug nicht direkt vor dem Eingang, wirkt sich die zusätzliche Tragezeit auf den Endpreis aus.",
     "columns": [
       "Wohnung",
       "Volumen",
@@ -214,9 +214,9 @@
       "Vollverpackung durch das Team: 300 – 900 €",
       "Möbeldemontage und -montage: 200 – 600 €",
       "Küchenab- und -aufbau: 400 – 1.200 €",
-      "Halteverbotszone je Adresse: 80 – 150 €",
-      "Möbellift: 250 – 500 € pro Tag",
-      "Einlagerung: 60 – 150 € pro m³ und Monat"
+      "Zusatzfahrzeug (PKW): 15 € pro Stunde",
+      "Kilometerpauschale: 0,55 € pro Kilometer",
+      "Halteverbotszone je Adresse: 250 € (Beantragung rund 3 Wochen im Voraus)"
     ],
     "note": "Alle Angaben sind marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
   },
@@ -230,10 +230,6 @@
       {
         "title": "Umzug ins Umland",
         "body": "Von München nach Dachau, Starnberg oder Erding — und umgekehrt. Die Entfernung fällt bis etwa 50 Kilometer kaum ins Gewicht, entscheidend bleibt das Volumen."
-      },
-      {
-        "title": "Umzug mit Zwischenlagerung",
-        "body": "Wenn zwischen Auszug und Einzug Wochen liegen, lagern wir Ihr Umzugsgut trocken und gesichert ein und liefern zum Wunschtermin nach."
       },
       {
         "title": "Firmenumzug am Wochenende",
@@ -275,7 +271,7 @@
       },
       {
         "label": "Besonderheit",
-        "value": "Unbeschädigt-Garantie mit voller Werterstattung bei Umzügen"
+        "value": "Unbeschädigt-Garantie: Reparatur oder volle Werterstattung, vertraglich und gesetzlich versichert bei Umzügen"
       },
       {
         "label": "Preisbildung",
@@ -308,7 +304,7 @@
       },
       {
         "title": "Übergabe und Garantie",
-        "body": "Wir prüfen den Zustand gemeinsam mit Ihnen am Zielort. Sollte doch etwas beschädigt sein, melden Sie es mit Foto — Sie erhalten den vollen Wert erstattet."
+        "body": "Wir prüfen den Zustand gemeinsam mit Ihnen am Zielort. Sollte doch etwas beschädigt sein, melden Sie es mit Foto — wir reparieren den Gegenstand oder erstatten seinen vollen Wert."
       }
     ]
   }
