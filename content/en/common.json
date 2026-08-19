@@ -178,7 +178,7 @@
     "submit": "Request callback",
     "submitting": "Sending …",
     "success": "Thank you! We'll be in touch shortly.",
-    "error": "Something went wrong. Please check your details or call us directly: [TELEFON].",
+    "error": "Something went wrong. Please check your details or call us directly: +49 176 228 661 46.",
     "close": "Close"
   },
   "chatWidget": {

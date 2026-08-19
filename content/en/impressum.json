@@ -1,68 +1,59 @@
 {
   "meta": {
     "title": "Legal Notice | mmoving.de",
-    "description": "Legal notice of Super Umzug, Entrümpelung München and BayReno — information according to § 5 TMG (German Telemedia Act)."
+    "description": "Legal notice of Super Umzug, Entrümpelung München and BayReno — information according to § 5 DDG (German Digital Services Act)."
   },
   "title": "Legal Notice",
-  "intro": "Information according to § 5 TMG (German Telemedia Act)",
+  "intro": "Information according to § 5 DDG (German Digital Services Act)",
   "sections": [
     {
       "heading": "Provider",
       "paragraphs": [
-        "[COMPANY NAME, full legal form, e.g. Super Umzug GmbH]",
-        "[STREET AND NUMBER]",
-        "[POSTAL CODE AND CITY]"
+        "Martin Marcinko",
+        "Sole proprietorship (Einzelunternehmen) — trading as SUPERUMZUG, BayReno (Bayerische Renovierung), Entrümpelung München",
+        "Planegger Str. 40",
+        "82110 Germering",
+        "Germany",
+        "Additional business location: Ausburgerstraße 4, 82110 Germering (entrance via Hirtenstraße)"
       ]
-    },
-    {
-      "heading": "Represented by",
-      "paragraphs": ["[NAME OF MANAGING DIRECTOR(S)]"]
     },
     {
       "heading": "Contact",
-      "paragraphs": ["Phone: [TELEFON]", "Email: [E-MAIL]"]
-    },
-    {
-      "heading": "Commercial register",
-      "paragraphs": [
-        "Registered in the commercial register.",
-        "Registration court: [REGISTER COURT]",
-        "Registration number: [HRB NUMBER]"
-      ]
+      "paragraphs": ["Phone: +49 176 228 661 46", "Email: kontakt@bayreno.de"]
     },
     {
       "heading": "VAT ID",
       "paragraphs": [
-        "VAT identification number per § 27a of the German VAT Act: [VAT ID]"
+        "VAT identification number per § 27a of the German VAT Act: DE 219 349 391"
       ]
     },
     {
       "heading": "Responsible for content under § 18(2) MStV",
-      "paragraphs": ["[NAME, ADDRESS AS ABOVE]"]
+      "paragraphs": ["Martin Marcinko", "Planegger Str. 40, 82110 Germering"]
     },
     {
       "heading": "Professional liability insurance",
       "paragraphs": [
-        "If applicable (e.g. carrier/transport insurance): [INSURER NAME AND LOCATION, SCOPE OF COVERAGE]"
+        "[INSURER, LOCATION AND SCOPE OF COVERAGE — to be added once proof of insurance is available]"
       ]
     },
     {
-      "heading": "Trademark note",
+      "heading": "Trade name note",
       "paragraphs": [
-        "Super Umzug and Entrümpelung München are trademarks of [COMPANY NAME]. BayReno (Bayerische Renovierung) is an independent company; further information at https://www.bayreno.de."
+        "SUPERUMZUG, BayReno (Bayerische Renovierung) and Entrümpelung München are trading names under which Martin Marcinko operates — not separate companies. BayReno is additionally reachable under its own domain https://www.bayreno.de; the same provider listed above is responsible for it."
       ]
     },
     {
       "heading": "Dispute resolution",
       "paragraphs": [
         "The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr/. Our email address is given above.",
-        "We are not obliged or willing to participate in dispute resolution proceedings before a consumer arbitration board [OR: DETAILS OF THE COMPETENT ARBITRATION BOARD, if participation applies]."
+        "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
       ]
     },
     {
       "heading": "Liability disclaimer",
       "paragraphs": [
-        "Despite careful content control, we assume no liability for the content of external links (e.g. bayreno.de). The operators of linked pages are solely responsible for their content."
+        "Despite careful content control, we assume no liability for the content of external links. The operators of linked pages are solely responsible for their content."
       ]
     }
   ]

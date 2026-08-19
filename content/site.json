@@ -2,12 +2,12 @@
   "siteUrl": "https://mmoving.de",
   "organization": {
     "name": "mmoving.de",
-    "legalName": "[FIRMENNAME]",
-    "phone": "[TELEFON]",
-    "email": "[E-MAIL]",
-    "streetAddress": "[STRASSE UND HAUSNUMMER]",
-    "postalCode": "[PLZ]",
-    "addressLocality": "München",
+    "legalName": "Martin Marcinko",
+    "phone": "+49 176 228 661 46",
+    "email": "kontakt@bayreno.de",
+    "streetAddress": "Planegger Str. 40",
+    "postalCode": "82110",
+    "addressLocality": "Germering",
     "addressCountry": "DE"
   },
   "bayrenoUrl": "https://www.bayreno.de"

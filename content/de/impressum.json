@@ -1,68 +1,59 @@
 {
   "meta": {
     "title": "Impressum | mmoving.de",
-    "description": "Impressum von Super Umzug, Entrümpelung München und BayReno — Angaben gemäß § 5 TMG."
+    "description": "Impressum von Super Umzug, Entrümpelung München und BayReno — Angaben gemäß § 5 DDG."
   },
   "title": "Impressum",
-  "intro": "Angaben gemäß § 5 TMG",
+  "intro": "Angaben gemäß § 5 DDG",
   "sections": [
     {
       "heading": "Anbieter",
       "paragraphs": [
-        "[FIRMENNAME, vollständige Rechtsform, z. B. Super Umzug GmbH]",
-        "[STRASSE UND HAUSNUMMER]",
-        "[PLZ UND ORT]"
+        "Martin Marcinko",
+        "Einzelunternehmen — Geschäftsbezeichnungen: SUPERUMZUG, BayReno (Bayerische Renovierung), Entrümpelung München",
+        "Planegger Str. 40",
+        "82110 Germering",
+        "Deutschland",
+        "Weitere Betriebsstätte: Ausburgerstraße 4, 82110 Germering (Zugang über die Hirtenstraße)"
       ]
-    },
-    {
-      "heading": "Vertreten durch",
-      "paragraphs": ["[NAME DES GESCHÄFTSFÜHRERS/DER GESCHÄFTSFÜHRER]"]
     },
     {
       "heading": "Kontakt",
-      "paragraphs": ["Telefon: [TELEFON]", "E-Mail: [E-MAIL]"]
-    },
-    {
-      "heading": "Registereintrag",
-      "paragraphs": [
-        "Eintragung im Handelsregister.",
-        "Registergericht: [REGISTERGERICHT]",
-        "Registernummer: [HRB-NUMMER]"
-      ]
+      "paragraphs": ["Telefon: +49 176 228 661 46", "E-Mail: kontakt@bayreno.de"]
     },
     {
       "heading": "Umsatzsteuer-ID",
       "paragraphs": [
-        "Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: [USt-IdNr.]"
+        "Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: DE 219 349 391"
       ]
     },
     {
       "heading": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
-      "paragraphs": ["[NAME, ANSCHRIFT WIE OBEN]"]
+      "paragraphs": ["Martin Marcinko", "Planegger Str. 40, 82110 Germering"]
     },
     {
       "heading": "Berufshaftpflichtversicherung",
       "paragraphs": [
-        "Sofern zutreffend (z. B. Transport-/Speditionsversicherung): [NAME UND SITZ DES VERSICHERERS, GELTUNGSRAUM]"
+        "[VERSICHERER, SITZ UND GELTUNGSRAUM — wird ergänzt, sobald der Versicherungsnachweis vorliegt]"
       ]
     },
     {
-      "heading": "Hinweis zu den Marken",
+      "heading": "Hinweis zu den Geschäftsbezeichnungen",
       "paragraphs": [
-        "Super Umzug und Entrümpelung München sind Marken der [FIRMENNAME]. BayReno (Bayerische Renovierung) ist ein eigenständiges Unternehmen; weitere Angaben unter https://www.bayreno.de."
+        "SUPERUMZUG, BayReno (Bayerische Renovierung) und Entrümpelung München sind Geschäftsbezeichnungen, unter denen Martin Marcinko auftritt — keine eigenständigen Unternehmen. BayReno ist zusätzlich unter der eigenen Domain https://www.bayreno.de erreichbar; verantwortlich dafür ist derselbe Anbieter wie oben."
       ]
     },
     {
       "heading": "Streitschlichtung",
       "paragraphs": [
         "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Unsere E-Mail-Adresse finden Sie oben.",
-        "Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen [ODER: ANGABEN ZUR ZUSTÄNDIGEN SCHLICHTUNGSSTELLE, falls Teilnahme besteht]."
+        "Wir sind nicht bereit und nicht verpflichtet, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
       ]
     },
     {
       "heading": "Haftungshinweis",
       "paragraphs": [
-        "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links (z. B. bayreno.de). Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
+        "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt verlinkter Seiten sind ausschließlich deren Betreiber verantwortlich."
       ]
     }
   ]
