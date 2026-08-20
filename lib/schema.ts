@@ -44,6 +44,9 @@ export function localBusinessSchema(locale: Locale) {
     legalName: org.legalName,
     alternateName: ["SuperUmzug", "Entrümpelung München", "BayReno"],
     url: `${SITE_URL}/`,
+    // Ties this site to the Google Business Profile as one and the same entity.
+    sameAs: [site.googleBusinessProfile, site.bayrenoUrl],
+    hasMap: site.googleBusinessProfile,
     telephone: org.phone,
     email: org.email,
     description:

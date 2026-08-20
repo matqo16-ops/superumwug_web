@@ -396,4 +396,6 @@ export interface SiteData {
     addressCountry: string;
   };
   bayrenoUrl: string;
+  /** Canonical Google Business Profile URL — feeds schema sameAs and the map link. */
+  googleBusinessProfile: string;
 }

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { getCommon, getKontakt } from "@/lib/content";
+import { getCommon, getKontakt, getSiteData } from "@/lib/content";
 import { absoluteUrl } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
 import { CallbackForm } from "@/components/CallbackForm";
@@ -27,6 +27,7 @@ export default async function KontaktPage({ params }: Props) {
   setRequestLocale(locale);
   const content = getKontakt(locale);
   const common = getCommon(locale);
+  const site = getSiteData();
 
   return (
     <>
@@ -67,6 +68,7 @@ export default async function KontaktPage({ params }: Props) {
                 alt={content.serviceArea.mapAlt}
                 caption={content.serviceArea.mapCaption}
                 openLabel={content.serviceArea.mapOpenLabel}
+                mapUrl={site.googleBusinessProfile}
               />
             </div>
 
