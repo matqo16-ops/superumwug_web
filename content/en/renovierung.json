@@ -163,7 +163,7 @@
         "href": "/entruempelung"
       },
       {
-        "label": "Moving with a damage-free guarantee",
+        "label": "Moving in Munich",
         "body": "Move out first, then renovate — we align both dates.",
         "href": "/umzug"
       },
@@ -179,7 +179,7 @@
     "intro": "Renovation is priced by trade and area. Whether the rooms are empty or furnished also matters — the difference is typically 15 to 30 %.",
     "columns": [
       "Service",
-      "Market rate"
+      "Market rate (gross)"
     ],
     "rows": [
       [
@@ -216,7 +216,7 @@
       ]
     ],
     "extras": [],
-    "note": "All figures are typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
+    "note": "All figures are gross prices including 19 % VAT and typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
   },
   "situations": {
     "headline": "Typical renovation situations",
@@ -249,7 +249,7 @@
   },
   "entity": {
     "headline": "About mmoving.de",
-    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since 2004 with over 1,000 completed moves. Advice available in German, English, Slovak, Czech, Polish, Ukrainian and Croatian.",
     "facts": [
       {
         "label": "Company",
@@ -272,8 +272,8 @@
         "value": "Moving, clearance, renovation — separately or combined"
       },
       {
-        "label": "Distinctive",
-        "value": "Damage-free guarantee: repair or full value compensation, insured by contract and by law on moves"
+        "label": "Liability",
+        "value": "On moves, statutory liability of €620 per m³ (§ 451e HGB), optional transport insurance at a value you set"
       },
       {
         "label": "Pricing",

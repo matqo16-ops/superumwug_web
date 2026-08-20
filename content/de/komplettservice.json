@@ -36,8 +36,8 @@
           "body": "Schränke, Betten und Küchen werden fachgerecht abgebaut und am Zielort wieder aufgebaut."
         },
         {
-          "title": "Transport mit Unbeschädigt-Garantie",
-          "body": "Gesicherter Transport durch geschulte Teams — im Schadensfall Reparatur oder volle Werterstattung, vertraglich und gesetzlich versichert."
+          "title": "Gesicherter Transport",
+          "body": "Gesicherter Transport durch geschulte Teams — mit gesetzlicher Haftung nach § 451e HGB und auf Wunsch zusätzlicher Transportversicherung."
         },
         {
           "title": "Optionale Renovierung",
@@ -122,13 +122,13 @@
     ],
     "priceLabel": "Festpreis",
     "price": "290 €",
-    "priceNote": "inkl. Vor-Ort-Termin, Zustandsaufnahme und schriftlicher Kosteneinschätzung",
+    "priceNote": "brutto inkl. 19 % MwSt., inkl. Vor-Ort-Termin, Zustandsaufnahme und schriftlicher Kosteneinschätzung",
     "orderCta": "Jetzt telefonisch beauftragen",
     "askCta": "Mehr erfahren — Assistent fragen"
   },
   "entity": {
     "headline": "Über mmoving.de",
-    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
+    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit 2004 und mit über 1.000 durchgeführten Umzügen. Beratung auf Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch und Kroatisch.",
     "facts": [
       {
         "label": "Unternehmen",
@@ -151,12 +151,12 @@
         "value": "Umzug, Entrümpelung, Renovierung — einzeln oder kombiniert"
       },
       {
-        "label": "Besonderheit",
-        "value": "Unbeschädigt-Garantie: Reparatur oder volle Werterstattung, vertraglich und gesetzlich versichert bei Umzügen"
+        "label": "Haftung",
+        "value": "Bei Umzügen gesetzliche Haftung 620 € je m³ (§ 451e HGB), optionale Transportversicherung zum selbst bestimmten Wert"
       },
       {
         "label": "Preisbildung",
-        "value": "Festpreis nach Besichtigung; Besichtigungsservice zum Festpreis von 290 €"
+        "value": "Festpreis nach Besichtigung, alle Preise brutto inkl. 19 % MwSt.; Besichtigungsservice zum Festpreis von 290 €"
       },
       {
         "label": "Sprachen",
@@ -192,8 +192,8 @@
     "intro": "Das folgende Beispiel zeigt eine 3-Zimmer-Wohnung in München mit Umzug innerhalb der Stadt, anschließender Entrümpelung und Schönheitsreparaturen.",
     "columns": [
       "Position",
-      "Einzeln beauftragt",
-      "Als ein Auftrag"
+      "Einzeln beauftragt (brutto)",
+      "Als ein Auftrag (brutto)"
     ],
     "rows": [
       [
@@ -227,7 +227,7 @@
         "3.100 €"
       ]
     ],
-    "note": "Marktübliche Orientierungswerte für München, keine Angebote. Weniger Einzeltermine bedeuten weniger Anfahrts- und Rüstzeit — das spart Arbeitsstunden und wirkt sich direkt auf den Preis aus. Ihr verbindlicher Festpreis entsteht nach einer Besichtigung beider Wohnungen."
+    "note": "Alle Preise brutto inklusive 19 % MwSt.; marktübliche Orientierungswerte für München, keine Angebote. Weniger Einzeltermine bedeuten weniger Anfahrts- und Rüstzeit — das spart Arbeitsstunden und wirkt sich direkt auf den Preis aus. Ihr verbindlicher Festpreis entsteht nach einer Besichtigung beider Wohnungen."
   },
   "areas": {
     "headline": "Einsatzgebiet: München und Umgebung",
@@ -252,7 +252,7 @@
     "items": [
       {
         "label": "Umzug München",
-        "body": "Privat- und Firmenumzüge mit Unbeschädigt-Garantie: Reparatur oder volle Werterstattung.",
+        "body": "Privat- und Firmenumzüge seit 2004 — mit Festpreis nach Besichtigung.",
         "href": "/umzug"
       },
       {

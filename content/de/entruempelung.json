@@ -41,6 +41,7 @@
   },
   "process": {
     "headline": "So läuft eine Entrümpelung ab",
+    "imageAlt": "Entrümpelung München — helle, vollständig geräumte und besenrein übergebene Wohnung mit Parkettboden",
     "steps": [
       {
         "title": "Besichtigung",
@@ -153,7 +154,7 @@
     "headline": "Passt zu Ihrer Entrümpelung",
     "items": [
       {
-        "label": "Umzug mit Unbeschädigt-Garantie",
+        "label": "Umzug in München",
         "body": "Erst umziehen, dann entrümpeln — so entscheiden Sie nach dem Einräumen, was wirklich bleibt.",
         "href": "/umzug"
       },
@@ -175,7 +176,7 @@
     "columns": [
       "Objekt",
       "Fläche",
-      "Marktüblich",
+      "Marktüblich (brutto)",
       "Dauer"
     ],
     "rows": [
@@ -219,10 +220,10 @@
     "extras": [
       "Zuschlag je Etage ohne Aufzug: 8–15 %",
       "Sondermüll (Farben, Öle, Chemikalien): ab 150 €",
-      "Halteverbotszone: 250 € (Beantragung rund 3 Wochen im Voraus)",
+      "Halteverbotszone: 300 € (Beantragung rund 3 Wochen im Voraus)",
       "Endreinigung über besenrein hinaus: 3 – 8 € pro m²"
     ],
-    "note": "Alle Angaben sind marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+    "note": "Alle Angaben sind Bruttopreise inklusive 19 % MwSt. und marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
   },
   "situations": {
     "headline": "Typische Anlässe für eine Entrümpelung",
@@ -255,7 +256,7 @@
   },
   "entity": {
     "headline": "Über mmoving.de",
-    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
+    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit 2004 und mit über 1.000 durchgeführten Umzügen. Beratung auf Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch und Kroatisch.",
     "facts": [
       {
         "label": "Unternehmen",
@@ -278,8 +279,8 @@
         "value": "Umzug, Entrümpelung, Renovierung — einzeln oder kombiniert"
       },
       {
-        "label": "Besonderheit",
-        "value": "Unbeschädigt-Garantie: Reparatur oder volle Werterstattung, vertraglich und gesetzlich versichert bei Umzügen"
+        "label": "Haftung",
+        "value": "Bei Umzügen gesetzliche Haftung 620 € je m³ (§ 451e HGB), optionale Transportversicherung zum selbst bestimmten Wert"
       },
       {
         "label": "Preisbildung",

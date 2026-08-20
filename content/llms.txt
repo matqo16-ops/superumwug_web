@@ -22,11 +22,15 @@
 ## Leistungen
 
 ### 1. Umzug (SuperUmzug) — https://mmoving.de/umzug
-Privat- und Firmenumzüge in München und Umgebung. Enthalten sind Beratung und Planung,
-Verpackung (Material oder Vollverpackung durch das Team), Möbeldemontage und -montage,
-vertraglich und gesetzlich versicherter Transport, Halteverbotszonen auf Anfrage.
-**Alleinstellungsmerkmal: die Unbeschädigt-Garantie** — wird beim Umzug etwas beschädigt,
-repariert SuperUmzug den Gegenstand oder erstattet seinen vollen Wert.
+Privat- und Firmenumzüge in München und Umgebung, seit 2004 und mit über 1.000 durchgeführten
+Umzügen. Enthalten sind Beratung und Planung, Verpackung (Material oder Vollverpackung durch das
+Team), Möbeldemontage und -montage, Transport, Einlagerung sowie Halteverbotszonen auf Anfrage.
+Fernumzüge deutschlandweit und EU-weit; **keine** Überseeumzüge.
+**Haftung:** gesetzliche Haftung des Möbelspediteurs nach § 451e HGB in Höhe von 620 € je
+Kubikmeter Laderaum; darüber hinaus ist eine zusätzliche Transportversicherung zu einem vom
+Kunden selbst bestimmten Wert möglich.
+**Nicht transportiert werden:** Klaviere, Flügel, Tresore, Billardtische, Industriemaschinen,
+kranpflichtige Lasten und lebende Tiere. Whirlpool/Sauna bis 120 kg, Kübelpflanzen bis 100 kg.
 
 ### 2. Entrümpelung München — https://mmoving.de/entruempelung
 Entrümpelung und Haushaltsauflösung von Wohnungen, Häusern, Kellern, Dachböden, Garagen und
@@ -44,9 +48,9 @@ saubere Baustelle, gemeinsame Abnahme.
 Der eigentliche Kern des Angebots: Umzug, Entrümpelung und Renovierung als ein Auftrag mit
 abgestimmter Reihenfolge. Drei feste Pakete:
 
-- **Paket 1 — Privatumzug Komplett:** Beratung, Verpackung, Montage, Transport mit
-  Unbeschädigt-Garantie, optionale Teil- oder Komplettrenovierung, Entsorgung und besenreine
-  Übergabe der alten Wohnung.
+- **Paket 1 — Privatumzug Komplett:** Beratung, Verpackung, Montage, gesicherter Transport,
+  optionale Teil- oder Komplettrenovierung, Entsorgung und besenreine Übergabe der alten
+  Wohnung.
 - **Paket 2 — Firmenumzug Komplett:** Auszug, Einzug am neuen Standort, Entsorgung, Rückbau der
   alten Räume in den vertragsgemäßen Zustand für die volle Kautionsrückgabe.
 - **Paket 3 — Rundum-Service für Vermieter und Hausverwaltungen:** Entrümpelung,
@@ -89,7 +93,7 @@ Position (einfach / mittel / anspruchsvoll), damit Käufer entscheiden können, 
 ## Seitenübersicht
 
 - https://mmoving.de/ — Startseite: alle drei Marken, Projekte, Besichtigungsservice (290 €)
-- https://mmoving.de/umzug — Umzug München, Unbeschädigt-Garantie, FAQ
+- https://mmoving.de/umzug — Umzug München, Haftung und Versicherung, FAQ
 - https://mmoving.de/entruempelung — Entrümpelung und Haushaltsauflösung München, Ablauf, FAQ
 - https://mmoving.de/renovierung — Renovierung und Sanierung München, Gewerke, Ablauf, FAQ
 - https://mmoving.de/komplettservice — Umzug + Entrümpelung + Renovierung kombiniert, 3 Pakete
@@ -115,5 +119,7 @@ Position (einfach / mittel / anspruchsvoll), damit Käufer entscheiden können, 
 - Preisangaben in den Ratgeber-Artikeln sind **Marktüblichkeiten für den Raum München zur
   Orientierung**, keine Angebote von mmoving.de. Verbindliche Preise entstehen erst nach
   Besichtigung.
-- Die Unbeschädigt-Garantie gilt für Umzüge von SuperUmzug; die genauen Bedingungen und
-  Ausschlüsse erteilt das Unternehmen auf Anfrage.
+- Bei Umzügen gilt die **gesetzliche Haftung nach § 451e HGB (620 € je m³ Laderaum)**. mmoving.de
+  wirbt **nicht** mit einer darüber hinausgehenden Garantie. Eine zusätzliche
+  Transportversicherung ist optional und wird individuell vereinbart.
+- Verbraucherpreise werden **brutto inklusive 19 % MwSt.** angegeben.

@@ -10,7 +10,7 @@ import { ChatCta } from "@/components/ChatCta";
 import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
 import { JsonLd } from "@/components/JsonLd";
-import { PlaceholderImage } from "@/components/PlaceholderImage";
+import { Photo } from "@/components/Photo";
 import { Section, SectionHeading } from "@/components/Section";
 import {
   AreasServed,
@@ -108,7 +108,7 @@ export default async function UmzugPage({ params }: Props) {
         </div>
       </Section>
 
-      {/* Damage-free guarantee — the flagship promise */}
+      {/* Liability and insurance — statutory position, deliberately not a guarantee */}
       <Section variant="navy" id="garantie">
         <p className="inline-flex items-center gap-2 rounded-full border border-gold/50 bg-white/5 px-4 py-1.5 text-sm font-semibold text-gold">
           <svg width="14" height="16" viewBox="0 0 14 16" fill="none" aria-hidden="true">
@@ -135,9 +135,11 @@ export default async function UmzugPage({ params }: Props) {
             <p className="mt-4 text-lg leading-relaxed text-white/80">
               {content.guarantee.lead}
             </p>
-            <PlaceholderImage
-              label="[BILD: Team dokumentiert Möbelzustand mit Tablet vor dem Transport]"
+            <Photo
+              src="/images/garantie-dokumentation.jpg"
+              alt={content.guarantee.imageAlt}
               className="mt-8 aspect-video"
+              sizes="(min-width: 1024px) 55vw, 100vw"
             />
           </div>
           <ol className="space-y-5">

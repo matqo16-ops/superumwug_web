@@ -36,8 +36,8 @@
           "body": "Wardrobes, beds and kitchens are properly dismantled and rebuilt at the destination."
         },
         {
-          "title": "Transport with our damage-free guarantee",
-          "body": "Secured transport by trained crews — repair or full value compensation if anything is damaged, insured by contract and by law."
+          "title": "Secured transport",
+          "body": "Secured transport by trained crews — with statutory liability under § 451e HGB and optional additional transport insurance."
         },
         {
           "title": "Optional renovation",
@@ -122,13 +122,13 @@
     ],
     "priceLabel": "Flat fee",
     "price": "€290",
-    "priceNote": "includes the on-site appointment, condition assessment and written cost estimate",
+    "priceNote": "gross incl. 19 % VAT, covering the on-site appointment, condition assessment and written cost estimate",
     "orderCta": "Call to order",
     "askCta": "Ask more — talk to our assistant"
   },
   "entity": {
     "headline": "About mmoving.de",
-    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since 2004 with over 1,000 completed moves. Advice available in German, English, Slovak, Czech, Polish, Ukrainian and Croatian.",
     "facts": [
       {
         "label": "Company",
@@ -151,12 +151,12 @@
         "value": "Moving, clearance, renovation — separately or combined"
       },
       {
-        "label": "Distinctive",
-        "value": "Damage-free guarantee: repair or full value compensation, insured by contract and by law on moves"
+        "label": "Liability",
+        "value": "On moves, statutory liability of €620 per m³ (§ 451e HGB), optional transport insurance at a value you set"
       },
       {
         "label": "Pricing",
-        "value": "Fixed price after survey; inspection service at a flat €290"
+        "value": "Fixed price after survey, all prices gross incl. 19 % VAT; inspection service at a flat €290"
       },
       {
         "label": "Languages",
@@ -192,8 +192,8 @@
     "intro": "The example below covers a three-room flat in Munich with a move within the city, a subsequent clearance and cosmetic repairs.",
     "columns": [
       "Item",
-      "Booked separately",
-      "As one job"
+      "Booked separately (gross)",
+      "As one job (gross)"
     ],
     "rows": [
       [
@@ -227,7 +227,7 @@
         "€3,100"
       ]
     ],
-    "note": "Typical market rates for Munich, not offers. Fewer separate dates mean less travel and setup time — that saves work-hours and shows up directly in the price. Your binding fixed price follows a survey of both properties."
+    "note": "All prices gross including 19 % VAT; typical market rates for Munich, not offers. Fewer separate dates mean less travel and setup time — that saves work-hours and shows up directly in the price. Your binding fixed price follows a survey of both properties."
   },
   "areas": {
     "headline": "Service area: Munich and surroundings",
@@ -252,7 +252,7 @@
     "items": [
       {
         "label": "Moving Munich",
-        "body": "Private and corporate moves with a damage-free guarantee and full compensation.",
+        "body": "Private and corporate moves since 2004 — with a fixed price after a survey.",
         "href": "/umzug"
       },
       {

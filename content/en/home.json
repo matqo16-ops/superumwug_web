@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Moving, Clearance & Renovation in Munich | mmoving.de",
-    "description": "Moving, clearance and renovation in Munich from one provider. One contact, one fixed price. Damage-free guarantee with full compensation."
+    "description": "Moving, clearance and renovation in Munich from one provider. One contact, one fixed price. Over 1,000 moves since 2004, advice in 7 languages."
   },
   "hero": {
     "eyebrow": "Moving · Clearance · Renovation — from one team",
@@ -11,8 +11,8 @@
     "secondaryCta": "View packages"
   },
   "badges": [
-    "Damage-free guarantee",
-    "Full value compensation if damaged",
+    "Since 2004 · over 1,000 moves",
+    "Fixed price after a survey",
     "All-in-one packages",
     "Munich and surroundings"
   ],
@@ -21,7 +21,7 @@
     "cards": [
       {
         "brandId": "umzug",
-        "body": "Private and commercial moves, packing, assembly and transport — with our damage-free guarantee.",
+        "body": "Private and commercial moves, packing, assembly, transport and storage — since 2004.",
         "cta": "Learn more"
       },
       {
@@ -61,7 +61,7 @@
     "body": "Interested in a property and want to know what it would cost to bring it to the condition you want? We come on site, assess every room systematically and give you a solid cost estimate — including a difficulty rating per task, so you can decide what to take on yourself and what to leave to professionals.",
     "priceLabel": "Flat fee",
     "price": "€290",
-    "priceNote": "includes the on-site appointment, condition assessment and written cost estimate",
+    "priceNote": "gross incl. 19 % VAT, covering the on-site appointment, condition assessment and written cost estimate",
     "includes": [
       "A joint on-site walkthrough of the property",
       "Systematic assessment of all rooms and trades",
@@ -74,7 +74,8 @@
   "b2bSection": {
     "headline": "Real-estate agents, relocation partners, property managers and corporate clients",
     "body": "Referral commission for every client you bring us, priority scheduling, and fixed partner rates for recurring work.",
-    "cta": "Become a partner"
+    "cta": "Become a partner",
+    "imageAlt": "mmoving.de partnership Munich — key handover and handshake between a property manager and the moving team in a building entrance"
   },
   "callbackSection": {
     "headline": "Prefer a callback right away?",
@@ -93,15 +94,15 @@
       },
       {
         "question": "What does a move with clearance in Munich cost?",
-        "answer": "It depends on volume, area and scope. Typical market rates are €700–2,800 for a move within Munich and €35–70 per square metre for a clearance. As a combined job you typically save 15 to 25 %. Your binding price follows a short survey."
+        "answer": "It depends on volume, area and scope. Typical market rates are €700–2,800 for a move within Munich and €35–70 per square metre for a clearance. As a combined job you typically save 20 to 35 %. Your binding price follows a short survey."
       },
       {
         "question": "What does the inspection service cost?",
-        "answer": "€290 as a flat fee. It covers a joint walkthrough of the property, a systematic condition assessment of every room, a realistic cost estimate for your target condition and a difficulty rating per item. It is bookable independently of any package."
+        "answer": "€290 as a flat fee, gross including 19 % VAT. It covers a joint walkthrough of the property, a systematic condition assessment of every room, a realistic cost estimate for your target condition and a difficulty rating per item. It is bookable independently of any package."
       },
       {
-        "question": "What is the damage-free guarantee?",
-        "answer": "Our service promise on moves: if anything is damaged during the move, we reimburse its full value. We document the condition of valuable items before and after transport so any claim is reviewed quickly and fairly."
+        "question": "How is my furniture covered during a move?",
+        "answer": "Statutory carrier liability applies under § 451e of the German Commercial Code: €620 per cubic metre of loading space. We document the condition of valuable items before and after transport so any claim is reviewed quickly and fairly. If the statutory limit is not enough for your furnishings, we arrange additional transport insurance — and you set the insured value yourself."
       },
       {
         "question": "How quickly can I get an appointment?",

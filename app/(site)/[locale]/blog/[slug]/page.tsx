@@ -6,7 +6,7 @@ import { routing, type Locale } from "@/i18n/routing";
 import { getBlogArticle, getBlogIndex, getBlogSlugs } from "@/lib/blog";
 import { getBlogIndexContent, getCommon } from "@/lib/content";
 import { absoluteUrl, articleSchema } from "@/lib/schema";
-import { SITE_URL } from "@/lib/seo";
+import { OG_IMAGE, SITE_URL } from "@/lib/seo";
 import { btnPrimary } from "@/lib/styles";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CallbackButton } from "@/components/CallbackButton";
@@ -42,10 +42,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: article.title,
       description: article.description,
       url,
+      siteName: "mmoving.de",
       type: "article",
       locale: "de_DE",
       publishedTime: article.datePublished,
       modifiedTime: article.dateModified ?? article.datePublished,
+      images: [OG_IMAGE],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.description,
+      images: [OG_IMAGE.url],
     },
   };
 }

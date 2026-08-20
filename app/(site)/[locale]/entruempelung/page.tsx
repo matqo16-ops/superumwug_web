@@ -10,7 +10,7 @@ import { ChatCta } from "@/components/ChatCta";
 import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
 import { JsonLd } from "@/components/JsonLd";
-import { PlaceholderImage } from "@/components/PlaceholderImage";
+import { Photo } from "@/components/Photo";
 import { Section, SectionHeading } from "@/components/Section";
 import {
   AreasServed,
@@ -112,9 +112,11 @@ export default async function EntruempelungPage({ params }: Props) {
       <Section variant="navy" id="ablauf">
         <SectionHeading onDark>{content.process.headline}</SectionHeading>
         <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_1.1fr]">
-          <PlaceholderImage
-            label="[BILD: Besenreine, leere Wohnung nach Entrümpelung — helle Räume]"
+          <Photo
+            src="/images/besenrein.jpg"
+            alt={content.process.imageAlt}
             className="aspect-[4/3] lg:order-2"
+            sizes="(min-width: 1024px) 50vw, 100vw"
           />
           <ol className="space-y-5">
             {content.process.steps.map((step, index) => (

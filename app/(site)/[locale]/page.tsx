@@ -13,7 +13,7 @@ import { ChatCtaButton } from "@/components/ChatCtaButton";
 import { Hero } from "@/components/Hero";
 import { ProjectsGallery } from "@/components/ProjectsGallery";
 import { JsonLd } from "@/components/JsonLd";
-import { PlaceholderImage } from "@/components/PlaceholderImage";
+import { Photo } from "@/components/Photo";
 import { Section, SectionHeading } from "@/components/Section";
 import { Faq } from "@/components/Faq";
 
@@ -203,9 +203,11 @@ export default async function HomePage({ params }: Props) {
               {home.b2bSection.cta}
             </Link>
           </div>
-          <PlaceholderImage
-            label="[BILD: Handschlag / Übergabe von Schlüsseln — B2B-Partnerschaft]"
+          <Photo
+            src="/images/b2b-handshake.jpg"
+            alt={home.b2bSection.imageAlt}
             className="aspect-[4/3]"
+            sizes="(min-width: 768px) 40vw, 100vw"
           />
         </div>
       </Section>

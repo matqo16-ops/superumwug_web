@@ -10,6 +10,14 @@ function absoluteUrl(locale: Locale, href: StaticPathname): string {
   return SITE_URL + getPathname({ locale, href });
 }
 
+/** Shared social-sharing card (1200×630) used when a page has no own image. */
+export const OG_IMAGE = {
+  url: `${SITE_URL}/images/og-image.jpg`,
+  width: 1200,
+  height: 630,
+  alt: "mmoving.de — Umzug, Entrümpelung und Renovierung in München und Umgebung",
+};
+
 /**
  * Per-page metadata with canonical URL and hreflang alternates for both
  * locales (plus x-default pointing at the German version).
@@ -37,6 +45,13 @@ export function pageMetadata(
       siteName: "mmoving.de",
       locale: locale === "de" ? "de_DE" : "en_US",
       type: "website",
+      images: [OG_IMAGE],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: [OG_IMAGE.url],
     },
   };
 }

@@ -181,7 +181,12 @@ export interface HomeContent {
     orderCta: string;
     askCta: string;
   };
-  b2bSection: { headline: string; body: string; cta: string };
+  b2bSection: {
+    headline: string;
+    body: string;
+    cta: string;
+    imageAlt: string;
+  };
   faq: { headline: string; items: FaqItem[] };
   callbackSection: { headline: string; body: string };
 }
@@ -222,6 +227,7 @@ export interface UmzugContent extends ServiceSeoContent {
     badge: string;
     headline: string;
     lead: string;
+    imageAlt: string;
     steps: TitledItem[];
     finePrint: string;
   };
@@ -241,7 +247,7 @@ export interface EntruempelungContent extends ServiceSeoContent {
   meta: PageMeta;
   hero: Hero;
   services: { headline: string; items: TitledItem[] };
-  process: { headline: string; steps: TitledItem[] };
+  process: { headline: string; imageAlt: string; steps: TitledItem[] };
   faq: { headline: string; items: FaqItem[] };
 }
 

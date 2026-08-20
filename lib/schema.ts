@@ -95,9 +95,11 @@ export function localBusinessSchema(locale: Locale) {
     ],
     priceRange: "€€",
     currenciesAccepted: "EUR",
-    knowsLanguage: ["de", "en"],
+    paymentAccepted: "Bank transfer, Invoice",
+    foundingDate: "2004",
+    knowsLanguage: ["de", "en", "sk", "cs", "pl", "uk", "hr"],
     logo: `${SITE_URL}/logos/mmoving-hexagon.png`,
-    image: `${SITE_URL}/icon.png`,
+    image: `${SITE_URL}/images/og-image.jpg`,
     makesOffer: [
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Umzug München" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Entrümpelung München" } },

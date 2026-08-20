@@ -9,7 +9,7 @@
     {
       "id": "umzug",
       "name": "Super Umzug",
-      "tagline": "Your move in Munich — safe, on time, damage-free guaranteed.",
+      "tagline": "Your move in Munich — safe, on time, over 1,000 moves since 2004.",
       "href": "/umzug",
       "logo": "/logos/super-umzug.png",
       "logoAlt": "Super Umzug logo"
@@ -70,7 +70,7 @@
   "chatCta": {
     "eyebrow": "Instant answers",
     "headline": "Questions about pricing and terms?",
-    "body": "Our assistant answers immediately — around the clock, no waiting. Ask about pricing, availability, our damage-free guarantee, or our bundle packages.",
+    "body": "Our assistant answers immediately — around the clock, no waiting. Ask about pricing, availability, liability and insurance, or our bundle packages.",
     "button": "Start chat",
     "secondary": "Prefer a callback?"
   },

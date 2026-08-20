@@ -163,7 +163,7 @@
         "href": "/entruempelung"
       },
       {
-        "label": "Umzug mit Unbeschädigt-Garantie",
+        "label": "Umzug in München",
         "body": "Erst raus, dann renovieren — wir stimmen beide Termine aufeinander ab.",
         "href": "/umzug"
       },
@@ -179,7 +179,7 @@
     "intro": "Renovierungen werden nach Gewerk und Fläche kalkuliert. Entscheidend ist außerdem, ob in leeren oder möblierten Räumen gearbeitet wird — der Unterschied beträgt erfahrungsgemäß 15 bis 30 %.",
     "columns": [
       "Leistung",
-      "Marktüblich"
+      "Marktüblich (brutto)"
     ],
     "rows": [
       [
@@ -216,7 +216,7 @@
       ]
     ],
     "extras": [],
-    "note": "Alle Angaben sind marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+    "note": "Alle Angaben sind Bruttopreise inklusive 19 % MwSt. und marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
   },
   "situations": {
     "headline": "Typische Renovierungsanlässe",
@@ -249,7 +249,7 @@
   },
   "entity": {
     "headline": "Über mmoving.de",
-    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
+    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit 2004 und mit über 1.000 durchgeführten Umzügen. Beratung auf Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch und Kroatisch.",
     "facts": [
       {
         "label": "Unternehmen",
@@ -272,8 +272,8 @@
         "value": "Umzug, Entrümpelung, Renovierung — einzeln oder kombiniert"
       },
       {
-        "label": "Besonderheit",
-        "value": "Unbeschädigt-Garantie: Reparatur oder volle Werterstattung, vertraglich und gesetzlich versichert bei Umzügen"
+        "label": "Haftung",
+        "value": "Bei Umzügen gesetzliche Haftung 620 € je m³ (§ 451e HGB), optionale Transportversicherung zum selbst bestimmten Wert"
       },
       {
         "label": "Preisbildung",

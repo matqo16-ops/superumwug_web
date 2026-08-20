@@ -41,6 +41,7 @@
   },
   "process": {
     "headline": "How a clearance works",
+    "imageAlt": "Clearance Munich — bright, completely emptied apartment handed over broom-clean with parquet flooring",
     "steps": [
       {
         "title": "Inspection",
@@ -153,7 +154,7 @@
     "headline": "Goes with your clearance",
     "items": [
       {
-        "label": "Moving with a damage-free guarantee",
+        "label": "Moving in Munich",
         "body": "Move first, clear second — so you decide what stays after unpacking.",
         "href": "/umzug"
       },
@@ -175,7 +176,7 @@
     "columns": [
       "Object",
       "Area",
-      "Market rate",
+      "Market rate (gross)",
       "Duration"
     ],
     "rows": [
@@ -219,10 +220,10 @@
     "extras": [
       "Surcharge per floor without a lift: 8–15 %",
       "Hazardous waste (paints, oils, chemicals): from €150",
-      "No-parking zone: €250 (arrange about 3 weeks ahead)",
+      "No-parking zone: €300 (arrange about 3 weeks ahead)",
       "Deep clean beyond broom-clean: €3 – 8 per m²"
     ],
-    "note": "All figures are typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
+    "note": "All figures are gross prices including 19 % VAT and typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
   },
   "situations": {
     "headline": "Typical reasons for a clearance",
@@ -255,7 +256,7 @@
   },
   "entity": {
     "headline": "About mmoving.de",
-    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since 2004 with over 1,000 completed moves. Advice available in German, English, Slovak, Czech, Polish, Ukrainian and Croatian.",
     "facts": [
       {
         "label": "Company",
@@ -278,8 +279,8 @@
         "value": "Moving, clearance, renovation — separately or combined"
       },
       {
-        "label": "Distinctive",
-        "value": "Damage-free guarantee: repair or full value compensation, insured by contract and by law on moves"
+        "label": "Liability",
+        "value": "On moves, statutory liability of €620 per m³ (§ 451e HGB), optional transport insurance at a value you set"
       },
       {
         "label": "Pricing",

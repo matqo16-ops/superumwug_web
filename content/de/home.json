@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Umzug, Entrümpelung & Renovierung München | mmoving.de",
-    "description": "Umzug, Entrümpelung und Renovierung in München aus einer Hand. Ein Ansprechpartner, ein Festpreis. Unbeschädigt-Garantie mit voller Werterstattung."
+    "description": "Umzug, Entrümpelung und Renovierung in München aus einer Hand. Ein Ansprechpartner, ein Festpreis. Über 1.000 Umzüge seit 2004, Beratung in 7 Sprachen."
   },
   "hero": {
     "eyebrow": "Umzug · Entrümpelung · Renovierung — aus einer Hand",
@@ -11,8 +11,8 @@
     "secondaryCta": "Pakete ansehen"
   },
   "badges": [
-    "Unbeschädigt-Garantie",
-    "Volle Werterstattung im Schadensfall",
+    "Seit 2004 · über 1.000 Umzüge",
+    "Festpreis nach Besichtigung",
     "All-in-One-Pakete",
     "München und Umgebung"
   ],
@@ -21,7 +21,7 @@
     "cards": [
       {
         "brandId": "umzug",
-        "body": "Private und gewerbliche Umzüge, Verpackung, Montage und Transport — mit Unbeschädigt-Garantie.",
+        "body": "Private und gewerbliche Umzüge, Verpackung, Montage, Transport und Einlagerung — seit 2004.",
         "cta": "Mehr erfahren"
       },
       {
@@ -61,7 +61,7 @@
     "body": "Sie interessieren sich für eine Immobilie und wollen wissen, was es kostet, sie in Ihren Wunschzustand zu bringen? Wir kommen vor Ort, erfassen jeden Raum systematisch und liefern Ihnen eine belastbare Kosteneinschätzung — inklusive Schwierigkeitsgrad je Aufgabe, damit Sie entscheiden können, was Sie selbst übernehmen und was Fachbetriebe erledigen sollten.",
     "priceLabel": "Festpreis",
     "price": "290 €",
-    "priceNote": "inkl. Vor-Ort-Termin, Zustandsaufnahme und schriftlicher Kosteneinschätzung",
+    "priceNote": "brutto inkl. 19 % MwSt., inkl. Vor-Ort-Termin, Zustandsaufnahme und schriftlicher Kosteneinschätzung",
     "includes": [
       "Gemeinsame Begehung der Immobilie vor Ort",
       "Systematische Aufnahme aller Räume und Gewerke",
@@ -74,7 +74,8 @@
   "b2bSection": {
     "headline": "Immobilienmakler, Umzugsvermittler, Hausverwaltungen und Firmenkunden",
     "body": "Provision pro vermitteltem Auftrag, bevorzugte Terminplanung und feste Partnerkonditionen für wiederkehrende Aufträge.",
-    "cta": "Partner werden"
+    "cta": "Partner werden",
+    "imageAlt": "mmoving.de Partnerschaft München — Schlüsselübergabe und Handschlag zwischen Hausverwaltung und Umzugsteam im Eingangsbereich"
   },
   "callbackSection": {
     "headline": "Lieber gleich zurückgerufen werden?",
@@ -93,15 +94,15 @@
       },
       {
         "question": "Was kostet ein Umzug mit Entrümpelung in München?",
-        "answer": "Das hängt von Volumen, Fläche und Umfang ab. Marktüblich liegt ein Umzug innerhalb Münchens bei 700 bis 2.800 € und eine Entrümpelung bei 35 bis 70 € pro Quadratmeter. Als kombinierter Auftrag sparen Sie erfahrungsgemäß 15 bis 25 %. Verbindlich wird der Preis nach einer kurzen Besichtigung."
+        "answer": "Das hängt von Volumen, Fläche und Umfang ab. Marktüblich liegt ein Umzug innerhalb Münchens bei 700 bis 2.800 € und eine Entrümpelung bei 35 bis 70 € pro Quadratmeter. Als kombinierter Auftrag sparen Sie erfahrungsgemäß 20 bis 35 %. Verbindlich wird der Preis nach einer kurzen Besichtigung."
       },
       {
         "question": "Was kostet der Besichtigungsservice?",
-        "answer": "290 € zum Festpreis. Enthalten sind die gemeinsame Begehung der Immobilie, eine systematische Zustandsaufnahme aller Räume, eine realistische Kosteneinschätzung für den Wunschzustand und ein Schwierigkeitsgrad je Position. Der Service ist unabhängig von allen Paketen buchbar."
+        "answer": "290 € zum Festpreis, brutto inklusive 19 % MwSt. Enthalten sind die gemeinsame Begehung der Immobilie, eine systematische Zustandsaufnahme aller Räume, eine realistische Kosteneinschätzung für den Wunschzustand und ein Schwierigkeitsgrad je Position. Der Service ist unabhängig von allen Paketen buchbar."
       },
       {
-        "question": "Was ist die Unbeschädigt-Garantie?",
-        "answer": "Unser Leistungsversprechen bei Umzügen: Wird beim Umzug etwas beschädigt, erstatten wir den vollen Wert des Gegenstands. Wir dokumentieren den Zustand wertvoller Gegenstände vor und nach dem Transport, damit die Prüfung im Schadensfall schnell und fair abläuft."
+        "question": "Wie sind meine Möbel beim Umzug abgesichert?",
+        "answer": "Es gilt die gesetzliche Haftung des Möbelspediteurs nach § 451e HGB: 620 € je Kubikmeter Laderaum. Wir dokumentieren den Zustand wertvoller Gegenstände vor und nach dem Transport, damit die Prüfung im Schadensfall schnell und fair abläuft. Reicht die gesetzliche Haftung für Ihre Einrichtung nicht aus, vereinbaren wir eine zusätzliche Transportversicherung — den Versicherungswert bestimmen Sie selbst."
       },
       {
         "question": "Wie schnell bekomme ich einen Termin?",

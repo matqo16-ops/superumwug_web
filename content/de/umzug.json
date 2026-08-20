@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "Umzug München — Umzugsunternehmen mit Garantie | mmoving.de",
-    "description": "Umzugsunternehmen für München und Umgebung: Privat- und Firmenumzüge, Verpackung, Montage, Transport. Unbeschädigt-Garantie mit voller Werterstattung."
+    "title": "Umzug München — Umzugsunternehmen seit 2004 | mmoving.de",
+    "description": "Umzugsunternehmen für München und Umgebung: Privat- und Firmenumzüge, Verpackung, Montage, Transport, Einlagerung. Über 1.000 Umzüge seit 2004, Festpreis nach Besichtigung."
   },
   "hero": {
     "eyebrow": "SuperUmzug",
-    "headline": "Ihr Umzug in München — geplant, verpackt, transportiert. Unbeschädigt garantiert.",
-    "subheadline": "Privatumzüge und Firmenumzüge aus einer Hand: Verpackung, Möbelmontage, Transport und Aufbau — mit voller Werterstattung im Schadensfall.",
+    "headline": "Ihr Umzug in München — geplant, verpackt, transportiert.",
+    "subheadline": "Privatumzüge und Firmenumzüge aus einer Hand: Verpackung, Möbelmontage, Transport und Aufbau. Über 1.000 Umzüge seit 2004 — mit Festpreis nach Besichtigung.",
     "primaryCta": "Rückruf anfordern",
-    "secondaryCta": "Zur Unbeschädigt-Garantie"
+    "secondaryCta": "Zu Haftung und Versicherung"
   },
   "services": {
     "headline": "Leistungen",
@@ -31,18 +31,19 @@
       },
       {
         "title": "Transport",
-        "body": "Eigener Fuhrpark, erfahrene Teams, vertraglich und gesetzlich versicherter Transport zu einem Wert, den Sie selbst bestimmen."
+        "body": "Eigener Fuhrpark, erfahrene Teams, gesetzliche Haftung nach § 451e HGB — auf Wunsch mit zusätzlicher Transportversicherung."
       },
       {
-        "title": "Zusatzleistungen",
-        "body": "Halteverbotszonen auf Anfrage."
+        "title": "Einlagerung",
+        "body": "Liegt zwischen Auszug und Einzug eine Lücke, lagern wir Ihr Umzugsgut trocken und gesichert ein — im eigenen Lager oder bei geprüften Partnern."
       }
     ]
   },
   "guarantee": {
-    "badge": "Unbeschädigt-Garantie · Reparatur oder volle Werterstattung im Schadensfall",
-    "headline": "Die Unbeschädigt-Garantie",
-    "lead": "Wir versprechen nicht nur Sorgfalt — wir garantieren das Ergebnis: Kommt bei Ihrem Umzug etwas zu Schaden, übernehmen wir die Reparatur oder erstatten den vollen Wert — je nachdem, was für Sie sinnvoller ist. Ihr Hab und Gut ist während des gesamten Umzugs vertraglich und gesetzlich versichert, für einen Wert, den Sie selbst bestimmen.",
+    "badge": "Gesetzliche Haftung nach § 451e HGB · Optionale Transportversicherung",
+    "headline": "Haftung und Versicherung — klar geregelt",
+    "lead": "Wir arbeiten sorgfältig und dokumentieren den Zustand Ihrer Möbel vor und nach dem Transport. Geht dennoch etwas zu Bruch, gilt die gesetzliche Haftung des Möbelspediteurs: 620 € je Kubikmeter Laderaum nach § 451e HGB. Für höhere Werte vereinbaren wir eine zusätzliche Transportversicherung — den Versicherungswert bestimmen Sie dabei selbst.",
+    "imageAlt": "SuperUmzug Umzug München — Team dokumentiert den Zustand einer verpackten Kommode mit dem Tablet vor dem Transport",
     "steps": [
       {
         "title": "Dokumentation vor dem Umzug",
@@ -58,45 +59,53 @@
       },
       {
         "title": "Schadensmeldung",
-        "body": "Sollte dennoch etwas beschädigt werden, melden Sie es uns — unkompliziert, mit Foto und kurzer Beschreibung."
+        "body": "Melden Sie uns einen Schaden mit Foto und kurzer Beschreibung. Wichtig: Äußerlich erkennbare Schäden müssen nach § 438 HGB bereits bei der Übergabe angezeigt werden, verdeckte Schäden innerhalb von 14 Tagen."
       },
       {
-        "title": "Reparatur oder volle Werterstattung",
-        "body": "Nach Prüfung reparieren wir den beschädigten Gegenstand oder erstatten seinen vollen Wert — ohne Wenn und Aber."
+        "title": "Regulierung",
+        "body": "Nach Prüfung reparieren wir den beschädigten Gegenstand oder ersetzen ihn im Rahmen der gesetzlichen Haftung — bei abgeschlossener Transportversicherung bis zum vereinbarten Versicherungswert."
       }
     ],
-    "finePrint": "Details, Ausschlüsse und Bedingungen der Unbeschädigt-Garantie: [PLATZHALTER RECHTLICHER TEXT/VERSICHERUNGSBEDINGUNGEN]. Ihr Hab und Gut ist während des gesamten Transports vertraglich und gesetzlich versichert — der versicherte Wert wird von Ihnen selbst festgelegt."
+    "finePrint": "Es gilt die gesetzliche Haftung für Umzugsverträge nach §§ 451 ff. HGB, insbesondere die Haftungshöchstgrenze von 620 € je Kubikmeter Laderaum (§ 451e HGB). Eine darüber hinausgehende Transportversicherung ist für einen konkreten Umzug oder einzelne Wertgegenstände möglich; der Beitrag richtet sich nach dem von Ihnen erklärten Wert. Betriebshaftpflicht: LVN. Die vollständigen Bedingungen und Ausschlüsse erhalten Sie mit unserem Angebot und den AGB."
   },
   "faq": {
     "headline": "Häufige Fragen zum Umzug in München",
     "items": [
       {
         "question": "Was kostet ein Umzug in München?",
-        "answer": "Marktüblich 700 bis 1.400 € für eine 2-Zimmer-Wohnung innerhalb Münchens und 1.400 bis 2.800 € für vier Zimmer. Der Preis hängt von Volumen, Entfernung, Stockwerk und Zusatzleistungen ab. Nach einer kurzen Besichtigung erhalten Sie von uns einen verbindlichen Festpreis."
+        "answer": "Marktüblich 700 bis 1.400 € brutto für eine 2-Zimmer-Wohnung innerhalb Münchens und 1.400 bis 2.800 € brutto für vier Zimmer. Der Preis hängt von Volumen, Entfernung, Stockwerk und Zusatzleistungen ab. Nach einer kurzen Besichtigung erhalten Sie von uns einen verbindlichen Festpreis. Alle Preise verstehen sich inklusive 19 % MwSt."
       },
       {
         "question": "Wie früh sollte ich meinen Umzug buchen?",
-        "answer": "Für Privatumzüge empfehlen wir zwei bis drei Wochen Vorlauf, für Firmenumzüge vier bis sechs Wochen. Bei Umzügen zum Monatsende zwischen Juni und September sollten Sie vier bis sechs Wochen vorher anfragen, weil die Termine dann knapp sind."
+        "answer": "Für Privatumzüge empfehlen wir zwei bis drei Wochen Vorlauf, für Firmenumzüge vier bis sechs Wochen. Bei Umzügen zum Monatsende zwischen Juni und September sollten Sie vier bis sechs Wochen vorher anfragen, weil die Termine dann knapp sind. Geht es schnell: Expressumzüge organisieren wir je nach Verfügbarkeit innerhalb von 24 Stunden."
       },
       {
         "question": "Was passiert, wenn beim Umzug etwas beschädigt wird?",
-        "answer": "Sie melden uns den Schaden mit Foto und kurzer Beschreibung. Da wir den Zustand wertvoller Gegenstände vor und nach dem Umzug dokumentieren, ist die Prüfung schnell — wir reparieren den Gegenstand oder erstatten seinen vollen Wert. Das ist unsere Unbeschädigt-Garantie."
+        "answer": "Sie melden uns den Schaden mit Foto und kurzer Beschreibung. Da wir den Zustand wertvoller Gegenstände vor und nach dem Umzug dokumentieren, ist die Prüfung schnell. Wir reparieren den Gegenstand oder ersetzen ihn im Rahmen der gesetzlichen Haftung von 620 € je Kubikmeter Laderaum (§ 451e HGB) — mit zusätzlicher Transportversicherung bis zum vereinbarten Wert. Äußerlich erkennbare Schäden zeigen Sie bitte direkt bei der Übergabe an."
       },
       {
         "question": "Übernehmen Sie auch die Verpackung?",
-        "answer": "Ja. Auf Wunsch verpackt unser Team Ihren gesamten Hausstand professionell. Alternativ liefern wir nur das Material, und Sie packen selbst. Beachten Sie: Selbst gepackte Kartons sind bei Transportschäden meist eingeschränkt versichert."
+        "answer": "Ja. Auf Wunsch verpackt unser Team Ihren gesamten Hausstand professionell. Alternativ liefern wir nur das Material, und Sie packen selbst. Beachten Sie: Bei selbst gepackten Kartons ist die Haftung für Transportschäden eingeschränkt, weil wir den Inhalt und die Packqualität nicht prüfen konnten."
       },
       {
         "question": "Sind meine Sachen während des Transports versichert?",
-        "answer": "Ja. Ihr Hab und Gut ist während des gesamten Umzugs vertraglich und gesetzlich versichert, für einen Wert, den Sie selbst bestimmen. Zusätzlich greift unsere Unbeschädigt-Garantie: Wir reparieren den beschädigten Gegenstand oder erstatten seinen vollen Wert."
+        "answer": "Für Umzüge gilt die gesetzliche Haftung nach § 451e HGB: 620 € je Kubikmeter Laderaum. Das deckt normalen Hausrat ab, reicht bei hochwertiger Einrichtung aber nicht immer aus. Für diesen Fall vereinbaren wir eine zusätzliche Transportversicherung für den gesamten Umzug oder für einzelne Wertgegenstände — den Versicherungswert bestimmen Sie selbst, der Beitrag richtet sich danach."
       },
       {
         "question": "Beantragen Sie die Halteverbotszone?",
-        "answer": "Ja, für beide Adressen. Die Beantragung dauert rund drei Wochen — das ist die Frist, die am häufigsten unterschätzt wird. Die Gebühr liegt bei 250 € je Adresse. Steht das Fahrzeug ohne Halteverbotszone nicht direkt vor dem Eingang, verlängert sich der Trageweg, und die zusätzliche Tragezeit wirkt sich auf den Endpreis aus."
+        "answer": "Ja, für beide Adressen. Die Beantragung dauert rund drei Wochen — das ist die Frist, die am häufigsten unterschätzt wird. Die Gebühr liegt bei 300 € brutto je Adresse. Steht das Fahrzeug ohne Halteverbotszone nicht direkt vor dem Eingang, verlängert sich der Trageweg, und die zusätzliche Tragezeit wirkt sich auf den Endpreis aus."
       },
       {
         "question": "Ziehen Sie auch außerhalb von München um?",
-        "answer": "Ja. Wir arbeiten im gesamten Umkreis von rund 50 Kilometern um München, unter anderem in Dachau, Freising, Erding, Starnberg und Fürstenfeldbruck. Fernumzüge aus München heraus führen wir deutschlandweit durch."
+        "answer": "Ja. Wir arbeiten im gesamten Umkreis von rund 50 Kilometern um München, unter anderem in Dachau, Freising, Erding, Starnberg und Fürstenfeldbruck. Fernumzüge aus München heraus führen wir deutschlandweit durch, Umzüge innerhalb der EU ebenfalls. Überseeumzüge per Container oder Luftfracht bieten wir nicht an."
+      },
+      {
+        "question": "Gibt es Gegenstände, die Sie nicht transportieren?",
+        "answer": "Ja. Klaviere, Flügel, Tresore, Billardtische, Industriemaschinen und alles, was einen Kran oder eine Bergung über Fenster und Balkon erfordert, transportieren wir nicht. Die Grenze liegt bei Stücken, die zwei Personen sicher von Hand oder mit Gurten bewegen können — Whirlpools und Saunen bis 120 kg, große Kübelpflanzen bis 100 kg. Lebende Tiere transportieren wir ebenfalls nicht."
+      },
+      {
+        "question": "Arbeiten Sie auch am Wochenende oder an Feiertagen?",
+        "answer": "Ja. Samstags gilt ein Zuschlag von 50 %, an Sonn- und Feiertagen sowie bei Expressumzügen innerhalb von 24 Stunden der doppelte Satz. Firmenumzüge legen wir ohnehin meist bewusst aufs Wochenende, damit Ihr Betrieb am Montag weiterläuft."
       },
       {
         "question": "Kann ich Umzug, Entrümpelung und Renovierung zusammen beauftragen?",
@@ -104,35 +113,43 @@
       }
     ]
   },
-  "lead": "SuperUmzug ist das Umzugsunternehmen von mmoving.de für München und Umgebung. Wir übernehmen Privat- und Firmenumzüge vollständig — von der Planung über Verpackung, Möbelmontage und Transport bis zur besenreinen Übergabe der alten Wohnung. Als einziges Umzugsunternehmen im Raum München verbinden wir das mit einer Unbeschädigt-Garantie: Wird beim Umzug etwas beschädigt, übernehmen wir die Reparatur oder erstatten den vollen Wert. Ihr Hab und Gut ist während des gesamten Umzugs vertraglich und gesetzlich versichert, für einen Wert, den Sie selbst bestimmen.",
+  "lead": "SuperUmzug ist das Umzugsunternehmen von mmoving.de für München und Umgebung. Seit 2004 haben wir über 1.000 Umzüge durchgeführt. Wir übernehmen Privat- und Firmenumzüge vollständig — von der Planung über Verpackung, Möbelmontage und Transport bis zur besenreinen Übergabe der alten Wohnung. Für den Transport gilt die gesetzliche Haftung nach § 451e HGB von 620 € je Kubikmeter Laderaum; für höhere Werte vereinbaren wir eine zusätzliche Transportversicherung zu einem Wert, den Sie selbst bestimmen.",
   "detail": {
     "headline": "Umzug in München — so arbeiten wir",
     "sections": [
       {
         "heading": "Privatumzüge",
-        "body": "Vom Einzimmerapartment bis zum Einfamilienhaus. Wir nehmen bei der Besichtigung das Volumen auf, kalkulieren Personal und Fahrzeug danach und nennen Ihnen einen Festpreis. Am Umzugstag arbeitet ein festes Team, das Sie vorher kennenlernen — keine wechselnden Subunternehmer."
+        "body": "Vom Einzimmerapartment bis zum Einfamilienhaus. Wir nehmen bei der Besichtigung das Volumen auf, kalkulieren Personal und Fahrzeug danach und nennen Ihnen einen Festpreis. Am Umzugstag arbeitet ein festes Team von zwei bis vier Personen, das Sie vorher kennenlernen — keine wechselnden Subunternehmer."
       },
       {
         "heading": "Firmenumzüge",
-        "body": "Büros, Praxen, Kanzleien und Lager ziehen wir außerhalb Ihrer Geschäftszeiten um, meist am Wochenende. Arbeitsplätze werden nummeriert demontiert und am neuen Standort in derselben Konfiguration wieder aufgebaut, damit der Betrieb am Montag weiterläuft. Aktenarchive transportieren wir verschlossen und nachvollziehbar."
+        "body": "Büros, Praxen, Kanzleien und Lager ziehen wir außerhalb Ihrer Geschäftszeiten um, meist am Wochenende. Arbeitsplätze werden nummeriert demontiert und am neuen Standort in derselben Konfiguration wieder aufgebaut, damit der Betrieb am Montag weiterläuft. Aktenarchive transportieren wir verschlossen und nachvollziehbar. Der größte von uns abgewickelte Auftrag umfasste rund 700 laufende Meter Regal beziehungsweise 40 Büroarbeitsplätze."
       },
       {
         "heading": "Verpackung und Möbelmontage",
-        "body": "Sie erhalten professionelles Verpackungsmaterial oder lassen komplett durch unser Team packen. Schränke, Betten, Küchen und Büromöbel werden fachgerecht demontiert, transportiert und am Zielort wieder aufgebaut — inklusive Anschluss von Waschmaschine und Geschirrspüler."
+        "body": "Sie erhalten professionelles Verpackungsmaterial oder lassen komplett durch unser Team packen. Umzugskartons und Kleiderboxen vermieten wir auch einzeln. Schränke, Betten, Küchen und Büromöbel werden fachgerecht demontiert, transportiert und am Zielort wieder aufgebaut — inklusive Anschluss von Waschmaschine und Geschirrspüler."
+      },
+      {
+        "heading": "Einlagerung zwischen Auszug und Einzug",
+        "body": "Wenn zwischen Auszug und Einzug Wochen liegen, lagern wir Ihr Umzugsgut trocken und gesichert ein — im eigenen Lager oder bei geprüften Partnern, je nach Volumen und Dauer — und liefern zum Wunschtermin nach."
       },
       {
         "heading": "Halteverbotszone und Trageweg",
-        "body": "Auf Wunsch richten wir für jede Adresse eine Halteverbotszone ein; die Beantragung dauert rund drei Wochen, die Gebühr beträgt 250 € je Adresse. Das lohnt sich fast immer: Steht das Fahrzeug nicht direkt vor dem Eingang, verlängert sich der Trageweg, und die zusätzliche Tragezeit wirkt sich unmittelbar auf den Endpreis aus."
+        "body": "Auf Wunsch richten wir für jede Adresse eine Halteverbotszone ein; die Beantragung dauert rund drei Wochen, die Gebühr beträgt 300 € brutto je Adresse. Das lohnt sich fast immer: Steht das Fahrzeug nicht direkt vor dem Eingang, verlängert sich der Trageweg, und die zusätzliche Tragezeit wirkt sich unmittelbar auf den Endpreis aus."
+      },
+      {
+        "heading": "Was wir nicht transportieren",
+        "body": "Klaviere, Flügel, Tresore, Billardtische, Industriemaschinen und übergroße Lasten, die einen Kran oder eine Bergung über Fenster und Balkon erfordern, gehören nicht zu unserem Leistungsumfang. Maßstab ist, was zwei Personen sicher von Hand oder mit Gurten bewegen können. Whirlpool und Sauna transportieren wir bis 120 kg, große Kübelpflanzen bis 100 kg. Lebende Tiere transportieren wir nicht. Das sagen wir lieber vorher, als am Umzugstag."
       },
       {
         "heading": "Was ein Umzug in München kostet",
-        "body": "Der Preis ergibt sich aus Volumen, Personal- und Zeitbedarf, Entfernung, Stockwerk und Zusatzleistungen. Marktüblich liegen Umzüge innerhalb Münchens bei 700 bis 1.400 € für eine 2-Zimmer-Wohnung und bei 1.400 bis 2.800 € für vier Zimmer. Verbindlich wird der Preis nach der Besichtigung — als Festpreis, ohne Nachforderungen. Eine ausführliche Aufschlüsselung finden Sie in unserem Ratgeber zu den Umzugskosten in München."
+        "body": "Der Preis ergibt sich aus Volumen, Personal- und Zeitbedarf, Entfernung, Stockwerk und Zusatzleistungen. Marktüblich liegen Umzüge innerhalb Münchens bei 700 bis 1.400 € brutto für eine 2-Zimmer-Wohnung und bei 1.400 bis 2.800 € brutto für vier Zimmer. Verbindlich wird der Preis nach der Besichtigung — als Festpreis, ohne Nachforderungen. Eine ausführliche Aufschlüsselung finden Sie in unserem Ratgeber zu den Umzugskosten in München."
       }
     ]
   },
   "areas": {
     "headline": "Einsatzgebiet: München und Umgebung",
-    "body": "Wir ziehen in München und im Umkreis von rund 50 Kilometern um — Stadtgebiet, Landkreis München und die umliegenden Landkreise. Fernumzüge aus München heraus führen wir deutschlandweit durch.",
+    "body": "Wir ziehen in München und im Umkreis von rund 50 Kilometern um — Stadtgebiet, Landkreis München und die umliegenden Landkreise. Fernumzüge aus München heraus führen wir deutschlandweit durch, Umzüge innerhalb der EU ebenfalls.",
     "cities": [
       "München",
       "Dachau",
@@ -170,12 +187,12 @@
   },
   "pricing": {
     "headline": "Was ein Umzug in München kostet",
-    "intro": "Der Preis ergibt sich aus dem Umzugsvolumen in Kubikmetern, dem Personal- und Zeitbedarf, der Entfernung, dem Stockwerk und den gewählten Zusatzleistungen. Als Faustregel gilt: etwa 0,3 bis 0,5 m³ Umzugsgut pro Quadratmeter Wohnfläche. Auch der Trageweg zählt: Steht das Fahrzeug nicht direkt vor dem Eingang, wirkt sich die zusätzliche Tragezeit auf den Endpreis aus.",
+    "intro": "Der Preis ergibt sich aus dem Umzugsvolumen in Kubikmetern, dem Personal- und Zeitbedarf, der Entfernung, dem Stockwerk und den gewählten Zusatzleistungen. Als Faustregel gilt: etwa 0,3 bis 0,5 m³ Umzugsgut pro Quadratmeter Wohnfläche. Auch der Trageweg zählt: Steht das Fahrzeug nicht direkt vor dem Eingang, wirkt sich die zusätzliche Tragezeit auf den Endpreis aus. Alle Angaben sind Bruttopreise inklusive 19 % MwSt.",
     "columns": [
       "Wohnung",
       "Volumen",
       "Team",
-      "Marktüblich"
+      "Marktüblich (brutto)"
     ],
     "rows": [
       [
@@ -216,9 +233,10 @@
       "Küchenab- und -aufbau: 400 – 1.200 €",
       "Zusatzfahrzeug (PKW): 15 € pro Stunde",
       "Kilometerpauschale: 0,55 € pro Kilometer",
-      "Halteverbotszone je Adresse: 250 € (Beantragung rund 3 Wochen im Voraus)"
+      "Halteverbotszone je Adresse: 300 € (Beantragung rund 3 Wochen im Voraus)",
+      "Samstagszuschlag: +50 % · Sonn- und Feiertage sowie Express innerhalb 24 h: doppelter Satz"
     ],
-    "note": "Alle Angaben sind marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+    "note": "Alle Angaben sind Bruttopreise inklusive 19 % MwSt. und marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
   },
   "situations": {
     "headline": "Typische Situationen, in denen wir umziehen",
@@ -230,6 +248,10 @@
       {
         "title": "Umzug ins Umland",
         "body": "Von München nach Dachau, Starnberg oder Erding — und umgekehrt. Die Entfernung fällt bis etwa 50 Kilometer kaum ins Gewicht, entscheidend bleibt das Volumen."
+      },
+      {
+        "title": "Umzug mit Zwischenlagerung",
+        "body": "Wenn zwischen Auszug und Einzug Wochen liegen, lagern wir Ihr Umzugsgut trocken und gesichert ein und liefern zum Wunschtermin nach."
       },
       {
         "title": "Firmenumzug am Wochenende",
@@ -247,7 +269,7 @@
   },
   "entity": {
     "headline": "Über mmoving.de",
-    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit [SEIT JAHR]. Beratung auf Deutsch und Englisch.",
+    "body": "mmoving.de ist der gemeinsame Auftritt von drei Marken für München und Umgebung: SuperUmzug für Umzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung sowie BayReno für Renovierung und Sanierung. Alle drei arbeiten unter einer Koordination — ein Ansprechpartner, ein Terminplan, ein Vertrag, auch wenn zwei oder drei Gewerke zusammenkommen. Tätig in München und im Umkreis von rund 50 Kilometern, im Einsatz seit 2004 und mit über 1.000 durchgeführten Umzügen. Beratung auf Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch und Kroatisch.",
     "facts": [
       {
         "label": "Unternehmen",
@@ -258,28 +280,32 @@
         "value": "SuperUmzug · Entrümpelung München · BayReno"
       },
       {
+        "label": "Im Einsatz seit",
+        "value": "2004 · über 1.000 durchgeführte Umzüge"
+      },
+      {
         "label": "Standort",
         "value": "München, Bayern"
       },
       {
         "label": "Einsatzgebiet",
-        "value": "München und Umgebung, rund 50 km Umkreis"
+        "value": "München und Umgebung, rund 50 km Umkreis; Fernumzüge deutschlandweit und EU-weit"
       },
       {
         "label": "Leistungen",
         "value": "Umzug, Entrümpelung, Renovierung — einzeln oder kombiniert"
       },
       {
-        "label": "Besonderheit",
-        "value": "Unbeschädigt-Garantie: Reparatur oder volle Werterstattung, vertraglich und gesetzlich versichert bei Umzügen"
+        "label": "Haftung",
+        "value": "Gesetzliche Haftung 620 € je m³ (§ 451e HGB), optionale Transportversicherung zum selbst bestimmten Wert"
       },
       {
         "label": "Preisbildung",
-        "value": "Festpreis nach Besichtigung; Besichtigungsservice zum Festpreis von 290 €"
+        "value": "Festpreis nach Besichtigung, alle Preise brutto inkl. 19 % MwSt.; Besichtigungsservice zum Festpreis von 290 €"
       },
       {
         "label": "Sprachen",
-        "value": "Deutsch, Englisch"
+        "value": "Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch, Kroatisch"
       }
     ]
   },
@@ -292,7 +318,7 @@
       },
       {
         "title": "Festpreisangebot",
-        "body": "Sie erhalten ein schriftliches Angebot mit Leistungsumfang, Personal, Termin und Festpreis — ohne Nachforderungen am Umzugstag."
+        "body": "Sie erhalten ein schriftliches Angebot mit Leistungsumfang, Personal, Termin und Festpreis — ohne Nachforderungen am Umzugstag. Zusätzlicher Umfang und Mehrarbeit werden nur nach vorheriger Absprache berechnet."
       },
       {
         "title": "Vorbereitung",
@@ -303,8 +329,8 @@
         "body": "Das Team dokumentiert den Zustand wertvoller und empfindlicher Gegenstände, demontiert, verlädt gesichert, transportiert und baut am Zielort wieder auf."
       },
       {
-        "title": "Übergabe und Garantie",
-        "body": "Wir prüfen den Zustand gemeinsam mit Ihnen am Zielort. Sollte doch etwas beschädigt sein, melden Sie es mit Foto — wir reparieren den Gegenstand oder erstatten seinen vollen Wert."
+        "title": "Übergabe und Schadensregulierung",
+        "body": "Wir prüfen den Zustand gemeinsam mit Ihnen am Zielort. Äußerlich erkennbare Schäden halten wir direkt bei der Übergabe fest; verdeckte Schäden melden Sie innerhalb von 14 Tagen mit Foto. Wir reparieren oder ersetzen im Rahmen der gesetzlichen Haftung."
       }
     ]
   }

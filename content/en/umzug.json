@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "Moving Company Munich — Damage-Free Guarantee | mmoving.de",
-    "description": "Moving company for Munich: private and corporate moves, packing, assembly, transport. Damage-free guarantee with full value compensation."
+    "title": "Moving Company Munich — Movers since 2004 | mmoving.de",
+    "description": "Moving company for Munich and the surrounding area: private and corporate moves, packing, assembly, transport, storage. Over 1,000 moves since 2004, fixed price after a survey."
   },
   "hero": {
     "eyebrow": "SuperUmzug",
-    "headline": "Your move in Munich — planned, packed, delivered. Damage-free, guaranteed.",
-    "subheadline": "Private and corporate moves from one provider: packing, furniture assembly, transport and setup — with full value compensation if anything is damaged.",
+    "headline": "Your move in Munich — planned, packed, delivered.",
+    "subheadline": "Private and corporate moves from one provider: packing, furniture assembly, transport and setup. Over 1,000 moves since 2004 — with a fixed price after a survey.",
     "primaryCta": "Request a callback",
-    "secondaryCta": "See the damage guarantee"
+    "secondaryCta": "Liability and insurance"
   },
   "services": {
     "headline": "Services",
@@ -31,18 +31,19 @@
       },
       {
         "title": "Transport",
-        "body": "Our own fleet, experienced crews, transport insured by contract and by law for a value you determine yourself."
+        "body": "Our own fleet, experienced crews, statutory carrier liability under § 451e HGB — with optional additional transport insurance."
       },
       {
-        "title": "Add-ons",
-        "body": "No-parking zones on request."
+        "title": "Storage",
+        "body": "If there is a gap between moving out and moving in, we store your belongings dry and secured — in our own warehouse or with vetted partners."
       }
     ]
   },
   "guarantee": {
-    "badge": "Damage-free guarantee · Repair or full value compensation if damaged",
-    "headline": "The Damage-Free Guarantee",
-    "lead": "We don't just promise care — we guarantee the outcome: if anything is damaged during your move, we repair it or pay full value compensation, whichever makes more sense for you. Your belongings are insured by contract and by law throughout the move, for a value you determine yourself.",
+    "badge": "Statutory liability under § 451e HGB · Optional transport insurance",
+    "headline": "Liability and insurance — clearly set out",
+    "lead": "We work carefully and document the condition of your furniture before and after transport. If something is damaged anyway, the statutory liability for removal contractors applies: €620 per cubic metre of loading space under § 451e of the German Commercial Code. For higher values we arrange additional transport insurance — and you set the insured value yourself.",
+    "imageAlt": "SuperUmzug move Munich — team documenting the condition of a wrapped dresser on a tablet before transport",
     "steps": [
       {
         "title": "Documentation before the move",
@@ -58,45 +59,53 @@
       },
       {
         "title": "Reporting a claim",
-        "body": "If something is damaged regardless, let us know — simply, with a photo and short description."
+        "body": "Report damage with a photo and short description. Important: under § 438 HGB, externally visible damage must be reported at handover, and hidden damage within 14 days."
       },
       {
-        "title": "Repair or full value compensation",
-        "body": "After review, we repair the damaged item or reimburse its full value — no fine-print games."
+        "title": "Settlement",
+        "body": "After review we repair the damaged item or replace it within the statutory liability limit — and up to the agreed insured value where transport insurance has been taken out."
       }
     ],
-    "finePrint": "Details, exclusions and terms of the damage-free guarantee: [PLACEHOLDER LEGAL TEXT/INSURANCE TERMS]. Your belongings are insured by contract and by law throughout transport — you determine the insured value yourself."
+    "finePrint": "Statutory liability for removal contracts under §§ 451 ff. of the German Commercial Code applies, in particular the liability cap of €620 per cubic metre of loading space (§ 451e HGB). Additional transport insurance beyond that can be arranged for a specific move or for individual valuables; the premium depends on the value you declare. Business liability insurance: LVN. Full terms and exclusions are provided with our quote and general terms."
   },
   "faq": {
     "headline": "Frequently asked questions about moving in Munich",
     "items": [
       {
         "question": "What does a move in Munich cost?",
-        "answer": "Typical market rates are €700–1,400 for a two-room flat within Munich and €1,400–2,800 for four rooms. The price depends on volume, distance, floor level and add-ons. After a short survey you receive a binding fixed price from us."
+        "answer": "Typical market rates are €700–1,400 gross for a two-room flat within Munich and €1,400–2,800 gross for four rooms. The price depends on volume, distance, floor level and add-ons. After a short survey you receive a binding fixed price from us. All prices include 19 % VAT."
       },
       {
         "question": "How far in advance should I book my move?",
-        "answer": "Two to three weeks for private moves, four to six weeks for corporate moves. For a move at month-end between June and September, ask four to six weeks ahead — those dates fill up quickly."
+        "answer": "Two to three weeks for private moves, four to six weeks for corporate moves. For a move at month-end between June and September, ask four to six weeks ahead — those dates fill up quickly. In a hurry: express moves can be organised within 24 hours subject to availability."
       },
       {
         "question": "What happens if something is damaged during my move?",
-        "answer": "Report it with a photo and a short description. Because we document the condition of valuable items before and after the move, review is fast — we repair the item or reimburse its full value. That is our damage-free guarantee."
+        "answer": "Report it with a photo and a short description. Because we document the condition of valuable items before and after the move, review is fast. We repair the item or replace it within the statutory liability of €620 per cubic metre of loading space (§ 451e HGB) — and up to the agreed value with additional transport insurance. Please report externally visible damage directly at handover."
       },
       {
         "question": "Do you also handle packing?",
-        "answer": "Yes. On request our team packs your entire household professionally. Alternatively we deliver only the materials and you pack yourself. Note that self-packed boxes are usually only partly covered against transport damage."
+        "answer": "Yes. On request our team packs your entire household professionally. Alternatively we deliver only the materials and you pack yourself. Note that liability for transport damage is limited on self-packed boxes, because we could not check the contents or the quality of packing."
       },
       {
         "question": "Is my property insured during transport?",
-        "answer": "Yes. Your belongings are insured by contract and by law throughout the move, for a value you determine yourself. On top of that, our damage-free guarantee applies: we repair the damaged item or reimburse its full value."
+        "answer": "Statutory liability under § 451e HGB applies to moves: €620 per cubic metre of loading space. That covers ordinary household goods, but is not always enough for high-value furnishings. For those cases we arrange additional transport insurance for the whole move or for individual valuables — you set the insured value yourself and the premium follows from it."
       },
       {
         "question": "Do you apply for the no-parking zone?",
-        "answer": "Yes, at both addresses. The permit takes about three weeks to arrange. The fee is €250 per address. Without a no-parking zone, the vehicle may end up further from the entrance, and the extra carrying time is reflected in the final price."
+        "answer": "Yes, at both addresses. The permit takes about three weeks to arrange. The fee is €300 gross per address. Without a no-parking zone, the vehicle may end up further from the entrance, and the extra carrying time is reflected in the final price."
       },
       {
         "question": "Do you move outside Munich as well?",
-        "answer": "Yes. We work throughout a radius of roughly 50 km around Munich, including Dachau, Freising, Erding, Starnberg and Fürstenfeldbruck. Long-distance moves out of Munich are handled Germany-wide."
+        "answer": "Yes. We work throughout a radius of roughly 50 km around Munich, including Dachau, Freising, Erding, Starnberg and Fürstenfeldbruck. Long-distance moves out of Munich are handled Germany-wide, and moves within the EU as well. We do not offer overseas moves by container or air freight."
+      },
+      {
+        "question": "Are there items you will not transport?",
+        "answer": "Yes. We do not move pianos, grand pianos, safes, billiard tables, industrial machinery, or anything requiring a crane or removal via window or balcony. The limit is what two people can safely move by hand or with straps — whirlpools and saunas up to 120 kg, large potted plants up to 100 kg. We also do not transport live animals."
+      },
+      {
+        "question": "Do you work weekends and public holidays?",
+        "answer": "Yes. Saturdays carry a 50 % surcharge; Sundays, public holidays and express moves within 24 hours are charged at double rate. Corporate moves are usually scheduled onto the weekend deliberately, so your business is running again on Monday."
       },
       {
         "question": "Can I book moving, clearance and renovation together?",
@@ -104,35 +113,43 @@
       }
     ]
   },
-  "lead": "SuperUmzug is the moving arm of mmoving.de, serving Munich and the surrounding area. We handle private and corporate moves end to end — planning, packing, furniture assembly, transport and a broom-clean handover of the old flat. All of it backed by our damage-free guarantee: if anything is damaged during the move, we repair it or reimburse its full value. Your belongings are insured by contract and by law throughout the move, for a value you determine yourself.",
+  "lead": "SuperUmzug is the moving arm of mmoving.de, serving Munich and the surrounding area. Since 2004 we have carried out over 1,000 moves. We handle private and corporate moves end to end — planning, packing, furniture assembly, transport and a broom-clean handover of the old flat. Statutory carrier liability of €620 per cubic metre of loading space applies under § 451e HGB; for higher values we arrange additional transport insurance at a value you set yourself.",
   "detail": {
     "headline": "How we move you in Munich",
     "sections": [
       {
         "heading": "Private moves",
-        "body": "From a studio flat to a detached house. We assess the volume during the survey, size the crew and vehicle accordingly and give you a fixed price. On moving day you get a settled team you have met beforehand — no rotating subcontractors."
+        "body": "From a studio flat to a detached house. We assess the volume during the survey, size the crew and vehicle accordingly and give you a fixed price. On moving day you get a settled team of two to four people you have met beforehand — no rotating subcontractors."
       },
       {
         "heading": "Corporate moves",
-        "body": "Offices, practices and warehouses are moved outside your business hours, usually at the weekend. Workstations are dismantled with numbered labels and rebuilt in the same configuration at the new site so work resumes on Monday. Archives are transported sealed and traceable."
+        "body": "Offices, practices and warehouses are moved outside your business hours, usually at the weekend. Workstations are dismantled with numbered labels and rebuilt in the same configuration at the new site so work resumes on Monday. Archives are transported sealed and traceable. The largest job we have handled covered roughly 700 linear metres of shelving, or 40 office workstations."
       },
       {
         "heading": "Packing and furniture assembly",
-        "body": "You get professional packing materials, or our team packs everything for you. Wardrobes, beds, kitchens and office furniture are properly dismantled, transported and reassembled on site — including reconnecting washing machine and dishwasher."
+        "body": "You get professional packing materials, or our team packs everything for you. Moving boxes and wardrobe boxes can also be rented separately. Wardrobes, beds, kitchens and office furniture are properly dismantled, transported and reassembled on site — including reconnecting washing machine and dishwasher."
+      },
+      {
+        "heading": "Storage between moving out and moving in",
+        "body": "When weeks pass between moving out and moving in, we store your belongings dry and secured — in our own warehouse or with vetted partners, depending on volume and duration — and deliver on your chosen date."
       },
       {
         "heading": "No-parking zone and carrying distance",
-        "body": "On request we set up a no-parking zone at each address; the permit takes about three weeks to arrange and costs €250 per address. It's almost always worth it: if the vehicle can't park right at the entrance, the carrying distance grows, and the extra carrying time is reflected directly in the final price."
+        "body": "On request we set up a no-parking zone at each address; the permit takes about three weeks to arrange and costs €300 gross per address. It's almost always worth it: if the vehicle can't park right at the entrance, the carrying distance grows, and the extra carrying time is reflected directly in the final price."
+      },
+      {
+        "heading": "What we do not transport",
+        "body": "Pianos, grand pianos, safes, billiard tables, industrial machinery and oversized loads requiring a crane or removal via window or balcony are outside our scope. The benchmark is what two people can safely move by hand or with straps. We move whirlpools and saunas up to 120 kg and large potted plants up to 100 kg. We do not transport live animals. We would rather say so in advance than on moving day."
       },
       {
         "heading": "What a move in Munich costs",
-        "body": "Price follows volume, crew and time, distance, floor level and add-ons. Typical market rates within Munich are €700–1,400 for a two-room flat and €1,400–2,800 for four rooms. Your binding fixed price comes after the survey — with no follow-up charges."
+        "body": "The price follows the volume, the crew and time needed, the distance, the floor level and the add-ons. Typical market rates for moves within Munich are €700–1,400 gross for a two-room flat and €1,400–2,800 gross for four rooms. The price becomes binding after the survey — as a fixed price, with no follow-up charges. A detailed breakdown is in our guide to moving costs in Munich."
       }
     ]
   },
   "areas": {
     "headline": "Service area: Munich and surroundings",
-    "body": "We move within Munich and roughly 50 km around it — the city, the Munich district and the neighbouring districts. Long-distance moves out of Munich are handled Germany-wide.",
+    "body": "We move within Munich and a radius of roughly 50 km — the city, the Munich district and the neighbouring districts. Long-distance moves out of Munich are handled Germany-wide, and moves within the EU as well.",
     "cities": [
       "Munich",
       "Dachau",
@@ -153,12 +170,12 @@
     "items": [
       {
         "label": "Clearance and house clearances",
-        "body": "Whatever is not moving with you is disposed of properly — same job, no second callout.",
+        "body": "Whatever is not coming with you, we dispose of properly — in the same job, with no second callout.",
         "href": "/entruempelung"
       },
       {
         "label": "Renovation and cosmetic repairs",
-        "body": "Painting and repairs in the old or new flat, carried out while the rooms are empty.",
+        "body": "Painting and repairs in the old or new flat, carried out in empty rooms.",
         "href": "/renovierung"
       },
       {
@@ -170,12 +187,12 @@
   },
   "pricing": {
     "headline": "What a move in Munich costs",
-    "intro": "The price follows the volume in cubic metres, the crew and time needed, the distance, the floor level and the add-ons you choose. Rule of thumb: roughly 0.3 to 0.5 m³ of goods per square metre of floor area. Carrying distance matters too: if the vehicle can't park right at the entrance, the extra carrying time is reflected in the final price.",
+    "intro": "The price follows the volume in cubic metres, the crew and time needed, the distance, the floor level and the add-ons you choose. Rule of thumb: roughly 0.3 to 0.5 m³ of goods per square metre of floor area. Carrying distance matters too: if the vehicle can't park right at the entrance, the extra carrying time is reflected in the final price. All figures are gross prices including 19 % VAT.",
     "columns": [
-      "Flat",
+      "Home",
       "Volume",
       "Crew",
-      "Market rate"
+      "Market rate (gross)"
     ],
     "rows": [
       [
@@ -216,38 +233,43 @@
       "Kitchen removal and installation: €400 – 1,200",
       "Extra vehicle (car): €15 per hour",
       "Mileage rate: €0.55 per kilometre",
-      "No-parking zone per address: €250 (arrange about 3 weeks ahead)"
+      "No-parking zone per address: €300 (arrange about 3 weeks ahead)",
+      "Saturday surcharge: +50 % · Sundays, public holidays and express within 24 h: double rate"
     ],
-    "note": "All figures are typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
+    "note": "All figures are gross prices including 19 % VAT and typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
   },
   "situations": {
     "headline": "Typical situations we move",
     "items": [
       {
         "title": "Moving within Munich",
-        "body": "The most common case: a new flat in the city, handover of the old one at month-end. We schedule move, clearance and any cosmetic repairs so the handover date holds."
+        "body": "The most common case: a new flat in the city, the old one handed back at month-end. We schedule the move, clearance and any cosmetic repairs so the handover date holds."
       },
       {
         "title": "Moving to the surrounding area",
-        "body": "From Munich to Dachau, Starnberg or Erding — and back. Up to about 50 km the distance barely matters; volume is what counts."
+        "body": "From Munich to Dachau, Starnberg or Erding — and back. Up to roughly 50 km the distance barely matters; volume is what counts."
+      },
+      {
+        "title": "Moving with interim storage",
+        "body": "When weeks pass between moving out and moving in, we store your belongings dry and secured and deliver on your chosen date."
       },
       {
         "title": "Corporate move at the weekend",
         "body": "Offices, practices and law firms are moved outside business hours. Workstations are dismantled with numbered labels and rebuilt identically."
       },
       {
-        "title": "Senior moves",
-        "body": "A move to a smaller flat or into assisted living, usually combined with a household clearance. We work calmly and agree every step with the family."
+        "title": "Senior move",
+        "body": "A move to a smaller flat or assisted living, usually combined with a household clearance. We take our time and agree every step with the family."
       },
       {
-        "title": "Moving after separation or inheritance",
-        "body": "Where a household has to be split, we deliver to several destinations and dispose of the rest — in one job."
+        "title": "Move after separation or inheritance",
+        "body": "Where household goods have to be divided, we deliver to several destination addresses and dispose of the rest — in one job."
       }
     ]
   },
   "entity": {
     "headline": "About mmoving.de",
-    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since [SEIT JAHR]. Advice available in German and English.",
+    "body": "mmoving.de is the shared presence of three brands serving Munich and the surrounding area: SuperUmzug for moving, Entrümpelung München for clearance and house clearances, and BayReno for renovation and refurbishment. All three work under one coordination — one contact, one schedule, one contract, even when two or three trades come together. Active in Munich and within roughly 50 km, operating since 2004 with over 1,000 completed moves. Advice available in German, English, Slovak, Czech, Polish, Ukrainian and Croatian.",
     "facts": [
       {
         "label": "Company",
@@ -258,28 +280,32 @@
         "value": "SuperUmzug · Entrümpelung München · BayReno"
       },
       {
+        "label": "Operating since",
+        "value": "2004 · over 1,000 completed moves"
+      },
+      {
         "label": "Location",
         "value": "Munich, Bavaria"
       },
       {
         "label": "Service area",
-        "value": "Munich and surroundings, roughly 50 km radius"
+        "value": "Munich and surroundings, roughly 50 km radius; long-distance moves Germany-wide and EU-wide"
       },
       {
         "label": "Services",
         "value": "Moving, clearance, renovation — separately or combined"
       },
       {
-        "label": "Distinctive",
-        "value": "Damage-free guarantee: repair or full value compensation, insured by contract and by law on moves"
+        "label": "Liability",
+        "value": "Statutory liability of €620 per m³ (§ 451e HGB), optional transport insurance at a value you set"
       },
       {
         "label": "Pricing",
-        "value": "Fixed price after survey; inspection service at a flat €290"
+        "value": "Fixed price after survey, all prices gross incl. 19 % VAT; inspection service at a flat €290"
       },
       {
         "label": "Languages",
-        "value": "German, English"
+        "value": "German, English, Slovak, Czech, Polish, Ukrainian, Croatian"
       }
     ]
   },
@@ -288,23 +314,23 @@
     "steps": [
       {
         "title": "Enquiry and survey",
-        "body": "You request a callback, we view the flat on site or by video and record the volume. Cellar, attic and garage are explicitly included."
+        "body": "You request a callback, we view the flat on site or by video and assess the volume. Cellar, attic and garage are explicitly included."
       },
       {
         "title": "Fixed-price quote",
-        "body": "You receive a written quote covering scope, crew, date and fixed price — with no follow-up charges on moving day."
+        "body": "You receive a written quote with scope, crew, date and fixed price — no follow-up charges on moving day. Additional scope and extra work are only charged after prior agreement."
       },
       {
         "title": "Preparation",
-        "body": "We apply for the no-parking zones at both addresses, deliver packing materials on request and align the schedule with the building management or neighbours."
+        "body": "We apply for the no-parking zones at both addresses, deliver packing materials on request and coordinate with the property manager or neighbours."
       },
       {
         "title": "Moving day",
         "body": "The team documents the condition of valuable and delicate items, dismantles, loads securely, transports and reassembles at the destination."
       },
       {
-        "title": "Handover and guarantee",
-        "body": "We check the condition together with you at the destination. Should anything be damaged after all, report it with a photo — we repair it or reimburse its full value."
+        "title": "Handover and claims",
+        "body": "We check the condition together with you at the destination. Externally visible damage is recorded directly at handover; hidden damage should be reported within 14 days with a photo. We repair or replace within the statutory liability limit."
       }
     ]
   }
