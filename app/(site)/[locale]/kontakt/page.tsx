@@ -87,6 +87,21 @@ export default async function KontaktPage({ params }: Props) {
                   <dd className="text-anthracite/90">{item.value}</dd>
                 </div>
               ))}
+              <div className="flex flex-col gap-0.5 border-t border-hairline pt-3 sm:flex-row sm:gap-4">
+                <dt className="w-32 shrink-0 text-sm font-semibold uppercase tracking-wide text-anthracite/60">
+                  Google
+                </dt>
+                <dd>
+                  <a
+                    href={site.googleBusinessProfile}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-gold-deep underline decoration-gold/40 underline-offset-4 hover:decoration-gold"
+                  >
+                    {content.details.googleProfileLabel} ↗
+                  </a>
+                </dd>
+              </div>
             </dl>
           </div>
         </div>

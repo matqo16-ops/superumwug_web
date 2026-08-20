@@ -355,7 +355,11 @@ export interface KontaktContent {
     mapCaption: string;
     mapOpenLabel: string;
   };
-  details: { headline: string; items: { label: string; value: string }[] };
+  details: {
+    headline: string;
+    googleProfileLabel: string;
+    items: { label: string; value: string }[];
+  };
   faq: { headline: string; items: FaqItem[] };
 }
 
@@ -388,6 +392,14 @@ export interface SiteData {
   organization: {
     name: string;
     legalName: string;
+    /**
+     * The trading name exactly as it appears on the Google Business Profile.
+     * Structured data must state this verbatim, or Google cannot match the
+     * profile to this site as one entity.
+     */
+    businessName: string;
+    /** Every brand this one business trades under, for schema `brand`. */
+    brands: string[];
     phone: string;
     email: string;
     streetAddress: string;

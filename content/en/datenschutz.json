@@ -28,7 +28,7 @@
         "When you use our callback form, we process the data you provide (name, phone number, preferred time, topic of your request, optional message and company details) to handle your request and call you back.",
         "The legal basis is Art. 6(1)(b) GDPR (pre-contractual measure) and/or Art. 6(1)(a) GDPR (your consent via the form's checkbox).",
         "Your request is delivered to us as an email notification via the delivery service Resend (Resend, Inc., USA) acting as a processor. A data processing agreement is in place with Resend; transfers to the USA are based on the EU Standard Contractual Clauses and/or the EU-US Data Privacy Framework. Details: https://resend.com/legal/privacy-policy.",
-        "Your request is deleted after [RETENTION PERIOD, e.g. 12 months after the request is closed], unless a statutory retention obligation applies."
+        "If your enquiry does not lead to a contract, we delete it at the end of the third year following the year in which we received it. That period reflects the standard three-year limitation period under §§ 195, 199 of the German Civil Code, so that any claims connected with the enquiry can be examined and defended. If a contract is concluded, the statutory commercial and tax retention periods apply to the contract and invoice records (§ 147 AO, § 257 HGB)."
       ]
     },
     {
@@ -36,9 +36,9 @@
       "paragraphs": [
         "This website offers its own chat assistant that answers general questions about our services, packages and terms. Please do not enter sensitive personal data in the chat — for specific matters, use the callback form.",
         "To generate replies, your chat inputs are transmitted to Anthropic PBC (USA) as a processor (Claude API). Transfers to the USA are based on the EU Standard Contractual Clauses. Details: https://www.anthropic.com/legal/privacy.",
-        "For quality assurance and to improve our services, we store chat transcripts (session ID, timestamp, language, page visited and message history) in a database operated by Neon (Neon Inc.; database region: [DB REGION, e.g. EU/Frankfurt]). No account or customer data is linked to the chat; you can only be identified if you enter identifying details into the chat yourself.",
+        "For quality assurance and to improve our services, we store chat transcripts (session ID, timestamp, language, page visited and message history) in a database operated by Neon (Neon Inc.; database region: eu-central-1, Frankfurt am Main, Germany). No account or customer data is linked to the chat; you can only be identified if you enter identifying details into the chat yourself.",
         "The legal basis is Art. 6(1)(f) GDPR (legitimate interest in fast, low-barrier availability and in improving our information services).",
-        "Chat transcripts are deleted after [CHAT RETENTION PERIOD, e.g. 6 months]."
+        "Chat transcripts are deleted no later than twelve months after the last contact."
       ]
     },
     {
@@ -68,7 +68,7 @@
       "heading": "7. Your rights",
       "paragraphs": [
         "You have the right to access, rectification, erasure, restriction of processing, data portability, and objection to the processing of your personal data (Art. 15–21 GDPR).",
-        "You also have the right to lodge a complaint with a data protection supervisory authority, e.g. the [COMPETENT SUPERVISORY AUTHORITY, e.g. Bavarian State Office for Data Protection Supervision]."
+        "You also have the right to lodge a complaint with a data protection supervisory authority. The authority responsible for us is the Bavarian State Office for Data Protection Supervision (BayLDA), Promenade 27, 91522 Ansbach, Germany."
       ]
     },
     {

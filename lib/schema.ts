@@ -41,9 +41,12 @@ export function localBusinessSchema(locale: Locale) {
     "@context": "https://schema.org",
     "@type": ["MovingCompany", "HomeAndConstructionBusiness", "LocalBusiness"],
     "@id": BUSINESS_ID,
-    name: "mmoving.de",
+    // Must match the Google Business Profile name verbatim — that string is
+    // what lets Google resolve the profile and this site to one entity.
+    name: org.businessName,
     legalName: org.legalName,
-    alternateName: ["SuperUmzug", "Entrümpelung München", "BayReno"],
+    alternateName: org.brands,
+    brand: org.brands.map((name) => ({ "@type": "Brand", name })),
     url: `${SITE_URL}/`,
     // Ties this site to the Google Business Profile as one and the same entity.
     sameAs: [site.googleBusinessProfile, site.bayrenoUrl],
