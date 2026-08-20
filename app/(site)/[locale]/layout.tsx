@@ -10,6 +10,7 @@ import { CallbackProvider } from "@/components/CallbackProvider";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ChatWidget } from "@/components/ChatWidget";
+import { Analytics } from "@vercel/analytics/next";
 import "@/app/globals.css";
 
 const fraunces = Fraunces({
@@ -63,6 +64,8 @@ export default async function LocaleLayout({
             <main id="main">{children}</main>
             <SiteFooter common={common} phone={site.organization.phone} />
             <ChatWidget strings={common.chatWidget} />
+            {/* Cookieless, no personal data — needs no consent banner. */}
+            <Analytics />
           </CallbackProvider>
         </NextIntlClientProvider>
       </body>

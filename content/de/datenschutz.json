@@ -61,7 +61,9 @@
       "heading": "6. Cookies & Web-Analyse",
       "paragraphs": [
         "Diese Website setzt keine Cookies zu Marketing- oder Trackingzwecken. Der Chat-Assistent speichert den Gesprächsverlauf ausschließlich im Session-Speicher Ihres Browsers (sessionStorage); dieser wird beim Schließen des Browser-Tabs gelöscht.",
-        "Sofern wir eine reichweitenschonende Web-Analyse einsetzen (z. B. Vercel Analytics ohne Cookies), gilt: [TOOLS BENENNEN, SOFERN AKTIVIERT — z. B. Vercel Analytics; andernfalls diesen Absatz entfernen]."
+        "Technisch notwendig ist lediglich das Cookie NEXT_LOCALE, das Ihre Sprachauswahl (Deutsch oder Englisch) speichert, damit Sie bei jedem Seitenaufruf in der gewählten Sprache bleiben. Es enthält keine personenbezogenen Daten und dient keiner Analyse. Rechtsgrundlage ist § 25 Abs. 2 Nr. 2 TDDDG (unbedingt erforderlich) in Verbindung mit Art. 6 Abs. 1 lit. f DSGVO.",
+        "Zur Reichweitenmessung setzen wir Vercel Analytics (Vercel Inc.) ein. Das Tool arbeitet ohne Cookies und ohne Wiedererkennung einzelner Personen: Es erhebt ausschließlich aggregierte Kennzahlen wie aufgerufene Seiten, Herkunftsseite, ungefähre Region auf Länderebene, Gerätetyp und Ladezeiten. Es werden keine geräteübergreifenden Profile gebildet und keine Daten an Werbenetzwerke weitergegeben. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer datensparsamen Reichweitenmessung und an der technischen Optimierung dieser Website). Da keine Informationen auf Ihrem Endgerät gespeichert oder ausgelesen werden, ist hierfür keine Einwilligung nach § 25 TDDDG erforderlich. Details: https://vercel.com/legal/privacy-policy.",
+        "Google Analytics oder vergleichbare Tracking-Dienste setzen wir nicht ein."
       ]
     },
     {
@@ -80,7 +82,7 @@
     {
       "heading": "Stand",
       "paragraphs": [
-        "20. August 2026"
+        "21. August 2026"
       ]
     }
   ]
