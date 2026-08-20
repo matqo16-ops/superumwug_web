@@ -35,6 +35,7 @@ export const AREAS_SERVED = [
 export function localBusinessSchema(locale: Locale) {
   const site = getSiteData();
   const org = site.organization;
+  const loc = site.businessLocation;
 
   return {
     "@context": "https://schema.org",
@@ -53,18 +54,20 @@ export function localBusinessSchema(locale: Locale) {
       locale === "de"
         ? "mmoving.de bündelt Umzug, Entrümpelung und Renovierung für München und Umgebung — drei Gewerke, ein Ansprechpartner."
         : "mmoving.de combines moving, clearance and renovation for Munich and the surrounding area — three trades, one point of contact.",
+    // The visitable location, matching the Google Business Profile — not the
+    // legal Impressum address, which differs (see SiteData.businessLocation).
     address: {
       "@type": "PostalAddress",
-      streetAddress: org.streetAddress,
-      addressLocality: org.addressLocality,
-      postalCode: org.postalCode,
+      streetAddress: loc.streetAddress,
+      addressLocality: loc.addressLocality,
+      postalCode: loc.postalCode,
       addressRegion: "Bayern",
-      addressCountry: org.addressCountry,
+      addressCountry: loc.addressCountry,
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 48.1351,
-      longitude: 11.582,
+      latitude: loc.latitude,
+      longitude: loc.longitude,
     },
     areaServed: AREAS_SERVED.map((name) => ({ "@type": "City", name })),
     serviceArea: {

@@ -10,6 +10,14 @@
     "addressLocality": "Germering",
     "addressCountry": "DE"
   },
+  "businessLocation": {
+    "streetAddress": "Ausburgerstraße 4",
+    "postalCode": "82110",
+    "addressLocality": "Germering",
+    "addressCountry": "DE",
+    "latitude": 48.1342,
+    "longitude": 11.3689
+  },
   "bayrenoUrl": "https://www.bayreno.de",
   "googleBusinessProfile": "https://maps.google.com/?cid=4349102244822623293"
 }

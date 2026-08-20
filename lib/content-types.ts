@@ -395,6 +395,20 @@ export interface SiteData {
     addressLocality: string;
     addressCountry: string;
   };
+  /**
+   * The physical location customers visit, as verified on the Google Business
+   * Profile. Kept separate from `organization`, whose address is the legal
+   * ladungsfähige Anschrift required in the Impressum — the two differ here.
+   * Structured data must state this one so it matches the Business Profile.
+   */
+  businessLocation: {
+    streetAddress: string;
+    postalCode: string;
+    addressLocality: string;
+    addressCountry: string;
+    latitude: number;
+    longitude: number;
+  };
   bayrenoUrl: string;
   /** Canonical Google Business Profile URL — feeds schema sameAs and the map link. */
   googleBusinessProfile: string;
