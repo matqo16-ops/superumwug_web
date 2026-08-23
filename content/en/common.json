@@ -52,6 +52,10 @@
       "href": "/komplettservice"
     },
     {
+      "label": "About",
+      "href": "/ueber-uns"
+    },
+    {
       "label": "B2B/Partners",
       "href": "/b2b"
     },

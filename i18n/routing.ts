@@ -14,6 +14,8 @@ export const routing = defineRouting({
     "/renovierung": { de: "/renovierung", en: "/renovation" },
     "/entruempelung": { de: "/entruempelung", en: "/clearance" },
     "/komplettservice": { de: "/komplettservice", en: "/full-service" },
+    "/ueber-uns": { de: "/ueber-uns", en: "/about" },
+    "/ratgeber/halteverbotszone-muenchen": "/ratgeber/halteverbotszone-muenchen",
     "/blog": "/blog",
     "/blog/[slug]": "/blog/[slug]",
     "/b2b": "/b2b",

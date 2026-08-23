@@ -9,19 +9,6 @@ import {
 import { getBlogIndex } from "@/lib/blog";
 import { SITE_URL } from "@/lib/seo";
 
-const priorities: Partial<Record<StaticPathname, number>> = {
-  "/": 1,
-  "/umzug": 0.9,
-  "/entruempelung": 0.9,
-  "/renovierung": 0.9,
-  "/komplettservice": 0.9,
-  "/blog": 0.6,
-  "/b2b": 0.7,
-  "/kontakt": 0.7,
-  "/impressum": 0.2,
-  "/datenschutz": 0.2,
-};
-
 function url(locale: Locale, href: StaticPathname): string {
   return SITE_URL + getPathname({ locale, href });
 }
@@ -37,13 +24,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
   const pages: MetadataRoute.Sitemap = pathnames.map((href) => {
-    // The blog exists in German only — no hreflang alternates for it.
-    const germanOnly = href === "/blog";
+    // Some pages exist in German only — no hreflang alternates for those.
+    const germanOnly =
+      href === "/blog" || href === "/ratgeber/halteverbotszone-muenchen";
     return {
       url: url(routing.defaultLocale, href),
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: priorities[href] ?? 0.5,
       ...(germanOnly
         ? {}
         : {
@@ -59,8 +44,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const articles: MetadataRoute.Sitemap = getBlogIndex().map((article) => ({
     url: `${SITE_URL}/blog/${article.slug}`,
     lastModified: new Date(article.datePublished),
-    changeFrequency: "yearly",
-    priority: 0.6,
   }));
 
   return [...pages, ...articles];

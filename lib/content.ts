@@ -15,6 +15,8 @@ import type {
   ProjectsContent,
   SiteData,
   UmzugContent,
+  UeberUnsContent,
+  HalteverbotszoneContent,
 } from "./content-types";
 
 const contentDir = path.join(process.cwd(), "content");
@@ -63,3 +65,10 @@ export function getKnowledgeBase(): string {
     "utf8",
   );
 }
+
+export const getUeberUns = (locale: Locale) =>
+  readJson<UeberUnsContent>(locale, "ueber-uns.json");
+
+/** German only — the guide is not translated. */
+export const getHalteverbotszone = () =>
+  readJson<HalteverbotszoneContent>("de", "halteverbotszone.json");

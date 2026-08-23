@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "About us — Moving, Clearance and Renovation in Munich since 2004",
+    "description": "SuperUmzug, BayReno and Entrümpelung München are three brands of one company: Martin Marcinko, serving Munich since 2004. Over 1,000 moves, advice in seven languages."
+  },
+  "hero": {
+    "eyebrow": "About us",
+    "headline": "One company, three brands",
+    "subheadline": "Serving Munich and the surrounding area since 2004: over 1,000 completed moves, one point of contact for moving, clearance and renovation.",
+    "primaryCta": "Request a callback",
+    "secondaryCta": "See prices"
+  },
+  "lead": "SuperUmzug, BayReno and Entrümpelung München are three brands of a single company: the sole proprietorship Martin Marcinko, founded in 2004, based in Germering near Munich and working throughout Munich and a radius of roughly 50 kilometres. Whichever brand you engage, you get the same contracting party, the same point of contact and the same liability — including when two or three trades come together in one job.",
+  "sections": [
+    {
+      "heading": "Why three brands rather than one",
+      "body": "The three brands grew historically and each covers its own trade: SuperUmzug for private and corporate moves, Entrümpelung München for clearance and household clearances, BayReno for renovation and refurbishment. People rarely search for a company that does everything — they search for the trade they need right now, and the brands make that visible. Behind them sits one organisation by design: one schedule, one invoice on request, and no seams between separate firms that can blame each other."
+    },
+    {
+      "heading": "Why Germering and not the city centre",
+      "body": "Our operating base is in Germering, roughly 15 kilometres west of central Munich. There is a practical reason: warehouse space and vehicle parking inside the city are barely affordable, and those costs end up on the invoice. From Germering we reach the entire city without detours, and in the western corridor — Germering, Puchheim, Gröbenzell, Olching, Fürstenfeldbruck, Gauting — we are on site faster than most providers with a city-centre address."
+    },
+    {
+      "heading": "Seven languages",
+      "body": "Consultation and handling are available in German, English, Slovak, Czech, Polish, Ukrainian and Croatian. In Munich that is not a side issue: a substantial share of moves involve people who have only just arrived, and a move is a poor moment to negotiate liability and dates in a foreign language."
+    },
+    {
+      "heading": "Liability and insurance",
+      "body": "For moves, statutory carrier liability applies under § 451e of the German Commercial Code: €620 per cubic metre of loading space. For higher values we arrange additional transport insurance, and you set the insured value yourself. Business and professional liability insurance: LVN. We deliberately do not advertise any guarantee beyond this — what counts is how a claim is settled, not the promise made beforehand."
+    },
+    {
+      "heading": "How we price",
+      "body": "Our prices are published openly on this site, gross including 19 % VAT. That is unusual in this trade: most competitors in Munich publish no figure at all. We think that is the wrong approach — anyone looking for a ballpark should find one without filling in a form. The binding fixed price follows a short survey on site or by photo and video, and is confirmed in writing."
+    },
+    {
+      "heading": "What we do not do",
+      "body": "No pianos, grand pianos, safes, billiard tables, industrial machinery or crane-requiring loads. No live animals. No overseas moves by container or air freight. We move whirlpools and saunas up to 120 kg and large potted plants up to 100 kg. We would rather say so in advance than on moving day — a provider who agrees to everything either wasn't listening or plans to make the problem yours."
+    }
+  ],
+  "facts": {
+    "headline": "At a glance",
+    "items": [
+      { "label": "Company", "value": "Sole proprietorship Martin Marcinko" },
+      { "label": "Founded", "value": "2004" },
+      { "label": "Brands", "value": "SuperUmzug · BayReno · Entrümpelung München" },
+      { "label": "Experience", "value": "Over 1,000 completed moves" },
+      { "label": "Base", "value": "Germering near Munich" },
+      { "label": "Service area", "value": "Munich and roughly 50 km; long-distance moves Germany- and EU-wide" },
+      { "label": "Languages", "value": "German, English, Slovak, Czech, Polish, Ukrainian, Croatian" },
+      { "label": "Liability", "value": "€620 per m³ under § 451e HGB, optional transport insurance" },
+      { "label": "Prices", "value": "Published openly, gross incl. 19 % VAT" }
+    ]
+  },
+  "faq": {
+    "headline": "Frequently asked questions about the company",
+    "items": [
+      {
+        "question": "Are SuperUmzug, BayReno and Entrümpelung München three different companies?",
+        "answer": "No. They are three brands of a single company — the sole proprietorship Martin Marcinko, based in Germering near Munich. In all three cases you have the same contracting party, the same contact and the same liability."
+      },
+      {
+        "question": "How long has the company existed?",
+        "answer": "Since 2004. In that time we have carried out over 1,000 moves, plus clearances, household clearances and renovations in Munich and within roughly 50 kilometres."
+      },
+      {
+        "question": "Why is a Munich moving company based in Germering?",
+        "answer": "Because storage and parking space inside the city is disproportionately expensive, and those costs would otherwise land on your invoice. Germering is about 15 kilometres west of the centre; we reach the whole city without detours and the western district faster than most providers with a city-centre address."
+      },
+      {
+        "question": "Can I book all three services in one job?",
+        "answer": "Yes — that is our full service and the actual reason for the structure. A combined job is typically 20 to 35 % cheaper than three separate ones, because travel, setup time and coordination are only incurred once."
+      },
+      {
+        "question": "Which languages do you advise in?",
+        "answer": "German, English, Slovak, Czech, Polish, Ukrainian and Croatian."
+      },
+      {
+        "question": "Do you use subcontractors?",
+        "answer": "Our own team carries out the majority of the work. Regulated trades — electrics, gas, plumbing and heating, structural work — are handled by a settled group of qualified specialist partners whom we coordinate and schedule. Your contact and contracting party stays the same either way."
+      }
+    ]
+  }
+}

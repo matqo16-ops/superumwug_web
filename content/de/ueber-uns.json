@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Über uns — Umzüge, Entrümpelung und Renovierung in München seit 2004",
+    "description": "SuperUmzug, BayReno und Entrümpelung München sind drei Marken eines Unternehmens: Martin Marcinko, seit 2004 in München und Umgebung. Über 1.000 Umzüge, Beratung in sieben Sprachen."
+  },
+  "hero": {
+    "eyebrow": "Über uns",
+    "headline": "Ein Unternehmen, drei Marken",
+    "subheadline": "Seit 2004 in München und Umgebung: über 1.000 durchgeführte Umzüge, ein Ansprechpartner für Umzug, Entrümpelung und Renovierung.",
+    "primaryCta": "Rückruf anfordern",
+    "secondaryCta": "Preise ansehen"
+  },
+  "lead": "SuperUmzug, BayReno und Entrümpelung München sind drei Marken eines einzigen Unternehmens: das Einzelunternehmen Martin Marcinko, gegründet 2004, mit Sitz in Germering bei München, tätig in München und im Umkreis von rund 50 Kilometern. Wer eine der drei Marken beauftragt, hat denselben Vertragspartner, denselben Ansprechpartner und dieselbe Haftung — auch dann, wenn zwei oder drei Gewerke in einem Auftrag zusammenkommen.",
+  "sections": [
+    {
+      "heading": "Warum drei Marken und nicht eine",
+      "body": "Die drei Marken sind historisch gewachsen und decken je ein eigenes Handwerk ab: SuperUmzug für Privat- und Firmenumzüge, Entrümpelung München für Entrümpelung und Haushaltsauflösung, BayReno für Renovierung und Sanierung. Kunden suchen selten nach einem Unternehmen, das alles macht — sie suchen nach dem Gewerk, das sie gerade brauchen. Die Marken machen das sichtbar. Dahinter steht bewusst nur eine Organisation: ein Terminplan, eine Rechnung auf Wunsch, keine Schnittstellen zwischen Firmen, die sich gegenseitig die Schuld zuschieben können."
+    },
+    {
+      "heading": "Warum Germering und nicht die Innenstadt",
+      "body": "Unser Betriebssitz liegt in Germering, rund 15 Kilometer westlich der Münchner Innenstadt. Das hat einen praktischen Grund: Lagerfläche und Fahrzeugstellplätze sind im Stadtgebiet kaum bezahlbar, und die Kosten dafür landen am Ende auf der Rechnung. Von Germering aus erreichen wir das gesamte Stadtgebiet sowie den westlichen Landkreis ohne Umwege. Im westlichen Korridor — Germering, Puchheim, Gröbenzell, Olching, Fürstenfeldbruck, Gauting — sind wir schneller vor Ort als die meisten Anbieter mit Innenstadtadresse."
+    },
+    {
+      "heading": "Sieben Sprachen in der Beratung",
+      "body": "Beratung und Abwicklung sind auf Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch und Kroatisch möglich. Das ist in München kein Nebenschauplatz: Ein erheblicher Teil der Umzüge in der Stadt betrifft Menschen, die gerade erst zugezogen sind, und ein Umzug ist ein schlechter Zeitpunkt, um in einer Fremdsprache über Haftung und Termine zu verhandeln."
+    },
+    {
+      "heading": "Haftung und Versicherung",
+      "body": "Für Umzüge gilt die gesetzliche Haftung des Möbelspediteurs nach § 451e HGB in Höhe von 620 € je Kubikmeter Laderaum. Für höhere Werte vereinbaren wir eine zusätzliche Transportversicherung, deren Versicherungswert Sie selbst bestimmen. Betriebs- und Berufshaftpflicht: LVN. Wir werben bewusst nicht mit einer darüber hinausgehenden Garantie — was zählt, ist die Regulierung im Schadensfall, nicht das Versprechen davor."
+    },
+    {
+      "heading": "Wie wir kalkulieren",
+      "body": "Unsere Preise stehen offen auf der Website, brutto inklusive 19 % Mehrwertsteuer. Das ist in dieser Branche unüblich: Die meisten Wettbewerber in München veröffentlichen keine einzige Zahl. Wir halten das für den falschen Weg — wer eine Größenordnung sucht, soll sie finden, ohne ein Formular auszufüllen. Der verbindliche Festpreis entsteht nach einer kurzen Besichtigung vor Ort oder per Foto und Video und wird schriftlich fixiert."
+    },
+    {
+      "heading": "Was wir nicht machen",
+      "body": "Keine Klaviere, Flügel, Tresore, Billardtische, Industriemaschinen oder kranpflichtigen Lasten. Keine lebenden Tiere. Keine Überseeumzüge per Container oder Luftfracht. Whirlpool und Sauna transportieren wir bis 120 kg, große Kübelpflanzen bis 100 kg. Das sagen wir lieber vorher als am Umzugstag — ein Anbieter, der alles zusagt, hat entweder nicht zugehört oder plant, das Problem beim Kunden abzuladen."
+    }
+  ],
+  "facts": {
+    "headline": "Auf einen Blick",
+    "items": [
+      { "label": "Unternehmen", "value": "Einzelunternehmen Martin Marcinko" },
+      { "label": "Gegründet", "value": "2004" },
+      { "label": "Marken", "value": "SuperUmzug · BayReno · Entrümpelung München" },
+      { "label": "Erfahrung", "value": "Über 1.000 durchgeführte Umzüge" },
+      { "label": "Sitz", "value": "Germering bei München" },
+      { "label": "Einsatzgebiet", "value": "München und rund 50 km Umkreis; Fernumzüge deutschland- und EU-weit" },
+      { "label": "Sprachen", "value": "Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch, Kroatisch" },
+      { "label": "Haftung", "value": "620 € je m³ nach § 451e HGB, optionale Transportversicherung" },
+      { "label": "Preise", "value": "Offen veröffentlicht, brutto inkl. 19 % MwSt." }
+    ]
+  },
+  "faq": {
+    "headline": "Häufige Fragen zum Unternehmen",
+    "items": [
+      {
+        "question": "Sind SuperUmzug, BayReno und Entrümpelung München drei verschiedene Firmen?",
+        "answer": "Nein. Es sind drei Marken eines einzigen Unternehmens — des Einzelunternehmens Martin Marcinko mit Sitz in Germering bei München. Sie haben in allen drei Fällen denselben Vertragspartner, denselben Ansprechpartner und dieselbe Haftung."
+      },
+      {
+        "question": "Seit wann gibt es das Unternehmen?",
+        "answer": "Seit 2004. In dieser Zeit haben wir über 1.000 Umzüge durchgeführt, dazu Entrümpelungen, Haushaltsauflösungen und Renovierungen in München und im Umkreis von rund 50 Kilometern."
+      },
+      {
+        "question": "Warum sitzt ein Münchner Umzugsunternehmen in Germering?",
+        "answer": "Weil Lager- und Stellflächen im Stadtgebiet unverhältnismäßig teuer sind und diese Kosten sonst auf der Rechnung landen. Germering liegt rund 15 Kilometer westlich der Innenstadt; das gesamte Stadtgebiet erreichen wir ohne Umwege, den westlichen Landkreis schneller als die meisten Anbieter mit Innenstadtadresse."
+      },
+      {
+        "question": "Kann ich alle drei Leistungen in einem Auftrag buchen?",
+        "answer": "Ja, das ist unser Komplettservice und der eigentliche Grund für die Struktur. Ein gemeinsamer Auftrag ist erfahrungsgemäß 20 bis 35 % günstiger als drei Einzelbeauftragungen, weil Anfahrt, Rüstzeit und Koordination nur einmal anfallen."
+      },
+      {
+        "question": "In welchen Sprachen berät mmoving.de?",
+        "answer": "Auf Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch und Kroatisch."
+      },
+      {
+        "question": "Arbeiten Sie mit Subunternehmern?",
+        "answer": "Den überwiegenden Teil der Arbeiten führt unser eigenes Team aus. Regulierte Gewerke — Elektro, Gas, Wasser und Heizung, Statik — übernehmen fest eingespielte, qualifizierte Fachpartner, die wir koordinieren und terminlich einbinden. Ihr Ansprechpartner und Vertragspartner bleibt in jedem Fall derselbe."
+      }
+    ]
+  }
+}

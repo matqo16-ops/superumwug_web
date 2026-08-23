@@ -425,3 +425,24 @@ export interface SiteData {
   /** Canonical Google Business Profile URL — feeds schema sameAs and the map link. */
   googleBusinessProfile: string;
 }
+
+/** /ueber-uns — the one-entity/three-brands page. */
+export interface UeberUnsContent {
+  meta: PageMeta;
+  hero: Hero;
+  lead: string;
+  sections: { heading: string; body: string }[];
+  facts: { headline: string; items: { label: string; value: string }[] };
+  faq: { headline: string; items: FaqItem[] };
+}
+
+/** /ratgeber/halteverbotszone-muenchen — standalone guide, German only. */
+export interface HalteverbotszoneContent {
+  meta: PageMeta;
+  hero: Hero;
+  /** Direct numeric answer rendered above everything — what LLMs extract. */
+  answer: string;
+  sections: { heading: string; body: string }[];
+  faq: { headline: string; items: FaqItem[] };
+  cta: { headline: string; body: string; primary: string; secondary: string };
+}

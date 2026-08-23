@@ -1,7 +1,12 @@
 import "server-only";
 import { getPathname } from "@/i18n/navigation";
 import type { Locale, StaticPathname } from "@/i18n/routing";
-import { getSiteData } from "./content";
+import {
+  getSiteData,
+  getUmzug,
+  getEntruempelung,
+  getRenovierung,
+} from "./content";
 import type { FaqItem } from "./content-types";
 import { SITE_URL } from "./seo";
 
@@ -31,11 +36,95 @@ export const AREAS_SERVED = [
   "Landkreis München",
 ];
 
+/**
+ * Absolute euro figures in one pricing-table cell, e.g. "450 – 850 €".
+ *
+ * Per-unit rates ("12 – 25 € / m²") are deliberately rejected: mixing a rate
+ * into a total-price band produces a meaningless range, and an AggregateOffer
+ * spanning "12" to "22000" would misrepresent what the work costs.
+ */
+function parseBand(cell: string): { low: number; high: number } | null {
+  if (/\/\s*m²|pro\s+m²|per\s+m²|\/\s*km|pro\s+Stunde|per hour/i.test(cell)) {
+    return null;
+  }
+  const nums = (cell.match(/\d[\d.,]*/g) ?? [])
+    .map((n) => Number(n.replace(/\./g, "").replace(",", ".")))
+    .filter((n) => Number.isFinite(n));
+  if (!nums.length) return null;
+  return { low: Math.min(...nums), high: Math.max(...nums) };
+}
+
+/**
+ * Lowest and highest euro figure across a published price table. The price
+ * column is located by its heading rather than by position — the Entrümpelung
+ * table ends with "Dauer", not with a price.
+ */
+function tableBand(
+  columns: string[],
+  rows: string[][],
+): { low: number; high: number } | null {
+  let index = columns.findIndex((c) =>
+    /marktüblich|market rate|preis|price|brutto|gross/i.test(c),
+  );
+  if (index < 0) index = columns.length - 1;
+
+  const bands = rows
+    .map((r) => parseBand(r[index] ?? ""))
+    .filter((b): b is { low: number; high: number } => b !== null);
+  if (!bands.length) return null;
+  return {
+    low: Math.min(...bands.map((b) => b.low)),
+    high: Math.max(...bands.map((b) => b.high)),
+  };
+}
+
+/**
+ * Services we publish a price for, with the band read straight from the
+ * rendered tables — so structured data and the visible page cannot disagree.
+ */
+function publishedOffers() {
+  const u = getUmzug("de").pricing;
+  const e = getEntruempelung("de").pricing;
+  const r = getRenovierung("de").pricing;
+  const umzug = tableBand(u.columns, u.rows);
+  const entruempelung = tableBand(e.columns, e.rows);
+  const renovierung = tableBand(r.columns, r.rows);
+  return [
+    { name: "Umzug München", band: umzug },
+    { name: "Entrümpelung München", band: entruempelung },
+    { name: "Haushaltsauflösung München", band: entruempelung },
+    { name: "Renovierung München", band: renovierung },
+    { name: "Besichtigungsservice", band: { low: 290, high: 290 } },
+    {
+      name: "Komplettservice Umzug, Entrümpelung und Renovierung München",
+      band: null,
+    },
+  ];
+}
+
+/**
+ * Martin Marcinko as a first-class entity. Blog articles are authored by a
+ * person, not by a company — which is what E-E-A-T and LLM attribution read.
+ */
+export function personSchema() {
+  const site = getSiteData();
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${SITE_URL}/#martin-marcinko`,
+    name: site.organization.legalName,
+    jobTitle: "Inhaber",
+    worksFor: { "@id": BUSINESS_ID },
+    knowsLanguage: ["de", "en", "sk", "cs", "pl", "uk", "hr"],
+  };
+}
+
 /** LocalBusiness / MovingCompany — the root entity for the whole site. */
 export function localBusinessSchema(locale: Locale) {
   const site = getSiteData();
   const org = site.organization;
   const loc = site.businessLocation;
+  const owner = `${SITE_URL}/#martin-marcinko`;
 
   return {
     "@context": "https://schema.org",
@@ -50,6 +139,8 @@ export function localBusinessSchema(locale: Locale) {
     url: `${SITE_URL}/`,
     // Ties this site to the Google Business Profile as one and the same entity.
     sameAs: [site.googleBusinessProfile, site.bayrenoUrl],
+    founder: { "@id": owner },
+    employee: { "@id": owner },
     hasMap: site.googleBusinessProfile,
     telephone: org.phone,
     email: org.email,
@@ -109,16 +200,21 @@ export function localBusinessSchema(locale: Locale) {
     knowsLanguage: ["de", "en", "sk", "cs", "pl", "uk", "hr"],
     logo: `${SITE_URL}/logos/mmoving-hexagon.png`,
     image: `${SITE_URL}/images/og-image.jpg`,
-    makesOffer: [
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Umzug München" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Entrümpelung München" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Haushaltsauflösung München" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Renovierung München" } },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Komplettservice Umzug, Entrümpelung und Renovierung München" },
-      },
-    ],
+    makesOffer: publishedOffers().map((o) => ({
+      "@type": "Offer",
+      itemOffered: { "@type": "Service", name: o.name },
+      ...(o.band
+        ? {
+            priceSpecification: {
+              "@type": "PriceSpecification",
+              priceCurrency: "EUR",
+              minPrice: o.band.low,
+              maxPrice: o.band.high,
+              valueAddedTaxIncluded: true,
+            },
+          }
+        : {}),
+    })),
   };
 }
 
@@ -217,7 +313,7 @@ export function articleSchema(options: {
     dateModified: options.dateModified ?? options.datePublished,
     inLanguage: "de",
     ...(options.keywords?.length ? { keywords: options.keywords.join(", ") } : {}),
-    author: { "@id": BUSINESS_ID },
+    author: { "@id": `${SITE_URL}/#martin-marcinko` },
     publisher: { "@id": BUSINESS_ID },
     image: `${SITE_URL}/icon.png`,
   };

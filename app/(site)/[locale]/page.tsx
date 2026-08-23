@@ -3,7 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { getCommon, getHome, getProjects, getSiteData } from "@/lib/content";
-import { absoluteUrl, localBusinessSchema } from "@/lib/schema";
+import { absoluteUrl, localBusinessSchema, personSchema } from "@/lib/schema";
 import { pageMetadata } from "@/lib/seo";
 import { btnOutlineOnDark, btnOutlineOnLight, btnPrimary } from "@/lib/styles";
 import { CallbackButton } from "@/components/CallbackButton";
@@ -35,10 +35,12 @@ export default async function HomePage({ params }: Props) {
   const site = getSiteData();
 
   const localBusinessJsonLd = localBusinessSchema(locale);
+  const personJsonLd = personSchema();
 
   return (
     <>
       <JsonLd data={localBusinessJsonLd} />
+      <JsonLd data={personJsonLd} />
 
       <Hero
         content={home.hero}
