@@ -446,3 +446,32 @@ export interface HalteverbotszoneContent {
   faq: { headline: string; items: FaqItem[] };
   cta: { headline: string; body: string; primary: string; secondary: string };
 }
+
+/**
+ * One Munich district landing page. Every prose field is required and the
+ * build fails without it — a district page that could have been written about
+ * any other district is a doorway page, which is worse than no page.
+ */
+export interface StadtteilContent {
+  slug: string;
+  name: string;
+  bezirk?: string;
+  intro: string;
+  buildingStock: string;
+  parking: string;
+  access: string;
+  typicalMove?: string;
+  landmarks: string[];
+  neighbours: string[];
+  faq: FaqItem[];
+  /**
+   * A real completed job in this district. Owner-supplied only — never
+   * invented. Rendered only when present.
+   */
+  reference?: {
+    summary: string;
+    volume?: string;
+    duration?: string;
+    price?: string;
+  };
+}

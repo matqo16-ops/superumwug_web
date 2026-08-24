@@ -17,6 +17,7 @@ import type {
   UmzugContent,
   UeberUnsContent,
   HalteverbotszoneContent,
+  StadtteilContent,
 } from "./content-types";
 
 const contentDir = path.join(process.cwd(), "content");
@@ -72,3 +73,17 @@ export const getUeberUns = (locale: Locale) =>
 /** German only — the guide is not translated. */
 export const getHalteverbotszone = () =>
   readJson<HalteverbotszoneContent>("de", "halteverbotszone.json");
+
+/** Munich district pages — German only. */
+export function getStadtteilSlugs(): string[] {
+  const dir = path.join(contentDir, "de", "stadtteile");
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => f.replace(/\.json$/, ""))
+    .sort();
+}
+
+export const getStadtteil = (slug: string) =>
+  readJson<StadtteilContent>("de", "stadtteile", `${slug}.json`);

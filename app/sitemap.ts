@@ -7,6 +7,7 @@ import {
   type StaticPathname,
 } from "@/i18n/routing";
 import { getBlogIndex } from "@/lib/blog";
+import { getStadtteilSlugs } from "@/lib/content";
 import { SITE_URL } from "@/lib/seo";
 
 function url(locale: Locale, href: StaticPathname): string {
@@ -46,5 +47,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(article.datePublished),
   }));
 
-  return [...pages, ...articles];
+  // German-only district pages.
+  const stadtteile: MetadataRoute.Sitemap = getStadtteilSlugs().map((slug) => ({
+    url: `${SITE_URL}/umzug/${slug}`,
+  }));
+
+  return [...pages, ...stadtteile, ...articles];
 }

@@ -1,0 +1,41 @@
+{
+  "slug": "bogenhausen",
+  "name": "Bogenhausen",
+  "bezirk": "Stadtbezirk 13 — Bogenhausen",
+  "intro": "Bogenhausen ist der Stadtbezirk 13, rechts der Isar, 23,71 km² groß und mit rund 95.000 Einwohnern. Unter dem einen Namen liegen sehr verschiedene Wohnlagen: das denkmalgeschützte Villenviertel um die Möhlstraße, die Hochhäuser der Parkstadt und des Arabellaparks, und die Einfamilienhausgebiete in Denning, Englschalking, Johanneskirchen und Daglfing. Für einen Umzug bedeutet jede dieser Lagen einen anderen Ablauf — Zufahrt, Treppenhaus und Halteplatz sind in Alt-Bogenhausen etwas völlig anderes als am Rosenkavalierplatz.",
+  "buildingStock": "Bogenhausen hat keinen einheitlichen Bestand, sondern mindestens drei. Alt-Bogenhausen reicht von der Maria-Theresia-Straße im Westen bis zum Böhmerwaldplatz im Osten; dort stehen Villen und Mietshäuser aus der Zeit von etwa 1880 bis 1918, die Möhlstraße bildet mit rund 35 Anwesen auf knapp 800 Metern den Kern des denkmalgeschützten Ensembles. Diese Häuser sind im Krieg weitgehend verschont geblieben, haben hohe Räume, schwere Türen und enge Treppenhäuser — ein Aufzug ist dort häufig nicht vorhanden, ein Kleiderschrank geht dann über den Außenaufzug ans Fenster. Nördlich und östlich davon dominiert Nachkriegsbau: die Parkstadt Bogenhausen von 1955/56 mit drei- bis sechsgeschossigen Zeilen und Hochhäusern bis 15 Geschosse, der Arabellapark ab 1965 mit fünf 17-geschossigen Wohnhäusern, dazu Cosimapark (1963–1969) und Fideliopark (1966–1970). In Denning, Englschalking, Johanneskirchen und Daglfing überwiegen Einfamilien- und Reihenhäuser, teils aus den Kolonien der 1920er- und 1930er-Jahre, teils aus späteren Siedlungen bis in die 1980er-Jahre.",
+  "parking": "Bogenhausen ist bislang kein Parklizenzgebiet. Die Stadt plant drei Zonen — Holbeinstraße (Possartstraße bis Prinzregentenstraße), Mühlbaurstraße (Richard-Strauss-Straße bis Donaustraße) und Parkstadt Bogenhausen (zwischen Gotthelfstraße, Prinzregentenstraße und Richard-Strauss-Straße); der Stadtrat hatte die Verwaltung 2017 und 2022 mit der Prüfung beauftragt, die Umsetzung war ab 2025 vorgesehen. Bei den Anwohnerversammlungen im Frühjahr 2025 stimmte eine deutliche Mehrheit dagegen, ein abschließender Beschluss ist uns nicht bekannt. Ohne Lizenzpflicht stehen am Straßenrand tagsüber auch Berufspendler und Klinik- und Bürobesucher, in Alt-Bogenhausen zusätzlich Besucherautos vor den Vorgärten. Ein 7,5-Tonner braucht rund zwölf Meter am Stück, und diese Länge lässt sich am Straßenrand nicht planen — deshalb ist die Halteverbotszone hier fast immer der ehrlichere Weg. Beantragt wird sie beim Kreisverwaltungsreferat, mit mehreren Werktagen Vorlauf.",
+  "access": "Die Anfahrt ist der einfache Teil: Der Mittlere Ring läuft mitten durch den Bezirk, über die Isar auf den Effnerplatz, weiter durch den Effnertunnel und den 1.500 Meter langen Richard-Strauss-Tunnel, der seit Juli 2009 offen ist. Ab der Ausfahrt beginnt die Kleinarbeit. In Alt-Bogenhausen sind die Straßen von Vorgärten, altem Baumbestand und beidseitig parkenden Autos eingefasst; rangieren geht dort nur mit Einweiser, und viele Villen haben zwar eine eigene Grundstückszufahrt, die aber nur mit Zustimmung der Eigentümer genutzt werden kann. Auf der Ismaninger Straße und der Effnerstraße liegen die Gleise der Tram 16 in der Fahrbahn — wer dort ohne Genehmigung hält, hält die Bahn auf. Im Arabellapark und in der Parkstadt sind Fuß- und Autoverkehr planmäßig getrennt: Etliche Hauseingänge erreicht man nur über Fußwege, und in die Tiefgaragen passt ein Umzugs-Lkw nicht hinein.",
+  "typicalMove": "Zwei Muster prägen den Bezirk. In Alt-Bogenhausen und im Herzogpark geht es um große Altbauwohnungen und Häuser mit viel Bestand — Bücher, Bilder, massive Möbel — in Treppenhäusern, die dafür nie gebaut wurden. In der Parkstadt, im Arabellapark, Cosimapark und Fideliopark sind die Wohnungen kleiner geschnitten; in den fünf 17-geschossigen Häusern des Arabellaparks sind es Ein- bis Drei-Zimmer-Eigentumswohnungen, und der ganze Tag hängt am Aufzug. Im Nordosten, in Denning, Englschalking und Daglfing, sind es Einfamilien- und Reihenhäuser samt Keller, Dachboden und Garage — dort ist nicht der Weg das Problem, sondern die Menge.",
+  "landmarks": [
+    "Möhlstraße",
+    "Prinzregentenplatz",
+    "Effnerplatz",
+    "Arabellapark (U4-Endstation)",
+    "Böhmerwaldplatz",
+    "Herkomerplatz",
+    "Rosenkavalierplatz",
+    "S-Bahnhof Englschalking (S8)"
+  ],
+  "neighbours": [
+    "Altstadt-Lehel",
+    "Schwabing-Freimann",
+    "Au-Haidhausen",
+    "Berg am Laim",
+    "Trudering-Riem"
+  ],
+  "faq": [
+    {
+      "question": "Brauche ich in Bogenhausen eine Halteverbotszone?",
+      "answer": "In der Regel ja. Bogenhausen hat bis heute kein Parklizenzgebiet — die Zonen Holbeinstraße, Mühlbaurstraße und Parkstadt Bogenhausen sind geplant, nach unserem Rechercheerstand aber nicht eingeführt. Das heißt: Am Straßenrand parkt jeder, und niemand muss abends weichen. Ein 7,5-Tonner braucht rund zwölf Meter am Stück; diese Fläche wird vorher beim Kreisverwaltungsreferat als Halteverbot beantragt, mit mehreren Werktagen Vorlauf."
+    },
+    {
+      "question": "Mein Altbau in Alt-Bogenhausen hat keinen Aufzug — wie läuft der Umzug dann?",
+      "answer": "Getragen oder über den Außenaufzug ans Fenster. Die Häuser rund um Möhlstraße, Maria-Theresia-Straße und Pienzenauerstraße stammen überwiegend aus der Zeit von 1880 bis 1918 und stehen als Ensemble unter Denkmalschutz; die Treppenhäuser sind eng und gewendelt, breite Schränke passen oft nicht durch. Für den Möbellift wird eine Stellfläche direkt vor dem Haus gebraucht, und die liegt dort meist hinter Vorgarten und altem Baumbestand. Das sieht man sich vor dem Termin an, nicht am Umzugstag."
+    },
+    {
+      "question": "Was ist bei einem Umzug im Hochhaus im Arabellapark oder in der Parkstadt zu beachten?",
+      "answer": "Alles hängt am Aufzug. Der Arabellapark entstand ab 1965, fünf Wohnhochhäuser dort haben 17 Geschosse; in der Parkstadt Bogenhausen von 1955/56 gibt es Hochhäuser bis 15 Geschosse. Der Aufzug wird über die Hausverwaltung reserviert und vor dem Beladen ausgekleidet. Bis vor die Haustür kommt der Lkw dabei meist nicht: Fuß- und Autoverkehr sind in beiden Quartieren getrennt geplant, und die Tiefgaragen sind für einen 7,5-Tonner nicht befahrbar — es bleiben Trageweg und ein Halteplatz an der nächsten befahrbaren Straße."
+    }
+  ]
+}

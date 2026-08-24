@@ -1,0 +1,42 @@
+{
+  "slug": "sendling",
+  "name": "Sendling",
+  "bezirk": "Stadtbezirk 6 — Sendling",
+  "intro": "Sendling ist der 6. Münchner Stadtbezirk, rund 3,94 Quadratkilometer groß und mit etwa 41.000 Einwohnern einer der dicht bebauten Bezirke der Stadt. Im Osten liegt die Isar, im Westen begrenzen Bahnlinien das Viertel. Für einen Umzug heißt das vor allem: viel Mietshausbestand aus der Zeit nach der Eingemeindung 1877, enge Seitenstraßen und durchgehend bewirtschafteter Parkraum.",
+  "intro_note": "n/a",
+  "buildingStock": "Nach der Eingemeindung am 1. Januar 1877 siedelten sich entlang der Bahnlinien Gewerbe- und Industriebetriebe an, parallel dazu entstand dichte Wohnbebauung für die Arbeiterschaft, teils über eigens gegründete Wohnungsbaugenossenschaften. Prägend sind Mietshäuser aus der Zeit zwischen dem späten 19. Jahrhundert und den Zwischenkriegsjahren, dazu Wiederaufbau nach den Kriegsschäden und einzelne Bauten aus den 1960er und 1970er Jahren. Der Gotzinger Platz geht auf den Stadterweiterungswettbewerb von 1892/93 unter Theodor Fischer zurück; dort stehen das Schulhaus von Hans Grässel (1906), die Pfarrkirche St. Korbinian (1926) und eine Mietshauszeile aus den späten 1920er Jahren. In diesen Häusern ist ein Aufzug die Ausnahme, in den Nachkriegs- und Neubauten deutlich häufiger. Praktisch bedeutet das: Wir rechnen in Sendling oft mit Tragen über drei bis fünf Stockwerke, mit engen Treppenhäusern und mit Wendepunkten, an denen ein Kleiderschrank zerlegt oder über den Außenlift transportiert werden muss.",
+  "parking": "Untersendling ist Parklizenzgebiet. Die Regelung gilt Montag bis Samstag von 9 bis 23 Uhr und umfasst unter anderem den Bereich um Gotzinger Platz, Valleystraße und Kidlerplatz. Es gibt reines Bewohnerparken, wo nur mit Lizenz gehalten werden darf, und Mischparken, bei dem Besucher zahlen — nach Angaben der Stadt 2 Euro je Stunde beziehungsweise 11 Euro am Tag. Ein freier Stellplatz vor der Haustür ist unter diesen Bedingungen tagsüber Zufall, deshalb ist eine Halteverbotszone in Sendling in der Regel kein Extra, sondern Voraussetzung dafür, dass der Wagen überhaupt am Haus steht. Beantragt wird sie beim Kreisverwaltungsreferat, dessen Hauptabteilung Straßenverkehr in der Implerstraße 9 sitzt — also im Bezirk selbst.",
+  "access": "Die Hauptachsen sind die Plinganserstraße, die vom Übergang zur Lindwurmstraße durch den alten Ortskern bis Am Harras führt, dazu die Thalkirchner Straße, die Implerstraße und die vierspurige Albert-Roßhaupter-Straße, die am Harras beginnt. Auf diesen Straßen ist ein 7,5-Tonner unproblematisch. Anders sieht es in den Wohnstraßen des Mietshausrasters aus, etwa zwischen Gotzinger Platz, Valleystraße und Kidlerstraße: schmale Fahrbahnen, beidseitig parkende Autos, wenig Platz zum Rangieren und Wenden. Die Blockrandbebauung dieser Zeit hat häufig nur schmale Hofdurchfahrten, eine Zufahrt in den Innenhof lässt sich also nicht voraussetzen und wird vorab geprüft. Der Harras selbst ist ein stark befahrener Knoten, zwischen 2010 und 2013 umgebaut, an dem man in den Stoßzeiten keinen Ladehalt improvisieren sollte.",
+  "typicalMove": "Typisch ist die Zwei- bis Dreizimmerwohnung im Altbau ohne Aufzug, oft im dritten oder vierten Stock. Sendling zieht Menschen an, die zentrumsnah wohnen wollen, ohne in der Isarvorstadt zu zahlen — entsprechend viele Umzüge laufen innerhalb des Bezirks oder aus den angrenzenden Vierteln Ludwigsvorstadt-Isarvorstadt und Schwanthalerhöhe. Die Gegenrichtung geht häufig nach Süden, Richtung Obersendling und Solln, wenn mehr Fläche gebraucht wird. Der Aufwand steckt hier selten in der Kilometerzahl, sondern im Treppenhaus und im Stellplatz.",
+  "landmarks": [
+    "Am Harras",
+    "Gotzinger Platz",
+    "Kidlerplatz",
+    "Plinganserstraße",
+    "Großmarkthalle (eröffnet 1912)",
+    "U-Bahnhof Implerstraße (U3/U6)",
+    "Neue Pfarrkirche St. Margaret (1913)",
+    "Flaucher an der Isar"
+  ],
+  "neighbours": [
+    "Ludwigsvorstadt-Isarvorstadt",
+    "Schwanthalerhöhe",
+    "Sendling-Westpark",
+    "Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln",
+    "Untergiesing-Harlaching"
+  ],
+  "faq": [
+    {
+      "question": "Brauche ich in Sendling eine Halteverbotszone?",
+      "answer": "In der Regel ja. Untersendling ist Parklizenzgebiet, die Bewirtschaftung läuft Montag bis Samstag von 9 bis 23 Uhr. Ohne angeordnetes Halteverbot steht der Wagen oft mehrere hundert Meter entfernt, und jede Kiste wird zur Strecke. Beantragt wird die Anordnung beim Kreisverwaltungsreferat, Hauptabteilung Straßenverkehr, Implerstraße 9 — das liegt selbst in Sendling."
+    },
+    {
+      "question": "Kommt ein 7,5-Tonner in die Seitenstraßen rund um den Gotzinger Platz?",
+      "answer": "Hinein meistens schon, das Problem ist das Rangieren. Die Straßen im Mietshausraster zwischen Gotzinger Platz, Valleystraße und Kidlerstraße sind schmal und beidseitig zugeparkt. Wir schauen uns die Adresse vorher an und entscheiden dann, ob der große Wagen direkt ans Haus fährt oder ob mit einem kleineren Fahrzeug umgesetzt wird."
+    },
+    {
+      "question": "Wie kommen Möbel aus einem Sendlinger Altbau ohne Aufzug heraus?",
+      "answer": "Über das Treppenhaus oder über einen Außenaufzug am Fenster. In den Mietshäusern aus der Zeit um 1900, wie sie rund um den Gotzinger Platz und die Kidlerstraße stehen, ist ein Aufzug die Ausnahme. Sperrige Teile wie Kleiderschränke oder Sofas werden dann zerlegt oder außen transportiert — das klären wir bei der Besichtigung, nicht am Umzugstag."
+    }
+  ]
+}

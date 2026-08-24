@@ -1,0 +1,41 @@
+{
+  "slug": "moosach",
+  "name": "Moosach",
+  "bezirk": "Stadtbezirk 10 — Moosach",
+  "intro": "Moosach liegt im Nordwesten von München und reicht von der Landshuter Allee im Osten über das Rangierbahnhofgelände im Norden und die Waldhornstraße im Westen bis zum Westfriedhof im Süden. Der Bezirk ist über Jahrhunderte gewachsen und nicht am Reißbrett entstanden: Dorfkern aus dem Mittelalter, Borstei aus den 1920er Jahren, Nachkriegssiedlungen, Olympia-Pressestadt von 1972, dazu Neubau im Sanierungsgebiet. Für einen Umzug heißt das, dass Treppenhaus, Zufahrt und Parksituation von Straße zu Straße verschieden sind.",
+  "buildingStock": "Der größte Teil der Wohnbebauung stammt aus der Zeit nach dem Zweiten Weltkrieg, vor allem aus den 1950er und 1960er Jahren. Geschosswohnungsbau steht vor allem westlich der Dachauer Straße und zwischen Feldmochinger und Hanauer Straße; in Hartmannshofen und der Mondscheinsiedlung überwiegen Reihen- und Einfamilienhäuser. Aufzüge sind in diesen Nachkriegshäusern die Ausnahme, weil die Bayerische Bauordnung sie erst bei mehr als fünf Geschossen verlangt und die meisten Moosacher Bauten darunter bleiben — Kleiderschränke, Waschmaschinen und Sofas gehen hier über die Treppe. Die denkmalgeschützte Borstei (1924 bis 1930, 77 Häuser, 773 Wohnungen) hat Altbautreppenhäuser mit den dazugehörigen engen Wendungen. Anders sieht es in der Olympia-Pressestadt von 1972 und in den Neubauten im Sanierungsgebiet aus, etwa an der Karlingerstraße.",
+  "parking": "Rund um den Seydlitzplatz gibt es ein Parklizenzgebiet. Es umfasst unter anderem Seydlitzstraße, Schöpferplatz, Feldmochinger Straße, Gärtnerstraße und Abschnitte der Dachauer Straße, geregelt Montag bis Samstag von 9 bis 23 Uhr, mit Bewohnerparken und Mischparken. Der übrige Bezirk ist nicht bewirtschaftet — was nicht bedeutet, dass Platz da wäre: Im Umfeld von Olympia-Einkaufszentrum, Bahnhof Moosach und Uptown München stehen tagsüber viele fremde Autos. Auf eine freie Lücke vor der Haustür zu hoffen, funktioniert an einem Umzugstag praktisch nie, deshalb ist eine Halteverbotszone in Moosach in aller Regel unvermeidbar. Beantragt wird sie beim Mobilitätsreferat der Landeshauptstadt München; drei bis vier Wochen Vorlauf sind realistisch.",
+  "access": "Die Hauptachsen Dachauer Straße, Pelkovenstraße, Baubergerstraße, Feldmochinger Straße und Hanauer Straße sind breit genug für einen 7,5-Tonner. Am Moosacher Stachus, also an der Kreuzung von Dachauer, Bauberger und Pelkovenstraße, ist tagsüber so viel Verkehr, dass Halten ohne abgesperrte Zone kaum machbar ist. In den Siedlungsstraßen von Hartmannshofen und der Mondscheinsiedlung wird es dagegen eng: schmale Fahrbahnen, beidseitig parkende Autos, teils Stichstraßen ohne Wendemöglichkeit. Die Borstei ist um Innenhöfe herum gebaut und für Fahrzeuge nur eingeschränkt zugänglich; wie nah der Wagen an den Eingang kommt, sollte vor dem Termin geklärt werden. Rangieren im Bereich Landshuter Allee und Georg-Brauchle-Ring am Mittleren Ring ist nur mit Halteverbot sinnvoll.",
+  "typicalMove": "Moosach war lange ein Arbeiterstadtteil und ist heute stärker von Familien geprägt. Der Nachkriegsbestand besteht überwiegend aus Zwei- bis Vier-Zimmer-Wohnungen, entsprechend häufig sind Umzüge in dieser Größenordnung. Die angrenzenden Bezirke Feldmoching-Hasenbergl, Milbertshofen-Am Hart, Neuhausen-Nymphenburg und Allach-Untermenzing liegen unmittelbar daneben, sodass viele Wege kurz bleiben.",
+  "landmarks": [
+    "Moosacher St.-Martins-Platz (U3)",
+    "Bahnhof München-Moosach (S1, U3)",
+    "Olympia-Einkaufszentrum (U1, U3)",
+    "Westfriedhof (U1), Südgrenze des Bezirks",
+    "Moosacher Stachus (Dachauer / Bauberger / Pelkovenstraße)",
+    "Borstei an der Dachauer Straße",
+    "Pelkovenschlössl",
+    "Uptown München am Georg-Brauchle-Ring"
+  ],
+  "neighbours": [
+    "Feldmoching-Hasenbergl",
+    "Milbertshofen-Am Hart",
+    "Neuhausen-Nymphenburg",
+    "Pasing-Obermenzing",
+    "Allach-Untermenzing"
+  ],
+  "faq": [
+    {
+      "question": "Brauche ich für einen Umzug in Moosach eine Halteverbotszone?",
+      "answer": "In den meisten Fällen ja. Nur rund um den Seydlitzplatz gibt es ein Parklizenzgebiet mit Bewohner- und Mischparken (Montag bis Samstag, 9 bis 23 Uhr); der Rest des Bezirks ist unbewirtschaftet und dadurch tagsüber von Pendlern und Besuchern des Olympia-Einkaufszentrums belegt. Die Zone wird beim Mobilitätsreferat der Stadt München beantragt, mit drei bis vier Wochen Vorlauf."
+    },
+    {
+      "question": "Haben Moosacher Wohnhäuser einen Aufzug?",
+      "answer": "Meistens nicht. Der Wohnungsbestand stammt überwiegend aus den 1950er und 1960er Jahren und bleibt unter der Schwelle, ab der die Bayerische Bauordnung einen Aufzug verlangt (mehr als fünf Geschosse). Aufzüge finden sich eher in der Olympia-Pressestadt von 1972 und in Neubauten, etwa im Sanierungsgebiet an der Karlingerstraße."
+    },
+    {
+      "question": "Kommt ein Umzugswagen bis vor die Haustür in der Borstei?",
+      "answer": "Nicht überall. Die Borstei aus den Jahren 1924 bis 1930 besteht aus 77 Häusern rund um Innenhöfe, steht unter Denkmalschutz und ist für Fahrzeuge nur eingeschränkt zugänglich. Die Haltemöglichkeit liegt in der Regel an der Dachauer Straße, sodass Trageweg und Halteverbotszone vorher abgestimmt werden müssen."
+    }
+  ]
+}

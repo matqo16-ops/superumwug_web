@@ -1,0 +1,41 @@
+{
+  "slug": "maxvorstadt",
+  "name": "Maxvorstadt",
+  "bezirk": "Stadtbezirk 3 — Maxvorstadt",
+  "intro": "Die Maxvorstadt ist der Stadtbezirk 3 und grenzt direkt an die Altstadt. Sie wurde ab 1805 als erste geplante Stadterweiterung Münchens angelegt; westlich der Ludwigstraße liegt bis heute ein rechtwinkliges, schachbrettartiges Straßenraster. Für einen Umzug bedeutet das: leicht zu finden, aber eng, durchgehend zugeparkt und praktisch flächendeckend Parklizenzgebiet.",
+  "buildingStock": "Der Bestand ist gemischter, als der Ruf des Viertels vermuten lässt. Zwei Drittel der Wohnungen stammen aus der Zeit nach 1948 — der nördliche Gründerzeitteil wurde im Zweiten Weltkrieg stark zerstört und in der Nachkriegszeit schnell wieder aufgebaut. Der ältere Bestand konzentriert sich im klassizistischen Süden um Königsplatz und Karolinenplatz sowie entlang der Ludwigstraße; Ludwigstraße und Odeonsplatz stehen als Ensemble unter Denkmalschutz. Praktisch heißt das: Die Frage „Altbau oder Nachkriegsbau, mit oder ohne Aufzug\" lässt sich für die Maxvorstadt nicht pauschal beantworten, sie entscheidet sich pro Haus. Auffällig ist der hohe Anteil kleiner Ein- und Zweizimmerwohnungen — beim Tragen zählt hier weniger das Volumen als die Treppe, die Podestbreite und die Frage, ob der Kleiderschrank zerlegt werden muss oder über einen Möbellift geht.",
+  "parking": "Die Maxvorstadt ist nahezu vollständig in Parklizenzgebiete aufgeteilt, darunter Königsplatz, Karolinenplatz, Akademieviertel, TU-Viertel, Schönfeldviertel, Marsfeld und St.-Benno-Viertel. Sie gelten werktags von Montag bis Samstag, 9 bis 23 Uhr. In den Mischparkzonen stehen Lizenzinhaber frei, Besucher zahlen 2 Euro je Stunde oder 11 Euro am Tag; ein Bewohnerparkausweis kostet in München rund 30 Euro im Jahr. Darauf zu hoffen, dass am Umzugstag vor der Haustür ein Stück Bordstein für einen 7,5-Tonner frei wird, ist keine Planung. Eine Halteverbotszone ist hier faktisch Pflicht: beantragt wird sie beim Mobilitätsreferat, Temporäre Anordnungen, Implerstraße 9; die Bearbeitung dauert rund zehn Arbeitstage, die Schilder müssen spätestens am vierten Tag vor Gültigkeitsbeginn stehen, und für Umzüge werden maximal drei Kalendertage genehmigt.",
+  "access": "Das Raster macht die Anfahrt berechenbar, die Nebenstraßen selbst sind es weniger: Amalienstraße, Adalbertstraße, Barer Straße, Schellingstraße und Türkenstraße sind schmal und beidseitig belegt, dazu kommt starker Radverkehr. Die Türkenstraße ist zwischen Gabelsbergerstraße und Akademiestraße Einbahnstraße stadtauswärts — wer die Anfahrt falsch plant, fährt eine komplette Runde ums Karree. Über Karolinenplatz, Pinakotheken und Schellingstraße laufen außerdem die Trambahnlinien 27 und 28; auf Gleisbereichen fällt der Halteplatz für den Lkw entsprechend enger aus. Ein 7,5-Tonner kommt in die meisten Straßen hinein, zum Rangieren und Wenden sind sie aber nicht gebaut, deshalb wird die Zufahrt vorher festgelegt statt vor Ort improvisiert. Die gesamte Maxvorstadt liegt innerhalb des Mittleren Rings und damit in der Umweltzone: grüne Plakette Pflicht, und seit 1. Februar 2023 dürfen Dieselfahrzeuge mit Euro 4 oder schlechter nicht mehr hinein. Soll ein Möbellift auf Gehweg oder Fahrbahn stehen, ist dafür zusätzlich eine Sondernutzungserlaubnis nötig.",
+  "typicalMove": "Unter den Bewohnern dominiert die Altersgruppe der 20- bis 30-Jährigen; LMU, TU, Akademie der Bildenden Künste und die Hochschule für Musik und Theater liegen alle im Bezirk. Der Wohnungsbestand ist entsprechend kleinteilig, mit überdurchschnittlich vielen Einpersonenhaushalten und einem hohen Anteil an Ein- und Zweizimmerwohnungen. Viele Umzüge in der Maxvorstadt sind deshalb mengenmäßig klein, aber logistisch aufwendig: wenig Kubikmeter, dafür Treppe, Einbahnstraße und Halteverbotszone. Daneben stehen Büro- und Praxisumzüge, weil im Bezirk viele Kanzleien, Agenturen und Institute sitzen.",
+  "neighbours": [
+    "Schwabing-West",
+    "Schwabing-Freimann",
+    "Neuhausen-Nymphenburg",
+    "Ludwigsvorstadt-Isarvorstadt",
+    "Altstadt-Lehel"
+  ],
+  "landmarks": [
+    "Königsplatz",
+    "Karolinenplatz",
+    "Josephsplatz",
+    "Stiglmaierplatz",
+    "Türkenstraße",
+    "Barer Straße mit den Pinakotheken",
+    "U-Bahnhof Theresienstraße (U2)",
+    "Alter Nördlicher Friedhof"
+  ],
+  "faq": [
+    {
+      "question": "Brauche ich für einen Umzug in der Maxvorstadt eine Halteverbotszone?",
+      "answer": "In aller Regel ja. Der Bezirk ist nahezu flächendeckend in Parklizenzgebiete aufgeteilt (unter anderem Königsplatz, Karolinenplatz, TU-Viertel, Akademieviertel, Schönfeldviertel, Marsfeld, St.-Benno-Viertel), die werktags Montag bis Samstag von 9 bis 23 Uhr gelten. Beantragt wird die Zone beim Mobilitätsreferat, Temporäre Anordnungen, Implerstraße 9; rechnen Sie mit rund zehn Arbeitstagen Bearbeitungszeit, die Schilder müssen spätestens am vierten Tag vor Gültigkeitsbeginn stehen, und für Umzüge werden höchstens drei Kalendertage genehmigt. Ohne Zone bleibt nur Mischparken zu 2 Euro je Stunde beziehungsweise 11 Euro am Tag — und auch das nur, wenn zufällig ein Platz frei ist."
+    },
+    {
+      "question": "Darf der Umzugswagen überhaupt in die Maxvorstadt fahren?",
+      "answer": "Die Maxvorstadt liegt vollständig innerhalb des Mittleren Rings und damit komplett in der Münchner Umweltzone. Nötig ist eine grüne Plakette; seit dem 1. Februar 2023 gilt zusätzlich ein Fahrverbot für Dieselfahrzeuge mit Abgasnorm Euro 4 oder schlechter. Diesel ab Euro 5, Benziner und andere Antriebe dürfen mit grüner Plakette einfahren."
+    },
+    {
+      "question": "Hat mein Haus in der Maxvorstadt einen Aufzug — es ist doch ein Altbauviertel?",
+      "answer": "Das Etikett Altbauviertel trifft nur auf Teile des Bezirks zu. Zwei Drittel des Wohnungsbestands stammen aus der Zeit nach 1948, weil der nördliche Gründerzeitteil im Zweiten Weltkrieg stark zerstört und danach schnell wieder aufgebaut wurde; der Vorkriegsbestand liegt vor allem im Süden um Königsplatz und Karolinenplatz sowie entlang der Ludwigstraße. Ob ein Aufzug vorhanden und für Möbel nutzbar ist, entscheidet sich deshalb pro Haus und sollte vor dem Termin geklärt werden. Braucht es stattdessen einen Möbellift und steht der auf Gehweg oder Fahrbahn, ist dafür eine Sondernutzungserlaubnis der Stadt erforderlich."
+    }
+  ]
+}

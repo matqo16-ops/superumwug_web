@@ -1,0 +1,41 @@
+{
+  "slug": "haidhausen",
+  "name": "Haidhausen",
+  "bezirk": "Stadtbezirk 5 — Au-Haidhausen",
+  "intro": "Haidhausen liegt östlich der Isar und bildet zusammen mit der Au den Stadtbezirk 5. Zwischen Ostbahnhof und Rosenheimer Platz steht fast durchgehend Gründerzeit: Rund zwei Drittel der Wohngebäude stammen aus der Zeit vor 1914, weil das Viertel im Zweiten Weltkrieg weitgehend verschont blieb. Für einen Umzug bedeutet das drei Dinge: Treppen, vergleichsweise enge Straßen und ein durchgehendes Parklizenzgebiet.",
+  "buildingStock": "Das Franzosenviertel zwischen Orleansplatz, Rosenheimer Straße und Wörthstraße geht auf den 1871 genehmigten Stadterweiterungsplan von Arnold von Zenetti zurück; gebaut wurde überwiegend zwischen 1870 und 1900. Die Bauordnungen von 1863 und 1879 erlaubten Wohnrückgebäude, deshalb steht auf einem Grundstück in der Regel ein Vordergebäude und dahinter ein Rückgebäude, teils sogar ein zweites in dritter Reihe. Die Treppenhäuser liegen auf der Hofseite und gehen von der Hausdurchfahrt ab. Am Bordeauxplatz und an der Wörthstraße sind die Vordergebäude durchgehend fünfgeschossig, zum Teil mit ausgebautem Dachgeschoss und bis zu 22 Meter breiten Fassaden — ein Aufzug ist nur da, wo er nachträglich eingebaut wurde. Im alten Ortskern um Preysing-, Kirchen- und Milchstraße stehen dagegen noch einzelne ein- bis zweigeschossige Herbergshäuser, etwa das Üblackerhäusl in der Preysingstraße 58.",
+  "parking": "Haidhausen ist Parklizenzgebiet, und zwar in mehreren Zuschnitten: Franzosenviertel, Kirchenstraße und Klinikviertel. Bewohnerparken gilt werktags von Montag bis Samstag zwischen 9 und 23 Uhr; in den Mischparkabschnitten zahlen Besucher 2 Euro pro Stunde oder 11 Euro pro Tag, beim Kurzzeitparken sind es 2 Euro pro Stunde bei maximal zwei Stunden (Stand der städtischen Gebietspläne: März 2023). Eine freie Lücke für einen 7,5-Tonner ergibt sich an einem Werktag praktisch nicht, schon gar nicht vor der richtigen Hausnummer. Eine Halteverbotszone über das Kreisverwaltungsreferat ist hier deshalb kein Zusatzposten, sondern die Voraussetzung dafür, dass überhaupt am Haus geladen werden kann. Die Schilder müssen mehrere Tage vor dem Umzugstag stehen, sonst lässt sich ein Fahrzeug, das schon vorher dort parkte, nicht wegsetzen.",
+  "access": "Das Franzosenviertel ist ein Rechteckraster, über das ein Dreistrahl gelegt ist: die Wörthstraße als Achse, Weißenburger und Belfortstraße als Diagonalen, alle drei laufen auf den halbrunden Orleansplatz am Ostbahnhof zu. Daraus ergeben sich viele spitzwinklige Kreuzungen und Schmuckplätze — Pariser Platz, Bordeauxplatz, Weißenburger Platz —, an denen ein langer LKW nicht frei rangiert; die Straßen selbst sind eng geschnitten, die Traufhöhe der Vordergebäude entspricht ungefähr der Straßenbreite. In Einsteinstraße, Innerer Wiener Straße, Kirchenstraße und Steinstraße liegen Tramgleise, dort blockiert ein haltender Wagen sofort die Bahn. Rückgebäude sind ausschließlich über die Hausdurchfahrt erreichbar; ob dort ein Transporter hineinpasst oder alles per Hand durch den Hof geht, entscheidet sich vor Ort. Von der Innenstadt kommt man über die Ludwigsbrücke und dann die Rosenheimer Straße hinauf aufs Isarhochufer — den Anstieg am Gasteig, den man hier Gasteiger Berg oder Rosenheimer Berg nennt.",
+  "typicalMove": "Der Stadtbezirk 5 hat rund 151 Einwohner pro Hektar und damit die zweithöchste Dichte Münchens; allein das Erhaltungssatzungsgebiet Haidhausen umfasst etwa 16.700 Wohnungen. Der Bestand ist innerhalb desselben Hauses sehr unterschiedlich: repräsentative Altbauwohnungen im Vordergebäude zur Straße, kleinere und dunklere Einheiten im Rückgebäude zum Hof. Entsprechend verschieden fallen Tragweg, Treppenhausbreite und Zeitaufwand aus. Wer aus Haidhausen wegzieht, bleibt oft im Osten der Stadt — Berg am Laim, Bogenhausen, Ramersdorf grenzen direkt an.",
+  "landmarks": [
+    "Orleansplatz und Ostbahnhof",
+    "Bordeauxplatz",
+    "Weißenburger Platz",
+    "Pariser Platz",
+    "Wiener Platz mit dem Markt",
+    "Max-Weber-Platz (U4/U5)",
+    "Rosenheimer Platz (S-Bahn-Stammstrecke)",
+    "Gasteig an der Rosenheimer Straße"
+  ],
+  "neighbours": [
+    "Bogenhausen",
+    "Berg am Laim",
+    "Au",
+    "Altstadt-Lehel",
+    "Ramersdorf-Perlach"
+  ],
+  "faq": [
+    {
+      "question": "Brauchen wir für einen Umzug in Haidhausen eine Halteverbotszone?",
+      "answer": "In aller Regel ja. Franzosenviertel, Kirchenstraße und Klinikviertel sind Parklizenzgebiete mit Bewohnerparken von Montag bis Samstag, 9 bis 23 Uhr. Ohne rechtzeitig beantragte und aufgestellte Schilder steht der LKW im Zweifel zwei Straßen weiter, und jeder zusätzliche Meter Tragweg kostet Arbeitszeit."
+    },
+    {
+      "question": "Kann der Umzugswagen bis zum Rückgebäude in den Hof fahren?",
+      "answer": "Meistens nicht. Die Grundstücke im Franzosenviertel sind typischerweise mit Vorder- und Rückgebäude bebaut, und das Rückgebäude wird nur über eine Hausdurchfahrt erschlossen. Breite und Durchfahrtshöhe muss man vorher ansehen — oft passt nur ein kleiner Transporter, oft gar nichts, dann läuft alles über den Hof."
+    },
+    {
+      "question": "Wie viele Stockwerke ohne Aufzug muss man in Haidhausen einplanen?",
+      "answer": "Am Bordeauxplatz und in der Wörthstraße sind die Vordergebäude durchgehend fünfgeschossig, teils mit ausgebautem Dachgeschoss. Ein Aufzug existiert nur, wenn er nachträglich eingebaut wurde; über die Hälfte der Anwesen im früheren Sanierungsgebiet steht in der Denkmalliste, was Nachrüstungen erschwert hat. Ein Außenlift braucht Standfläche auf der Straße, die im Lizenzgebiet liegt und mit abgesperrt werden muss."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "giesing",
+  "name": "Giesing",
+  "bezirk": "Stadtbezirk 17 — Obergiesing-Fasangarten und Stadtbezirk 18 — Untergiesing-Harlaching (Giesing verteilt sich seit der Teilung 1936 auf beide Bezirke; „Giesing\" ist zusätzlich Stadtbezirksteil 18.31–18.33)",
+  "intro": "Giesing ist kein eigener Stadtbezirk. Der Stadtteil wurde 1936 geteilt und verteilt sich seitdem auf den Stadtbezirk 17 Obergiesing-Fasangarten und den Stadtbezirk 18 Untergiesing-Harlaching. Für einen Umzug ist vor allem der Höhenunterschied relevant: Untergiesing liegt unten an der Isar, Obergiesing rund 20 Meter höher auf der Isarhochterrasse, dazwischen der Giesinger Berg.",
+  "buildingStock": "Der Bestand ist gemischt, nicht einheitlich. An der Tegernseer Landstraße stehen Großstadtwohnhäuser aus der Zeit von 1890 bis 1910, zwischen 1928 und 1939 kamen viergeschossige Bauten dazu, die sich um große Innenhöfe legen. Das bekannteste Beispiel ist die Stockwerksiedlung Walchenseeplatz, 1927 bis 1930 von der GEWOFAG zwischen Perlacher Straße, Untersbergstraße, Deisenhofener Straße, Rotwandstraße und Walchenseeplatz gebaut. Im 104 Hektar großen Sanierungsgebiet Tegernseer Landstraße/Chiemgaustraße entstanden rund drei Viertel des Wohnungsbestands erst nach 1948 im Wiederaufbau. Daneben hat sich Alt-Giesing rund um die 1886 erbaute Heilig-Kreuz-Kirche gehalten, dazu die denkmalgeschützte Feldmüllersiedlung mit ihren ursprünglich eingeschossigen Handwerkerhäusern von 1830 bis 1860, die um 1880 teilweise aufgestockt wurden. Für den Umzug heißt das konkret: viergeschossige Häuser ohne Aufzug muss man einkalkulieren, Kleiderschrank und Sofa gehen über das Treppenhaus.",
+  "parking": "Große Teile von Giesing sind Parklizenzgebiet. In Obergiesing gelten die Gebiete Walchenseeplatz und Giesinger Bahnhof, beide seit dem 9. Dezember 2022; Giesinger Bahnhof liegt zwischen Deisenhofener Straße, Schlierseestraße, Chiemgaustraße, Weißenseestraße, Sintpertstraße und Fockensteinstraße, Walchenseeplatz zwischen Spixstraße, Herzogstandstraße, Deisenhofener Straße, Fockensteinstraße, Setzbergstraße, Untersbergstraße und Tegernseer Landstraße. In Untergiesing kommen das Gebiet Untergiesing sowie Schönstraße Nord und Süd zwischen Candidplatz und Alemannenstraße mit rund 1.000 Stellplätzen dazu, südlich schließt das Gebiet Wettersteinplatz an. Der Bewohnerparkausweis kostet 30 Euro im Jahr; die Gebührenpflicht läuft in den Giesinger Gebieten werktags von 9 bis 23 Uhr. Wer ohne Halteverbotszone anrückt, verlässt sich darauf, dass zufällig zwölf Meter frei sind — das beantragt man besser: zuständig ist das Mobilitätsreferat, die Schilder müssen spätestens am vierten Tag vor Beginn stehen.",
+  "access": "Die Grobanfahrt ist unkompliziert. Der Mittlere Ring läuft mit der vierspurigen, rund 2,1 Kilometer langen Chiemgaustraße quer durch Obergiesing — von St.-Quirin-Platz bis zum Übergang in den Innsbrucker Ring — und mit Candidstraße und Candidtunnel durch Untergiesing. Der Giesinger Berg verbindet die beiden Hälften auf rund 320 Metern und etwa 20 Höhenmetern südlich des Kolumbusplatzes; die Steigung wurde 1890/92 von örtlich 15 auf vier Prozent abgeflacht, heute ist die Straße vierspurig, ein beladener 7,5-Tonner kommt dort hoch. Enger wird es abseits der Hauptachsen: im Ensemble der Feldmüllersiedlung um Gietlstraße, Ichostraße und Aignerstraße ist die Bebauung kleinteilig, die Grundstücke sind klein, Platz zum Rangieren ist knapp. Auf Tegernseer Landstraße und Grünwalder Straße liegen die Gleise der Tram 25 — dort ist Halten in zweiter Reihe keine Option, und die Ladestelle muss davor oder in einer Seitenstraße liegen.",
+  "typicalMove": "Untergiesing entstand im 19. Jahrhundert als Arbeiterviertel, aus den früheren Herbergen und der Bebauung rund um die Pilgersheimer Straße wurden überwiegend kleine Wohnungen. Obergiesing mischt Siedlungsbau der Zwischenkriegszeit, Wiederaufbau der Jahre 1950 bis 1965 und sanierten Altbau; im Sanierungsgebiet Tegernseer Landstraße/Chiemgaustraße lebten 2010 rund 16.700 Menschen, das Mietniveau lag laut Stadt vergleichsweise günstig. Die Stadtbezirke 17 und 18 zusammen zählen rund 108.700 Einwohner (Stand 31.12.2025), wobei Fasangarten und Harlaching mitgerechnet sind. Entsprechend geht es bei Umzügen hier meist um Wohnungen in vier- bis fünfgeschossigen Häusern, nicht um Einfamilienhäuser.",
+  "landmarks": [
+    "Tegernseer Landstraße",
+    "Giesinger Bahnhof (S3, S7, U2)",
+    "U-Bahnhof Silberhornstraße (U2)",
+    "Kolumbusplatz",
+    "Walchenseeplatz",
+    "Heilig-Kreuz-Kirche in Alt-Giesing",
+    "Ostfriedhof",
+    "Stadion an der Grünwalder Straße"
+  ],
+  "neighbours": [
+    "Au-Haidhausen",
+    "Ramersdorf-Perlach",
+    "Harlaching",
+    "Fasangarten",
+    "Sendling"
+  ],
+  "faq": [
+    {
+      "question": "Brauche ich in Giesing eine Halteverbotszone für den Umzugswagen?",
+      "answer": "In den meisten Straßen ja. Giesing ist weitgehend mit Parklizenzgebieten überzogen: Walchenseeplatz und Giesinger Bahnhof in Obergiesing seit dem 9. Dezember 2022, dazu Untergiesing, Schönstraße Nord und Süd zwischen Candidplatz und Alemannenstraße sowie Wettersteinplatz. Die Gebührenpflicht gilt dort werktags von 9 bis 23 Uhr, der Bewohnerparkausweis kostet 30 Euro im Jahr. Das vorübergehende Haltverbot beantragen Sie beim Mobilitätsreferat der Landeshauptstadt München; die Schilder müssen spätestens am vierten Tag vor Beginn des Verbots aufgestellt sein."
+    },
+    {
+      "question": "Muss ich in Giesing damit rechnen, dass es keinen Aufzug gibt?",
+      "answer": "Häufig ja. Die drei prägenden Bauphasen in Obergiesing sind 1890 bis 1910 an der Tegernseer Landstraße, 1928 bis 1939 mit viergeschossigen Blöcken um große Innenhöfe wie am Walchenseeplatz und 1950 bis 1965 im Wiederaufbau. Wohnhäuser dieser Jahrgänge mit vier Geschossen wurden üblicherweise ohne Aufzug gebaut. Bei Kleiderschrank, Couch oder Klavier planen wir deshalb von vornherein Zerlegen oder einen Außenaufzug ein — das sollte vor dem Termin geklärt sein, nicht am Morgen davor."
+    },
+    {
+      "question": "Kommt ein Möbelwagen den Giesinger Berg hoch?",
+      "answer": "Ja. Der Giesinger Berg überwindet südlich des Kolumbusplatzes rund 20 Höhenmeter auf etwa 320 Metern. 1890/92 wurde die Steigung von örtlich 15 auf vier Prozent abgeflacht, heute ist die Straße vierspurig ausgebaut. Kritisch sind nicht die Hauptachsen, sondern die kleinteiligen Wohnstraßen daneben — etwa im denkmalgeschützten Ensemble der Feldmüllersiedlung um Gietlstraße, Ichostraße und Aignerstraße, wo der Wagen nur begrenzt rangieren kann."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "schwabing",
+  "name": "Schwabing",
+  "bezirk": "Stadtbezirk 4 — Schwabing-West und Stadtbezirk 12 — Schwabing-Freimann",
+  "intro": "Schwabing ist kein einzelner Stadtbezirk, sondern verteilt sich auf zwei: Stadtbezirk 4 Schwabing-West und Stadtbezirk 12 Schwabing-Freimann. Das ist für einen Umzug keine Formalie, denn Parklizenz, Bezirksausschuss und Straßenbild unterscheiden sich zwischen dem dichten Altbaugürtel um Kurfürstenplatz und Münchner Freiheit und den Neubauquartieren im Norden. Wer hier umzieht, hat es meistens mit einem von zwei Fällen zu tun: Gründerzeithaus ohne Aufzug oder Neubauwohnung mit Tiefgarage.",
+  "buildingStock": "Der Kern von Schwabing ist Stadterweiterung um 1900. Schwabing wurde 1890 nach München eingemeindet, danach entstanden die Gründerzeit- und Jugendstilblöcke, die das Viertel bis heute prägen — Ainmillerstraße, Römerstraße, Franz-Joseph-Straße, Kaiserstraße. Allein an der Hohenzollernstraße stehen 33 Baudenkmäler; das Jugendstilhaus in der Ainmillerstraße stammt von 1899/1900. Diese Häuser haben vier bis fünf Geschosse, hohe Räume und Treppenhäuser aus der Bauzeit, ein Aufzug ist darin nicht selbstverständlich. Praktisch heißt das: Ein Kleiderschrank, der in ein 3,20-Meter-Zimmer passt, geht selten um das Treppenauge herum — dann arbeiten wir mit dem Außenaufzug. Ganz anders der Norden von Schwabing-Freimann: die Siedlung Alte Heide (1919 bis 1928 von Theodor Fischer), die Parkstadt Schwabing (40,5 Hektar, seit 2000 auf ehemaligem Industriegelände) und der Domagkpark (24,3 Hektar) sind Neubau mit Aufzug, Tiefgarage und normalen Türmaßen.",
+  "parking": "Große Teile von Schwabing liegen in Parklizenzgebieten. Die Stadt München führt hier unter anderem die Gebiete Altschwabing, Schwabing-Mitte, West Schwabing, Bayernplatz, Kölner Platz, Winzererstraße sowie Alte Heide mit Erweiterung Parkstadt Schwabing. Die Geltungszeiten liegen werktags von Montag bis Samstag zwischen 9 und 23 Uhr; im Mischparken zahlen Besucher 2 Euro pro Stunde oder 11 Euro pro Tag, Bewohner zahlen 30 Euro für zwölf Monate. Einen freien Stellplatz von zwölf Metern Länge vor der Haustür zufällig zu bekommen, ist unter diesen Bedingungen unrealistisch — eine Halteverbotszone ist in Schwabing praktisch immer nötig, nicht optional. Sie wird beim Kreisverwaltungsreferat beantragt, die Schilder müssen einige Tage vor dem Umzugstag stehen, damit die Fläche geräumt werden darf.",
+  "access": "Die Leopoldstraße ist die Achse durch Schwabing, rund 3,6 Kilometer ab Siegestor, mit Baumreihen und breiten Gehwegen; darunter fahren U3 und U6, auf der Straße seit 2009 die Tram 23. Halten geht dort schlecht, gearbeitet wird fast immer in den Nebenstraßen. Die Hohenzollernstraße ist etwa 1,8 Kilometer lang und führt von der Leopoldstraße über Kurfürstenplatz und Hohenzollernplatz weiter in die Schwere-Reiter-Straße; ab Kurfürstenplatz liegen die Gleise der Tram 12 und 27 in der Fahrbahn, ein Lkw darf dort nicht stehen bleiben. Rund um Wedekindplatz und Feilitzschstraße — 450 Meter von der Münchner Freiheit zum Englischen Garten — ist der Platz nach der Umgestaltung 2014 zugunsten der Fußgänger aufgeteilt, dort ist ein 7,5-Tonner nur mit angeordneter Halteverbotszone sinnvoll unterzubringen. In die schmalen Altbaustraßen zwischen Leopoldstraße und Englischem Garten kommt ein 7,5-Tonner hinein, rangieren lässt sich aber kaum; wir stellen deshalb vorher fest, wo der Wagen steht und wie weit getragen wird.",
+  "typicalMove": "In Schwabing-West sind 63 Prozent aller Haushalte Einpersonenhaushalte, nur 11 Prozent sind Familien mit Kindern. Entsprechend häufig sind Ein- bis Dreizimmerwohnungen im Altbau, oft im dritten oder vierten Stock ohne Aufzug. Dazu kommt der Universitätsbetrieb: die LMU im Süden an der Leopoldstraße, die Studentenstadt an der U6 im Norden — viele Umzüge sind klein, kurzfristig und innerhalb Münchens. Größere Wohnungen und Familienumzüge liegen eher in den Neubauquartieren Parkstadt Schwabing und Domagkpark.",
+  "landmarks": [
+    "Leopoldstraße",
+    "Hohenzollernstraße",
+    "Münchner Freiheit (U3/U6)",
+    "Kurfürstenplatz",
+    "Hohenzollernplatz (U2)",
+    "Elisabethmarkt am Elisabethplatz",
+    "Luitpoldpark und Nordbad",
+    "Englischer Garten mit Kleinhesseloher See"
+  ],
+  "neighbours": [
+    "Maxvorstadt",
+    "Milbertshofen-Am Hart",
+    "Neuhausen-Nymphenburg",
+    "Bogenhausen",
+    "Altstadt-Lehel"
+  ],
+  "faq": [
+    {
+      "question": "Brauche ich für einen Umzug in Schwabing wirklich eine Halteverbotszone?",
+      "answer": "In der Regel ja. Schwabing ist über mehrere Parklizenzgebiete abgedeckt — unter anderem Altschwabing, Schwabing-Mitte, West Schwabing, Bayernplatz, Kölner Platz und Winzererstraße — mit Geltungszeiten Montag bis Samstag von 9 bis 23 Uhr. Auf freie zwölf Meter vor der Haustür zu hoffen, funktioniert dort nicht; die Zone wird beim Kreisverwaltungsreferat angeordnet und die Schilder müssen einige Tage vorher stehen."
+    },
+    {
+      "question": "Mein Altbau in der Ainmillerstraße hat keinen Aufzug. Wie kommt der Kleiderschrank raus?",
+      "answer": "Über einen Außenaufzug an der Fassade. Die Häuser dort stammen aus der Zeit um 1900 — das Jugendstilhaus Ainmillerstraße ist von 1899/1900 —, haben hohe Räume und enge Treppenhäuser mit schmalem Treppenauge. Der Möbelaufzug braucht allerdings Standfläche auf der Straße, und die gibt es in diesem Viertel nur über die Halteverbotszone. Beides muss deshalb zusammen geplant werden."
+    },
+    {
+      "question": "Verfällt mein Anwohnerparkausweis, wenn ich innerhalb von Schwabing umziehe?",
+      "answer": "Ja, sobald die neue Adresse in einem anderen Parklizenzgebiet liegt — und Schwabing hat mehrere nebeneinander. Ein Umzug von Altschwabing nach West Schwabing reicht schon. Der bisherige Ausweis verfällt laut Stadt ersatzlos, der neue kostet 30 Euro für zwölf Monate oder 60 Euro für 24 Monate und wird bei der Kommunalen Verkehrsüberwachung beantragt."
+    }
+  ]
+}

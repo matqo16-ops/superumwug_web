@@ -1,0 +1,41 @@
+{
+  "slug": "laim",
+  "name": "Laim",
+  "bezirk": "Stadtbezirk 25 — Laim",
+  "intro": "Laim ist der 25. Stadtbezirk und liegt zwischen Schwanthalerhöhe im Osten und Pasing im Westen. Rund 20 Prozent der Bezirksfläche sind Bahngelände. Das prägt einen Umzug hier mehr als alles andere: wenige Querungen über die Gleise, dichte Wohnstraßen im Süden, und seit Mai 2024 eine Großbaustelle auf der Fürstenrieder Straße.",
+  "buildingStock": "Der Bestand ist gemischt, und man kann ihn meist am Straßenzug ablesen. An Landsberger Straße und Agnes-Bernauer-Straße stehen mehrgeschossige Mietshäuser, ein Teil davon aus der Zeit um 1900 — das Mietshaus Agnes-Bernauer-Straße 84 ist von 1911, der Eisenbahner-Wohnblock Camerloherstraße 71 von 1900. In den Nebenstraßen überwiegen Reihen- und Einfamilienhäuser: die Reihenhauszeile an der Stadtlohner Straße von Theodor Fischer (1909–11), die Villenkolonie Schlosspark Laim (1912), die Bauhandwerker-Siedlung an der Gunzenlehstraße und die GEWOFAG-Zeilenbauten Friedenheim (1928–30). Dazu kommen Nachkriegssiedlungen der 1950er und 1960er Jahre sowie Neubauten entlang der Landsberger Straße. Für den Umzug heißt das vor allem eines: Aufzug ist die Ausnahme. Die typischen vier- bis fünfgeschossigen Häuser bleiben unter der 13-Meter-Grenze, ab der die Bayerische Bauordnung einen Aufzug verlangt — Kleiderschrank, Sofa und Waschmaschine gehen dort über die Treppe, und wo das Treppenhaus zu eng gewendelt ist, über den Möbellift durchs Fenster.",
+  "parking": "Laim ist bislang kein Parklizenzgebiet. Geplant ist es seit 2019; die Stadt führt Laim im Sektor VI des Parkraummanagements, ein Beschluss zum zweiten Teil dieses Sektors ist Anfang 2025 gefasst worden. Ein bestätigter Starttermin für Laim war zum Zeitpunkt dieser Recherche nicht öffentlich. Kein Lizenzgebiet heißt aber nicht, dass man leicht parkt: Die städtische Untersuchung, 2019 im Bezirksausschuss vorgestellt, zählte im Karree zwischen Landsberger Straße, Agnes-Bernauer-Straße, Lautensackstraße und Von-der-Pfordten-Straße 3.400 private Kfz auf 2.200 Stellplätze — ein Defizit von 1.200 Plätzen. Im zweiten Untersuchungsgebiet südlich der Agnes-Bernauer-Straße, zwischen Fürstenrieder und Siglstraße, fehlten 633 Plätze. Dazu kommen Pendler, die am S-Bahnhof Laim und am U-Bahnhof Laimer Platz abstellen. Eine Halteverbotszone vor der Haustür ist in Laim deshalb faktisch Pflicht, wenn ein 7,5-Tonner planbar stehen soll; sie wird beim Kreisverwaltungsreferat beantragt und muss rechtzeitig vor dem Umzugstag aufgestellt und dokumentiert werden.",
+  "access": "Im Norden schneiden die Bahnanlagen der Strecke Hauptbahnhof–Pasing den Bezirk ab. Querungen gibt es nur wenige — im Wesentlichen die Laimer Unterführung an der Wotanstraße und die Friedenheimer Brücke, die nach Norden in die Wilhelm-Hale-Straße übergeht. Die beiden Hauptachsen sind die Landsberger Straße in Ost-West-Richtung und die Fürstenrieder Straße in Nord-Süd-Richtung. Auf der Fürstenrieder Straße wird seit Mai 2024 die Tram-Westtangente gebaut: Zeitweise stand nur eine Spur je Richtung zur Verfügung, die Leistungsfähigkeit der Straße war um rund 70 Prozent reduziert; im Juni 2026 liefen Fahrbahn- und Gehwegarbeiten zwischen Agnes-Bernauer-Straße und Ammerseestraße sowie Gleisbau nördlich der Perhamerstraße Richtung Laimer Kreisel. Buslinien Richtung Laim wurden bis einschließlich 1. September 2026 über die Friedenheimer Brücke umgeleitet. In den Wohnnebenstraßen südlich der Agnes-Bernauer-Straße wird bei diesem Stellplatzdefizit beidseitig geparkt — ein 7,5-Tonner kommt durch, wenden lässt er sich dort aber selten. Anfahrt und Abfahrt legt man in Laim besser vorher fest, statt vor Ort zu improvisieren.",
+  "typicalMove": "Laim ist seit 1945 fast ausschließlich Wohngebiet. Rund 57.500 Menschen leben auf 528 Hektar, das sind etwa 109 Einwohner je Hektar — einer der höchsten Werte in München. Entsprechend sind es hier fast durchweg Wohnungsumzüge, nicht Büro- oder Lagerumzüge. Bewegt wird viel innerhalb des Münchner Westens, also Richtung Pasing-Obermenzing, Schwanthalerhöhe, Neuhausen-Nymphenburg oder Sendling-Westpark.",
+  "landmarks": [
+    "Laimer Platz (U6)",
+    "Laimer Anger",
+    "S-Bahnhof Laim",
+    "Landsberger Straße",
+    "Fürstenrieder Straße",
+    "Agnes-Bernauer-Straße",
+    "Von-der-Pfordten-Straße",
+    "Laimer Kreisel"
+  ],
+  "neighbours": [
+    "Neuhausen-Nymphenburg",
+    "Schwanthalerhöhe",
+    "Sendling-Westpark",
+    "Hadern",
+    "Pasing-Obermenzing"
+  ],
+  "faq": [
+    {
+      "question": "Brauche ich in Laim eine Halteverbotszone?",
+      "answer": "In der Regel ja. Laim hat ein bekanntes Stellplatzdefizit: Die städtische Untersuchung von 2019 zählte allein im Karree zwischen Landsberger Straße, Agnes-Bernauer-Straße, Lautensackstraße und Von-der-Pfordten-Straße 3.400 private Kfz auf 2.200 Stellplätze. Dazu parken Pendler am S-Bahnhof Laim und am Laimer Platz. Ohne eingerichtete und dokumentierte Halteverbotszone lässt sich ein 7,5-Tonner vor der Haustür nicht sicher einplanen."
+    },
+    {
+      "question": "Ist Laim ein Parklizenzgebiet mit Anwohnerparken?",
+      "answer": "Nein, bislang nicht. Die Stadt plant Parklizenzgebiete in Laim seit 2019 — vorgesehen waren vier Quartiere in U-Form rund um die U-Bahnhöfe Westendstraße und Laimer Platz sowie vom S-Bahnhof Laim entlang der Landsberger Straße ins Viertel hinein. Laim gehört zum Sektor VI des Münchner Parkraummanagements; zum zweiten Teil dieses Sektors gab es Anfang 2025 einen Beschluss. Ein bestätigter Starttermin für Laim war zuletzt nicht öffentlich."
+    },
+    {
+      "question": "Beeinflusst die Baustelle auf der Fürstenrieder Straße meinen Umzugstermin?",
+      "answer": "Möglich. Für die Tram-Westtangente wird dort seit Mai 2024 gebaut; die Tram 14 fährt seit 27. Februar 2026 zwischen Pasing, Laimer Platz und Gondrellplatz, die Bauarbeiten laufen aber weiter. Streckenweise war nur eine Spur je Richtung frei, die Leistungsfähigkeit der Fürstenrieder Straße war um rund 70 Prozent reduziert. Im Sommer 2026 waren Fahrbahn und Gehwege zwischen Agnes-Bernauer-Straße und Ammerseestraße noch in Arbeit. Wer an oder nahe der Fürstenrieder Straße wohnt, sollte die Anfahrtsseite vorab klären."
+    }
+  ]
+}

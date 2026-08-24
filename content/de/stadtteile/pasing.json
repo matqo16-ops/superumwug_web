@@ -1,0 +1,41 @@
+{
+  "slug": "pasing",
+  "name": "Pasing",
+  "bezirk": "Stadtbezirk 21 — Pasing-Obermenzing",
+  "intro": "Pasing war bis 1938 eine eigenständige Stadt und ist seit der Eingemeindung Teil des Stadtbezirks 21 Pasing-Obermenzing. Für einen Umzug heißt das vor allem zweierlei: sehr unterschiedliche Baualter auf engem Raum und ein Zentrum, in dem man mit einem Möbelwagen nicht überall hinkommt. Rund um den Bahnhof ist die Lage seit dem 27. Juli 2026 zusätzlich durch das neue Parklizenzgebiet Pasing Süd geregelt.",
+  "buildingStock": "Der Baubestand zerfällt in klar getrennte Zonen. Nördlich des Bahnhofs liegen die Villenkolonien Pasing I und II: Die erste wurde ab 1892 von August Exter angelegt, der in fünf Jahren über 100 Villen errichten ließ; bis 1895 waren fast alle 120 Parzellen verkauft. Dieses Quartier steht seit 1973 unter Ensembleschutz, viele Häuser sind Einzeldenkmäler — Aufzüge waren in Bauten dieser Zeit nicht vorgesehen, und wo einer existiert, wurde er nachgerüstet. Treppenhäuser aus der Prinzregentenzeit sind schmal und gewendelt; ein hoher Kleiderschrank oder ein Sofa mit fester Rückenlehne geht dort oft nur über den Außenlift oder gar nicht am Stück. Entlang der Landsberger Straße und rund um die Pasing Arcaden dominieren dagegen Nachkriegs- und Neubauten mit mehreren Geschossen, breiteren Treppenhäusern und in der Regel vorhandenem Aufzug.",
+  "parking": "Seit Montag, 27. Juli 2026, gilt in Pasing das Parklizenzgebiet Pasing Süd. Es wird begrenzt von den Bahngleisen im Norden, der Gräf- und der Engelbertstraße im Süden, der Lortzing- und der Maria-Eich-Straße im Westen sowie der Georg-Habel-Straße im Osten. Innerhalb dieser Grenzen gelten Bewohnerparken und Mischparken; Besucher parken je nach Straße mit kostenpflichtigem Parkschein oder mit Parkscheibe für maximal vier Stunden. Vier Stunden reichen für einen Umzug nicht, deshalb ist in diesem Gebiet eine Halteverbotszone praktisch nicht zu umgehen. Liegt die Adresse außerhalb dieser Grenzen, lohnt sich vorab ein Blick in die Parklizenz-Suche der Stadt München, weil die Regelung straßenweise unterschiedlich ausfällt.",
+  "access": "Das Pasinger Zentrum ist verkehrsberuhigt: Bäckerstraße und Gleichmannstraße wurden 2013 zu Fußgängerbereichen mit Tram umgebaut, seit dem 13. Dezember 2013 endet die Linie 19 direkt am Bahnhofsvorplatz. Dort fahren nur Bus, Tram und Anlieger — ein Möbelwagen kann sich nicht einfach hinstellen, die Gleiszone muss frei bleiben, und die Zufahrt ist im Einzelfall abzustimmen. In den Villenkolonien sind die Straßen seit 1892 im ursprünglichen Zuschnitt: schmale Wohnstraßen, Vorgärten, Tore und Einfriedungen; für einen Außenlift braucht es eine gesicherte Aufstellfläche direkt vor dem Haus. Die Landsberger Straße ist die Hauptausfallstraße nach Westen und geht in die Bodenseestraße über — breit, aber stark befahren, Halten im Fließverkehr ist keine Option. Dazu kommt die U5-Verlängerung von Laimer Platz nach Pasing: Seit Januar 2022 wird an den künftigen Bahnhöfen Am Knie und Pasing gebaut, mit entsprechenden Einschränkungen im Straßenraum bis in die 2030er Jahre.",
+  "typicalMove": "In Pasing mischen sich zwei sehr verschiedene Auftragstypen. Rund um Bahnhof, Arcaden und Landsberger Straße sind es überwiegend Zwei- bis Dreizimmerwohnungen in Geschossbauten, oft mit Aufzug und kurzer Tragestrecke. In den Villenkolonien und am Stadtpark geht es dagegen um ganze Häuser oder große Altbauwohnungen über mehrere Etagen ohne Aufzug — mehr Volumen, mehr Trageweg, häufiger Möbellift. Wegen der Bahnanbindung ziehen viele Haushalte auch aus dem Umland und aus Richtung Gräfelfing nach Pasing beziehungsweise von hier in die Innenstadtbezirke.",
+  "landmarks": [
+    "Bahnhof München-Pasing",
+    "Pasinger Marienplatz",
+    "Pasing Arcaden",
+    "Bäckerstraße / Gleichmannstraße",
+    "Wensauerplatz",
+    "August-Exter-Straße",
+    "Pasinger Stadtpark an der Würm",
+    "Landsberger Straße / Am Knie"
+  ],
+  "neighbours": [
+    "Obermenzing",
+    "Laim",
+    "Aubing",
+    "Hadern",
+    "Nymphenburg"
+  ],
+  "faq": [
+    {
+      "question": "Brauche ich für einen Umzug in Pasing eine Halteverbotszone?",
+      "answer": "Im Parklizenzgebiet Pasing Süd, das seit dem 27. Juli 2026 in Betrieb ist, in aller Regel ja. Dort gelten Bewohnerparken und Mischparken, Besucher dürfen je nach Straße nur mit Parkschein oder mit Parkscheibe für maximal vier Stunden stehen — das deckt keinen Umzugstag ab. Das Gebiet reicht von den Bahngleisen im Norden bis zur Gräf- und Engelbertstraße im Süden, im Westen bis zur Lortzing- und Maria-Eich-Straße, im Osten bis zur Georg-Habel-Straße. Zuständig ist das Kreisverwaltungsreferat der Landeshauptstadt München; die Schilder müssen spätestens am vierten Tag vor dem ersten Gültigkeitstag stehen, sonst ist das Halteverbot nicht durchsetzbar."
+    },
+    {
+      "question": "Was ist beim Umzug in die Pasinger Villenkolonie zu beachten?",
+      "answer": "Die Villenkolonie Pasing I wurde ab 1892 von August Exter angelegt und steht seit 1973 unter Ensembleschutz, viele Häuser rund um den Wensauerplatz und die August-Exter-Straße sind zusätzlich Einzeldenkmäler. Die Straßen haben noch ihren ursprünglichen Zuschnitt, die Grundstücke sind eingefriedet, und die Häuser wurden ohne Aufzug gebaut. Praktisch heißt das: Der Wagen steht meist an der Straße, nicht am Haus, große Möbel gehen über das Treppenhaus oder über einen Außenlift, und für den Lift muss vor dem Vorgarten eine feste Aufstellfläche frei sein. Bei denkmalgeschützter Substanz lohnt es sich, Türlaibungen, Handläufe und Treppenpodeste vorher abzupolstern."
+    },
+    {
+      "question": "Kann der Möbelwagen am Pasinger Marienplatz oder in der Bäckerstraße halten?",
+      "answer": "Nicht ohne Weiteres. Bäckerstraße und Gleichmannstraße wurden 2013 zu Fußgängerbereichen mit Tram umgebaut; seit dem 13. Dezember 2013 endet die Tramlinie 19 direkt am Bahnhofsvorplatz, und im verkehrsberuhigten Bereich zwischen Rathaus und Marienplatz sind nur Bus, Tram und Anlieger zugelassen. Die Gleiszone muss durchgehend frei bleiben. Für Adressen in diesem Bereich wird die Zufahrt einzeln geklärt und die Be- und Entladung über eine genehmigte Fläche abgewickelt. Hinzu kommt die U5-Baustelle: An den künftigen Bahnhöfen Am Knie und Pasing wird seit Januar 2022 gebaut, die Verkehrsführung dort ändert sich immer wieder."
+    }
+  ]
+}

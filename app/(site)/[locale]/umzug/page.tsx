@@ -22,6 +22,7 @@ import {
   Situations,
 } from "@/components/ServiceSections";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { StadtteilDirectory } from "@/components/StadtteilDirectory";
 
 interface Props {
   params: Promise<{ locale: Locale }>;
@@ -197,6 +198,7 @@ export default async function UmzugPage({ params }: Props) {
       <PricingTable content={content.pricing} />
       <Situations content={content.situations} />
       <AreasServed content={content.areas} />
+      {locale === "de" && <StadtteilDirectory />}
 
       <ChatCta content={common.chatCta} />
 
