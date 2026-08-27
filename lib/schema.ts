@@ -137,8 +137,10 @@ export function localBusinessSchema(locale: Locale) {
     alternateName: org.brands,
     brand: org.brands.map((name) => ({ "@type": "Brand", name })),
     url: `${SITE_URL}/`,
-    // Ties this site to the Google Business Profile as one and the same entity.
-    sameAs: [site.googleBusinessProfile, site.bayrenoUrl],
+    // Ties this site to the Google Business Profile and to each brand's own
+    // site as one and the same entity. The brand sites rank for their own
+    // names; without this they look like competitors rather than us.
+    sameAs: [site.googleBusinessProfile, ...site.brandSites],
     founder: { "@id": owner },
     employee: { "@id": owner },
     hasMap: site.googleBusinessProfile,

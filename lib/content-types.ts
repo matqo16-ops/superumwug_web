@@ -423,7 +423,13 @@ export interface SiteData {
     latitude: number;
     longitude: number;
   };
-  bayrenoUrl: string;
+  /**
+   * The separate websites the individual brands still run. Emitted as schema
+   * `sameAs`, which is how Google is told these sites and this one are one
+   * business — otherwise they read as unrelated sites competing for the same
+   * brand name, and the strongest one wins the brand query.
+   */
+  brandSites: string[];
   /** Canonical Google Business Profile URL — feeds schema sameAs and the map link. */
   googleBusinessProfile: string;
 }
