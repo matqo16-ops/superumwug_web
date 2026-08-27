@@ -116,8 +116,9 @@ wirkt genauso.
 ### 3. Halteverbotszone
 
 In München ist das ein realer Kostenfaktor. Steht das Fahrzeug 80 Meter entfernt, verlängert sich
-jeder Gang. Eine beantragte Halteverbotszone kostet je nach Stadtbezirk und Dauer etwa 80 bis
-150 € — sie rechnet sich fast immer, weil sie mehrere Arbeitsstunden spart.
+jeder Gang. Bei mmoving.de kostet die Halteverbotszone 300 € brutto je Adresse — inklusive
+Beantragung beim Kreisverwaltungsreferat, Schilderaufstellung, Dokumentation und Abbau. Rechnen Sie
+mit rund drei Wochen Vorlauf. Sie rechnet sich fast immer, weil sie mehrere Arbeitsstunden spart.
 
 ### 4. Art des Entsorgungsguts
 
@@ -183,8 +184,8 @@ und Altöl.
    bringen, muss nicht bezahlt entsorgt werden.
 2. **Wertanrechnung verlangen.** Fragen Sie aktiv danach, ob verwertbare Gegenstände gegengerechnet
    werden. Bei gut erhaltenen Haushalten sind mehrere Hundert Euro möglich.
-3. **Halteverbotszone einplanen.** Die 80 bis 150 € Gebühr sparen in der Regel mehr an
-   Arbeitszeit, als sie kosten.
+3. **Halteverbotszone einplanen.** Die 300 € je Adresse sparen in der Regel mehr an Arbeitszeit,
+   als sie kosten — beantragt wird rund drei Wochen im Voraus.
 4. **Termin flexibel halten.** Unter der Woche und außerhalb der Sommermonate ist Spielraum.
 5. **Festpreis schriftlich vereinbaren.** Inklusive Entsorgungsgebühren, Anfahrt und besenreiner
    Übergabe — so gibt es hinterher keine Diskussion.

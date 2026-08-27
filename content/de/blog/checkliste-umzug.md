@@ -35,7 +35,7 @@
     },
     {
       "question": "Wann muss ich die Halteverbotszone beantragen?",
-      "answer": "In München je nach Stadtbezirk 7 bis 14 Tage vorher. Das ist die Frist, die am häufigsten unterschätzt wird. Beantragen Sie zwei Zonen — eine an der alten und eine an der neuen Adresse."
+      "answer": "Rechnen Sie mit rund drei Wochen Vorlauf. Das ist die Frist, die am häufigsten unterschätzt wird. Beantragen Sie zwei Zonen — eine an der alten und eine an der neuen Adresse. Bei mmoving.de kostet die Halteverbotszone 300 € brutto je Adresse, inklusive Beantragung, Schildern und Abbau."
     },
     {
       "question": "Was gehört in die Umzugs-Notfallkiste?",
@@ -56,7 +56,7 @@
   ],
   "cta": {
     "headline": "Umzugstermin in München sichern",
-    "body": "Wir nehmen das Volumen auf, nennen Ihnen einen Festpreis und halten den Termin — mit Unbeschädigt-Garantie und voller Werterstattung im Schadensfall.",
+    "body": "Wir nehmen das Volumen auf, nennen Ihnen einen Festpreis und halten den Termin — mit gesetzlicher Speditionshaftung nach § 451e HGB und auf Wunsch zusätzlicher Transportversicherung.",
     "button": "Rückruf anfordern"
   },
   "metaTitle": "Checkliste Umzug: Zeitplan 8 Wochen vorher"
@@ -109,12 +109,13 @@ häufigsten reißen.
 - [ ] **Renovierung der neuen Wohnung** starten, falls geplant — in leeren Räumen 15 bis 30 %
       günstiger
 - [ ] **Sperrmüll anmelden** für alles, was nicht mitkommt
+- [ ] **Halteverbotszonen beantragen** — rund drei Wochen Vorlauf. Zwei Zonen: alte und neue
+      Adresse, je 300 € brutto. Sobald der Umzugstermin steht, ist das der erste Punkt auf der
+      Liste, nicht der letzte
 - [ ] **Zweite Ausmist-Runde**
 
 ## 2 Wochen vorher
 
-- [ ] **Halteverbotszonen beantragen** — in München 7 bis 14 Tage Vorlauf, je nach Bezirk. Zwei
-      Zonen: alte und neue Adresse
 - [ ] **Packen beginnen.** Raum für Raum, von selten zu häufig benutzt
 - [ ] **Kartons beschriften:** Zielraum + Inhalt + „zerbrechlich". Am besten auf zwei Seiten, damit
       die Beschriftung auch im Stapel lesbar bleibt
@@ -176,8 +177,9 @@ Barzahlungen erkennt das Finanzamt nicht an.
 
 ## Die drei häufigsten Fehler
 
-**1. Halteverbotszone zu spät beantragt.** Die 7 bis 14 Tage Vorlauf werden regelmäßig übersehen.
-Ohne Zone parkt der Wagen 80 Meter entfernt — und jeder Gang kostet Arbeitszeit, die Sie bezahlen.
+**1. Halteverbotszone zu spät beantragt.** Die rund drei Wochen Vorlauf werden regelmäßig
+übersehen. Ohne Zone parkt der Wagen 80 Meter entfernt — und jeder Gang kostet Arbeitszeit, die
+Sie bezahlen.
 
 **2. Keller und Dachboden vergessen.** Bei der Volumenschätzung werden sie am häufigsten übersehen
 und sind der Hauptgrund für Nachforderungen am Umzugstag.
@@ -192,6 +194,6 @@ Wenn zum Umzug noch eine Entrümpelung oder Renovierung dazukommt, wird der Zeit
 und die Wahrscheinlichkeit steigt, dass ein Gewerk auf das andere wartet. Genau dafür gibt es
 unseren [Komplettservice](/komplettservice): ein Ansprechpartner, eine Reihenfolge, ein Festpreis.
 
-Alle Leistungen rund um den Umzug samt Unbeschädigt-Garantie finden Sie auf der Seite
+Alle Leistungen rund um den Umzug samt Haftungsregeln finden Sie auf der Seite
 [Umzug in München](/umzug). Wie sich die Kosten zusammensetzen, lesen Sie im Artikel
 [Umzugskosten München](/blog/umzugskosten-muenchen).

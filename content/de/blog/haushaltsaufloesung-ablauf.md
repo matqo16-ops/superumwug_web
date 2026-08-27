@@ -140,15 +140,16 @@ Rechnen Sie rückwärts vom Übergabetermin:
 
 | Zeitpunkt | Aufgabe |
 |---|---|
-| 4 Wochen vorher | Besichtigung, Angebot, Beauftragung |
+| 4 Wochen vorher | Besichtigung, Angebot, Beauftragung, Halteverbotszone beauftragen |
 | 2–3 Wochen vorher | Unterlagen sichern, Behaltenes aussortieren |
-| 1 Woche vorher | Halteverbotszone beantragen, Verträge kündigen |
+| 1 Woche vorher | Verträge kündigen |
 | Räumungstag | Räumung, Trennung, Abtransport |
 | 1–2 Tage danach | Endreinigung, ggf. Schönheitsreparaturen |
 | Übergabetermin | Gemeinsame Begehung mit Vermieter, Protokoll |
 
-Die Halteverbotszone braucht in München je nach Bezirk **7 bis 14 Tage Vorlauf** — das wird am
-häufigsten unterschätzt.
+Die Halteverbotszone braucht rund **drei Wochen Vorlauf** und kostet 300 € brutto je Adresse — das
+ist die Frist, die am häufigsten unterschätzt wird. Sie gehört deshalb mit in die Beauftragung und
+nicht in die letzte Woche.
 
 ## Schritt 6: Räumung und Wertstofftrennung
 

@@ -51,7 +51,7 @@
     },
     {
       "question": "Brauche ich zwei Halteverbotszonen?",
-      "answer": "In der Regel eine je Adresse — für die alte und die neue Wohnung. Findet die Entrümpelung an einem anderen Tag statt, wird an der alten Adresse eine zweite Zone fällig. Bei einem gemeinsamen Termin entfällt diese doppelte Gebühr."
+      "answer": "In der Regel eine je Adresse — für die alte und die neue Wohnung, je 300 € brutto. Findet die Entrümpelung an einem anderen Tag statt, wird an der alten Adresse eine zweite Zone fällig, also weitere 300 €. Bei einem gemeinsamen Termin entfällt diese doppelte Gebühr. Beantragt wird rund drei Wochen im Voraus."
     },
     {
       "question": "Wie weit im Voraus sollte ich einen kombinierten Auftrag anfragen?",
@@ -83,7 +83,7 @@ danach entrümpelt, muss vorher nicht entscheiden, was mitkommt.
 | Position | Zwei Aufträge | Ein Auftrag |
 |---|---|---|
 | Anfahrt und Rüstzeit | 2× | 1× |
-| Halteverbotszone alte Adresse | 2× (80–150 € je) | 1× |
+| Halteverbotszone alte Adresse | 2× (300 € je) | 1× |
 | Mindestabnahme / Tagespauschale | 2× | 1× |
 | Koordination und Terminabstimmung | 2 Ansprechpartner | 1 |
 | Ihre eigene Anwesenheit | 2 Tage | 1–2 Tage am Stück |
@@ -125,21 +125,22 @@ inklusive Keller.
 | Position | Marktüblich |
 |---|---|
 | Umzug (3–4 Personen, 1 Tag) | 1.400 € |
-| Halteverbotszone alt + neu | 220 € |
+| Halteverbotszone alt + neu (2 × 300 €) | 600 € |
 | Entrümpelung separat (eigener Termin) | 2.400 € |
-| Halteverbotszone alt (zweiter Termin) | 110 € |
-| **Summe** | **4.130 €** |
+| Halteverbotszone alt, zweites Mal | 300 € |
+| **Summe** | **4.700 €** |
 
 **Als ein Auftrag:**
 
 | Position | Marktüblich |
 |---|---|
 | Umzug und Entrümpelung, 2 aufeinanderfolgende Tage | 3.200 € |
-| Halteverbotszonen (alt durchgehend, neu 1 Tag) | 230 € |
-| **Summe** | **3.430 €** |
+| Halteverbotszone alt + neu (2 × 300 €) | 600 € |
+| **Summe** | **3.800 €** |
 
-**Ersparnis: rund 700 €** — plus ein eingesparter Koordinationstag und ein Ansprechpartner statt
-zwei.
+**Ersparnis: rund 900 €** — plus ein eingesparter Koordinationstag und ein Ansprechpartner statt
+zwei. Ein Drittel der Ersparnis ist allein die Halteverbotszone an der alten Adresse, die bei zwei
+getrennten Terminen zweimal fällig wird.
 
 ## Wenn zusätzlich renoviert wird
 
@@ -164,7 +165,7 @@ Damit ein kombinierter Auftrag reibungslos läuft:
 
 - **Markieren Sie eindeutig.** Farbige Klebepunkte: grün = kommt mit, rot = wird entsorgt,
   gelb = Entscheidung am Umzugstag. Das ist zuverlässiger als jede mündliche Absprache.
-- **Halteverbotszonen früh beantragen.** In München je nach Bezirk 7 bis 14 Tage Vorlauf.
+- **Halteverbotszonen früh beantragen.** Rund drei Wochen Vorlauf, 300 € brutto je Adresse.
 - **Wertsachen und Unterlagen separat.** Bringen Sie sie selbst in die neue Wohnung, bevor das
   Team anrückt.
 - **Keller und Dachboden nicht vergessen.** Sie werden bei der Volumenschätzung am häufigsten

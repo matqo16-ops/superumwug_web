@@ -12,7 +12,7 @@
   ],
   "related": [
     {
-      "label": "Umzug München — Leistungen & Unbeschädigt-Garantie",
+      "label": "Umzug München — Leistungen & Ablauf",
       "href": "/umzug"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "question": "Wie berechnet ein Umzugsunternehmen den Preis?",
-      "answer": "Die Kalkulation basiert auf dem Umzugsvolumen in Kubikmetern, der benötigten Personenzahl und Stundenzahl, der Entfernung sowie Zusatzleistungen wie Verpackung, Möbelmontage, Halteverbotszone oder Möbellift. Aus diesen Positionen entsteht ein Festpreis."
+      "answer": "Die Kalkulation basiert auf dem Umzugsvolumen in Kubikmetern, der benötigten Personenzahl und Stundenzahl, der Entfernung sowie Zusatzleistungen wie Verpackung, Möbelmontage, Halteverbotszone oder Einlagerung. Aus diesen Positionen entsteht ein Festpreis."
     },
     {
       "question": "Wie viel Volumen hat meine Wohnung?",
@@ -39,7 +39,7 @@
     },
     {
       "question": "Was kostet eine Halteverbotszone in München?",
-      "answer": "Je nach Stadtbezirk und Dauer liegen die Gebühren bei etwa 80 bis 150 €, inklusive Aufstellen und Abholen der Schilder. Sie rechnet sich meist, weil ein kurzer Trageweg mehrere Arbeitsstunden spart."
+      "answer": "Bei mmoving.de kostet die Halteverbotszone 300 € brutto je Adresse — inklusive Beantragung beim Kreisverwaltungsreferat, Schilderaufstellung, Dokumentation und Abbau. Rechnen Sie mit rund drei Wochen Vorlauf. Sie rechnet sich meist, weil ein kurzer Trageweg mehrere Arbeitsstunden spart."
     },
     {
       "question": "Kann ich Umzugskosten von der Steuer absetzen?",
@@ -51,12 +51,12 @@
     },
     {
       "question": "Was ist im Festpreis eines Umzugsunternehmens enthalten?",
-      "answer": "Üblicherweise Anfahrt, Personal, Fahrzeug, Transportversicherung, Be- und Entladen sowie Möbeldemontage und -montage. Verpackungsmaterial, Vollverpackung, Halteverbotszone, Möbellift und Einlagerung werden meist gesondert ausgewiesen — lassen Sie sich den Umfang schriftlich geben."
+      "answer": "Üblicherweise Anfahrt, Personal, Fahrzeug, Transportversicherung, Be- und Entladen sowie Möbeldemontage und -montage. Verpackungsmaterial, Vollverpackung, Halteverbotszone und Einlagerung werden meist gesondert ausgewiesen — lassen Sie sich den Umfang schriftlich geben."
     }
   ],
   "cta": {
     "headline": "Festpreis für Ihren Umzug in München",
-    "body": "Wir sehen uns Ihre Wohnung vor Ort oder per Video an und nennen Ihnen einen verbindlichen Festpreis — inklusive Unbeschädigt-Garantie mit voller Werterstattung.",
+    "body": "Wir sehen uns Ihre Wohnung vor Ort oder per Video an und nennen Ihnen einen verbindlichen Festpreis — mit gesetzlicher Speditionshaftung nach § 451e HGB und auf Wunsch zusätzlicher Transportversicherung.",
     "button": "Rückruf anfordern"
   },
   "metaTitle": "Umzugskosten München: Womit muss ich rechnen?"
@@ -66,7 +66,8 @@
 **Ein Umzug innerhalb Münchens kostet marktüblich zwischen 700 und 1.400 € für eine
 2-Zimmer-Wohnung und zwischen 1.400 und 2.800 € für eine 4-Zimmer-Wohnung.** Entscheidend sind
 vier Größen: das Umzugsvolumen in Kubikmetern, die Entfernung, die Zahl der benötigten Mitarbeiter
-und der Termin. Zusatzleistungen wie Vollverpackung, Möbellift oder Einlagerung kommen obendrauf.
+und der Termin. Zusatzleistungen wie Vollverpackung, Küchenmontage oder Einlagerung kommen
+obendrauf.
 
 Dieser Artikel zeigt, wie sich der Preis zusammensetzt, welche Positionen häufig übersehen werden
 und an welchen Stellen Sie tatsächlich sparen können.
@@ -108,9 +109,15 @@ Gesamtstunden sinken.
 
 ### 3. Stockwerk, Aufzug und Trageweg
 
-Jede Etage ohne Aufzug schlägt mit etwa 8 bis 15 % zu Buche. Ein Möbellift kostet 250 bis 500 €
-pro Tag, lohnt sich aber ab dem dritten Obergeschoss regelmäßig — vor allem, wenn sperrige Möbel
-nicht durchs Treppenhaus passen.
+Jede Etage ohne Aufzug schlägt mit etwa 8 bis 15 % zu Buche. Genauso zählt der Weg vom Hauseingang
+zum Fahrzeug: Steht der Wagen nicht direkt vor der Tür, wird jeder Gang länger, und die zusätzliche
+Tragezeit landet im Endpreis.
+
+Ein Möbellift kostet marktüblich 250 bis 500 € pro Tag und lohnt sich ab dem dritten Obergeschoss
+regelmäßig, wenn sperrige Möbel nicht durchs Treppenhaus passen. **Wir bieten selbst keinen
+Möbellift an** — wir tragen über das Treppenhaus. Zeigt sich bei der Besichtigung, dass ein
+Möbelstück dort nicht durchgeht, sagen wir Ihnen das vorher, damit Sie den Lift bei einem
+Fremdanbieter beauftragen können oder wir das Stück zerlegen.
 
 ### 4. Entfernung
 
@@ -133,8 +140,7 @@ Hier entstehen die Positionen, die viele bei der Budgetplanung vergessen:
 | Vollverpackung durch das Team | 300 – 900 € |
 | Möbeldemontage und -montage | 200 – 600 € |
 | Küchenab- und -aufbau | 400 – 1.200 € |
-| Halteverbotszone (je Standort) | 80 – 150 € |
-| Möbellift | 250 – 500 € / Tag |
+| Halteverbotszone (je Adresse) | 300 € |
 | Einlagerung | 60 – 150 € / m³ / Monat |
 | Entsorgung von Aussortiertem | ab 300 € |
 
@@ -147,8 +153,8 @@ Kunde packt selbst.
 
 - Volumen: ca. 26 m³
 - Team: 3 Personen, 5 Stunden
-- Halteverbotszone an beiden Adressen
-- **Marktüblich: 950 – 1.250 €**
+- Halteverbotszone an beiden Adressen: 2 × 300 € = 600 €
+- **Marktüblich: 950 – 1.250 € für den Umzug, zuzüglich 600 € für die beiden Zonen**
 
 ### Beispiel 2: 4-Zimmer-Wohnung mit Vollverpackung, München nach Starnberg
 
@@ -156,7 +162,7 @@ Kunde packt selbst.
 
 - Volumen: ca. 48 m³
 - Team: 4 Personen, 1,5 Tage
-- Vollverpackung, Küchenab- und -aufbau, Möbellift
+- Vollverpackung, Küchenab- und -aufbau, Etagenzuschlag ohne Aufzug
 - Saisonzuschlag Hochsaison
 - **Marktüblich: 3.400 – 4.600 €**
 
@@ -177,8 +183,8 @@ Aktenarchiv und IT-Technik inbegriffen.
 2. **Termin verschieben.** Mitte Januar statt Ende Juli spart oft mehrere Hundert Euro.
 3. **Selbst packen.** Wer Kartons selbst packt und beschriftet, spart die Vollverpackung. Wichtig:
    Selbstgepackte Kartons sind bei Transportschäden meist eingeschränkt versichert.
-4. **Halteverbotszone beantragen.** Die Gebühr ist fast immer günstiger als die eingesparte
-   Arbeitszeit.
+4. **Halteverbotszone rechtzeitig beantragen.** Die 300 € je Adresse sind fast immer günstiger als
+   die Arbeitszeit, die ein langer Trageweg kostet. Planen Sie rund drei Wochen Vorlauf ein.
 5. **Mehrere Festpreisangebote einholen** — und darauf achten, dass sie denselben Leistungsumfang
    abbilden.
 6. **Steuer nutzen.** Beruflich veranlasst? Vollständig als Werbungskosten absetzbar. Privat?
@@ -200,5 +206,5 @@ werden, und die alte Wohnung ist im vertragsgemäßen Zustand zu übergeben. Wer
 Auftrag vergibt, spart doppelte Anfahrten und Koordination — mehr dazu auf der Seite zum
 [Komplettservice](/komplettservice).
 
-Alle Leistungen, den Ablauf und die Unbeschädigt-Garantie mit voller Werterstattung finden Sie
-auf der Seite [Umzug in München](/umzug).
+Alle Leistungen, den Ablauf und die Haftungsregeln finden Sie auf der Seite
+[Umzug in München](/umzug).
