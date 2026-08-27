@@ -66,6 +66,8 @@ export interface CallbackFormContent {
   submitting: string;
   success: string;
   error: string;
+  /** Shown on HTTP 429 — distinct from a generic failure. */
+  errorRateLimited: string;
   close: string;
 }
 

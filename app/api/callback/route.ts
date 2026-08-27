@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { callbackSchema } from "@/lib/callback-schema";
-import { sendCallbackEmail } from "@/lib/email";
+import { EmailNotConfiguredError, sendCallbackEmail } from "@/lib/email";
 import { checkRateLimit, getClientIp } from "@/lib/rate-limit";
 
 export const runtime = "nodejs";
@@ -47,8 +47,18 @@ export async function POST(request: Request): Promise<NextResponse> {
     await sendCallbackEmail(parsed.data);
   } catch (error) {
     console.error("Callback email failed:", error);
+    // Distinguish "the environment is not set up" from "the provider refused a
+    // well-formed request" — the two need completely different fixes, and
+    // collapsing them into one code makes the failure undiagnosable from
+    // outside. Neither response body carries provider detail.
+    if (error instanceof EmailNotConfiguredError) {
+      return NextResponse.json(
+        { ok: false, error: "email_not_configured" },
+        { status: 503 },
+      );
+    }
     return NextResponse.json(
-      { ok: false, error: "email_failed" },
+      { ok: false, error: "email_rejected" },
       { status: 502 },
     );
   }

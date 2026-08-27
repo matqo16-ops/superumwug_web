@@ -183,7 +183,8 @@
     "submitting": "Sending …",
     "success": "Thank you! We'll be in touch shortly.",
     "error": "Something went wrong. Please check your details or call us directly: +49 176 228 661 46.",
-    "close": "Close"
+    "close": "Close",
+    "errorRateLimited": "Too many attempts in a short time. Please wait about 10 minutes — or call us directly: +49 176 228 661 46."
   },
   "chatWidget": {
     "openLabel": "Open chat assistant",

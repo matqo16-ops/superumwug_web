@@ -33,7 +33,7 @@ export function CallbackForm({
   const locale = useLocale();
   const pathname = usePathname();
   const [status, setStatus] = useState<
-    "idle" | "submitting" | "success" | "error"
+    "idle" | "submitting" | "success" | "error" | "rateLimited"
   >("idle");
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -63,7 +63,11 @@ export function CallbackForm({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
-      setStatus(response.ok ? "success" : "error");
+      if (response.ok) setStatus("success");
+      // 429 gets its own message: "check your details" is misleading when the
+      // details were fine and the caller simply tried too often.
+      else if (response.status === 429) setStatus("rateLimited");
+      else setStatus("error");
     } catch {
       setStatus("error");
     }
@@ -84,12 +88,12 @@ export function CallbackForm({
 
   return (
     <form onSubmit={handleSubmit} noValidate={false}>
-      {status === "error" && (
+      {(status === "error" || status === "rateLimited") && (
         <p
           role="alert"
           className="mb-4 rounded-lg border border-error/30 bg-error/10 px-4 py-3 text-sm font-medium text-error"
         >
-          {form.error}
+          {status === "rateLimited" ? form.errorRateLimited : form.error}
         </p>
       )}
 
