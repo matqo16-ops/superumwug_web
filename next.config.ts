@@ -15,9 +15,9 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     // Old slugs kept working after the SEO rename, so nothing 404s.
+    // /bayreno is NOT here any more: it used to 301 to /renovierung, which
+    // threw away the one URL that spells the brand name. It is a real page now.
     return [
-      { source: "/bayreno", destination: "/renovierung", permanent: true },
-      { source: "/en/bayreno", destination: "/en/renovation", permanent: true },
       { source: "/pakete", destination: "/komplettservice", permanent: true },
       { source: "/en/packages", destination: "/en/full-service", permanent: true },
     ];

@@ -5,6 +5,7 @@ import type { Locale } from "@/i18n/routing";
 import type {
   B2bContent,
   BlogIndexContent,
+  BrandPageContent,
   KomplettserviceContent,
   CommonContent,
   EntruempelungContent,
@@ -69,6 +70,10 @@ export function getKnowledgeBase(): string {
 
 export const getUeberUns = (locale: Locale) =>
   readJson<UeberUnsContent>(locale, "ueber-uns.json");
+
+/** /bayreno — the brand's own page, so the bare name has something to match. */
+export const getBayreno = (locale: Locale) =>
+  readJson<BrandPageContent>(locale, "bayreno.json");
 
 /** German only — the guide is not translated. */
 export const getHalteverbotszone = () =>

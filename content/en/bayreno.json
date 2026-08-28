@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "BayReno — Renovation in Munich by mmoving.de",
+    "description": "BayReno is the renovation brand of Martin Marcinko's business in Germering near Munich. The name stands for Bayerische Renovierung — Bavarian renovation: painting, flooring, bathrooms and full refurbishment since 2004."
+  },
+  "hero": {
+    "eyebrow": "The brand",
+    "headline": "BayReno",
+    "subheadline": "Bayerische Renovierung — Bavarian renovation. The renovation brand for Munich and the western district since 2004.",
+    "primaryCta": "Request a callback",
+    "secondaryCta": "Services and prices"
+  },
+  "lead": "BayReno is the renovation brand of the sole proprietorship Martin Marcinko, based in Germering near Munich and trading since 2004. Painting, flooring, bathroom refurbishment and full renovations across Munich and roughly 50 km around it are carried out under the BayReno name. BayReno is not a separate company but one of three brands of the same business, alongside SuperUmzug for moves and Entrümpelung München for clearances.",
+  "nameExplainer": {
+    "heading": "What the name BayReno means",
+    "body": "BayReno is a coined word in two parts: “Bay” for Bayern (Bavaria) and “Reno” for Renovierung (renovation). Written out, the brand is Bayerische Renovierung — Bavarian renovation — and that is how it appears in the imprint. It is written as one word with a capital B and a capital R: BayReno. Not Bay Reno, and not BayReno GmbH — the business is a sole proprietorship, not a limited company. A contract with BayReno is a contract with Martin Marcinko."
+  },
+  "sections": [
+    {
+      "heading": "What BayReno stands for",
+      "body": "Renovation at BayReno means fixed dates, a clean site and a fixed price after a survey. The brand was built for handovers and modernisations rather than new builds or shell construction. The typical job is an empty flat between two tenancies — paint, new flooring, refresh the bathroom, inside one continuous window so the handover date holds."
+    },
+    {
+      "heading": "Why BayReno belongs to the same business as SuperUmzug",
+      "body": "In Munich, moving, clearance and renovation almost always arrive together: someone moves out, what is left has to go, and the flat has to be handed back in contractual condition. Hiring three firms means three call-outs, three schedules and an argument about who is at fault when one trade waits on another. BayReno, SuperUmzug and Entrümpelung München therefore run through one business, one contact and one schedule."
+    },
+    {
+      "heading": "BayReno works cheaper in empty rooms",
+      "body": "That is not a discount, it is effort. Furnished rooms have to be covered, shifted and put back, and the work happens in stages. The difference is typically 15 to 30 per cent. If a move or a clearance is happening anyway, it pays to schedule the renovation after it — which within one business costs nothing in coordination."
+    },
+    {
+      "heading": "Where BayReno works",
+      "body": "The focus is Munich, both inside and along the Mittlerer Ring, plus the western district: Germering, Puchheim, Gröbenzell, Olching, Fürstenfeldbruck and Gauting. The business is based in Germering, about 20 km from Munich. Jobs further out are possible and priced by effort."
+    }
+  ],
+  "services": {
+    "headline": "What BayReno carries out",
+    "intro": "The full service list with the price table is on the renovation page. The trades in brief:",
+    "items": [
+      {
+        "title": "Painting",
+        "body": "Walls and ceilings painted, wallpaper stripped, surfaces prepared, cracks filled. The most common job before a handover."
+      },
+      {
+        "title": "Flooring",
+        "body": "Parquet, laminate, vinyl and design flooring laid, sealed and repaired. Old coverings — linoleum, PVC, adhesive residue — removed with floor machines."
+      },
+      {
+        "title": "Bathrooms",
+        "body": "From a partial update with new taps and a shower screen through to full refurbishment with strip-out, sealing and tiling."
+      },
+      {
+        "title": "Kitchens and furniture",
+        "body": "Kitchens and furniture dismantled, moved and reassembled — the point where BayReno and SuperUmzug routinely meet."
+      },
+      {
+        "title": "Tiling",
+        "body": "Tiling in bathrooms, kitchens and hallways, including surface preparation and grouting."
+      },
+      {
+        "title": "Full renovation",
+        "body": "Every trade in a flat on one schedule, coordinated through a single contact rather than several firms."
+      }
+    ],
+    "cta": "See all services and prices"
+  },
+  "facts": {
+    "headline": "BayReno at a glance",
+    "items": [
+      { "label": "Brand of", "value": "Sole proprietorship Martin Marcinko" },
+      { "label": "Meaning", "value": "Bayerische Renovierung — Bavarian renovation" },
+      { "label": "Since", "value": "2004" },
+      { "label": "Based in", "value": "Germering near Munich" },
+      { "label": "Area served", "value": "Munich and roughly 50 km around" },
+      { "label": "Sister brands", "value": "SuperUmzug, Entrümpelung München" },
+      { "label": "Own website", "value": "bayreno.de" },
+      { "label": "Languages", "value": "German, English, Slovak, Czech, Polish, Ukrainian, Croatian" }
+    ]
+  },
+  "siblings": {
+    "headline": "The two sister brands",
+    "body": "BayReno, SuperUmzug and Entrümpelung München are three brands of a single business. You can book any one of them on its own, or all three as one job.",
+    "items": [
+      {
+        "label": "SuperUmzug",
+        "body": "Private and corporate moves in Munich and the surrounding area, over 1,000 moves since 2004.",
+        "href": "/umzug"
+      },
+      {
+        "label": "Entrümpelung München",
+        "body": "Clearance and house clearance, correct disposal, handed over broom-clean.",
+        "href": "/entruempelung"
+      },
+      {
+        "label": "All three together",
+        "body": "Moving, clearance and renovation as one job with one schedule and one fixed price.",
+        "href": "/komplettservice"
+      }
+    ]
+  },
+  "externalSite": {
+    "headline": "BayReno also has its own website",
+    "body": "The brand runs its own site at bayreno.de. It belongs to the same business: the same address in Germering, the same owner, the same services. Both sites reach the same person — enquire wherever you prefer.",
+    "linkLabel": "Open bayreno.de"
+  },
+  "faq": {
+    "headline": "Frequently asked questions about BayReno",
+    "items": [
+      {
+        "question": "What is BayReno?",
+        "answer": "BayReno is the renovation brand of the sole proprietorship Martin Marcinko in Germering near Munich. Painting, flooring, bathroom refurbishment and full renovations have been carried out under this name across Munich and the surrounding area since 2004."
+      },
+      {
+        "question": "What does the name BayReno mean?",
+        "answer": "BayReno stands for Bayerische Renovierung, Bavarian renovation. The name combines “Bay” for Bayern with “Reno” for Renovierung and is written as one word with a capital B and a capital R."
+      },
+      {
+        "question": "Is BayReno a separate company?",
+        "answer": "No. BayReno is a trading name, not a separate legal entity. The legal entity is the sole proprietorship Martin Marcinko, based in Germering. The same business also trades as SuperUmzug and Entrümpelung München."
+      },
+      {
+        "question": "What does a renovation with BayReno cost?",
+        "answer": "Painting runs at a market rate of €12 to €25 per square metre of wall, laminate €35 to €55 and parquet €70 to €130 per square metre, and a full bathroom refurbishment €9,000 to €22,000. All figures are gross, including 19% VAT. You get a binding fixed price after a survey."
+      },
+      {
+        "question": "Does BayReno work in occupied flats?",
+        "answer": "Yes, though it costs more. Furnished rooms have to be covered, shifted and worked in stages; the difference against empty rooms is typically 15 to 30 per cent. If a move is happening anyway, renovating afterwards is usually cheaper."
+      },
+      {
+        "question": "Where can I find BayReno online?",
+        "answer": "The brand has its own website at bayreno.de and also appears as part of mmoving.de alongside SuperUmzug and Entrümpelung München. Both belong to the same business."
+      },
+      {
+        "question": "Can I book renovation and a move together?",
+        "answer": "Yes, and that is the usual case. The typical order is the move, then clearance of what is left, then renovation of the empty flat, then handover. Because all three brands belong to one business, the call-out, set-up time and coordination happen once instead of three times."
+      }
+    ]
+  }
+}

@@ -103,6 +103,57 @@ function publishedOffers() {
 }
 
 /**
+ * The three trading names as first-class Brand nodes.
+ *
+ * `brand: [{ "@type": "Brand", name: "BayReno" }]` asserts nothing resolvable:
+ * no @id, no url, no sameAs. An invented compound with almost no query volume
+ * then has nothing behind it, and a search engine reasonably concludes the
+ * user meant a far more common word spelled almost the same way. Each brand
+ * here gets an identity, a page that is about it, the expansion of the name,
+ * and the brand's own external site.
+ */
+export function brandNodes() {
+  const site = getSiteData();
+  const [bayrenoSite, superumzugSite] = site.brandSites;
+  return [
+    {
+      "@type": "Brand",
+      "@id": `${SITE_URL}/#brand-bayreno`,
+      name: "BayReno",
+      // The written-out form is what makes the coined word legible as a name
+      // rather than a typo: Bay(ern) + Reno(vierung).
+      alternateName: ["Bayerische Renovierung", "Bay Reno", "BayReno München"],
+      url: `${SITE_URL}/bayreno`,
+      sameAs: [bayrenoSite],
+      logo: `${SITE_URL}/logos/bayreno.png`,
+      description:
+        "BayReno — Bayerische Renovierung. Renovierungsmarke des Einzelunternehmens Martin Marcinko in Germering bei München: Malerarbeiten, Böden, Bad und Komplettsanierung seit 2004.",
+    },
+    {
+      "@type": "Brand",
+      "@id": `${SITE_URL}/#brand-superumzug`,
+      name: "SuperUmzug",
+      alternateName: ["Super Umzug", "SuperUmzug München"],
+      url: absoluteUrl("de", "/umzug"),
+      sameAs: [superumzugSite],
+      logo: `${SITE_URL}/logos/super-umzug.png`,
+      description:
+        "SuperUmzug — Umzugsmarke des Einzelunternehmens Martin Marcinko: Privat- und Firmenumzüge in München und Umgebung seit 2004.",
+    },
+    {
+      "@type": "Brand",
+      "@id": `${SITE_URL}/#brand-entruempelung-muenchen`,
+      name: "Entrümpelung München",
+      alternateName: ["EntrümpelungMünchen"],
+      url: absoluteUrl("de", "/entruempelung"),
+      logo: `${SITE_URL}/logos/super-entruempelung.png`,
+      description:
+        "Entrümpelung München — Entrümpelungsmarke des Einzelunternehmens Martin Marcinko: Entrümpelung und Haushaltsauflösung in München und Umgebung.",
+    },
+  ];
+}
+
+/**
  * Martin Marcinko as a first-class entity. Blog articles are authored by a
  * person, not by a company — which is what E-E-A-T and LLM attribution read.
  */
@@ -135,7 +186,7 @@ export function localBusinessSchema(locale: Locale) {
     name: org.businessName,
     legalName: org.legalName,
     alternateName: org.brands,
-    brand: org.brands.map((name) => ({ "@type": "Brand", name })),
+    brand: brandNodes(),
     url: `${SITE_URL}/`,
     // Ties this site to the Google Business Profile and to each brand's own
     // site as one and the same entity. The brand sites rank for their own

@@ -9,7 +9,15 @@ export interface Brand {
   id: "umzug" | "bayreno" | "entruempelung";
   name: string;
   tagline: string;
+  /** The brand's service page — where the header and footer marks point. */
   href: StaticPathname;
+  /**
+   * A page about the brand itself, when one exists. Only the home-page card
+   * uses it, because that card renders the brand name as its heading and so
+   * becomes a link whose anchor text is the name — the signal that tells a
+   * search engine what the page is *called*, not merely what it covers.
+   */
+  brandPage?: StaticPathname;
   logo: string;
   logoAlt: string;
 }
@@ -432,6 +440,42 @@ export interface SiteData {
   brandSites: string[];
   /** Canonical Google Business Profile URL — feeds schema sameAs and the map link. */
   googleBusinessProfile: string;
+}
+
+/**
+ * A page for one brand, living at the brand's own URL.
+ *
+ * Its job is entity resolution rather than sales. "BayReno" is an invented
+ * compound with almost no search volume, so a search engine with nothing to
+ * match it against treats it as a misspelling of a far more common word and
+ * offers that instead. The fix is a page where the brand name is the URL, the
+ * <title> and the H1 at once, stating plainly what the name means and who
+ * trades under it — the same signals that make any other brand resolvable.
+ */
+export interface BrandPageContent {
+  meta: PageMeta;
+  hero: Hero;
+  /** One extractable sentence defining the brand and naming its operator. */
+  lead: string;
+  /** Spells the name out — "BayReno steht für Bayerische Renovierung". */
+  nameExplainer: { heading: string; body: string };
+  sections: { heading: string; body: string }[];
+  services: {
+    headline: string;
+    intro: string;
+    items: TitledItem[];
+    cta: string;
+  };
+  facts: { headline: string; items: { label: string; value: string }[] };
+  /** The other two brands, so the one-company relationship is on this page too. */
+  siblings: {
+    headline: string;
+    body: string;
+    items: { label: string; body: string; href: StaticPathname }[];
+  };
+  /** The brand's own separate website, declared rather than hidden. */
+  externalSite: { headline: string; body: string; linkLabel: string };
+  faq: { headline: string; items: FaqItem[] };
 }
 
 /** /ueber-uns — the one-entity/three-brands page. */

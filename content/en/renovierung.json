@@ -171,6 +171,11 @@
         "label": "Full service from one provider",
         "body": "Renovation, moving and clearance as one job with one sequence.",
         "href": "/komplettservice"
+      },
+      {
+        "label": "BayReno",
+        "body": "What the name means, who is behind it and what the brand has stood for since 2004.",
+        "href": "/bayreno"
       }
     ]
   },

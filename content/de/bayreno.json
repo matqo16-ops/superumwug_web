@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "BayReno — Bayerische Renovierung in München",
+    "description": "BayReno ist die Renovierungsmarke des Einzelunternehmens Martin Marcinko in Germering bei München. Der Name steht für Bayerische Renovierung: Malerarbeiten, Böden, Bad und Komplettsanierung seit 2004."
+  },
+  "hero": {
+    "eyebrow": "Die Marke",
+    "headline": "BayReno",
+    "subheadline": "Bayerische Renovierung — seit 2004 die Renovierungsmarke für München, Germering und den westlichen Landkreis.",
+    "primaryCta": "Rückruf anfordern",
+    "secondaryCta": "Leistungen und Preise"
+  },
+  "lead": "BayReno ist die Renovierungsmarke des Einzelunternehmens Martin Marcinko mit Sitz in Germering bei München, gegründet 2004. Unter dem Namen BayReno werden Malerarbeiten, Bodenverlegung, Badsanierung und Komplettrenovierungen in München und im Umkreis von rund 50 Kilometern ausgeführt. BayReno ist keine eigene Firma, sondern eine von drei Marken desselben Betriebs — neben SuperUmzug für Umzüge und Entrümpelung München für Entrümpelung und Haushaltsauflösung.",
+  "nameExplainer": {
+    "heading": "Was der Name BayReno bedeutet",
+    "body": "BayReno ist ein Kunstwort aus zwei Teilen: „Bay“ für Bayern und „Reno“ für Renovierung. Ausgeschrieben heißt die Marke Bayerische Renovierung, und genau so steht sie auch im Impressum. Der Name wird in einem Wort geschrieben, mit großem B und großem R: BayReno. Nicht Bay Reno, nicht Bayreno GmbH — es handelt sich um ein Einzelunternehmen, nicht um eine Kapitalgesellschaft. Wer BayReno beauftragt, schließt den Vertrag mit Martin Marcinko."
+  },
+  "sections": [
+    {
+      "heading": "Wofür BayReno steht",
+      "body": "Renovieren heißt bei BayReno: feste Termine, eine saubere Baustelle und ein Festpreis nach Besichtigung. Die Marke wurde für Wohnungsübergaben und Modernisierungen aufgebaut, nicht für Rohbau oder Neubau. Der typische Auftrag ist eine leere Wohnung zwischen zwei Mietverhältnissen — streichen, Boden neu, Bad auffrischen, in einem durchgehenden Zeitfenster, damit der Übergabetermin hält."
+    },
+    {
+      "heading": "Warum BayReno zum selben Betrieb gehört wie SuperUmzug",
+      "body": "In München hängen Umzug, Entrümpelung und Renovierung fast immer zusammen: Es wird ausgezogen, der Rest muss weg, und die Wohnung ist im vertragsgemäßen Zustand zu übergeben. Drei Firmen dafür zu beauftragen bedeutet drei Anfahrten, drei Terminpläne und die Frage, wer schuld ist, wenn ein Gewerk auf das andere wartet. BayReno, SuperUmzug und Entrümpelung München laufen deshalb über einen Betrieb, einen Ansprechpartner und einen Zeitplan."
+    },
+    {
+      "heading": "In leeren Räumen arbeitet BayReno günstiger",
+      "body": "Das ist kein Rabatt, sondern Aufwand: In möblierten Räumen muss abgedeckt, geschoben und wieder zurückgestellt werden, und es wird in Etappen gearbeitet. Der Unterschied liegt erfahrungsgemäß bei 15 bis 30 Prozent. Wenn ohnehin ein Umzug oder eine Entrümpelung ansteht, lohnt es sich deshalb, die Renovierung danach zu legen — was innerhalb desselben Betriebs ohne Abstimmungsverlust geht."
+    },
+    {
+      "heading": "Wo BayReno arbeitet",
+      "body": "Schwerpunkt ist München mit den Stadtbezirken innerhalb und entlang des Mittleren Rings sowie der westliche Landkreis: Germering, Puchheim, Gröbenzell, Olching, Fürstenfeldbruck und Gauting. Der Betriebssitz liegt in Germering, die Anfahrt nach München beträgt rund 20 Kilometer. Weiter entfernte Aufträge sind möglich, werden aber nach Aufwand kalkuliert."
+    }
+  ],
+  "services": {
+    "headline": "Was BayReno ausführt",
+    "intro": "Die vollständigen Leistungen mit Preistabelle stehen auf der Renovierungsseite. Hier die Gewerke im Überblick:",
+    "items": [
+      {
+        "title": "Malerarbeiten",
+        "body": "Wände und Decken streichen, Tapeten entfernen, Untergrund vorbereiten, Risse schließen. Der häufigste Auftrag vor einer Wohnungsübergabe."
+      },
+      {
+        "title": "Böden",
+        "body": "Parkett, Laminat, Vinyl und Designboden verlegen, versiegeln und ausbessern. Alte Beläge — Linoleum, PVC, Kleberreste — werden mit Bodenmaschinen entfernt."
+      },
+      {
+        "title": "Bad und Sanitär",
+        "body": "Von der Teilmodernisierung mit neuen Armaturen und Duschabtrennung bis zur Komplettsanierung mit Rückbau, Abdichtung und Fliesenarbeiten."
+      },
+      {
+        "title": "Küche und Möbel",
+        "body": "Küchen und Möbel demontieren, transportieren und wieder aufbauen — der Punkt, an dem BayReno und SuperUmzug regelmäßig ineinandergreifen."
+      },
+      {
+        "title": "Fliesen",
+        "body": "Fliesen legen in Bad, Küche und Flur, einschließlich Untergrundvorbereitung und Verfugung."
+      },
+      {
+        "title": "Komplettrenovierung",
+        "body": "Alle Gewerke einer Wohnung in einem Zeitplan, koordiniert über einen Ansprechpartner statt über mehrere Handwerksbetriebe."
+      }
+    ],
+    "cta": "Alle Leistungen und Preise ansehen"
+  },
+  "facts": {
+    "headline": "BayReno auf einen Blick",
+    "items": [
+      { "label": "Marke von", "value": "Einzelunternehmen Martin Marcinko" },
+      { "label": "Bedeutung", "value": "Bayerische Renovierung" },
+      { "label": "Seit", "value": "2004" },
+      { "label": "Sitz", "value": "Germering bei München" },
+      { "label": "Einsatzgebiet", "value": "München und rund 50 km Umkreis" },
+      { "label": "Schwestermarken", "value": "SuperUmzug, Entrümpelung München" },
+      { "label": "Eigene Website", "value": "bayreno.de" },
+      { "label": "Sprachen", "value": "Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch, Kroatisch" }
+    ]
+  },
+  "siblings": {
+    "headline": "Die beiden Schwestermarken",
+    "body": "BayReno, SuperUmzug und Entrümpelung München sind drei Marken eines einzigen Unternehmens. Sie können jede einzeln beauftragen oder alle drei als einen Auftrag.",
+    "items": [
+      {
+        "label": "SuperUmzug",
+        "body": "Privat- und Firmenumzüge in München und Umgebung, über 1.000 Umzüge seit 2004.",
+        "href": "/umzug"
+      },
+      {
+        "label": "Entrümpelung München",
+        "body": "Entrümpelung und Haushaltsauflösung, fachgerechte Entsorgung, besenreine Übergabe.",
+        "href": "/entruempelung"
+      },
+      {
+        "label": "Alles zusammen",
+        "body": "Umzug, Entrümpelung und Renovierung als ein Auftrag mit einem Zeitplan und einem Festpreis.",
+        "href": "/komplettservice"
+      }
+    ]
+  },
+  "externalSite": {
+    "headline": "BayReno hat außerdem eine eigene Website",
+    "body": "Unter bayreno.de läuft die eigene Seite der Marke. Sie gehört demselben Betrieb: dieselbe Adresse in Germering, derselbe Inhaber, dieselben Leistungen. Beide Seiten führen zum selben Ansprechpartner — Sie können anfragen, wo es Ihnen lieber ist.",
+    "linkLabel": "bayreno.de öffnen"
+  },
+  "faq": {
+    "headline": "Häufige Fragen zu BayReno",
+    "items": [
+      {
+        "question": "Was ist BayReno?",
+        "answer": "BayReno ist die Renovierungsmarke des Einzelunternehmens Martin Marcinko aus Germering bei München. Unter diesem Namen werden seit 2004 Malerarbeiten, Bodenverlegung, Badsanierung und Komplettrenovierungen in München und Umgebung ausgeführt."
+      },
+      {
+        "question": "Wofür steht der Name BayReno?",
+        "answer": "BayReno steht für Bayerische Renovierung. Der Name setzt sich aus „Bay“ für Bayern und „Reno“ für Renovierung zusammen und wird in einem Wort geschrieben, mit großem B und großem R."
+      },
+      {
+        "question": "Ist BayReno eine eigene Firma?",
+        "answer": "Nein. BayReno ist eine Geschäftsbezeichnung, keine eigene Rechtsform. Rechtsträger ist das Einzelunternehmen Martin Marcinko mit Sitz in Germering. Derselbe Betrieb führt auch die Marken SuperUmzug und Entrümpelung München."
+      },
+      {
+        "question": "Was kostet eine Renovierung bei BayReno?",
+        "answer": "Malerarbeiten liegen marktüblich bei 12 bis 25 € pro Quadratmeter Wandfläche, Laminat bei 35 bis 55 € und Parkett bei 70 bis 130 € pro Quadratmeter, eine Komplettbadsanierung bei 9.000 bis 22.000 €. Alle Angaben sind Bruttopreise inklusive 19 % MwSt. Den verbindlichen Festpreis erhalten Sie nach einer Besichtigung."
+      },
+      {
+        "question": "Arbeitet BayReno auch in bewohnten Wohnungen?",
+        "answer": "Ja, das ist aber aufwendiger. In möblierten Räumen wird abgedeckt, geschoben und in Etappen gearbeitet; der Unterschied zu leeren Räumen liegt erfahrungsgemäß bei 15 bis 30 Prozent. Wenn ohnehin ein Umzug ansteht, ist es meist günstiger, danach zu renovieren."
+      },
+      {
+        "question": "Wo finde ich BayReno im Internet?",
+        "answer": "Die Marke hat eine eigene Website unter bayreno.de und ist zusätzlich als Teil von mmoving.de erreichbar, wo sie zusammen mit SuperUmzug und Entrümpelung München auftritt. Beide gehören demselben Betrieb."
+      },
+      {
+        "question": "Kann ich Renovierung und Umzug zusammen beauftragen?",
+        "answer": "Ja, und das ist der übliche Fall. Die typische Reihenfolge ist Umzug, dann Entrümpelung des Restbestands, dann Renovierung der leeren Wohnung, dann Übergabe. Weil alle drei Marken zu einem Betrieb gehören, fallen Anfahrt, Rüstzeit und Koordination nur einmal an."
+      }
+    ]
+  }
+}

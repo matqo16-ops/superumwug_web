@@ -13,6 +13,9 @@ export const routing = defineRouting({
     "/umzug": { de: "/umzug", en: "/moving" },
     "/umzug/[stadtteil]": "/umzug/[stadtteil]",
     "/renovierung": { de: "/renovierung", en: "/renovation" },
+    // The brand's own page. Deliberately the same slug in both locales: it is
+    // a name, and a search for it must land on a URL that spells it exactly.
+    "/bayreno": "/bayreno",
     "/entruempelung": { de: "/entruempelung", en: "/clearance" },
     "/komplettservice": { de: "/komplettservice", en: "/full-service" },
     "/ueber-uns": { de: "/ueber-uns", en: "/about" },

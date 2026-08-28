@@ -69,7 +69,9 @@ export default async function HomePage({ params }: Props) {
             return (
               <Link
                 key={card.brandId}
-                href={brand.href}
+                // The card's heading is the brand name, so where a brand has
+                // its own page this link carries the name as anchor text.
+                href={brand.brandPage ?? brand.href}
                 className="group block rounded-xl border border-hairline bg-white p-7 shadow-card transition-colors hover:border-gold"
               >
                 <h3 className="font-display text-xl font-semibold text-navy group-hover:text-gold-deep">
