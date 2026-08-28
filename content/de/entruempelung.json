@@ -10,6 +10,10 @@
     "primaryCta": "Rückruf anfordern",
     "secondaryCta": "Ablauf ansehen"
   },
+  "brandIdentity": {
+    "heading": "Wer hinter Entrümpelung München steht",
+    "body": "Entrümpelung München ist die Entrümpelungsmarke des Einzelunternehmens Martin Marcinko mit Sitz in Germering bei München, tätig seit 2004. Der Name ist eine Geschäftsbezeichnung, keine eigene Rechtsform — wer Entrümpelung München beauftragt, schließt den Vertrag mit Martin Marcinko, mit derselben Haftung und demselben Ansprechpartner wie bei den Schwestermarken SuperUmzug für Umzüge und BayReno für Renovierung. Das ist der praktische Vorteil, wenn nach der Entrümpelung noch ein Umzug oder eine Renovierung ansteht: ein Betrieb, ein Terminplan, eine Rechnung."
+  },
   "services": {
     "headline": "Leistungen",
     "items": [
@@ -68,6 +72,14 @@
   "faq": {
     "headline": "Häufige Fragen zur Entrümpelung in München",
     "items": [
+      {
+        "question": "Ist Entrümpelung München eine eigene Firma?",
+        "answer": "Nein. Entrümpelung München ist eine Geschäftsbezeichnung, keine eigene Rechtsform. Rechtsträger ist das Einzelunternehmen Martin Marcinko mit Sitz in Germering. Derselbe Betrieb führt auch die Marken SuperUmzug für Umzüge und BayReno für Renovierung."
+      },
+      {
+        "question": "Was ist Entrümpelung München?",
+        "answer": "Entrümpelung München ist die Entrümpelungsmarke des Einzelunternehmens Martin Marcinko aus Germering bei München. Unter diesem Namen werden seit 2004 Wohnungen, Häuser, Keller, Dachböden und Gewerbeflächen in München und Umgebung entrümpelt — zum Festpreis nach kurzer Besichtigung, mit fachgerechter Entsorgung und besenreiner Übergabe."
+      },
       {
         "question": "Was kostet eine Entrümpelung in München?",
         "answer": "Marktüblich 35 bis 70 € pro Quadratmeter. Eine 60-m²-Wohnung liegt damit bei rund 1.800 bis 3.500 €, ein Kellerabteil ab etwa 300 €, ein Einfamilienhaus bei 4.500 bis 9.000 €. Nach kurzer Besichtigung erhalten Sie einen Festpreis inklusive Entsorgung."

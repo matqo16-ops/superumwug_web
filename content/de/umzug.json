@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "SuperUmzug: Umzug München — Umzugsunternehmen seit 2004",
+    "title": "Umzug München — Umzugsunternehmen seit 2004 | mmoving.de",
     "description": "SuperUmzug ist die Umzugsmarke von mmoving.de: Privat- und Firmenumzüge in München, Verpackung, Montage, Transport, Einlagerung. Festpreis nach Besichtigung."
   },
   "hero": {
@@ -187,6 +187,11 @@
         "label": "Halteverbotszone in München beantragen",
         "body": "Kosten, Fristen und Ablauf beim KVR — und was passiert, wenn trotzdem jemand in der Zone parkt.",
         "href": "/ratgeber/halteverbotszone-muenchen"
+      },
+      {
+        "label": "SuperUmzug",
+        "body": "Wer hinter der Marke steht, was sie seit 2004 macht und was sie ausdrücklich nicht transportiert.",
+        "href": "/superumzug"
       }
     ]
   },

@@ -85,12 +85,22 @@ export default async function EntruempelungPage({ params }: Props) {
         ]}
       />
 
+      {/* Who trades under the name — high on the page, where it gets read. */}
+      <Section variant="light">
+        <div className="max-w-3xl">
+          <ServiceLead text={content.lead} />
+          <h2 className="mt-8 font-display text-xl font-semibold text-navy">
+            {content.brandIdentity.heading}
+          </h2>
+          <p className="mt-3 leading-relaxed text-anthracite/85">
+            {content.brandIdentity.body}
+          </p>
+        </div>
+      </Section>
+
       {/* Services */}
       <Section variant="cream">
         <SectionHeading>{content.services.headline}</SectionHeading>
-        <div className="mt-4">
-          <ServiceLead text={content.lead} />
-        </div>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {content.services.items.map((item) => (
             <div

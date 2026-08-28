@@ -134,7 +134,7 @@ export function brandNodes() {
       "@id": `${SITE_URL}/#brand-superumzug`,
       name: "SuperUmzug",
       alternateName: ["Super Umzug", "SuperUmzug München"],
-      url: absoluteUrl("de", "/umzug"),
+      url: absoluteUrl("de", "/superumzug"),
       sameAs: [superumzugSite],
       logo: `${SITE_URL}/logos/super-umzug.png`,
       description:
@@ -144,7 +144,11 @@ export function brandNodes() {
       "@type": "Brand",
       "@id": `${SITE_URL}/#brand-entruempelung-muenchen`,
       name: "Entrümpelung München",
-      alternateName: ["EntrümpelungMünchen"],
+      alternateName: ["EntrümpelungMünchen", "Entrümpelung München by mmoving.de"],
+      // Points at the service page, and there is deliberately no separate
+      // brand page: unlike the other two, this name is also the head
+      // commercial keyword, so a second page carrying it would split the
+      // signal against /entruempelung rather than reinforce it.
       url: absoluteUrl("de", "/entruempelung"),
       logo: `${SITE_URL}/logos/super-entruempelung.png`,
       description:

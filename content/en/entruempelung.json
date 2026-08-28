@@ -10,6 +10,10 @@
     "primaryCta": "Request a callback",
     "secondaryCta": "See how it works"
   },
+  "brandIdentity": {
+    "heading": "Who is behind Entrümpelung München",
+    "body": "Entrümpelung München is the clearance brand of the sole proprietorship Martin Marcinko, based in Germering near Munich and trading since 2004. The name is a trading name, not a separate legal form — booking Entrümpelung München means contracting with Martin Marcinko, under the same liability and the same single point of contact as the sister brands SuperUmzug for moves and BayReno for renovation. That is the practical advantage when a move or a renovation follows the clearance: one business, one schedule, one invoice."
+  },
   "services": {
     "headline": "Services",
     "items": [
@@ -68,6 +72,14 @@
   "faq": {
     "headline": "Frequently asked questions about clearance in Munich",
     "items": [
+      {
+        "question": "Is Entrümpelung München a separate company?",
+        "answer": "No. Entrümpelung München is a trading name, not a separate legal form. The legal entity is the sole proprietorship Martin Marcinko, based in Germering. The same business also trades as SuperUmzug for moves and BayReno for renovation."
+      },
+      {
+        "question": "What is Entrümpelung München?",
+        "answer": "Entrümpelung München is the clearance brand of the sole proprietorship Martin Marcinko in Germering near Munich. Flats, houses, cellars, attics and commercial premises across Munich and the surrounding area have been cleared under this name since 2004 — at a fixed price after a short survey, with correct disposal and a broom-clean handover."
+      },
       {
         "question": "What does a clearance in Munich cost?",
         "answer": "Typical market rates are €35–70 per square metre. A 60 m² flat therefore runs about €1,800–3,500, a cellar unit from around €300, a detached house €4,500–9,000. After a short survey you receive a fixed price including disposal."

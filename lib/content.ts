@@ -71,9 +71,16 @@ export function getKnowledgeBase(): string {
 export const getUeberUns = (locale: Locale) =>
   readJson<UeberUnsContent>(locale, "ueber-uns.json");
 
-/** /bayreno — the brand's own page, so the bare name has something to match. */
+/**
+ * Brand pages — one per trading name, so a search for the bare name has
+ * something to match. Entrümpelung München deliberately has none: that name is
+ * also the head commercial keyword, so a second page carrying it would compete
+ * with /entruempelung instead of supporting it.
+ */
 export const getBayreno = (locale: Locale) =>
   readJson<BrandPageContent>(locale, "bayreno.json");
+export const getSuperumzug = (locale: Locale) =>
+  readJson<BrandPageContent>(locale, "superumzug.json");
 
 /** German only — the guide is not translated. */
 export const getHalteverbotszone = () =>

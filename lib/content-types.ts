@@ -256,6 +256,16 @@ export interface RenovierungContent extends ServiceSeoContent {
 export interface EntruempelungContent extends ServiceSeoContent {
   meta: PageMeta;
   hero: Hero;
+  /**
+   * Who trades under the name, stated on the service page itself.
+   *
+   * The other two brands each got their own page at their own name. This one
+   * cannot: "Entrümpelung München" is simultaneously the brand and the head
+   * commercial keyword, so a second page carrying it would compete with this
+   * one for the query that matters most. The brand-identity content therefore
+   * lives here, where it reinforces the page instead of splitting it.
+   */
+  brandIdentity: { heading: string; body: string };
   services: { headline: string; items: TitledItem[] };
   process: { headline: string; imageAlt: string; steps: TitledItem[] };
   faq: { headline: string; items: FaqItem[] };

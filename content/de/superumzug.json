@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "SuperUmzug — Umzugsunternehmen in München seit 2004",
+    "description": "SuperUmzug ist die Umzugsmarke des Einzelunternehmens Martin Marcinko in Germering bei München. Über 1.000 Privat- und Firmenumzüge seit 2004, Festpreis nach Besichtigung, Beratung in sieben Sprachen."
+  },
+  "hero": {
+    "eyebrow": "Die Marke",
+    "headline": "SuperUmzug",
+    "subheadline": "Die Umzugsmarke für München und Umgebung — über 1.000 durchgeführte Umzüge seit 2004.",
+    "primaryCta": "Rückruf anfordern",
+    "secondaryCta": "Leistungen und Preise"
+  },
+  "lead": "SuperUmzug ist die Umzugsmarke des Einzelunternehmens Martin Marcinko mit Sitz in Germering bei München, gegründet 2004. Unter dem Namen SuperUmzug werden Privat- und Firmenumzüge in München und im Umkreis von rund 50 Kilometern durchgeführt — von der Planung über Verpackung, Möbelmontage und Transport bis zur besenreinen Übergabe. SuperUmzug ist keine eigene Firma, sondern eine von drei Marken desselben Betriebs, neben BayReno für Renovierung und Entrümpelung München für Entrümpelung und Haushaltsauflösung.",
+  "nameExplainer": {
+    "heading": "Was der Name SuperUmzug bedeutet",
+    "body": "SuperUmzug wird in einem Wort geschrieben, mit großem S und großem U — nicht Super Umzug und nicht Superumzug GmbH. Der Name ist eine Geschäftsbezeichnung, keine Rechtsform: Rechtsträger ist das Einzelunternehmen Martin Marcinko in Germering. Wer SuperUmzug beauftragt, schließt den Vertrag mit ihm, und zwar mit derselben Haftung und demselben Ansprechpartner wie bei den beiden Schwestermarken."
+  },
+  "sections": [
+    {
+      "heading": "Wofür SuperUmzug steht",
+      "body": "Ein Festpreis, der nach einer Besichtigung entsteht und nicht am Umzugstag nachverhandelt wird. Das Volumen wird vorher aufgenommen — vor Ort oder per Foto und Video —, und der Kostenvoranschlag darf um höchstens 20 Prozent überschritten werden. Zusatzarbeiten nur nach vorheriger Absprache. Ein Festpreis ohne Besichtigung ist das häufigste Warnsignal in dieser Branche, und wir geben ihn deshalb nicht ab."
+    },
+    {
+      "heading": "Was SuperUmzug nicht macht",
+      "body": "Keine Klaviere, Flügel, Tresore, Billardtische, Industriemaschinen oder kranpflichtigen Lasten, keine Überseeumzüge und keinen Möbellift. Maßstab ist, was zwei Personen sicher von Hand oder mit Gurten bewegen können; Whirlpool und Sauna bis 120 kg, große Kübelpflanzen bis 100 kg. Das sagen wir lieber vorher als am Umzugstag — ein Anbieter, der alles zusagt, hat entweder nicht zugehört oder plant, das Problem beim Kunden abzuladen."
+    },
+    {
+      "heading": "Haftung statt Garantieversprechen",
+      "body": "Für den Transport gilt die gesetzliche Haftung des Möbelspediteurs nach § 451e HGB: 620 € je Kubikmeter Laderaum. Für höhere Werte vereinbaren wir eine zusätzliche Transportversicherung, deren Versicherungswert Sie selbst bestimmen. Sichtbare Schäden sind bei der Übergabe zu melden, verdeckte innerhalb von 14 Tagen. Wir werben bewusst nicht mit einer darüber hinausgehenden Garantie — was zählt, ist die Regulierung im Schadensfall, nicht das Versprechen davor."
+    },
+    {
+      "heading": "Wo SuperUmzug arbeitet",
+      "body": "Schwerpunkt ist München mit allen Stadtbezirken sowie der westliche Landkreis: Germering, Puchheim, Gröbenzell, Olching, Fürstenfeldbruck und Gauting. Dazu Dachau, Freising, Erding, Ebersberg, Starnberg, Unterschleißheim, Garching und der Landkreis München. Fernumzüge innerhalb Deutschlands und der EU sind möglich; Überseeumzüge per Container oder Luftfracht nicht."
+    }
+  ],
+  "services": {
+    "headline": "Was SuperUmzug übernimmt",
+    "intro": "Die vollständigen Leistungen mit Preistabelle nach Wohnungsgröße stehen auf der Umzugsseite. Hier der Überblick:",
+    "items": [
+      {
+        "title": "Privatumzüge",
+        "body": "Von der Einzimmerwohnung bis zum Einfamilienhaus, innerhalb Münchens oder ins Umland — mit Volumenaufnahme und Festpreis vorab."
+      },
+      {
+        "title": "Firmenumzüge",
+        "body": "Büros, Praxen und Lager, auf Wunsch am Wochenende, damit der Betrieb weiterläuft. Größter bisheriger Auftrag: rund 40 Arbeitsplätze."
+      },
+      {
+        "title": "Verpackung",
+        "body": "Material zum Selbstpacken oder Vollverpackung durch das Team. Umzugsdecken, Stretchfolie, Luftpolsterfolie und spezielle Matratzenhüllen."
+      },
+      {
+        "title": "Möbel- und Küchenmontage",
+        "body": "Demontage vor dem Transport und Aufbau in der neuen Wohnung, einschließlich Küchen — der Punkt, an dem SuperUmzug und BayReno ineinandergreifen."
+      },
+      {
+        "title": "Einlagerung",
+        "body": "Eigenes Lager und geprüfte Partner, wenn zwischen Auszug und Einzug eine Lücke liegt."
+      },
+      {
+        "title": "Halteverbotszone",
+        "body": "Beantragung beim Kreisverwaltungsreferat, Schilder, Dokumentation und Abbau: 300 € brutto je Adresse, rund drei Wochen Vorlauf."
+      }
+    ],
+    "cta": "Alle Leistungen und Preise ansehen"
+  },
+  "facts": {
+    "headline": "SuperUmzug auf einen Blick",
+    "items": [
+      { "label": "Marke von", "value": "Einzelunternehmen Martin Marcinko" },
+      { "label": "Seit", "value": "2004" },
+      { "label": "Umzüge", "value": "über 1.000 durchgeführt" },
+      { "label": "Sitz", "value": "Germering bei München" },
+      { "label": "Einsatzgebiet", "value": "München und rund 50 km Umkreis" },
+      { "label": "Fuhrpark", "value": "2 Transporter bis 3,5 t, 2 Anhänger" },
+      { "label": "Schwestermarken", "value": "BayReno, Entrümpelung München" },
+      { "label": "Eigene Website", "value": "superumzug.de" },
+      { "label": "Sprachen", "value": "Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch, Kroatisch" }
+    ]
+  },
+  "siblings": {
+    "headline": "Die beiden Schwestermarken",
+    "body": "SuperUmzug, BayReno und Entrümpelung München sind drei Marken eines einzigen Unternehmens. Sie können jede einzeln beauftragen oder alle drei als einen Auftrag.",
+    "items": [
+      {
+        "label": "Entrümpelung München",
+        "body": "Entrümpelung und Haushaltsauflösung, fachgerechte Entsorgung, besenreine Übergabe.",
+        "href": "/entruempelung"
+      },
+      {
+        "label": "BayReno",
+        "body": "Bayerische Renovierung — Malerarbeiten, Böden, Bad und Komplettsanierung.",
+        "href": "/bayreno"
+      },
+      {
+        "label": "Alles zusammen",
+        "body": "Umzug, Entrümpelung und Renovierung als ein Auftrag mit einem Zeitplan und einem Festpreis.",
+        "href": "/komplettservice"
+      }
+    ]
+  },
+  "externalSite": {
+    "headline": "SuperUmzug hat außerdem eine eigene Website",
+    "body": "Unter superumzug.de läuft die eigene Seite der Marke. Sie gehört demselben Betrieb: dieselbe Adresse in Germering, derselbe Inhaber, dieselbe Telefonnummer. Beide Seiten führen zum selben Ansprechpartner — Sie können anfragen, wo es Ihnen lieber ist.",
+    "linkLabel": "superumzug.de öffnen"
+  },
+  "faq": {
+    "headline": "Häufige Fragen zu SuperUmzug",
+    "items": [
+      {
+        "question": "Was ist SuperUmzug?",
+        "answer": "SuperUmzug ist die Umzugsmarke des Einzelunternehmens Martin Marcinko aus Germering bei München. Unter diesem Namen werden seit 2004 Privat- und Firmenumzüge in München und Umgebung durchgeführt, über 1.000 bis heute."
+      },
+      {
+        "question": "Ist SuperUmzug eine eigene Firma?",
+        "answer": "Nein. SuperUmzug ist eine Geschäftsbezeichnung, keine eigene Rechtsform. Rechtsträger ist das Einzelunternehmen Martin Marcinko mit Sitz in Germering. Derselbe Betrieb führt auch die Marken BayReno und Entrümpelung München."
+      },
+      {
+        "question": "Schreibt man SuperUmzug in einem Wort?",
+        "answer": "Ja, in einem Wort und mit großem S und großem U: SuperUmzug. Die Schreibweise Super Umzug wird ebenfalls verwendet und meint dieselbe Marke."
+      },
+      {
+        "question": "Was kostet ein Umzug bei SuperUmzug?",
+        "answer": "Marktüblich liegt ein Umzug innerhalb Münchens bei 450 bis 850 € für eine Einzimmerwohnung, 700 bis 1.400 € für zwei Zimmer und 1.400 bis 2.800 € für vier Zimmer. Alle Angaben sind Bruttopreise inklusive 19 % MwSt. Den verbindlichen Festpreis erhalten Sie nach einer Besichtigung."
+      },
+      {
+        "question": "Wie schnell kann SuperUmzug einen Umzug durchführen?",
+        "answer": "Für Privatumzüge empfehlen wir zwei bis drei Wochen Vorlauf, für Firmenumzüge vier bis sechs Wochen. Zum Monatsende zwischen Juni und September sollten Sie vier bis sechs Wochen einplanen. Expressumzüge organisieren wir je nach Verfügbarkeit innerhalb von 24 Stunden, zum doppelten Satz."
+      },
+      {
+        "question": "Wo finde ich SuperUmzug im Internet?",
+        "answer": "Die Marke hat eine eigene Website unter superumzug.de und ist zusätzlich als Teil von mmoving.de erreichbar, wo sie zusammen mit BayReno und Entrümpelung München auftritt. Beide gehören demselben Betrieb."
+      },
+      {
+        "question": "In welchen Sprachen berät SuperUmzug?",
+        "answer": "Auf Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch und Kroatisch. Für viele Zuziehende in München ist das der praktische Unterschied zwischen einem Umzug, den man versteht, und einem, den man erduldet."
+      }
+    ]
+  }
+}

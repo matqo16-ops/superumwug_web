@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "SuperUmzug — Moving Company in Munich Since 2004",
+    "description": "SuperUmzug is the moving brand of Martin Marcinko's business in Germering near Munich. Over 1,000 private and corporate moves since 2004, fixed price after a survey, advice in seven languages."
+  },
+  "hero": {
+    "eyebrow": "The brand",
+    "headline": "SuperUmzug",
+    "subheadline": "The moving brand for Munich and the surrounding area — over 1,000 moves completed since 2004.",
+    "primaryCta": "Request a callback",
+    "secondaryCta": "Services and prices"
+  },
+  "lead": "SuperUmzug is the moving brand of the sole proprietorship Martin Marcinko, based in Germering near Munich and trading since 2004. Private and corporate moves across Munich and roughly 50 km around it are carried out under the SuperUmzug name — from planning through packing, furniture assembly and transport to a broom-clean handover. SuperUmzug is not a separate company but one of three brands of the same business, alongside BayReno for renovation and Entrümpelung München for clearances.",
+  "nameExplainer": {
+    "heading": "What the name SuperUmzug means",
+    "body": "SuperUmzug is written as one word with a capital S and a capital U — not Super Umzug, and not SuperUmzug GmbH. “Umzug” is simply the German word for a move or relocation. The name is a trading name, not a legal form: the legal entity is the sole proprietorship Martin Marcinko in Germering. A contract with SuperUmzug is a contract with him, under the same liability and the same single point of contact as the two sister brands."
+  },
+  "sections": [
+    {
+      "heading": "What SuperUmzug stands for",
+      "body": "A fixed price that comes out of a survey and is not renegotiated on moving day. The volume is assessed beforehand — on site or by photo and video — and the estimate may be exceeded by at most 20 per cent, with extra work only by prior agreement. A fixed price offered without a survey is the most common warning sign in this trade, which is why we do not give one."
+    },
+    {
+      "heading": "What SuperUmzug does not do",
+      "body": "No pianos, grand pianos, safes, billiard tables, industrial machinery or crane-requiring loads, no overseas moves, and no furniture lift. The benchmark is what two people can safely move by hand or with straps; whirlpools and saunas up to 120 kg, large potted plants up to 100 kg. We would rather say so in advance than on moving day — a provider who agrees to everything either wasn't listening or plans to make the problem yours."
+    },
+    {
+      "heading": "Liability rather than a guarantee",
+      "body": "Statutory carrier liability applies under § 451e of the German Commercial Code: €620 per cubic metre of loading space. For higher values we arrange additional transport insurance and you set the insured value yourself. Visible damage must be reported at handover, hidden damage within 14 days. We deliberately do not advertise any guarantee beyond this — what counts is how a claim is settled, not the promise made beforehand."
+    },
+    {
+      "heading": "Where SuperUmzug works",
+      "body": "The focus is Munich and all its districts, plus the western district: Germering, Puchheim, Gröbenzell, Olching, Fürstenfeldbruck and Gauting. Also Dachau, Freising, Erding, Ebersberg, Starnberg, Unterschleißheim, Garching and the Munich district. Long-distance moves within Germany and the EU are possible; overseas moves by container or air freight are not."
+    }
+  ],
+  "services": {
+    "headline": "What SuperUmzug handles",
+    "intro": "The full service list with a price table by flat size is on the moving page. In brief:",
+    "items": [
+      {
+        "title": "Private moves",
+        "body": "From a one-room flat to a detached house, within Munich or out to the surrounding area — with a volume survey and a fixed price up front."
+      },
+      {
+        "title": "Corporate moves",
+        "body": "Offices, practices and warehouses, at the weekend if you prefer so business continues. Largest job so far: around 40 workstations."
+      },
+      {
+        "title": "Packing",
+        "body": "Materials for packing yourself, or full packing by the team. Moving blankets, stretch film, bubble wrap and dedicated mattress covers."
+      },
+      {
+        "title": "Furniture and kitchen assembly",
+        "body": "Dismantling before transport and reassembly at the new address, kitchens included — the point where SuperUmzug and BayReno meet."
+      },
+      {
+        "title": "Storage",
+        "body": "Our own warehouse and vetted partners, for when there is a gap between moving out and moving in."
+      },
+      {
+        "title": "Parking restriction zone",
+        "body": "Applied for at the city traffic authority, including signs, documentation and removal: €300 gross per address, about three weeks' lead time."
+      }
+    ],
+    "cta": "See all services and prices"
+  },
+  "facts": {
+    "headline": "SuperUmzug at a glance",
+    "items": [
+      { "label": "Brand of", "value": "Sole proprietorship Martin Marcinko" },
+      { "label": "Since", "value": "2004" },
+      { "label": "Moves", "value": "over 1,000 completed" },
+      { "label": "Based in", "value": "Germering near Munich" },
+      { "label": "Area served", "value": "Munich and roughly 50 km around" },
+      { "label": "Fleet", "value": "2 vans up to 3.5 t, 2 trailers" },
+      { "label": "Sister brands", "value": "BayReno, Entrümpelung München" },
+      { "label": "Own website", "value": "superumzug.de" },
+      { "label": "Languages", "value": "German, English, Slovak, Czech, Polish, Ukrainian, Croatian" }
+    ]
+  },
+  "siblings": {
+    "headline": "The two sister brands",
+    "body": "SuperUmzug, BayReno and Entrümpelung München are three brands of a single business. You can book any one of them on its own, or all three as one job.",
+    "items": [
+      {
+        "label": "Entrümpelung München",
+        "body": "Clearance and house clearance, correct disposal, handed over broom-clean.",
+        "href": "/entruempelung"
+      },
+      {
+        "label": "BayReno",
+        "body": "Bavarian renovation — painting, flooring, bathrooms and full refurbishment.",
+        "href": "/bayreno"
+      },
+      {
+        "label": "All three together",
+        "body": "Moving, clearance and renovation as one job with one schedule and one fixed price.",
+        "href": "/komplettservice"
+      }
+    ]
+  },
+  "externalSite": {
+    "headline": "SuperUmzug also has its own website",
+    "body": "The brand runs its own site at superumzug.de. It belongs to the same business: the same address in Germering, the same owner, the same phone number. Both sites reach the same person — enquire wherever you prefer.",
+    "linkLabel": "Open superumzug.de"
+  },
+  "faq": {
+    "headline": "Frequently asked questions about SuperUmzug",
+    "items": [
+      {
+        "question": "What is SuperUmzug?",
+        "answer": "SuperUmzug is the moving brand of the sole proprietorship Martin Marcinko in Germering near Munich. Private and corporate moves have been carried out under this name across Munich and the surrounding area since 2004 — over 1,000 to date."
+      },
+      {
+        "question": "Is SuperUmzug a separate company?",
+        "answer": "No. SuperUmzug is a trading name, not a separate legal entity. The legal entity is the sole proprietorship Martin Marcinko, based in Germering. The same business also trades as BayReno and Entrümpelung München."
+      },
+      {
+        "question": "Is SuperUmzug written as one word?",
+        "answer": "Yes, one word with a capital S and a capital U: SuperUmzug. The spelling Super Umzug is also used and refers to the same brand."
+      },
+      {
+        "question": "What does a move with SuperUmzug cost?",
+        "answer": "Within Munich the market rate is €450 to €850 for a one-room flat, €700 to €1,400 for two rooms and €1,400 to €2,800 for four rooms. All figures are gross, including 19% VAT. You get a binding fixed price after a survey."
+      },
+      {
+        "question": "How quickly can SuperUmzug carry out a move?",
+        "answer": "For private moves we recommend two to three weeks' notice, and four to six weeks for corporate moves. For month-end dates between June and September, allow four to six weeks. Express moves within 24 hours are possible subject to availability, at double the rate."
+      },
+      {
+        "question": "Where can I find SuperUmzug online?",
+        "answer": "The brand has its own website at superumzug.de and also appears as part of mmoving.de alongside BayReno and Entrümpelung München. Both belong to the same business."
+      },
+      {
+        "question": "Which languages does SuperUmzug speak?",
+        "answer": "German, English, Slovak, Czech, Polish, Ukrainian and Croatian. For many people moving to Munich that is the practical difference between a move you understand and one you endure."
+      }
+    ]
+  }
+}
