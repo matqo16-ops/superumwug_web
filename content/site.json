@@ -27,9 +27,9 @@
     "latitude": 48.1342,
     "longitude": 11.3689
   },
-  "brandSites": [
-    "https://www.bayreno.de",
-    "https://superumzug.de"
-  ],
+  "brandSites": {
+    "bayreno": "https://www.bayreno.de",
+    "superumzug": "https://superumzug.de"
+  },
   "googleBusinessProfile": "https://maps.google.com/?cid=4349102244822623293"
 }

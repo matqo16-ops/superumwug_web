@@ -114,7 +114,6 @@ function publishedOffers() {
  */
 export function brandNodes() {
   const site = getSiteData();
-  const [bayrenoSite, superumzugSite] = site.brandSites;
   return [
     {
       "@type": "Brand",
@@ -124,7 +123,7 @@ export function brandNodes() {
       // rather than a typo: Bay(ern) + Reno(vierung).
       alternateName: ["Bayerische Renovierung", "Bay Reno", "BayReno München"],
       url: `${SITE_URL}/bayreno`,
-      sameAs: [bayrenoSite],
+      sameAs: [site.brandSites.bayreno],
       logo: `${SITE_URL}/logos/bayreno.png`,
       description:
         "BayReno — Bayerische Renovierung. Renovierungsmarke des Einzelunternehmens Martin Marcinko in Germering bei München: Malerarbeiten, Böden, Bad und Komplettsanierung seit 2004.",
@@ -135,7 +134,7 @@ export function brandNodes() {
       name: "SuperUmzug",
       alternateName: ["Super Umzug", "SuperUmzug München"],
       url: absoluteUrl("de", "/superumzug"),
-      sameAs: [superumzugSite],
+      sameAs: [site.brandSites.superumzug],
       logo: `${SITE_URL}/logos/super-umzug.png`,
       description:
         "SuperUmzug — Umzugsmarke des Einzelunternehmens Martin Marcinko: Privat- und Firmenumzüge in München und Umgebung seit 2004.",
@@ -174,6 +173,70 @@ export function personSchema() {
   };
 }
 
+/**
+ * The site itself as a WebSite node, distinct from the business it publishes.
+ * No SearchAction: the site has no internal search endpoint, and declaring
+ * one that doesn't exist would be structured data that doesn't match the
+ * page — worse than not having the node at all.
+ */
+export function websiteSchema(locale: Locale) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
+    url: SITE_URL,
+    name: "mmoving.de",
+    inLanguage: locale === "de" ? "de-DE" : "en",
+    publisher: { "@id": BUSINESS_ID },
+  };
+}
+
+/**
+ * The four services as an ItemList, referencing each Service node by @id
+ * rather than restating it. Placed on the homepage so the root of the site
+ * hands both crawlers and LLMs one clean enumeration of what the business
+ * does, instead of leaving them to reconstruct it from four separate pages.
+ */
+export function servicesItemListSchema(locale: Locale) {
+  const services: { href: StaticPathname; name: string }[] = [
+    {
+      href: "/umzug",
+      name: locale === "de" ? "Umzug München" : "Moving in Munich",
+    },
+    {
+      href: "/entruempelung",
+      name:
+        locale === "de"
+          ? "Entrümpelung München"
+          : "Clearance in Munich",
+    },
+    {
+      href: "/renovierung",
+      name: locale === "de" ? "Renovierung München" : "Renovation in Munich",
+    },
+    {
+      href: "/komplettservice",
+      name:
+        locale === "de"
+          ? "Komplettservice: Umzug, Entrümpelung und Renovierung"
+          : "Full service: moving, clearance and renovation",
+    },
+  ];
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": `${SITE_URL}/#services`,
+    name: locale === "de" ? "Leistungen von mmoving.de" : "Services offered by mmoving.de",
+    itemListElement: services.map((s, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: absoluteUrl(locale, s.href),
+      item: { "@id": `${absoluteUrl(locale, s.href)}#service` },
+      name: s.name,
+    })),
+  };
+}
+
 /** LocalBusiness / MovingCompany — the root entity for the whole site. */
 export function localBusinessSchema(locale: Locale) {
   const site = getSiteData();
@@ -195,7 +258,11 @@ export function localBusinessSchema(locale: Locale) {
     // Ties this site to the Google Business Profile and to each brand's own
     // site as one and the same entity. The brand sites rank for their own
     // names; without this they look like competitors rather than us.
-    sameAs: [site.googleBusinessProfile, ...site.brandSites],
+    sameAs: [
+      site.googleBusinessProfile,
+      site.brandSites.bayreno,
+      site.brandSites.superumzug,
+    ],
     founder: { "@id": owner },
     employee: { "@id": owner },
     hasMap: site.googleBusinessProfile,

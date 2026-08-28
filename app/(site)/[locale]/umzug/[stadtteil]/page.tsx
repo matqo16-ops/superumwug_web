@@ -18,7 +18,7 @@ import { ChatCta } from "@/components/ChatCta";
 import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
 import { JsonLd } from "@/components/JsonLd";
-import { PricingTable } from "@/components/ServiceSections";
+import { CrossLinks, PricingTable } from "@/components/ServiceSections";
 import { Section, SectionHeading } from "@/components/Section";
 
 interface Props {
@@ -39,12 +39,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (locale !== "de" || !getStadtteilSlugs().includes(stadtteil)) return {};
   const d = getStadtteil(stadtteil);
   const url = urlFor(stadtteil);
+  // Both templates are budgeted against the longest district name in the set
+  // (Neuhausen-Nymphenburg, 21 chars) so every generated page stays inside
+  // what Google renders before truncating: title <=60 chars, description
+  // <=160. Measured, not guessed — see the district metadata check in the
+  // SEO audit.
   return {
-    title: `Umzugsunternehmen ${d.name} — Festpreis nach Besichtigung | mmoving.de`,
-    description: `Umzug in München-${d.name}: ${d.intro.slice(0, 110)}… Festpreis nach kostenloser Besichtigung, seit 2004.`,
+    title: `Umzug München-${d.name} — Festpreis`,
+    description: `Umzug in München-${d.name}: ${d.intro.slice(0, 80)}… Festpreis nach Besichtigung.`,
     alternates: { canonical: url },
     openGraph: {
-      title: `Umzugsunternehmen ${d.name} — Festpreis nach Besichtigung`,
+      title: `Umzug München-${d.name} — Festpreis nach Besichtigung`,
       description: d.intro,
       url,
       siteName: "mmoving.de",
@@ -224,6 +229,34 @@ export default async function StadtteilPage({ params }: Props) {
           </Link>
         </p>
       </Section>
+
+      {/* Every district page previously linked only to /umzug and to other
+          districts — the same "kombinieren" cross-sell the blog articles
+          already make gets no path from here to /entruempelung, /renovierung
+          or /komplettservice. Ten pages' worth of internal-link weight was
+          reaching one page instead of four. */}
+      <CrossLinks
+        content={{
+          headline: "Wenn zum Umzug noch mehr dazukommt",
+          items: [
+            {
+              label: "Entrümpelung",
+              body: "Alte Möbel und Sperriges direkt beim Auszug entsorgen, statt sie zweimal zu bewegen.",
+              href: "/entruempelung",
+            },
+            {
+              label: "Renovierung",
+              body: "Die leere Wohnung streichen und ausbessern, bevor sie übergeben wird — 15 bis 30 % günstiger als möbliert.",
+              href: "/renovierung",
+            },
+            {
+              label: "Komplettservice",
+              body: "Umzug, Entrümpelung und Renovierung als ein Auftrag mit einem Ansprechpartner und einem Festpreis.",
+              href: "/komplettservice",
+            },
+          ],
+        }}
+      />
 
       <ChatCta content={common.chatCta} />
 

@@ -442,12 +442,14 @@ export interface SiteData {
     longitude: number;
   };
   /**
-   * The separate websites the individual brands still run. Emitted as schema
-   * `sameAs`, which is how Google is told these sites and this one are one
-   * business — otherwise they read as unrelated sites competing for the same
-   * brand name, and the strongest one wins the brand query.
+   * The separate websites the individual brands still run, keyed by brand id
+   * rather than by array position — a positional array silently attaches the
+   * wrong URL to the wrong brand the moment the two entries are reordered.
+   * Emitted as schema `sameAs`, which is how Google is told these sites and
+   * this one are one business — otherwise they read as unrelated sites
+   * competing for the same brand name, and the strongest one wins the query.
    */
-  brandSites: string[];
+  brandSites: { bayreno: string; superumzug: string };
   /** Canonical Google Business Profile URL — feeds schema sameAs and the map link. */
   googleBusinessProfile: string;
 }

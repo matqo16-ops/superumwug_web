@@ -21,10 +21,14 @@
 - **E-Mail:** kontakt@bayreno.de
 - **Google Business Profile:** https://maps.google.com/?cid=4349102244822623293
 - **Kernunterscheidung:** drei Gewerke, ein Vertrag, ein Ansprechpartner, ein Terminplan
+- **Markenseiten:** https://mmoving.de/superumzug und https://mmoving.de/bayreno erklären die
+  jeweilige Marke selbst — Namensbedeutung, Rechtsträger, Verhältnis zu den Schwestermarken.
+  Entrümpelung München hat bewusst keine eigene Markenseite: der Name ist zugleich das
+  Hauptsuchwort, dafür steht die Markenidentität auf https://mmoving.de/entruempelung selbst.
 
 ## Leistungen
 
-### 1. Umzug (SuperUmzug) — https://mmoving.de/umzug
+### 1. Umzug (SuperUmzug) — https://mmoving.de/umzug · Markenseite: https://mmoving.de/superumzug
 Privat- und Firmenumzüge in München und Umgebung, seit 2004 und mit über 1.000 durchgeführten
 Umzügen. Enthalten sind Beratung und Planung, Verpackung (Material oder Vollverpackung durch das
 Team), Möbeldemontage und -montage, Transport, Einlagerung sowie Halteverbotszonen auf Anfrage.
@@ -32,6 +36,8 @@ Fernumzüge deutschlandweit und EU-weit; **keine** Überseeumzüge.
 **Haftung:** gesetzliche Haftung des Möbelspediteurs nach § 451e HGB in Höhe von 620 € je
 Kubikmeter Laderaum; darüber hinaus ist eine zusätzliche Transportversicherung zu einem vom
 Kunden selbst bestimmten Wert möglich.
+**Kein Möbellift.** Sperrige Möbel werden zerlegt und über das Treppenhaus getragen; ein
+Möbellift wird bei Bedarf bei einem Fremdanbieter beauftragt.
 **Nicht transportiert werden:** Klaviere, Flügel, Tresore, Billardtische, Industriemaschinen,
 kranpflichtige Lasten und lebende Tiere. Whirlpool/Sauna bis 120 kg, Kübelpflanzen bis 100 kg.
 
@@ -41,7 +47,7 @@ Gewerbeflächen. Fachgerechte Trennung und Entsorgung, Wiederverwertung wo mögl
 Aktenvernichtung nach DSGVO auf Anfrage, besenreine Übergabe. Haushaltsauflösungen im Todesfall
 werden diskret und einfühlsam abgewickelt.
 
-### 3. Renovierung (BayReno) — https://mmoving.de/renovierung
+### 3. Renovierung (BayReno) — https://mmoving.de/renovierung · Markenseite: https://mmoving.de/bayreno
 Renovierung und Sanierung: Malerarbeiten, Bodenbeläge (Vinyl, Parkett, Laminat, Fliesen), Bad
 und Sanitär, Montage und Demontage von Möbeln oder einer Küche, Trockenbau, Elektrik über
 Fachpartner, Komplettsanierungen mit koordinierten Gewerken. Feste, verbindliche Termine,
@@ -143,6 +149,8 @@ Besichtigung vor Ort oder per Foto/Video schriftlich fixiert.
 - https://mmoving.de/umzug — Umzug München, Haftung und Versicherung, FAQ
 - https://mmoving.de/entruempelung — Entrümpelung und Haushaltsauflösung München, Ablauf, FAQ
 - https://mmoving.de/renovierung — Renovierung und Sanierung München, Gewerke, Ablauf, FAQ
+- https://mmoving.de/superumzug — Markenseite SuperUmzug: Namensbedeutung, Rechtsträger, Fakten
+- https://mmoving.de/bayreno — Markenseite BayReno: Namensbedeutung, Rechtsträger, Fakten
 - https://mmoving.de/komplettservice — Umzug + Entrümpelung + Renovierung kombiniert, 3 Pakete
 - https://mmoving.de/b2b — Konditionen für Vermittler und Firmenkunden
 - https://mmoving.de/ueber-uns — Ein Unternehmen, drei Marken: Struktur, Sitz, Haftung, Sprachen
