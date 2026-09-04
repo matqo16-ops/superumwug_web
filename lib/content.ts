@@ -57,6 +57,8 @@ export const getImpressum = (locale: Locale) =>
   readJson<LegalContent>(locale, "impressum.json");
 export const getDatenschutz = (locale: Locale) =>
   readJson<LegalContent>(locale, "datenschutz.json");
+export const getAgb = (locale: Locale) =>
+  readJson<LegalContent>(locale, "agb.json");
 
 export const getBlogIndexContent = () =>
   readJson<BlogIndexContent>("de", "blog.json");

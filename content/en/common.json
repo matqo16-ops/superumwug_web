@@ -105,6 +105,10 @@
         "href": "/impressum"
       },
       {
+        "label": "Terms",
+        "href": "/agb"
+      },
+      {
         "label": "Privacy Policy",
         "href": "/datenschutz"
       }
