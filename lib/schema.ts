@@ -268,10 +268,14 @@ export function localBusinessSchema(locale: Locale) {
     founder: { "@id": owner },
     employee: { "@id": owner },
     hasMap: site.googleBusinessProfile,
-    // The line for this page's language is the primary one; both are declared
-    // as contactPoints with the language each is actually staffed in, which is
-    // how schema.org expresses "call this one and someone answers in English".
-    telephone: org.phone[locale],
+    // This node is the entity Google matches against the Business Profile — it
+    // carries the profile's name, its sameAs and its hasMap — so the primary
+    // telephone is the number the profile itself lists, not a language line.
+    // Name, address and phone are the three fields that matching turns on, and
+    // a phone that disagrees with the profile weakens all three. The language
+    // lines are not lost: they follow as contactPoints, tagged with the
+    // language each is actually staffed in, which is where they belong.
+    telephone: org.brandPhones.superumzug,
     contactPoint: [
       {
         "@type": "ContactPoint",

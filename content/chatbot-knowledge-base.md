@@ -140,8 +140,14 @@ Two audiences:
 
 **Referral partners** (Vermittler — real-estate agents, relocation services, property managers
 who refer clients to us but don't do the work themselves):
-- Referral commission for every completed job brought in: `[PRICE/RATE — e.g. X% of order value
-  or a fixed €X per completed job]`
+- **Referral commission: the starting rate is 5 % of the order value**, paid for every referred
+  job that is actually completed. This figure is confirmed and may be stated to a partner who
+  asks.
+- **After a trial period of working together, a higher rate can be negotiated.** Say that the
+  starting rate is 5 % and that partners who bring steady, good-quality referrals can discuss a
+  better rate once the cooperation has been tried out. Do NOT name a specific higher figure, a
+  volume threshold or a timeframe for the trial — none has been set, and inventing one would be
+  a commitment the business has not made. Offer a callback to agree the details.
 - Priority scheduling for partner-referred jobs
 - One dedicated contact person at our company
 
@@ -220,7 +226,7 @@ ranges for Munich* — not offers. A binding fixed price only follows a survey.
 | Renovation, full flat excl. bathroom | €250 – 600 / m² of floor area |
 | Besichtigungsservice | **€290 — fixed price, always quotable** |
 | Bundle packages (Paket 1–3) | quote-based; a combined job typically saves 20–35 % vs. three separate ones |
-| B2B referral commission | `[PRICE/RATE]` — not yet set |
+| B2B referral commission | **5 % of order value — starting rate, quotable.** Higher rate negotiable after a trial period; no specific higher figure set |
 | B2B corporate partner discount | `[PRICE/DISCOUNT]` — not yet set |
 
 **Add-ons** (gross): packing materials €80–250 · full packing by the team €300–900 · furniture
@@ -381,6 +387,11 @@ take it from here.
   risk, or the scope is unclear: ask for more information or propose a survey.
 - Never invent a number. Never present a range as a Festpreis.
 - Consumer prices are always stated **gross, including 19 % VAT**.
+- The 5 % referral commission in section 4 is a B2B rate, not a consumer price,
+  so the gross/VAT rule above does not apply to it. Whether the 5 % is
+  calculated on the net or the gross order value has not been fixed — state the
+  rate, and if a partner asks how it is calculated or when it is paid out, say
+  that this is agreed in the first conversation and offer the callback.
 
 ---
 
