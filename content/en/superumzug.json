@@ -67,15 +67,46 @@
   "facts": {
     "headline": "SuperUmzug at a glance",
     "items": [
-      { "label": "Brand of", "value": "Sole proprietorship Martin Marcinko" },
-      { "label": "Since", "value": "2004" },
-      { "label": "Moves", "value": "over 1,000 completed" },
-      { "label": "Based in", "value": "Germering near Munich" },
-      { "label": "Area served", "value": "Munich and roughly 50 km around" },
-      { "label": "Fleet", "value": "2 vans up to 3.5 t, 2 trailers" },
-      { "label": "Sister brands", "value": "BayReno, Entrümpelung München" },
-      { "label": "Own website", "value": "superumzug.de" },
-      { "label": "Languages", "value": "German, English, Slovak, Czech, Polish, Ukrainian, Croatian" }
+      {
+        "label": "Brand of",
+        "value": "Sole proprietorship Martin Marcinko"
+      },
+      {
+        "label": "Since",
+        "value": "2004"
+      },
+      {
+        "label": "Moves",
+        "value": "over 1,000 completed"
+      },
+      {
+        "label": "Based in",
+        "value": "Germering near Munich"
+      },
+      {
+        "label": "Area served",
+        "value": "Munich and roughly 50 km around"
+      },
+      {
+        "label": "Fleet",
+        "value": "2 vans up to 3.5 t, 2 trailers"
+      },
+      {
+        "label": "Sister brands",
+        "value": "BayReno, Entrümpelung München"
+      },
+      {
+        "label": "Phone",
+        "value": "+49 176 228 661 46"
+      },
+      {
+        "label": "Own website",
+        "value": "superumzug.de"
+      },
+      {
+        "label": "Languages",
+        "value": "German, English, Slovak, Czech, Polish, Ukrainian, Croatian"
+      }
     ]
   },
   "siblings": {
@@ -101,7 +132,7 @@
   },
   "externalSite": {
     "headline": "SuperUmzug also has its own website",
-    "body": "The brand runs its own site at superumzug.de. It belongs to the same business: the same address in Germering, the same owner, the same phone number. Both sites reach the same person — enquire wherever you prefer.",
+    "body": "The brand runs its own site at superumzug.de. It belongs to the same business: the same address in Germering, the same owner, the same moving line +49 176 228 661 46. Both sites reach the same person — enquire wherever you prefer.",
     "linkLabel": "Open superumzug.de"
   },
   "faq": {

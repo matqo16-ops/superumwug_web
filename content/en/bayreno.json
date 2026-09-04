@@ -67,14 +67,42 @@
   "facts": {
     "headline": "BayReno at a glance",
     "items": [
-      { "label": "Brand of", "value": "Sole proprietorship Martin Marcinko" },
-      { "label": "Meaning", "value": "Bayerische Renovierung — Bavarian renovation" },
-      { "label": "Since", "value": "2004" },
-      { "label": "Based in", "value": "Germering near Munich" },
-      { "label": "Area served", "value": "Munich and roughly 50 km around" },
-      { "label": "Sister brands", "value": "SuperUmzug, Entrümpelung München" },
-      { "label": "Own website", "value": "bayreno.de" },
-      { "label": "Languages", "value": "German, English, Slovak, Czech, Polish, Ukrainian, Croatian" }
+      {
+        "label": "Brand of",
+        "value": "Sole proprietorship Martin Marcinko"
+      },
+      {
+        "label": "Meaning",
+        "value": "Bayerische Renovierung — Bavarian renovation"
+      },
+      {
+        "label": "Since",
+        "value": "2004"
+      },
+      {
+        "label": "Based in",
+        "value": "Germering near Munich"
+      },
+      {
+        "label": "Area served",
+        "value": "Munich and roughly 50 km around"
+      },
+      {
+        "label": "Sister brands",
+        "value": "SuperUmzug, Entrümpelung München"
+      },
+      {
+        "label": "Phone",
+        "value": "+49 157 777 886 76"
+      },
+      {
+        "label": "Own website",
+        "value": "bayreno.de"
+      },
+      {
+        "label": "Languages",
+        "value": "German, English, Slovak, Czech, Polish, Ukrainian, Croatian"
+      }
     ]
   },
   "siblings": {

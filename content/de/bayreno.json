@@ -67,14 +67,42 @@
   "facts": {
     "headline": "BayReno auf einen Blick",
     "items": [
-      { "label": "Marke von", "value": "Einzelunternehmen Martin Marcinko" },
-      { "label": "Bedeutung", "value": "Bayerische Renovierung" },
-      { "label": "Seit", "value": "2004" },
-      { "label": "Sitz", "value": "Germering bei München" },
-      { "label": "Einsatzgebiet", "value": "München und rund 50 km Umkreis" },
-      { "label": "Schwestermarken", "value": "SuperUmzug, Entrümpelung München" },
-      { "label": "Eigene Website", "value": "bayreno.de" },
-      { "label": "Sprachen", "value": "Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch, Kroatisch" }
+      {
+        "label": "Marke von",
+        "value": "Einzelunternehmen Martin Marcinko"
+      },
+      {
+        "label": "Bedeutung",
+        "value": "Bayerische Renovierung"
+      },
+      {
+        "label": "Seit",
+        "value": "2004"
+      },
+      {
+        "label": "Sitz",
+        "value": "Germering bei München"
+      },
+      {
+        "label": "Einsatzgebiet",
+        "value": "München und rund 50 km Umkreis"
+      },
+      {
+        "label": "Schwestermarken",
+        "value": "SuperUmzug, Entrümpelung München"
+      },
+      {
+        "label": "Telefon",
+        "value": "+49 157 777 886 76"
+      },
+      {
+        "label": "Eigene Website",
+        "value": "bayreno.de"
+      },
+      {
+        "label": "Sprachen",
+        "value": "Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch, Kroatisch"
+      }
     ]
   },
   "siblings": {

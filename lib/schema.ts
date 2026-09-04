@@ -124,6 +124,7 @@ export function brandNodes() {
       alternateName: ["Bayerische Renovierung", "Bay Reno", "BayReno München"],
       url: `${SITE_URL}/bayreno`,
       sameAs: [site.brandSites.bayreno],
+      telephone: site.organization.brandPhones.bayreno,
       logo: `${SITE_URL}/logos/bayreno.png`,
       description:
         "BayReno — Bayerische Renovierung. Renovierungsmarke des Einzelunternehmens Martin Marcinko in Germering bei München: Malerarbeiten, Böden, Bad und Komplettsanierung seit 2004.",
@@ -135,6 +136,7 @@ export function brandNodes() {
       alternateName: ["Super Umzug", "SuperUmzug München"],
       url: absoluteUrl("de", "/superumzug"),
       sameAs: [site.brandSites.superumzug],
+      telephone: site.organization.brandPhones.superumzug,
       logo: `${SITE_URL}/logos/super-umzug.png`,
       description:
         "SuperUmzug — Umzugsmarke des Einzelunternehmens Martin Marcinko: Privat- und Firmenumzüge in München und Umgebung seit 2004.",
@@ -283,6 +285,25 @@ export function localBusinessSchema(locale: Locale) {
         telephone: org.phone.en,
         contactType: "customer service",
         availableLanguage: ["en"],
+        areaServed: "DE",
+      },
+      // The brand lines are declared here too, so the number a brand publishes
+      // on its own site resolves back to this same business rather than
+      // looking like a separate company that happens to share an address.
+      {
+        "@type": "ContactPoint",
+        telephone: site.organization.brandPhones.superumzug,
+        contactType: "sales",
+        name: "SuperUmzug",
+        availableLanguage: ["de"],
+        areaServed: "DE",
+      },
+      {
+        "@type": "ContactPoint",
+        telephone: site.organization.brandPhones.bayreno,
+        contactType: "sales",
+        name: "BayReno",
+        availableLanguage: ["de"],
         areaServed: "DE",
       },
     ],

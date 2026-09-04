@@ -3,18 +3,23 @@
   "organization": {
     "name": "mmoving.de",
     "legalName": "Martin Marcinko",
-    "businessName": "BayReno | SuperUmzug | EntrümpelungMünchen",
+    "businessName": "SuperUmzug",
     "brands": [
-      "BayReno",
       "SuperUmzug",
-      "EntrümpelungMünchen",
       "Super Umzug",
+      "BayReno",
+      "Bayerische Renovierung",
       "Entrümpelung München",
+      "EntrümpelungMünchen",
       "mmoving.de"
     ],
     "phone": {
       "de": "+49 176 6415 1890",
       "en": "+49 176 7091 1464"
+    },
+    "brandPhones": {
+      "superumzug": "+49 176 228 661 46",
+      "bayreno": "+49 157 777 886 76"
     },
     "email": "kontakt@bayreno.de",
     "streetAddress": "Planegger Str. 40",

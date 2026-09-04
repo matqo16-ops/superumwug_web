@@ -415,7 +415,9 @@ export interface SiteData {
     /**
      * The trading name exactly as it appears on the Google Business Profile.
      * Structured data must state this verbatim, or Google cannot match the
-     * profile to this site as one entity.
+     * profile to this site as one entity. The profile is named for the single
+     * brand it is registered under, not for all three — Google's naming rules
+     * require the real-world name and reject appended brand lists.
      */
     businessName: string;
     /** Every brand this one business trades under, for schema `brand`. */
@@ -427,6 +429,14 @@ export interface SiteData {
      * that prints a number picks by the page's own locale.
      */
     phone: { de: string; en: string };
+    /**
+     * The line each brand publishes on its own site and profile. Kept distinct
+     * from the two general lines above so mmoving.de states the same number for
+     * a brand that the brand's own site does — a phone number is one of the
+     * signals Google uses to decide whether two sites are the same business,
+     * and a mismatch reads as two unrelated companies.
+     */
+    brandPhones: { superumzug: string; bayreno: string };
     email: string;
     streetAddress: string;
     postalCode: string;

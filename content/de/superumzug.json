@@ -67,15 +67,46 @@
   "facts": {
     "headline": "SuperUmzug auf einen Blick",
     "items": [
-      { "label": "Marke von", "value": "Einzelunternehmen Martin Marcinko" },
-      { "label": "Seit", "value": "2004" },
-      { "label": "Umzüge", "value": "über 1.000 durchgeführt" },
-      { "label": "Sitz", "value": "Germering bei München" },
-      { "label": "Einsatzgebiet", "value": "München und rund 50 km Umkreis" },
-      { "label": "Fuhrpark", "value": "2 Transporter bis 3,5 t, 2 Anhänger" },
-      { "label": "Schwestermarken", "value": "BayReno, Entrümpelung München" },
-      { "label": "Eigene Website", "value": "superumzug.de" },
-      { "label": "Sprachen", "value": "Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch, Kroatisch" }
+      {
+        "label": "Marke von",
+        "value": "Einzelunternehmen Martin Marcinko"
+      },
+      {
+        "label": "Seit",
+        "value": "2004"
+      },
+      {
+        "label": "Umzüge",
+        "value": "über 1.000 durchgeführt"
+      },
+      {
+        "label": "Sitz",
+        "value": "Germering bei München"
+      },
+      {
+        "label": "Einsatzgebiet",
+        "value": "München und rund 50 km Umkreis"
+      },
+      {
+        "label": "Fuhrpark",
+        "value": "2 Transporter bis 3,5 t, 2 Anhänger"
+      },
+      {
+        "label": "Schwestermarken",
+        "value": "BayReno, Entrümpelung München"
+      },
+      {
+        "label": "Telefon",
+        "value": "+49 176 228 661 46"
+      },
+      {
+        "label": "Eigene Website",
+        "value": "superumzug.de"
+      },
+      {
+        "label": "Sprachen",
+        "value": "Deutsch, Englisch, Slowakisch, Tschechisch, Polnisch, Ukrainisch, Kroatisch"
+      }
     ]
   },
   "siblings": {
@@ -101,7 +132,7 @@
   },
   "externalSite": {
     "headline": "SuperUmzug hat außerdem eine eigene Website",
-    "body": "Unter superumzug.de läuft die eigene Seite der Marke. Sie gehört demselben Betrieb: dieselbe Adresse in Germering, derselbe Inhaber, dieselbe Telefonnummer. Beide Seiten führen zum selben Ansprechpartner — Sie können anfragen, wo es Ihnen lieber ist.",
+    "body": "Unter superumzug.de läuft die eigene Seite der Marke. Sie gehört demselben Betrieb: dieselbe Adresse in Germering, derselbe Inhaber, dieselbe Umzugsnummer +49 176 228 661 46. Beide Seiten führen zum selben Ansprechpartner — Sie können anfragen, wo es Ihnen lieber ist.",
     "linkLabel": "superumzug.de öffnen"
   },
   "faq": {
