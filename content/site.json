@@ -12,7 +12,10 @@
       "Entrümpelung München",
       "mmoving.de"
     ],
-    "phone": "+49 176 228 661 46",
+    "phone": {
+      "de": "+49 176 6415 1890",
+      "en": "+49 176 7091 1464"
+    },
     "email": "kontakt@bayreno.de",
     "streetAddress": "Planegger Str. 40",
     "postalCode": "82110",

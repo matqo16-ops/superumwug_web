@@ -420,7 +420,13 @@ export interface SiteData {
     businessName: string;
     /** Every brand this one business trades under, for schema `brand`. */
     brands: string[];
-    phone: string;
+    /**
+     * Two staffed lines, one per language — not a formatting variant of one
+     * number. A visitor reading the English site must be given the line where
+     * someone answers in English, so this is keyed by locale and every surface
+     * that prints a number picks by the page's own locale.
+     */
+    phone: { de: string; en: string };
     email: string;
     streetAddress: string;
     postalCode: string;

@@ -184,9 +184,9 @@
     "submit": "Rückruf anfordern",
     "submitting": "Wird gesendet …",
     "success": "Danke! Wir melden uns in Kürze bei Ihnen.",
-    "error": "Da ist etwas schiefgelaufen. Bitte prüfen Sie Ihre Angaben oder rufen Sie uns direkt an: +49 176 228 661 46.",
+    "error": "Da ist etwas schiefgelaufen. Bitte prüfen Sie Ihre Angaben oder rufen Sie uns direkt an: +49 176 6415 1890.",
     "close": "Schließen",
-    "errorRateLimited": "Zu viele Versuche in kurzer Zeit. Bitte warten Sie etwa 10 Minuten — oder rufen Sie uns direkt an: +49 176 228 661 46."
+    "errorRateLimited": "Zu viele Versuche in kurzer Zeit. Bitte warten Sie etwa 10 Minuten — oder rufen Sie uns direkt an: +49 176 6415 1890."
   },
   "chatWidget": {
     "openLabel": "Chat-Assistent öffnen",

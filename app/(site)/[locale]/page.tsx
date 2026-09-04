@@ -154,7 +154,7 @@ export default async function HomePage({ params }: Props) {
             </p>
             <div className="mt-7 flex flex-col gap-3">
               <a
-                href={`tel:${site.organization.phone.replace(/[^+0-9]/g, "")}`}
+                href={`tel:${site.organization.phone[locale].replace(/[^+0-9]/g, "")}`}
                 className="inline-flex items-center justify-center gap-2 rounded-lg bg-gold px-6 py-3 font-semibold text-navy transition-colors hover:bg-gold-deep hover:text-white"
               >
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
@@ -166,7 +166,7 @@ export default async function HomePage({ params }: Props) {
                 {home.inspection.orderCta}
               </a>
               <p className="text-center text-sm text-white/60">
-                {site.organization.phone}
+                {site.organization.phone[locale]}
               </p>
               <ChatCtaButton className="inline-flex items-center justify-center gap-2 rounded-lg border-[1.5px] border-white/70 px-6 py-3 font-semibold text-white transition-colors hover:border-gold hover:text-gold">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">

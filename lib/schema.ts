@@ -266,7 +266,26 @@ export function localBusinessSchema(locale: Locale) {
     founder: { "@id": owner },
     employee: { "@id": owner },
     hasMap: site.googleBusinessProfile,
-    telephone: org.phone,
+    // The line for this page's language is the primary one; both are declared
+    // as contactPoints with the language each is actually staffed in, which is
+    // how schema.org expresses "call this one and someone answers in English".
+    telephone: org.phone[locale],
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: org.phone.de,
+        contactType: "customer service",
+        availableLanguage: ["de"],
+        areaServed: "DE",
+      },
+      {
+        "@type": "ContactPoint",
+        telephone: org.phone.en,
+        contactType: "customer service",
+        availableLanguage: ["en"],
+        areaServed: "DE",
+      },
+    ],
     email: org.email,
     description:
       locale === "de"
@@ -365,7 +384,7 @@ export function serviceSchema(options: {
     availableChannel: {
       "@type": "ServiceChannel",
       serviceUrl: absoluteUrl(options.locale, "/kontakt"),
-      servicePhone: site.organization.phone,
+      servicePhone: site.organization.phone[options.locale],
     },
     ...(options.offers?.length
       ? {

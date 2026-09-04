@@ -62,7 +62,10 @@ export default async function LocaleLayout({
             </a>
             <SiteHeader common={common} />
             <main id="main">{children}</main>
-            <SiteFooter common={common} phone={site.organization.phone} />
+            <SiteFooter
+              common={common}
+              phone={site.organization.phone[locale as Locale]}
+            />
             <ChatWidget strings={common.chatWidget} />
             {/* Cookieless, no personal data — needs no consent banner. */}
             <Analytics />
