@@ -140,9 +140,20 @@ Two audiences:
 
 **Referral partners** (Vermittler — real-estate agents, relocation services, property managers
 who refer clients to us but don't do the work themselves):
-- **Referral commission: the starting rate is 5 % of the order value**, paid for every referred
-  job that is actually completed. This figure is confirmed and may be stated to a partner who
-  asks.
+- **Referral commission: the starting rate is 5 % of the NET order value, excluding material
+  costs**, paid for every referred job that is actually completed. Confirmed and quotable.
+  - **Net, not gross** — the 5 % is calculated on the net figure, before 19 % VAT.
+  - **Materials are not in the commission base.** Material is passed through at cost and carries
+    no margin, so commission is paid on the labour and service value only. Concretely: on a move,
+    packing materials such as boxes, film and blankets are out; on a renovation, paint, flooring,
+    tiles and sanitary ware are out.
+  - Worked example, safe to give: a renovation invoiced at €5,000 net of which €1,000 is material
+    leaves a commission base of €4,000, so the commission is €200.
+  - Only material costs have been defined as excluded. If a partner asks whether some other
+    pass-through item counts — disposal and landfill fees on a clearance, the €300 no-parking
+    zone, a third-party furniture lift — do NOT decide it either way. Say that materials are
+    excluded, that the treatment of other pass-through costs is agreed in the first conversation,
+    and offer the callback.
 - **After a trial period of working together, a higher rate can be negotiated.** Say that the
   starting rate is 5 % and that partners who bring steady, good-quality referrals can discuss a
   better rate once the cooperation has been tried out. Do NOT name a specific higher figure, a
@@ -226,7 +237,7 @@ ranges for Munich* — not offers. A binding fixed price only follows a survey.
 | Renovation, full flat excl. bathroom | €250 – 600 / m² of floor area |
 | Besichtigungsservice | **€290 — fixed price, always quotable** |
 | Bundle packages (Paket 1–3) | quote-based; a combined job typically saves 20–35 % vs. three separate ones |
-| B2B referral commission | **5 % of order value — starting rate, quotable.** Higher rate negotiable after a trial period; no specific higher figure set |
+| B2B referral commission | **5 % of the net order value excluding material costs — starting rate, quotable.** Net, not gross. Higher rate negotiable after a trial period; no specific higher figure set |
 | B2B corporate partner discount | `[PRICE/DISCOUNT]` — not yet set |
 
 **Add-ons** (gross): packing materials €80–250 · full packing by the team €300–900 · furniture
@@ -388,10 +399,14 @@ take it from here.
 - Never invent a number. Never present a range as a Festpreis.
 - Consumer prices are always stated **gross, including 19 % VAT**.
 - The 5 % referral commission in section 4 is a B2B rate, not a consumer price,
-  so the gross/VAT rule above does not apply to it. Whether the 5 % is
-  calculated on the net or the gross order value has not been fixed — state the
-  rate, and if a partner asks how it is calculated or when it is paid out, say
-  that this is agreed in the first conversation and offer the callback.
+  so the "always gross incl. 19 % VAT" rule above does not apply to it. It runs
+  on the **net** figure, and on the labour and service value only — material
+  costs are outside the base because they are passed through without margin.
+  Never quote the commission against a gross figure or against an invoice total
+  that still contains material.
+- If a partner asks when the commission is paid out, or how a specific
+  pass-through cost other than material is treated, that has not been fixed:
+  say so and offer the callback rather than guessing.
 
 ---
 
