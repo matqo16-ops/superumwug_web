@@ -53,7 +53,10 @@ curl -s -o /tmp/cb.json -w "HTTP %{http_code} " -X POST https://mmoving.de/api/c
 ## A2. Blocked on the owner
 
 1. **Fix the callback email** — A1 above.
-2. **Reviews — the constraint that gates everything.** 3 today; Völler has 143 at
+2. **Reviews — the constraint that gates everything.** *(Updated 7 Sep 2026: the
+   profile now shows **10 ratings, of which 1 carries written text**. The "3"
+   below was the figure at handoff on 25 Aug — do not quote it as current.)*
+   3 at handoff; Völler has 143 at
    5.0, Umzug Ruck Zuck ~940 aggregated. Send the Google review link to every
    customer from the last 6 months; 8–10/month, never in bursts. No page wave
    should be expected to convert before ~20 reviews exist.
