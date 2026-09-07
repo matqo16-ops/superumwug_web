@@ -66,7 +66,17 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  // 1) /admin/** for Basic Auth, 2) everything else (minus API, Next internals
-  //    and files with an extension) for locale routing.
-  matcher: ["/admin/:path*", "/((?!api|admin|_next|_vercel|.*\\..*).*)"],
+  // 1) /admin/** for Basic Auth, 2) everything else for locale routing, minus
+  //    the API, Next internals, and real static assets.
+  //
+  // The asset exclusion lists actual file extensions rather than "any path
+  // containing a dot". The broader form skipped this middleware for anything
+  // dotted, so /index.html and /foo.php never got a locale — and the only
+  // not-found page calls getLocale(), which throws without one. Every bot
+  // probe for /index.html or /wp-login.php answered 500 instead of 404, and a
+  // steady trickle of server errors is exactly what makes a crawler back off.
+  matcher: [
+    "/admin/:path*",
+    "/((?!api|admin|_next|_vercel|.*\\.(?:png|jpg|jpeg|gif|svg|ico|webp|avif|css|js|mjs|txt|xml|json|webmanifest|woff|woff2|ttf|otf|eot|pdf|mp4|webm|mp3)$).*)",
+  ],
 };
