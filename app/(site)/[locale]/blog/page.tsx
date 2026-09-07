@@ -18,7 +18,9 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   if (locale !== "de") return {};
-  return pageMetadata(locale, "/blog", getBlogIndexContent().meta);
+  return pageMetadata(locale, "/blog", getBlogIndexContent().meta, {
+    germanOnly: true,
+  });
 }
 
 /** The blog targets German local search only — /en/blog intentionally 404s. */

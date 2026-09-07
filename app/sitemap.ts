@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getPathname } from "@/i18n/navigation";
 import {
+  isGermanOnly,
   routing,
   type AppPathname,
   type Locale,
@@ -25,9 +26,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
   const pages: MetadataRoute.Sitemap = pathnames.map((href) => {
-    // Some pages exist in German only — no hreflang alternates for those.
-    const germanOnly =
-      href === "/blog" || href === "/ratgeber/halteverbotszone-muenchen";
+    // Some pages exist in German only — submitting an hreflang alternate for
+    // those hands Google a 404 directly. Shared list, see i18n/routing.ts.
+    const germanOnly = isGermanOnly(href);
     return {
       url: url(routing.defaultLocale, href),
       ...(germanOnly

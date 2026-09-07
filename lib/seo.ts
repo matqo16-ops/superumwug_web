@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { getPathname } from "@/i18n/navigation";
-import { routing, type StaticPathname, type Locale } from "@/i18n/routing";
+import {
+  isGermanOnly,
+  routing,
+  type StaticPathname,
+  type Locale,
+} from "@/i18n/routing";
 import type { PageMeta } from "./content-types";
 
 export const SITE_URL =
@@ -26,18 +31,34 @@ export function pageMetadata(
   locale: Locale,
   href: StaticPathname,
   meta: PageMeta,
+  options: {
+    /**
+     * Escape hatch only. German-only routes are detected automatically from
+     * GERMAN_ONLY_ROUTES, so callers should not normally pass this.
+     */
+    germanOnly?: boolean;
+  } = {},
 ): Metadata {
   const canonical = absoluteUrl(locale, href);
-  const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
-    languages[l] = absoluteUrl(l, href);
-  }
-  languages["x-default"] = languages[routing.defaultLocale];
+  // Derived, not asked for: emitting hreflang="en" at a route that has no
+  // English version points Google at a 404, and one dead alternate can
+  // invalidate the hreflang set for the whole page. That is what put a
+  // "Not found (404)" in Search Console for /en/ratgeber/... — so the check
+  // reads the shared list rather than trusting every caller to remember.
+  const germanOnly = options.germanOnly ?? isGermanOnly(href);
+  const languages: Record<string, string> | undefined = germanOnly
+    ? undefined
+    : {
+        ...Object.fromEntries(
+          routing.locales.map((l) => [l, absoluteUrl(l, href)]),
+        ),
+        "x-default": absoluteUrl(routing.defaultLocale, href),
+      };
 
   return {
     title: meta.title,
     description: meta.description,
-    alternates: { canonical, languages },
+    alternates: languages ? { canonical, languages } : { canonical },
     openGraph: {
       title: meta.title,
       description: meta.description,

@@ -3,26 +3,19 @@
 import { useLocale } from "next-intl";
 import { useParams } from "next/navigation";
 import { Link, usePathname } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
+import { isGermanOnly, routing } from "@/i18n/routing";
 
-/**
- * Routes that exist in German only. Offering an English link on these would
- * point at a 404 on every render, so the switcher sends visitors to the
- * English home page instead of a dead URL.
- */
-const GERMAN_ONLY: string[] = [
-  "/blog",
-  "/blog/[slug]",
-  "/umzug/[stadtteil]",
-  "/ratgeber/halteverbotszone-muenchen",
-];
+// Offering an English link on a German-only route would point at a 404 on
+// every render, so the switcher sends visitors to the English home page
+// instead. The list is shared with pageMetadata and the sitemap — see
+// GERMAN_ONLY_ROUTES in i18n/routing.ts.
 
 /** DE/EN toggle that preserves the current page across locales. */
 export function LanguageSwitcher({ label }: { label: string }) {
   const locale = useLocale();
   const pathname = usePathname();
   const params = useParams();
-  const germanOnly = GERMAN_ONLY.includes(pathname);
+  const germanOnly = isGermanOnly(pathname);
 
   return (
     <nav aria-label={label} className="flex items-center gap-1 text-sm">

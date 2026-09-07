@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     locale,
     "/ratgeber/halteverbotszone-muenchen",
     getHalteverbotszone().meta,
+    { germanOnly: true },
   );
 }
 
