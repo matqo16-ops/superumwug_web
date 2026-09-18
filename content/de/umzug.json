@@ -169,6 +169,11 @@
     "headline": "Passt zu Ihrem Umzug",
     "items": [
       {
+        "label": "Umzugskosten-Rechner",
+        "body": "Wohnungsgröße wählen, Halteverbotszonen und Extras dazu — die Schätzung aus unserer Preistabelle steht sofort da.",
+        "href": "/umzugskosten-rechner"
+      },
+      {
         "label": "Entrümpelung und Haushaltsauflösung",
         "body": "Was nicht mit umzieht, entsorgen wir fachgerecht — im selben Auftrag und ohne zweite Anfahrt.",
         "href": "/entruempelung"

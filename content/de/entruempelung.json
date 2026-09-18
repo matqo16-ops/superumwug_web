@@ -166,6 +166,11 @@
     "headline": "Passt zu Ihrer Entrümpelung",
     "items": [
       {
+        "label": "Entrümpelung Kosten-Rechner",
+        "body": "Objekt wählen, Etagen ohne Aufzug angeben — die Schätzung aus unserer Preistabelle steht sofort da.",
+        "href": "/entruempelung-kosten-rechner"
+      },
+      {
         "label": "Umzug in München",
         "body": "Erst umziehen, dann entrümpeln — so entscheiden Sie nach dem Einräumen, was wirklich bleibt.",
         "href": "/umzug"

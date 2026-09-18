@@ -39,7 +39,7 @@
     },
     {
       "question": "Was kostet eine Halteverbotszone in München?",
-      "answer": "Bei mmoving.de kostet die Halteverbotszone 300 € brutto je Adresse — inklusive Beantragung beim Kreisverwaltungsreferat, Schilderaufstellung, Dokumentation und Abbau. Rechnen Sie mit rund drei Wochen Vorlauf. Sie rechnet sich meist, weil ein kurzer Trageweg mehrere Arbeitsstunden spart."
+      "answer": "Bei mmoving.de kostet die Halteverbotszone 300 € brutto je Adresse — inklusive Beantragung beim Mobilitätsreferat, Schilderaufstellung, Dokumentation und Abbau. Rechnen Sie mit rund drei Wochen Vorlauf. Sie rechnet sich meist, weil ein kurzer Trageweg mehrere Arbeitsstunden spart."
     },
     {
       "question": "Kann ich Umzugskosten von der Steuer absetzen?",

@@ -18,6 +18,8 @@ import type {
   UmzugContent,
   UeberUnsContent,
   HalteverbotszoneContent,
+  RechnerContent,
+  TownPageContent,
   StadtteilContent,
 } from "./content-types";
 
@@ -87,6 +89,13 @@ export const getSuperumzug = (locale: Locale) =>
 /** German only — the guide is not translated. */
 export const getHalteverbotszone = () =>
   readJson<HalteverbotszoneContent>("de", "halteverbotszone.json");
+
+/** Cost calculators — German only. */
+export const getRechner = () => readJson<RechnerContent>("de", "rechner.json");
+
+/** Town pages outside Munich (Germering) — German only. */
+export const getOrt = (slug: string) =>
+  readJson<TownPageContent>("de", "orte", `${slug}.json`);
 
 /** Munich district pages — German only. */
 export function getStadtteilSlugs(): string[] {

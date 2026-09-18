@@ -1,0 +1,159 @@
+{
+  "umzug": {
+    "meta": {
+      "title": "Umzugskosten-Rechner München: Preis sofort schätzen",
+      "description": "Umzugskosten in München sofort schätzen: Wohnungsgröße wählen, Halteverbotszonen und Extras dazu. Grundlage sind die veröffentlichten Bruttopreise von SuperUmzug."
+    },
+    "hero": {
+      "eyebrow": "Umzugskosten-Rechner München",
+      "headline": "Was kostet Ihr Umzug in München?",
+      "subheadline": "Wohnungsgröße wählen, Halteverbotszonen und Zusatzleistungen dazunehmen — die Schätzung steht sofort da, ohne Anmeldung und ohne Formular. Gerechnet wird mit der Preistabelle, die SuperUmzug auf mmoving.de veröffentlicht.",
+      "primaryCta": "Festpreis anfragen",
+      "secondaryCta": "Alles zum Umzug"
+    },
+    "answer": "Laut der Preistabelle von SuperUmzug (mmoving.de) kostet der Umzug einer 2-Zimmer-Wohnung innerhalb Münchens {base} brutto. Mit einer Halteverbotszone an beiden Adressen ({zone} je Adresse) sind es {withZones}. Alle Werte sind unverbindliche Schätzungen inklusive 19 % MwSt.; den verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video.",
+    "calculator": {
+      "headline": "Ihre Schätzung",
+      "sizeLabel": "Wohnungsgröße",
+      "zonesLabel": "Halteverbotszonen",
+      "zonesHelp": "Eine je Adresse, an der das Fahrzeug sonst nicht sicher vor dem Eingang stehen kann.",
+      "zoneOptions": ["Keine", "An einer Adresse", "An beiden Adressen"],
+      "extrasLabel": "Zusatzleistungen",
+      "options": {
+        "material": "Verpackungsmaterial",
+        "fullPacking": "Vollverpackung durch das Team",
+        "furniture": "Möbeldemontage und -montage",
+        "kitchen": "Küchenab- und -aufbau"
+      },
+      "resultLabel": "Unverbindliche Schätzung",
+      "resultNote": "brutto inkl. 19 % MwSt.",
+      "resultCta": "Verbindlichen Festpreis anfragen"
+    },
+    "matrix": {
+      "headline": "Alle Wohnungsgrößen auf einen Blick",
+      "intro": "Jede Zelle ist die Summe der veröffentlichten Positionen — Grundpreis nach Wohnungsgröße, Halteverbotszonen zu je {zone} und die genannten Zusatzleistungen.",
+      "columns": [
+        "Wohnung",
+        "Grundpreis",
+        "+ 1 Halteverbotszone",
+        "+ 2 Halteverbotszonen",
+        "+ 2 Zonen, Vollverpackung und Möbelmontage"
+      ]
+    },
+    "method": {
+      "headline": "So rechnet der Rechner",
+      "body": "Der Rechner addiert ausschließlich die Positionen, die in der Preistabelle auf der Umzugsseite stehen. Als Faustregel für das Volumen gelten 0,3 bis 0,5 m³ Umzugsgut pro Quadratmeter Wohnfläche. Die zugrunde liegenden Zusatzleistungen und Zuschläge:",
+      "excluded": "Nicht im Rechner enthalten sind Samstags-, Sonn- und Feiertagszuschläge, Express-Termine, die Kilometerpauschale und ein Zusatzfahrzeug, weil sie vom Termin und der Strecke abhängen. Auch Stockwerk ohne Aufzug und ein langer Trageweg wirken sich auf den Preis aus. All das wird bei der Besichtigung festgelegt."
+    },
+    "faq": {
+      "headline": "Häufige Fragen zu den Umzugskosten",
+      "items": [
+        {
+          "question": "Wie genau ist der Umzugskosten-Rechner?",
+          "answer": "Er addiert die veröffentlichten Bruttopreise von SuperUmzug für Wohnungsgröße, Halteverbotszonen und Zusatzleistungen. Deshalb zeigt er eine Spanne und keinen Einzelbetrag: Volumen, Stockwerk, Trageweg und Termin verändern den Aufwand. Verbindlich wird der Preis nach einer kurzen Besichtigung vor Ort oder per Foto und Video — als Festpreis."
+        },
+        {
+          "question": "Kostet das Angebot etwas?",
+          "answer": "Nein. Beratung und Angebot sind kostenlos und unverbindlich. Nur der Besichtigungsservice für Immobilienkäufer ist eine eigenständige Leistung zum Festpreis von 290 €."
+        },
+        {
+          "question": "Brauche ich eine Halteverbotszone?",
+          "answer": "In den meisten Münchner Straßen ja, sonst steht das Fahrzeug nicht sicher vor dem Eingang und jeder zusätzliche Meter Tragweg kostet Arbeitszeit. Die Halteverbotszone kostet bei uns 300 € brutto je Adresse; die Beantragung sollte rund drei Wochen im Voraus erfolgen. Ablauf und Fristen stehen im Ratgeber Halteverbotszone München."
+        },
+        {
+          "question": "Was kostet ein Umzug am Samstag oder Sonntag?",
+          "answer": "Samstags gilt ein Zuschlag von 50 %. An Sonn- und Feiertagen sowie für Express-Umzüge innerhalb von 24 Stunden gilt der doppelte Satz. Ein Umzug unter der Woche ist deshalb die günstigste Wahl."
+        },
+        {
+          "question": "Wie viel Umzugsgut hat meine Wohnung?",
+          "answer": "Als Faustregel 0,3 bis 0,5 m³ pro Quadratmeter Wohnfläche. Eine 2-Zimmer-Wohnung mit 55 bis 70 m² kommt damit auf etwa 20 bis 30 m³, eine 4-Zimmer-Wohnung mit 100 bis 120 m² auf 40 bis 55 m³."
+        },
+        {
+          "question": "Sind die Preise brutto oder netto?",
+          "answer": "Alle Preise sind Bruttopreise inklusive 19 % Mehrwertsteuer. Es kommt keine Steuer mehr hinzu."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Aus der Schätzung wird ein Festpreis",
+      "body": "Schicken Sie uns ein paar Fotos oder vereinbaren Sie eine kurze Besichtigung. Danach erhalten Sie einen schriftlichen Festpreis — Beratung und Angebot sind kostenlos und unverbindlich.",
+      "primary": "Rückruf anfordern",
+      "secondary": "Alles zum Umzug in München"
+    }
+  },
+  "entruempelung": {
+    "meta": {
+      "title": "Entrümpelung Kosten-Rechner München: Preis sofort schätzen",
+      "description": "Entrümpelungskosten in München sofort schätzen: Objekt wählen, Etagen ohne Aufzug, Sondermüll und Halteverbotszone dazu — auf Basis veröffentlichter Bruttopreise."
+    },
+    "hero": {
+      "eyebrow": "Entrümpelung Kosten-Rechner",
+      "headline": "Was kostet Ihre Entrümpelung in München?",
+      "subheadline": "Objekt wählen, Etagen ohne Aufzug angeben, Sondermüll und Halteverbotszone dazunehmen — die Schätzung steht sofort da, ohne Anmeldung und ohne Formular. Gerechnet wird mit der Preistabelle, die mmoving.de für Entrümpelung München veröffentlicht.",
+      "primaryCta": "Festpreis anfragen",
+      "secondaryCta": "Alles zur Entrümpelung"
+    },
+    "answer": "Laut der Preistabelle von Entrümpelung München (mmoving.de) kostet die Entrümpelung einer 2-Zimmer-Wohnung mit 55 bis 70 m² {base} brutto, ein Kellerabteil oder eine Garage {cellar}. Je Etage ohne Aufzug kommen {floor} hinzu, für Sondermüll ab {hazardous}, für eine Halteverbotszone {zone}. Der Festpreis nach Besichtigung enthält die Entsorgung und die besenreine Übergabe.",
+    "calculator": {
+      "headline": "Ihre Schätzung",
+      "objectLabel": "Objekt",
+      "floorsLabel": "Etagen ohne Aufzug",
+      "floorsHelp": "Wie viele Stockwerke getragen werden muss. Erdgeschoss oder Aufzug: 0.",
+      "options": {
+        "hazardous": "Sondermüll (Farben, Öle, Chemikalien)",
+        "zone": "Halteverbotszone",
+        "cleaning": "Endreinigung über besenrein hinaus"
+      },
+      "cleaningLabel": "Fläche für die Endreinigung (m²)",
+      "resultLabel": "Unverbindliche Schätzung",
+      "resultNote": "brutto inkl. 19 % MwSt.",
+      "resultOpenEnd": "Sondermüll ab 150 € — der obere Wert kann je nach Menge höher liegen.",
+      "resultCta": "Verbindlichen Festpreis anfragen"
+    },
+    "matrix": {
+      "headline": "Alle Objekte und Stockwerke auf einen Blick",
+      "intro": "Grundpreis je Objekt plus {floor} je Etage ohne Aufzug, wie in der Preistabelle veröffentlicht. Sondermüll, Halteverbotszone und Endreinigung kommen bei Bedarf hinzu.",
+      "floorsHeading": "Etagen ohne Aufzug"
+    },
+    "method": {
+      "headline": "So rechnet der Rechner",
+      "body": "Der Preis richtet sich vor allem nach dem Arbeitsaufwand und der Menge des zu entsorgenden Guts, nicht allein nach der Fläche — ein vollgestellter Dachboden kann teurer sein als eine leergeräumte Wohnung derselben Größe. Der Rechner nimmt deshalb die Spanne je Objekt und rechnet die veröffentlichten Zuschläge dazu:",
+      "excluded": "Wie voll die Räume sind und wie weit vom Fahrzeug bis zum Eingang getragen wird, sieht erst die Besichtigung. Danach erhalten Sie einen Festpreis inklusive Entsorgung."
+    },
+    "faq": {
+      "headline": "Häufige Fragen zu den Entrümpelungskosten",
+      "items": [
+        {
+          "question": "Warum zeigt der Rechner eine Spanne?",
+          "answer": "Weil der Preis vor allem von der Menge und dem Arbeitsaufwand abhängt, nicht allein von der Fläche. In einem stark vollgestellten Raum steigt der Preis proportional zur Menge. Die Spanne je Objekt stammt aus der veröffentlichten Preistabelle; den verbindlichen Festpreis gibt es nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+        },
+        {
+          "question": "Was kostet eine Etage ohne Aufzug?",
+          "answer": "Je Etage, über die ohne Aufzug getragen werden muss, kommen 8 bis 15 % auf den Grundpreis. Bei einer 2-Zimmer-Wohnung im dritten Stock ohne Aufzug sind das drei Etagen."
+        },
+        {
+          "question": "Was kostet die Entsorgung von Sondermüll?",
+          "answer": "Sondermüll wie Farben, Öle und Chemikalien wird getrennt entsorgt und kostet ab 150 €. Der genaue Betrag hängt von Art und Menge ab."
+        },
+        {
+          "question": "Ist die besenreine Übergabe im Preis enthalten?",
+          "answer": "Ja. Wir räumen vollständig, trennen beim Austragen nach Wertstoffen und übergeben besenrein; der Festpreis nach Besichtigung enthält die Entsorgung. Eine Endreinigung über besenrein hinaus kostet 3 bis 8 € pro Quadratmeter."
+        },
+        {
+          "question": "Kostet das Angebot etwas?",
+          "answer": "Nein. Beratung und Angebot sind kostenlos und unverbindlich."
+        },
+        {
+          "question": "Sind die Preise brutto oder netto?",
+          "answer": "Alle Preise sind Bruttopreise inklusive 19 % Mehrwertsteuer."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Aus der Schätzung wird ein Festpreis",
+      "body": "Schicken Sie uns Fotos oder vereinbaren Sie eine kurze Besichtigung. Danach erhalten Sie einen Festpreis inklusive Entsorgung und besenreiner Übergabe — Beratung und Angebot sind kostenlos und unverbindlich.",
+      "primary": "Rückruf anfordern",
+      "secondary": "Alles zur Entrümpelung in München"
+    }
+  }
+}

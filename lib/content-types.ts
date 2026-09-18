@@ -578,3 +578,74 @@ export interface StadtteilContent {
     price?: string;
   };
 }
+
+/** Shared shape of the two calculator pages (content/de/rechner.json). */
+interface RechnerPageBase {
+  meta: PageMeta;
+  hero: Hero;
+  /** Direct numeric answer; {placeholders} are filled from the price table. */
+  answer: string;
+  matrix: { headline: string; intro: string };
+  method: { headline: string; body: string; excluded: string };
+  faq: { headline: string; items: FaqItem[] };
+  cta: { headline: string; body: string; primary: string; secondary: string };
+}
+
+export interface UmzugRechnerContent extends RechnerPageBase {
+  calculator: {
+    headline: string;
+    sizeLabel: string;
+    zonesLabel: string;
+    zonesHelp: string;
+    zoneOptions: string[];
+    extrasLabel: string;
+    options: { material: string; fullPacking: string; furniture: string; kitchen: string };
+    resultLabel: string;
+    resultNote: string;
+    resultCta: string;
+  };
+  matrix: { headline: string; intro: string; columns: string[] };
+}
+
+export interface EntruempelungRechnerContent extends RechnerPageBase {
+  calculator: {
+    headline: string;
+    objectLabel: string;
+    floorsLabel: string;
+    floorsHelp: string;
+    options: { hazardous: string; zone: string; cleaning: string };
+    cleaningLabel: string;
+    resultLabel: string;
+    resultNote: string;
+    resultOpenEnd: string;
+    resultCta: string;
+  };
+  matrix: { headline: string; intro: string; floorsHeading: string };
+}
+
+export interface RechnerContent {
+  umzug: UmzugRechnerContent;
+  entruempelung: EntruempelungRechnerContent;
+}
+
+/**
+ * A town page outside Munich (content/de/orte/*.json). Same rule as the
+ * district pages: every section must carry facts specific to the town, with
+ * an official source where one exists — a page that could be about any other
+ * town by swapping the name is a doorway page.
+ */
+export interface TownPageContent {
+  meta: PageMeta;
+  hero: Hero;
+  /** Direct answer; {placeholders} are filled from the price table. */
+  answer: string;
+  sections: {
+    heading: string;
+    body: string;
+    source?: { label: string; url: string };
+  }[];
+  faq: { headline: string; items: FaqItem[] };
+  cta: { headline: string; body: string; primary: string; secondary: string };
+  /** Final German paths, rendered as plain links. */
+  related: { label: string; href: string }[];
+}

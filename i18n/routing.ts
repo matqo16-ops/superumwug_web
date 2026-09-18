@@ -30,6 +30,10 @@ export const routing = defineRouting({
     "/komplettservice": { de: "/komplettservice", en: "/full-service" },
     "/ueber-uns": { de: "/ueber-uns", en: "/about" },
     "/ratgeber/halteverbotszone-muenchen": "/ratgeber/halteverbotszone-muenchen",
+    "/umzugskosten-rechner": "/umzugskosten-rechner",
+    "/entruempelung-kosten-rechner": "/entruempelung-kosten-rechner",
+    "/umzug-germering": "/umzug-germering",
+    "/entruempelung-germering": "/entruempelung-germering",
     "/blog": "/blog",
     "/blog/[slug]": "/blog/[slug]",
     "/b2b": "/b2b",
@@ -61,6 +65,10 @@ export const GERMAN_ONLY_ROUTES = [
   "/blog/[slug]",
   "/umzug/[stadtteil]",
   "/ratgeber/halteverbotszone-muenchen",
+  "/umzugskosten-rechner",
+  "/entruempelung-kosten-rechner",
+  "/umzug-germering",
+  "/entruempelung-germering",
 ] as const satisfies readonly AppPathname[];
 
 export function isGermanOnly(href: string): boolean {

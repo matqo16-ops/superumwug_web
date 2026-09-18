@@ -131,6 +131,14 @@
             "href": "/renovierung"
           },
           {
+            "label": "Umzug Germering",
+            "href": "/umzug-germering"
+          },
+          {
+            "label": "Entrümpelung Germering",
+            "href": "/entruempelung-germering"
+          },
+          {
             "label": "Komplettservice",
             "href": "/komplettservice"
           },
@@ -164,6 +172,14 @@
       {
         "heading": "Ratgeber & Preise",
         "links": [
+          {
+            "label": "Umzugskosten-Rechner",
+            "href": "/umzugskosten-rechner"
+          },
+          {
+            "label": "Entrümpelung Kosten-Rechner",
+            "href": "/entruempelung-kosten-rechner"
+          },
           {
             "label": "Umzugskosten München",
             "href": "/blog/umzugskosten-muenchen"

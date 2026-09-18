@@ -6,19 +6,19 @@
   "hero": {
     "eyebrow": "Ratgeber",
     "headline": "Halteverbotszone in München beantragen",
-    "subheadline": "Die Frist, die beim Umzug am häufigsten unterschätzt wird — mit rund drei Wochen Vorlauf, konkreten Kosten und dem Ablauf beim KVR.",
+    "subheadline": "Die Frist, die beim Umzug am häufigsten unterschätzt wird — mit rund drei Wochen Vorlauf, konkreten Kosten und dem Ablauf beim Mobilitätsreferat.",
     "primaryCta": "Halteverbotszone mitbeauftragen",
     "secondaryCta": "Umzugspreise ansehen"
   },
-  "answer": "Eine Halteverbotszone für einen Umzug in München wird beim Kreisverwaltungsreferat (KVR) beantragt und kostet bei mmoving.de 300 € brutto je Adresse — inklusive Beantragung, Schilderaufstellung, Dokumentation und Abbau. Rechnen Sie mit rund drei Wochen Vorlauf. Ohne Halteverbotszone parkt das Fahrzeug irgendwo in der Straße, der Trageweg wird länger, und die zusätzliche Tragezeit erhöht den Endpreis meist um mehr, als die Zone gekostet hätte.",
+  "answer": "Eine Halteverbotszone für einen Umzug in München wird beim Mobilitätsreferat der Stadt München beantragt und kostet bei mmoving.de 300 € brutto je Adresse — inklusive Beantragung, Schilderaufstellung, Dokumentation und Abbau. Rechnen Sie mit rund drei Wochen Vorlauf. Ohne Halteverbotszone parkt das Fahrzeug irgendwo in der Straße, der Trageweg wird länger, und die zusätzliche Tragezeit erhöht den Endpreis meist um mehr, als die Zone gekostet hätte.",
   "sections": [
     {
       "heading": "Wer die Halteverbotszone beantragen darf",
       "body": "Beantragen kann sie jede Privatperson und jedes Unternehmen — Sie brauchen kein Umzugsunternehmen dafür. In der Praxis übernehmen es die meisten Umzugsfirmen, weil sie die Schilder vorrätig haben, den Ablauf kennen und die Zone im richtigen Abstand zum Hauseingang aufstellen. Wenn Sie selbst beantragen, brauchen Sie die genaue Adresse, das Datum, die gewünschte Länge der Zone in Metern und das Kennzeichen beziehungsweise die Größe des Umzugsfahrzeugs."
     },
     {
-      "heading": "Der Ablauf beim Kreisverwaltungsreferat",
-      "body": "Zuständig ist in München das Kreisverwaltungsreferat (KVR), Hauptabteilung Straßenverkehr. Der Antrag geht online oder schriftlich ein und wird als verkehrsrechtliche Anordnung bearbeitet. Nach der Genehmigung müssen die Schilder aufgestellt werden — das erledigt entweder ein zugelassener Schilderdienst oder das Umzugsunternehmen. Entscheidend ist der Zeitpunkt: Die Schilder müssen mindestens 72 Stunden vor Beginn der Zone stehen, sonst darf ein Fahrzeug, das vorher schon dort geparkt hat, nicht abgeschleppt werden."
+      "heading": "Der Ablauf beim Mobilitätsreferat",
+      "body": "Zuständig ist in München das Mobilitätsreferat, Abteilung Temporäre Anordnungen. Das Mobilitätsreferat sitzt in der Implerstraße 9; der Antrag geht online oder schriftlich ein und wird als verkehrsrechtliche Anordnung bearbeitet. Nach der Genehmigung müssen die Schilder aufgestellt werden — das erledigt entweder ein zugelassener Schilderdienst oder das Umzugsunternehmen. Entscheidend ist der Zeitpunkt: Nach Vorgabe der Stadt müssen die Schilder spätestens am vierten Tag vor Beginn der Zone stehen — mindestens 72 Stunden vorher, sonst darf ein Fahrzeug, das vorher schon dort geparkt hat, nicht abgeschleppt werden. Die Stadt nennt eine Bearbeitungszeit von 10 Arbeitstagen, und für einen Umzug gilt die Zone höchstens drei Kalendertage."
     },
     {
       "heading": "Vorlaufzeit: rechnen Sie mit drei Wochen",
@@ -26,7 +26,7 @@
     },
     {
       "heading": "Was eine Halteverbotszone kostet",
-      "body": "Bei mmoving.de kostet die Halteverbotszone 300 € brutto je Adresse. Darin enthalten sind die Beantragung beim KVR, die amtliche Gebühr, das Aufstellen der Schilder im richtigen Abstand, die Fotodokumentation des Aufstellzeitpunkts und der Abbau nach dem Umzug. Bei einem Umzug innerhalb Münchens brauchen Sie in der Regel zwei Zonen — eine an der alten und eine an der neuen Adresse. Die Fotodokumentation ist kein Formalismus: Sie ist der Nachweis, dass die 72-Stunden-Frist eingehalten wurde, und damit die Grundlage für ein Abschleppen."
+      "body": "Bei mmoving.de kostet die Halteverbotszone 300 € brutto je Adresse. Darin enthalten sind die Beantragung beim Mobilitätsreferat, die amtliche Gebühr, das Aufstellen der Schilder im richtigen Abstand, die Fotodokumentation des Aufstellzeitpunkts und der Abbau nach dem Umzug. Bei einem Umzug innerhalb Münchens brauchen Sie in der Regel zwei Zonen — eine an der alten und eine an der neuen Adresse. Die Fotodokumentation ist kein Formalismus: Sie ist der Nachweis, dass die 72-Stunden-Frist eingehalten wurde, und damit die Grundlage für ein Abschleppen."
     },
     {
       "heading": "Wenn trotzdem ein Auto in der Zone steht",
@@ -46,7 +46,7 @@
     "items": [
       {
         "question": "Was kostet eine Halteverbotszone in München?",
-        "answer": "Bei mmoving.de 300 € brutto je Adresse. Darin enthalten sind die Beantragung beim KVR, die amtliche Gebühr, das Aufstellen und der Abbau der Schilder sowie die Fotodokumentation des Aufstellzeitpunkts. Bei einem Umzug innerhalb Münchens brauchen Sie in der Regel zwei Zonen."
+        "answer": "Bei mmoving.de 300 € brutto je Adresse. Darin enthalten sind die Beantragung beim Mobilitätsreferat, die amtliche Gebühr, das Aufstellen und der Abbau der Schilder sowie die Fotodokumentation des Aufstellzeitpunkts. Bei einem Umzug innerhalb Münchens brauchen Sie in der Regel zwei Zonen."
       },
       {
         "question": "Wie lange dauert die Beantragung einer Halteverbotszone in München?",
@@ -54,7 +54,7 @@
       },
       {
         "question": "Wer ist in München für Halteverbotszonen zuständig?",
-        "answer": "Das Kreisverwaltungsreferat (KVR) der Landeshauptstadt München, Hauptabteilung Straßenverkehr. Der Antrag wird als verkehrsrechtliche Anordnung bearbeitet."
+        "answer": "Das Mobilitätsreferat der Landeshauptstadt München, Abteilung Temporäre Anordnungen, Implerstraße 9. Der Antrag wird als verkehrsrechtliche Anordnung bearbeitet; die Stadt nennt eine Bearbeitungszeit von 10 Arbeitstagen. Außerhalb Münchens ist die Straßenverkehrsbehörde am Ort zuständig — in Germering etwa das Straßenverkehrsamt der Stadt."
       },
       {
         "question": "Wie lange müssen die Schilder vorher stehen?",
