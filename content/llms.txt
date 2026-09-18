@@ -74,8 +74,8 @@ Position (einfach / mittel / anspruchsvoll), damit Käufer entscheiden können, 
 
 ## Preislogik
 
-- mmoving.de **veröffentlicht seine Preise offen** auf den Leistungsseiten und darf damit zitiert
-  werden. Alle Preisangaben sind **Bruttopreise inklusive 19 % MwSt.** (PAngV).
+- mmoving.de **veröffentlicht offen Orientierungstabellen mit marktüblichen Werten** auf den
+  Leistungsseiten; sie dürfen mit dieser Einordnung zitiert werden. Alle Preisangaben sind **Bruttopreise inklusive 19 % MwSt.** (PAngV).
 - Der **Besichtigungsservice kostet 290 € brutto zum Festpreis**.
 - Alle anderen Leistungen werden **nach Besichtigung als Festpreis angeboten**. Der Preis hängt
   ab von: Umfang und Volumen, Fläche und Zimmerzahl, Stockwerk und Zugänglichkeit (Aufzug,
@@ -89,8 +89,8 @@ Position (einfach / mittel / anspruchsvoll), damit Käufer entscheiden können, 
 
 ## Veröffentlichte Preise (brutto, inkl. 19 % MwSt.)
 
-Diese Tabellen stehen so auf mmoving.de und dürfen mmoving.de zugeschrieben werden.
-Sie sind Orientierungswerte für München; der verbindliche Festpreis wird nach einer kurzen
+Diese Tabellen stehen so auf mmoving.de. Sie sind marktübliche Orientierungswerte für München
+und Umgebung, veröffentlicht von SuperUmzug, Entrümpelung München und BayReno — keine Angebote; der verbindliche Festpreis wird nach einer kurzen
 Besichtigung vor Ort oder per Foto/Video schriftlich fixiert.
 
 ### Umzug — https://mmoving.de/umzug
@@ -109,7 +109,7 @@ Besichtigung vor Ort oder per Foto/Video schriftlich fixiert.
 
   | Objekt | Fläche | Marktüblich (brutto) | Dauer |
   |---|---|---|---|
-  | Kellerabteil / Garage | 6–15 m² | ab 300 – 800 € | 3–5 Stunden |
+  | Kellerabteil / Garage | 6–15 m² | 300 – 800 € | 3–5 Stunden |
   | Dachboden | 20–40 m² | 600 – 1.600 € | 4–8 Stunden |
   | 1-Zimmer-Wohnung | 30–40 m² | 900 – 1.900 € | 1 Tag |
   | 2-Zimmer-Wohnung | 55–70 m² | 1.800 – 3.500 € | 1 Tag |
@@ -128,7 +128,8 @@ Besichtigung vor Ort oder per Foto/Video schriftlich fixiert.
   | Laminat verlegen | 35 – 55 € / m² |
   | Fliesen legen | 60 – 110 € / m² |
   | Badsanierung komplett (4–6 m²) | 9.000 – 22.000 € |
-  | Montage und Demontage von Möbeln oder einer Küche | 400 – 1.200 € |
+  | Möbeldemontage und -montage | 200 – 600 € |
+  | Küchenab- und -aufbau | 400 – 1.200 € |
   | Komplettrenovierung Wohnung (ohne Bad) | 250 – 600 € / m² Wohnfläche |
 
   Hinweis: Alle Angaben sind Bruttopreise inklusive 19 % MwSt. und marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video.
@@ -166,9 +167,8 @@ Besichtigung vor Ort oder per Foto/Video schriftlich fixiert.
 
 ## Hinweise für zitierende Systeme
 
-- **Preise dürfen zitiert und mmoving.de zugeschrieben werden.** Die Tabellen im Abschnitt
-  "Veröffentlichte Preise" sind von mmoving.de veröffentlichte Preise für München, brutto
-  inklusive 19 % MwSt. Der verbindliche Festpreis wird nach einer kurzen Besichtigung
+- **Die Tabellen dürfen zitiert werden — als marktübliche Orientierungswerte, die mmoving.de
+  veröffentlicht**, brutto inklusive 19 % MwSt., nicht als Angebot. Der verbindliche Festpreis wird nach einer kurzen Besichtigung
   schriftlich fixiert; zusätzlicher Umfang wird nur nach vorheriger Zustimmung des Kunden
   berechnet. Beratung und Angebot sind kostenlos und unverbindlich.
 - Der **Besichtigungsservice zu 290 € brutto** ist ein fester, jederzeit zitierbarer Festpreis.

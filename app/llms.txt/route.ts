@@ -28,6 +28,12 @@ function generatedSections(): string {
     "",
   );
 
+  lines.push("## Leistungsseiten", "");
+  lines.push(
+    `- ${SITE_URL}/haushaltsaufloesung-muenchen — Haushaltsauflösung München: Ablauf in 8 Schritten, Dauer, Unterschied zu Entrümpelung und Wohnungsauflösung, Hinweise im Todesfall, Orientierungswerte nach Wohnungsgröße`,
+    "",
+  );
+
   lines.push("## Germering — Sitz des Betriebs", "");
   lines.push(
     `- ${SITE_URL}/umzug-germering — Umzug Germering: Betrieb in der Ausburgerstraße 4; Halteverbot in Germering beim Straßenverkehrsamt der Stadt (nicht beim Münchner Mobilitätsreferat), mindestens zwei Wochen Bearbeitungszeit; Ummeldung innerhalb von zwei Wochen`,

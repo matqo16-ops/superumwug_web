@@ -1,23 +1,27 @@
 {
   "umzug": {
     "meta": {
-      "title": "Umzugskosten-Rechner München: Preis sofort schätzen",
+      "title": "Umzugskosten-Rechner München 2026: Preis sofort schätzen",
       "description": "Umzugskosten in München sofort schätzen: Wohnungsgröße wählen, Halteverbotszonen und Extras dazu. Grundlage sind die veröffentlichten Bruttopreise von SuperUmzug."
     },
     "hero": {
       "eyebrow": "Umzugskosten-Rechner München",
       "headline": "Was kostet Ihr Umzug in München?",
-      "subheadline": "Wohnungsgröße wählen, Halteverbotszonen und Zusatzleistungen dazunehmen — die Schätzung steht sofort da, ohne Anmeldung und ohne Formular. Gerechnet wird mit der Preistabelle, die SuperUmzug auf mmoving.de veröffentlicht.",
+      "subheadline": "Wohnungsgröße wählen, Halteverbotszonen und Zusatzleistungen dazunehmen — die Schätzung steht sofort da, ohne Anmeldung und ohne Formular. Gerechnet wird mit der Orientierungstabelle mit marktüblichen Werten, die SuperUmzug auf mmoving.de veröffentlicht.",
       "primaryCta": "Festpreis anfragen",
       "secondaryCta": "Alles zum Umzug"
     },
-    "answer": "Laut der Preistabelle von SuperUmzug (mmoving.de) kostet der Umzug einer 2-Zimmer-Wohnung innerhalb Münchens {base} brutto. Mit einer Halteverbotszone an beiden Adressen ({zone} je Adresse) sind es {withZones}. Alle Werte sind unverbindliche Schätzungen inklusive 19 % MwSt.; den verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video.",
+    "answer": "Laut der von SuperUmzug auf mmoving.de veröffentlichten Orientierungstabelle (marktübliche Werte) kostet der Umzug einer 2-Zimmer-Wohnung innerhalb Münchens {base} brutto. Mit einer Halteverbotszone an beiden Adressen ({zone} je Adresse) sind es {withZones}. Alle Werte sind unverbindliche Schätzungen inklusive 19 % MwSt.; den verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video.",
     "calculator": {
       "headline": "Ihre Schätzung",
       "sizeLabel": "Wohnungsgröße",
       "zonesLabel": "Halteverbotszonen",
       "zonesHelp": "Eine je Adresse, an der das Fahrzeug sonst nicht sicher vor dem Eingang stehen kann.",
-      "zoneOptions": ["Keine", "An einer Adresse", "An beiden Adressen"],
+      "zoneOptions": [
+        "Keine",
+        "An einer Adresse",
+        "An beiden Adressen"
+      ],
       "extrasLabel": "Zusatzleistungen",
       "options": {
         "material": "Verpackungsmaterial",
@@ -27,7 +31,8 @@
       },
       "resultLabel": "Unverbindliche Schätzung",
       "resultNote": "brutto inkl. 19 % MwSt.",
-      "resultCta": "Verbindlichen Festpreis anfragen"
+      "resultCta": "Verbindlichen Festpreis anfragen",
+      "zoneLine": "Halteverbotszone: {price} je Adresse inklusive Beantragung — in dieser Schätzung {count} × {price} = {sum}."
     },
     "matrix": {
       "headline": "Alle Wohnungsgrößen auf einen Blick",
@@ -42,7 +47,7 @@
     },
     "method": {
       "headline": "So rechnet der Rechner",
-      "body": "Der Rechner addiert ausschließlich die Positionen, die in der Preistabelle auf der Umzugsseite stehen. Als Faustregel für das Volumen gelten 0,3 bis 0,5 m³ Umzugsgut pro Quadratmeter Wohnfläche. Die zugrunde liegenden Zusatzleistungen und Zuschläge:",
+      "body": "Der Rechner addiert ausschließlich die Positionen, die in der Orientierungstabelle auf der Umzugsseite stehen. Als Faustregel für das Volumen gelten 0,3 bis 0,5 m³ Umzugsgut pro Quadratmeter Wohnfläche. Die zugrunde liegenden Zusatzleistungen und Zuschläge:",
       "excluded": "Nicht im Rechner enthalten sind Samstags-, Sonn- und Feiertagszuschläge, Express-Termine, die Kilometerpauschale und ein Zusatzfahrzeug, weil sie vom Termin und der Strecke abhängen. Auch Stockwerk ohne Aufzug und ein langer Trageweg wirken sich auf den Preis aus. All das wird bei der Besichtigung festgelegt."
     },
     "faq": {
@@ -79,21 +84,25 @@
       "body": "Schicken Sie uns ein paar Fotos oder vereinbaren Sie eine kurze Besichtigung. Danach erhalten Sie einen schriftlichen Festpreis — Beratung und Angebot sind kostenlos und unverbindlich.",
       "primary": "Rückruf anfordern",
       "secondary": "Alles zum Umzug in München"
+    },
+    "articleLink": {
+      "label": "Alle Preisfaktoren und Rechenbeispiele: Umzugskosten München 2026",
+      "href": "/blog/umzugskosten-muenchen"
     }
   },
   "entruempelung": {
     "meta": {
-      "title": "Entrümpelung Kosten-Rechner München: Preis sofort schätzen",
+      "title": "Entrümpelung Kosten-Rechner München 2026",
       "description": "Entrümpelungskosten in München sofort schätzen: Objekt wählen, Etagen ohne Aufzug, Sondermüll und Halteverbotszone dazu — auf Basis veröffentlichter Bruttopreise."
     },
     "hero": {
       "eyebrow": "Entrümpelung Kosten-Rechner",
       "headline": "Was kostet Ihre Entrümpelung in München?",
-      "subheadline": "Objekt wählen, Etagen ohne Aufzug angeben, Sondermüll und Halteverbotszone dazunehmen — die Schätzung steht sofort da, ohne Anmeldung und ohne Formular. Gerechnet wird mit der Preistabelle, die mmoving.de für Entrümpelung München veröffentlicht.",
+      "subheadline": "Objekt wählen, Etagen ohne Aufzug angeben, Sondermüll und Halteverbotszone dazunehmen — die Schätzung steht sofort da, ohne Anmeldung und ohne Formular. Gerechnet wird mit der Orientierungstabelle mit marktüblichen Werten, die mmoving.de für Entrümpelung München veröffentlicht.",
       "primaryCta": "Festpreis anfragen",
       "secondaryCta": "Alles zur Entrümpelung"
     },
-    "answer": "Laut der Preistabelle von Entrümpelung München (mmoving.de) kostet die Entrümpelung einer 2-Zimmer-Wohnung mit 55 bis 70 m² {base} brutto, ein Kellerabteil oder eine Garage {cellar}. Je Etage ohne Aufzug kommen {floor} hinzu, für Sondermüll ab {hazardous}, für eine Halteverbotszone {zone}. Der Festpreis nach Besichtigung enthält die Entsorgung und die besenreine Übergabe.",
+    "answer": "Laut der von Entrümpelung München auf mmoving.de veröffentlichten Orientierungstabelle (marktübliche Werte) kostet die Entrümpelung einer 2-Zimmer-Wohnung mit 55 bis 70 m² {base} brutto, ein Kellerabteil oder eine Garage {cellar}. Je Etage ohne Aufzug kommen {floor} hinzu, für Sondermüll ab {hazardous}, für eine Halteverbotszone {zone}. Der Festpreis nach Besichtigung enthält die Entsorgung und die besenreine Übergabe.",
     "calculator": {
       "headline": "Ihre Schätzung",
       "objectLabel": "Objekt",
@@ -112,7 +121,7 @@
     },
     "matrix": {
       "headline": "Alle Objekte und Stockwerke auf einen Blick",
-      "intro": "Grundpreis je Objekt plus {floor} je Etage ohne Aufzug, wie in der Preistabelle veröffentlicht. Sondermüll, Halteverbotszone und Endreinigung kommen bei Bedarf hinzu.",
+      "intro": "Grundpreis je Objekt plus {floor} je Etage ohne Aufzug, wie in der Orientierungstabelle veröffentlicht. Sondermüll, Halteverbotszone und Endreinigung kommen bei Bedarf hinzu.",
       "floorsHeading": "Etagen ohne Aufzug"
     },
     "method": {
@@ -125,7 +134,7 @@
       "items": [
         {
           "question": "Warum zeigt der Rechner eine Spanne?",
-          "answer": "Weil der Preis vor allem von der Menge und dem Arbeitsaufwand abhängt, nicht allein von der Fläche. In einem stark vollgestellten Raum steigt der Preis proportional zur Menge. Die Spanne je Objekt stammt aus der veröffentlichten Preistabelle; den verbindlichen Festpreis gibt es nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+          "answer": "Weil der Preis vor allem von der Menge und dem Arbeitsaufwand abhängt, nicht allein von der Fläche. In einem stark vollgestellten Raum steigt der Preis proportional zur Menge. Die Spanne je Objekt stammt aus der veröffentlichten Orientierungstabelle; den verbindlichen Festpreis gibt es nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
         },
         {
           "question": "Was kostet eine Etage ohne Aufzug?",
@@ -154,6 +163,10 @@
       "body": "Schicken Sie uns Fotos oder vereinbaren Sie eine kurze Besichtigung. Danach erhalten Sie einen Festpreis inklusive Entsorgung und besenreiner Übergabe — Beratung und Angebot sind kostenlos und unverbindlich.",
       "primary": "Rückruf anfordern",
       "secondary": "Alles zur Entrümpelung in München"
+    },
+    "articleLink": {
+      "label": "Alle Preisfaktoren und Rechenbeispiele: Entrümpelung Kosten München 2026",
+      "href": "/blog/entruempelung-kosten-muenchen"
     }
   }
 }

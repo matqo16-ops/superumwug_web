@@ -11,6 +11,7 @@ import {
 } from "@/lib/content";
 import { absoluteUrl, AREAS_SERVED, BUSINESS_ID } from "@/lib/schema";
 import { SITE_URL } from "@/lib/seo";
+import { cutAtWord } from "@/lib/text";
 import { btnOutlineOnDark, btnPrimary } from "@/lib/styles";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CallbackButton } from "@/components/CallbackButton";
@@ -54,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // "Umzug <Stadtteil>" is the query people type; the brand is appended
     // only where it still fits in 60 characters.
     title: districtTitle(d.name),
-    description: d.metaDescription,
+    description: d.metaDescription ?? cutAtWord(d.intro, 155),
     alternates: { canonical: url },
     openGraph: {
       title: districtTitle(d.name),

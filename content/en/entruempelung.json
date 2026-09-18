@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "English-Speaking Clearance in Munich — Fixed Price",
+    "title": "Furniture Disposal & Flat Clearance Munich (English)",
     "description": "English-speaking clearance in Munich: apartments, houses, cellars, offices. Fixed price after a short survey, disposal included, broom-clean handover."
   },
   "hero": {
@@ -73,6 +73,10 @@
     "headline": "Frequently asked questions about clearance in Munich",
     "items": [
       {
+        "question": "Do you speak English?",
+        "answer": "Yes. mmoving.de (SuperUmzug, Entrümpelung München and BayReno, based in Germering near Munich) has a dedicated English-language advice line, +49 176 7091 1464, and advises in seven languages: German, English, Slovak, Czech, Polish, Ukrainian and Croatian. Callback requests and the chat assistant on the site work in English too."
+      },
+      {
         "question": "Is Entrümpelung München a separate company?",
         "answer": "No. Entrümpelung München is a trading name, not a separate legal form. The legal entity is the sole proprietorship Martin Marcinko, based in Germering. The same business also trades as SuperUmzug for moves and BayReno for renovation."
       },
@@ -82,7 +86,7 @@
       },
       {
         "question": "What does a clearance in Munich cost?",
-        "answer": "Typical market rates are €35–70 per square metre. A 60 m² flat therefore runs about €1,800–3,500, a cellar unit from around €300, a detached house €4,500–9,000. After a short survey you receive a fixed price including disposal."
+        "answer": "According to the guide table of typical market rates published on mmoving.de: cellar unit or garage €300–800, 2-room flat (55–70 m²) €1,800–3,500, 3-room flat (75–95 m²) €2,600–4,800, detached house €4,500–9,000 gross. After a short survey you receive a fixed price including disposal."
       },
       {
         "question": "How long does a clearance take?",
@@ -114,7 +118,7 @@
       }
     ]
   },
-  "lead": "Entrümpelung München clears flats, houses, cellars, attics and commercial space in Munich and the surrounding area — at a fixed price after a short survey. Typical market rates run €35–70 per square metre. We sort by material, dispose with documented proof and hand the space over broom-clean.",
+  "lead": "Entrümpelung München clears flats, houses, cellars, attics and commercial space in Munich and the surrounding area — at a fixed price after a short survey. According to the guide table of typical market rates published on mmoving.de, a 2-room flat runs €1,800–3,500 gross and a cellar unit €300–800. We sort by material, dispose with documented proof and hand the space over broom-clean.",
   "detail": {
     "headline": "Clearance in Munich — services in detail",
     "sections": [
@@ -235,7 +239,17 @@
       "No-parking zone: €300 (arrange about 3 weeks ahead)",
       "Deep clean beyond broom-clean: €3 – 8 per m²"
     ],
-    "note": "All figures are gross prices including 19 % VAT and typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
+    "note": "All figures are gross prices including 19 % VAT and typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video.",
+    "caption": "Guide table of typical market rates for Munich and the surrounding area, published by Entrümpelung München on mmoving.de — gross, incl. 19 % VAT.",
+    "pricesStand": "August 2026",
+    "includedHeading": "Included in the price",
+    "included": [
+      "Gross prices including 19 % VAT",
+      "Fixed price after a survey, including disposal",
+      "Broom-clean handover",
+      "Sorting by material as items are carried out",
+      "Our own vehicles and our own team"
+    ]
   },
   "situations": {
     "headline": "Typical reasons for a clearance",

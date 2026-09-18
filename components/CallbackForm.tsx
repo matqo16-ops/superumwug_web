@@ -4,6 +4,24 @@ import { useState, type FormEvent } from "react";
 import { useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import type { CallbackFormContent, Option } from "@/lib/content-types";
+import { telHref } from "@/lib/phone";
+
+/**
+ * Renders the phone number inside an error message as a tap-to-call link. The
+ * error state is exactly when the visitor needs to call instead — and it is
+ * shown when email delivery fails, which has happened.
+ */
+function withPhoneLinks(text: string) {
+  return text.split(/(\+\d[\d ]{6,}\d)/).map((part, index) =>
+    index % 2 === 1 ? (
+      <a key={index} href={telHref(part)} className="whitespace-nowrap underline underline-offset-2">
+        {part}
+      </a>
+    ) : (
+      part
+    ),
+  );
+}
 
 const inputClasses =
   "w-full rounded-lg border border-hairline bg-white px-4 py-2.5 text-ink placeholder:text-anthracite/40 focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/40";
@@ -93,7 +111,7 @@ export function CallbackForm({
           role="alert"
           className="mb-4 rounded-lg border border-error/30 bg-error/10 px-4 py-3 text-sm font-medium text-error"
         >
-          {status === "rateLimited" ? form.errorRateLimited : form.error}
+          {withPhoneLinks(status === "rateLimited" ? form.errorRateLimited : form.error)}
         </p>
       )}
 

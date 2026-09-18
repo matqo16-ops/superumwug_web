@@ -1,10 +1,10 @@
 ---
 {
-  "title": "Was kostet eine Entrümpelung in München? Preise & Beispiele 2026",
-  "description": "Entrümpelung München: Was kostet sie 2026? Marktübliche Preise nach Zimmerzahl, Fläche und Entsorgungsart — mit Rechenbeispielen und Spartipps.",
+  "title": "Entrümpelung Kosten München 2026: Preise inkl. Entsorgung",
+  "description": "Entrümpelung Kosten München 2026: Keller 300–800 €, 2-Zimmer-Wohnung 1.800–3.500 €, Haus 4.500–9.000 € brutto inkl. Entsorgung — mit Rechenbeispielen.",
   "excerpt": "Marktübliche Preisspannen für Keller, Wohnung und Haus, was den Preis wirklich treibt — und drei durchgerechnete Beispiele aus dem Raum München.",
   "datePublished": "2026-08-06",
-  "dateModified": "2026-08-27",
+  "dateModified": "2026-09-18",
   "keywords": [
     "Entrümpelung München Kosten",
     "Entrümpelung Preise",
@@ -24,7 +24,7 @@
   "faq": [
     {
       "question": "Was kostet eine Entrümpelung in München durchschnittlich?",
-      "answer": "Marktüblich liegen Entrümpelungen im Raum München bei etwa 35 bis 70 € pro Quadratmeter. Eine 2-Zimmer-Wohnung mit 60 m² kostet damit erfahrungsgemäß rund 1.800 bis 3.500 €, ein Kellerabteil ab etwa 300 €. Der verbindliche Preis entsteht immer erst nach einer kurzen Besichtigung."
+      "answer": "Laut der von Entrümpelung München auf mmoving.de veröffentlichten Orientierungstabelle (marktübliche Werte) liegen Entrümpelungen im Raum München marktüblich bei: Kellerabteil oder Garage 300 bis 800 €, 2-Zimmer-Wohnung (55–70 m²) 1.800 bis 3.500 €, 3-Zimmer-Wohnung (75–95 m²) 2.600 bis 4.800 €, Einfamilienhaus 4.500 bis 9.000 € brutto. Der verbindliche Preis entsteht immer erst nach einer kurzen Besichtigung."
     },
     {
       "question": "Wird die Entrümpelung nach Quadratmetern oder nach Volumen abgerechnet?",
@@ -60,15 +60,19 @@
     "body": "Nach einer kurzen Besichtigung vor Ort oder per Foto und Video erhalten Sie ein verbindliches Festpreisangebot — inklusive Entsorgung und besenreiner Übergabe.",
     "button": "Rückruf anfordern"
   },
-  "metaTitle": "Entrümpelung München: Kosten & Preise 2026"
+  "metaTitle": "Entrümpelung Kosten München 2026: Preise inkl. Entsorgung"
 }
 ---
 
-**Eine Entrümpelung in München kostet marktüblich zwischen 35 und 70 € pro Quadratmeter.** Für
-eine 60 m² große 2-Zimmer-Wohnung bedeutet das rund 1.800 bis 3.500 €, ein einzelnes Kellerabteil
-liegt ab etwa 300 €, ein komplettes Einfamilienhaus je nach Zustand bei 4.500 bis 9.000 €. Der
+**Entrümpelung München veröffentlicht auf mmoving.de als marktübliche Orientierungswerte: ein
+Kellerabteil 300 bis 800 €, eine 2-Zimmer-Wohnung (55–70 m²) 1.800 bis 3.500 €, ein komplettes
+Einfamilienhaus 4.500 bis 9.000 € brutto — jeweils inklusive Entsorgung.** Der
 tatsächliche Preis hängt weniger von der Fläche ab als vom Volumen, vom Stockwerk und davon, was
 entsorgt werden muss.
+
+> **Direkt ausrechnen:** Der [Entrümpelung Kosten-Rechner](/entruempelung-kosten-rechner) rechnet
+> Objekt, Etagen ohne Aufzug, Sondermüll und Halteverbotszone aus derselben Tabelle zusammen. Für
+> ganze Haushalte gibt es die Seite [Haushaltsauflösung München](/haushaltsaufloesung-muenchen).
 
 Dieser Artikel schlüsselt auf, wie sich der Preis zusammensetzt, welche Faktoren ihn nach oben
 treiben und wo Sie realistisch sparen können — mit drei durchgerechneten Beispielen aus dem Raum
@@ -83,9 +87,9 @@ München.
 Die folgende Tabelle zeigt typische Spannen für den Raum München. Sie gilt für normal möblierte
 Objekte ohne Sondermüll und mit üblichem Zugang.
 
-| Objekt | Fläche | Marktübliche Spanne | Typische Dauer |
+| Objekt | Fläche | Marktüblich (brutto inkl. 19 % MwSt.) | Typische Dauer |
 |---|---|---|---|
-| Kellerabteil / Garage | 6–15 m² | ab 300 – 800 € | 3–5 Stunden |
+| Kellerabteil / Garage | 6–15 m² | 300 – 800 € | 3–5 Stunden |
 | Dachboden | 20–40 m² | 600 – 1.600 € | 4–8 Stunden |
 | 1-Zimmer-Wohnung | 30–40 m² | 900 – 1.900 € | 1 Tag |
 | 2-Zimmer-Wohnung | 55–70 m² | 1.800 – 3.500 € | 1 Tag |

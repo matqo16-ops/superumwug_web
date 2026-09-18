@@ -73,7 +73,7 @@
     "items": [
       {
         "question": "Was kostet ein Umzug in München?",
-        "answer": "Marktüblich 700 bis 1.400 € brutto für eine 2-Zimmer-Wohnung innerhalb Münchens und 1.400 bis 2.800 € brutto für vier Zimmer. Der Preis hängt von Volumen, Entfernung, Stockwerk und Zusatzleistungen ab. Nach einer kurzen Besichtigung erhalten Sie von uns einen verbindlichen Festpreis. Alle Preise verstehen sich inklusive 19 % MwSt."
+        "answer": "SuperUmzug veröffentlicht auf mmoving.de als marktüblichen Orientierungswert für eine 2-Zimmer-Wohnung innerhalb Münchens 700 bis 1.400 € brutto, für vier Zimmer 1.400 bis 2.800 € brutto. Der Preis hängt von Volumen, Entfernung, Stockwerk und Zusatzleistungen ab. Nach einer kurzen Besichtigung erhalten Sie von uns einen verbindlichen Festpreis. Alle Preise verstehen sich inklusive 19 % MwSt."
       },
       {
         "question": "Wie früh sollte ich meinen Umzug buchen?",
@@ -170,7 +170,7 @@
     "items": [
       {
         "label": "Umzugskosten-Rechner",
-        "body": "Wohnungsgröße wählen, Halteverbotszonen und Extras dazu — die Schätzung aus unserer Preistabelle steht sofort da.",
+        "body": "Wohnungsgröße wählen, Halteverbotszonen und Extras dazu — die Schätzung aus unserer Orientierungstabelle steht sofort da.",
         "href": "/umzugskosten-rechner"
       },
       {
@@ -261,7 +261,17 @@
       "Halteverbotszone je Adresse: 300 € (Beantragung rund 3 Wochen im Voraus)",
       "Samstagszuschlag: +50 % · Sonn- und Feiertage sowie Express innerhalb 24 h: doppelter Satz"
     ],
-    "note": "Alle Angaben sind Bruttopreise inklusive 19 % MwSt. und marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+    "note": "Alle Angaben sind Bruttopreise inklusive 19 % MwSt. und marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video.",
+    "caption": "Orientierungstabelle mit marktüblichen Werten für München und Umgebung, veröffentlicht von SuperUmzug auf mmoving.de — brutto inkl. 19 % MwSt.",
+    "pricesStand": "August 2026",
+    "includedHeading": "Im Preis enthalten",
+    "included": [
+      "Bruttopreise inklusive 19 % MwSt.",
+      "Festpreis nach Besichtigung für den besichtigten Umfang",
+      "Eigene Fahrzeuge und eigenes Team",
+      "Gesetzliche Haftung nach § 451e HGB: 620 € je Kubikmeter Laderaum",
+      "Halteverbotszone: 300 € je Adresse inklusive Beantragung, Schildern, Dokumentation und Abbau"
+    ]
   },
   "situations": {
     "headline": "Typische Situationen, in denen wir umziehen",

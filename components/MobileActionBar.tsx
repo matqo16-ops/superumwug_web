@@ -1,5 +1,6 @@
 "use client";
 
+import { telHref } from "@/lib/phone";
 import { CallbackButton } from "./CallbackButton";
 
 /**
@@ -21,7 +22,7 @@ export function MobileActionBar({
   return (
     <div className="fixed inset-x-0 bottom-0 z-[55] flex gap-2 border-t border-white/10 bg-navy-deep/95 px-3 py-2.5 backdrop-blur md:hidden">
       <a
-        href={`tel:${phone.replace(/[^\d+]/g, "")}`}
+        href={telHref(phone)}
         className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-gold px-3 py-3 text-base font-semibold text-navy"
       >
         <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">

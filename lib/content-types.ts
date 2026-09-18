@@ -133,6 +133,8 @@ export interface CommonContent {
     languageLabel: string;
     /** Label of the tap-to-call button in the mobile action bar. */
     callLabel: string;
+    /** Lead-in for an inline tap-to-call link, e.g. under price tables. */
+    callDirect: string;
   };
   chatCta: {
     eyebrow: string;
@@ -231,6 +233,17 @@ export interface ServiceSeoContent {
   pricing: {
     headline: string;
     intro: string;
+    /** Names who publishes the table and on what basis; rendered as <caption>. */
+    caption?: string;
+    /**
+     * When the figures were last checked or changed, set by hand. Do not
+     * derive it from git or bump it for text edits: a newer date claims a
+     * price check that never happened.
+     */
+    pricesStand?: string;
+    /** "Im Preis enthalten": only facts already stated elsewhere on the site. */
+    includedHeading?: string;
+    included?: string[];
     columns: string[];
     rows: string[][];
     extras: string[];
@@ -560,8 +573,11 @@ export interface HalteverbotszoneContent {
 export interface StadtteilContent {
   slug: string;
   name: string;
-  /** Handwritten, <=155 chars, naming this district's own access facts. */
-  metaDescription: string;
+  /**
+   * Handwritten, <=155 chars, naming this district's own access facts. A new
+   * district without one falls back to its intro, cut at a word boundary.
+   */
+  metaDescription?: string;
   bezirk?: string;
   intro: string;
   buildingStock: string;
@@ -593,6 +609,8 @@ interface RechnerPageBase {
   method: { headline: string; body: string; excluded: string };
   faq: { headline: string; items: FaqItem[] };
   cta: { headline: string; body: string; primary: string; secondary: string };
+  /** The matching cost article, linked under the method section. */
+  articleLink: { label: string; href: string };
 }
 
 export interface UmzugRechnerContent extends RechnerPageBase {
@@ -607,6 +625,8 @@ export interface UmzugRechnerContent extends RechnerPageBase {
     resultLabel: string;
     resultNote: string;
     resultCta: string;
+    /** Always-visible zone line; {price}, {count} and {sum} are filled in. */
+    zoneLine: string;
   };
   matrix: { headline: string; intro: string; columns: string[] };
 }

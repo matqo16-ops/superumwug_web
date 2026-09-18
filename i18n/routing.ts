@@ -34,6 +34,7 @@ export const routing = defineRouting({
     "/entruempelung-kosten-rechner": "/entruempelung-kosten-rechner",
     "/umzug-germering": "/umzug-germering",
     "/entruempelung-germering": "/entruempelung-germering",
+    "/haushaltsaufloesung-muenchen": "/haushaltsaufloesung-muenchen",
     "/blog": "/blog",
     "/blog/[slug]": "/blog/[slug]",
     "/b2b": "/b2b",
@@ -69,6 +70,7 @@ export const GERMAN_ONLY_ROUTES = [
   "/entruempelung-kosten-rechner",
   "/umzug-germering",
   "/entruempelung-germering",
+  "/haushaltsaufloesung-muenchen",
 ] as const satisfies readonly AppPathname[];
 
 export function isGermanOnly(href: string): boolean {

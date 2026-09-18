@@ -10,7 +10,7 @@
     "primaryCta": "Rückruf anfordern",
     "secondaryCta": "Kosten berechnen"
   },
-  "answer": "Die Entrümpelung einer 2-Zimmer-Wohnung kostet laut der Preistabelle von mmoving.de {base} brutto, ein Kellerabteil oder eine Garage {cellar} — der Festpreis nach Besichtigung enthält die Entsorgung und die besenreine Übergabe. Der Betrieb sitzt in Germering, Ausburgerstraße 4. Für kleine Mengen reichen oft der Wertstoffhof oder die Sperrmüllabholung des Landkreises Fürstenfeldbruck, die für bis zu 2 m³ 80 € kostet; für eine ganze Haushaltsauflösung reicht sie nicht.",
+  "answer": "Die Entrümpelung einer 2-Zimmer-Wohnung kostet laut der auf mmoving.de veröffentlichten Orientierungstabelle (marktübliche Werte) {base} brutto, ein Kellerabteil oder eine Garage {cellar} — der Festpreis nach Besichtigung enthält die Entsorgung und die besenreine Übergabe. Der Betrieb sitzt in Germering, Ausburgerstraße 4. Für kleine Mengen reichen oft der Wertstoffhof oder die Sperrmüllabholung des Landkreises Fürstenfeldbruck, die für bis zu 2 m³ 80 € kostet; für eine ganze Haushaltsauflösung reicht sie nicht.",
   "sections": [
     {
       "heading": "Wir sitzen in Germering",
@@ -58,7 +58,7 @@
       },
       {
         "question": "Was kostet eine Entrümpelung in Germering?",
-        "answer": "Laut unserer Preistabelle kostet ein Kellerabteil oder eine Garage 300 bis 800 € brutto, eine 2-Zimmer-Wohnung 1.800 bis 3.500 € und ein Einfamilienhaus 4.500 bis 9.000 €. Je Etage ohne Aufzug kommen 8 bis 15 % hinzu. Der Festpreis nach Besichtigung enthält die Entsorgung und die besenreine Übergabe."
+        "answer": "Laut unserer Orientierungstabelle mit marktüblichen Werten kostet ein Kellerabteil oder eine Garage 300 bis 800 € brutto, eine 2-Zimmer-Wohnung 1.800 bis 3.500 € und ein Einfamilienhaus 4.500 bis 9.000 €. Je Etage ohne Aufzug kommen 8 bis 15 % hinzu. Der Festpreis nach Besichtigung enthält die Entsorgung und die besenreine Übergabe."
       },
       {
         "question": "Kommen Sie auch nach Puchheim, Gilching oder Gauting?",
@@ -83,7 +83,7 @@
   "related": [
     { "label": "Umzug in Germering", "href": "/umzug-germering" },
     { "label": "Entrümpelung Kosten-Rechner", "href": "/entruempelung-kosten-rechner" },
-    { "label": "Haushaltsauflösung: Ablauf", "href": "/blog/haushaltsaufloesung-ablauf" },
+    { "label": "Haushaltsauflösung München", "href": "/haushaltsaufloesung-muenchen" },
     { "label": "Entrümpelung München", "href": "/entruempelung" }
   ]
 }

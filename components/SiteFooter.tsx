@@ -2,10 +2,8 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import type { CommonContent, SiteData } from "@/lib/content-types";
 import { getStadtteil, getStadtteilSlugs } from "@/lib/content";
+import { telHref } from "@/lib/phone";
 import { CallbackButton } from "./CallbackButton";
-
-/** "+49 176 6415 1890" → "tel:+4917664151890" */
-const telHref = (phone: string) => `tel:${phone.replace(/[^\d+]/g, "")}`;
 
 export function SiteFooter({
   common,

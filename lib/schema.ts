@@ -1,12 +1,7 @@
 import "server-only";
 import { getPathname } from "@/i18n/navigation";
 import type { Locale, StaticPathname } from "@/i18n/routing";
-import {
-  getSiteData,
-  getUmzug,
-  getEntruempelung,
-  getRenovierung,
-} from "./content";
+import { getSiteData } from "./content";
 import type { FaqItem } from "./content-types";
 import { SITE_URL } from "./seo";
 
@@ -37,68 +32,22 @@ export const AREAS_SERVED = [
 ];
 
 /**
- * Absolute euro figures in one pricing-table cell, e.g. "450 – 850 €".
- *
- * Per-unit rates ("12 – 25 € / m²") are deliberately rejected: mixing a rate
- * into a total-price band produces a meaningless range, and an AggregateOffer
- * spanning "12" to "22000" would misrepresent what the work costs.
+ * Services the business offers, with a price only where it sets a real fixed
+ * price of its own. The service tables are labelled as typical market values
+ * ("marktübliche Orientierungswerte … keine Angebote"), so marking their bands
+ * up as this business's Offer price would say more than the page does. They
+ * return as priced Offers only if the owner re-labels the tables as his own
+ * guide prices (owner decision OD-2, work package W2-06).
  */
-function parseBand(cell: string): { low: number; high: number } | null {
-  if (/\/\s*m²|pro\s+m²|per\s+m²|\/\s*km|pro\s+Stunde|per hour/i.test(cell)) {
-    return null;
-  }
-  const nums = (cell.match(/\d[\d.,]*/g) ?? [])
-    .map((n) => Number(n.replace(/\./g, "").replace(",", ".")))
-    .filter((n) => Number.isFinite(n));
-  if (!nums.length) return null;
-  return { low: Math.min(...nums), high: Math.max(...nums) };
-}
-
-/**
- * Lowest and highest euro figure across a published price table. The price
- * column is located by its heading rather than by position — the Entrümpelung
- * table ends with "Dauer", not with a price.
- */
-function tableBand(
-  columns: string[],
-  rows: string[][],
-): { low: number; high: number } | null {
-  let index = columns.findIndex((c) =>
-    /marktüblich|market rate|preis|price|brutto|gross/i.test(c),
-  );
-  if (index < 0) index = columns.length - 1;
-
-  const bands = rows
-    .map((r) => parseBand(r[index] ?? ""))
-    .filter((b): b is { low: number; high: number } => b !== null);
-  if (!bands.length) return null;
-  return {
-    low: Math.min(...bands.map((b) => b.low)),
-    high: Math.max(...bands.map((b) => b.high)),
-  };
-}
-
-/**
- * Services we publish a price for, with the band read straight from the
- * rendered tables — so structured data and the visible page cannot disagree.
- */
-function publishedOffers() {
-  const u = getUmzug("de").pricing;
-  const e = getEntruempelung("de").pricing;
-  const r = getRenovierung("de").pricing;
-  const umzug = tableBand(u.columns, u.rows);
-  const entruempelung = tableBand(e.columns, e.rows);
-  const renovierung = tableBand(r.columns, r.rows);
+function publishedOffers(): { name: string; price?: number; unitText?: string }[] {
   return [
-    { name: "Umzug München", band: umzug },
-    { name: "Entrümpelung München", band: entruempelung },
-    { name: "Haushaltsauflösung München", band: entruempelung },
-    { name: "Renovierung München", band: renovierung },
-    { name: "Besichtigungsservice", band: { low: 290, high: 290 } },
-    {
-      name: "Komplettservice Umzug, Entrümpelung und Renovierung München",
-      band: null,
-    },
+    { name: "Umzug München" },
+    { name: "Entrümpelung München" },
+    { name: "Haushaltsauflösung München" },
+    { name: "Renovierung München" },
+    { name: "Halteverbotszone für den Umzug", price: 300, unitText: "je Adresse" },
+    { name: "Besichtigungsservice für Immobilienkäufer", price: 290 },
+    { name: "Komplettservice Umzug, Entrümpelung und Renovierung München" },
   ];
 }
 
@@ -371,14 +320,16 @@ export function localBusinessSchema(locale: Locale) {
     makesOffer: publishedOffers().map((o) => ({
       "@type": "Offer",
       itemOffered: { "@type": "Service", name: o.name },
-      ...(o.band
+      ...(o.price !== undefined
         ? {
+            price: o.price,
+            priceCurrency: "EUR",
             priceSpecification: {
-              "@type": "PriceSpecification",
+              "@type": "UnitPriceSpecification",
+              price: o.price,
               priceCurrency: "EUR",
-              minPrice: o.band.low,
-              maxPrice: o.band.high,
               valueAddedTaxIncluded: true,
+              ...(o.unitText ? { unitText: o.unitText } : {}),
             },
           }
         : {}),

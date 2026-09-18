@@ -1,30 +1,27 @@
 ---
 {
-  "title": "Haushaltsauflösung Schritt für Schritt: Ablauf, Dauer, Kosten",
-  "description": "Haushaltsauflösung in München: der komplette Ablauf in 8 Schritten, realistische Dauer, marktübliche Kosten und was im Todesfall rechtlich gilt.",
-  "excerpt": "Von der ersten Sichtung bis zur besenreinen Übergabe: der vollständige Ablauf einer Haushaltsauflösung, mit Zeitplan, Kosten und rechtlichen Hinweisen.",
+  "metaTitle": "Haushaltsauflösung München: Ablauf, Dauer & Kosten",
+  "description": "Haushaltsauflösung in München von Entrümpelung München: Ablauf in 8 Schritten, Dauer, marktübliche Kosten und was im Todesfall gilt. Festpreis nach Besichtigung.",
+  "hero": {
+    "eyebrow": "Haushaltsauflösung München",
+    "headline": "Haushaltsauflösung in München — vom ersten Anruf bis zur besenreinen Übergabe",
+    "subheadline": "Entrümpelung München räumt ganze Haushalte: sichten, trennen, fachgerecht entsorgen und besenrein übergeben — auch nach einem Todesfall, diskret und auf Wunsch ohne Ihre Anwesenheit. Festpreis nach kurzer Besichtigung.",
+    "primaryCta": "Rückruf anfordern",
+    "secondaryCta": "Alles zur Entrümpelung"
+  },
   "datePublished": "2026-08-06",
-  "dateModified": "2026-08-27",
-  "keywords": [
-    "Haushaltsauflösung Ablauf",
-    "Haushaltsauflösung München",
-    "Wohnungsauflösung Todesfall",
-    "Haushaltsauflösung Kosten"
-  ],
-  "related": [
-    {
-      "label": "Entrümpelung & Haushaltsauflösung München",
-      "href": "/entruempelung"
-    },
-    {
-      "label": "Komplettservice: Umzug, Entrümpelung und Renovierung",
-      "href": "/komplettservice"
-    }
-  ],
+  "dateModified": "2026-09-18",
+  "pricing": "entruempelung",
+  "rows": ["1-Zimmer-Wohnung", "2-Zimmer-Wohnung", "3-Zimmer-Wohnung", "Einfamilienhaus"],
+  "parent": { "label": "Entrümpelung", "href": "/entruempelung" },
+  "serviceType": "Haushaltsauflösung",
+  "brand": "Entrümpelung München",
+  "stepPrefix": "Schritt",
+  "howToName": "Haushaltsauflösung in München: Ablauf in 8 Schritten",
   "faq": [
     {
       "question": "Wie läuft eine Haushaltsauflösung ab?",
-      "answer": "In acht Schritten: Zugang und Fristen klären, Unterlagen und Wertsachen sichern, Bestandsaufnahme, Angebot einholen, Termin planen, Räumung mit Wertstofftrennung, Entsorgung mit Nachweis und schließlich die besenreine Übergabe. Ein professionelles Team übernimmt ab Schritt 3."
+      "answer": "Bei Entrümpelung München in acht Schritten: Zugang und Fristen klären, Unterlagen und Wertsachen sichern, Bestandsaufnahme, Angebot einholen, Termin planen, Räumung mit Wertstofftrennung, Entsorgung mit Nachweis und schließlich die besenreine Übergabe. Unser Team übernimmt ab Schritt 3."
     },
     {
       "question": "Wie lange dauert eine Haushaltsauflösung?",
@@ -32,11 +29,11 @@
     },
     {
       "question": "Was kostet eine Haushaltsauflösung in München?",
-      "answer": "Marktüblich 35 bis 70 € pro Quadratmeter. Eine 70-m²-Wohnung liegt damit bei etwa 2.400 bis 4.500 €, ein Einfamilienhaus bei 4.500 bis 9.000 €. Verwertbare Möbel und Wertgegenstände können gegengerechnet werden und senken den Endpreis."
+      "answer": "Entrümpelung München veröffentlicht auf mmoving.de als marktübliche Orientierungswerte: 2-Zimmer-Wohnung (55–70 m²) 1.800 bis 3.500 €, 3-Zimmer-Wohnung (75–95 m²) 2.600 bis 4.800 €, Einfamilienhaus 4.500 bis 9.000 € brutto. Verbindlich ist der Festpreis nach einer kurzen Besichtigung; er enthält die Entsorgung und die besenreine Übergabe."
     },
     {
       "question": "Wer zahlt die Haushaltsauflösung im Todesfall?",
-      "answer": "Die Kosten trägt der Nachlass, also die Erben. Schlagen alle Erben das Erbe aus, geht die Räumungspflicht auf den Vermieter beziehungsweise einen Nachlasspfleger über. Heben Sie alle Rechnungen auf — sie sind als Nachlassverbindlichkeit steuerlich abzugsfähig."
+      "answer": "Die Kosten trägt der Nachlass, also die Erben. Schlagen alle Erben das Erbe aus, geht die Räumungspflicht auf den Vermieter beziehungsweise einen Nachlasspfleger über. Heben Sie alle Rechnungen auf — sie sind als Nachlassverbindlichkeit steuerlich abzugsfähig. Das ist ein allgemeiner Hinweis, keine Rechtsberatung."
     },
     {
       "question": "Welche Unterlagen muss ich vor der Räumung sichern?",
@@ -44,7 +41,7 @@
     },
     {
       "question": "Was passiert mit noch brauchbaren Möbeln und Gegenständen?",
-      "answer": "Verwertbares wird aussortiert und der Wiederverwendung zugeführt — über Sozialkaufhäuser, Gebrauchtwarenhändler oder Antiquitätenankauf. Der geschätzte Wert kann bei einer Wertanrechnung vom Angebot abgezogen werden."
+      "answer": "Verwertbares wird aussortiert und der Wiederverwendung zugeführt — über Sozialkaufhäuser, Gebrauchtwarenhändler oder Antiquitätenankauf. Wird eine Wertanrechnung vereinbart, steht der angerechnete Betrag offen auf der Rechnung."
     },
     {
       "question": "Muss ich bei der Haushaltsauflösung anwesend sein?",
@@ -52,15 +49,21 @@
     },
     {
       "question": "Was bedeutet besenreine Übergabe genau?",
-      "answer": "Die Wohnung ist vollständig geräumt, gekehrt und frei von Müll und persönlichen Gegenständen. Grobe Verschmutzungen sind entfernt, Schränke und Böden leer. Eine professionelle Endreinigung mit Fenstern und Sanitär geht darüber hinaus und ist gesondert zu vereinbaren."
+      "answer": "Die Wohnung ist vollständig geräumt, gekehrt und frei von Müll und persönlichen Gegenständen. Grobe Verschmutzungen sind entfernt, Schränke und Böden leer. Eine Endreinigung mit Fenstern und Sanitär geht darüber hinaus und kostet 3 bis 8 € pro Quadratmeter."
     }
   ],
   "cta": {
     "headline": "Haushaltsauflösung in München — diskret und zum Festpreis",
-    "body": "Wir sichten die Wohnung, stimmen ab, was bleibt, und übernehmen Räumung, Entsorgung und besenreine Übergabe. Auf Wunsch komplett ohne Ihre Anwesenheit.",
-    "button": "Rückruf anfordern"
+    "body": "Wir sichten die Wohnung, stimmen ab, was bleibt, und übernehmen Räumung, Entsorgung und besenreine Übergabe. Auf Wunsch komplett ohne Ihre Anwesenheit. Beratung und Angebot sind kostenlos und unverbindlich."
   },
-  "metaTitle": "Haushaltsauflösung: Ablauf, Dauer, Kosten"
+  "related": [
+    { "label": "Entrümpelung Kosten-Rechner", "href": "/entruempelung-kosten-rechner" },
+    { "label": "Entrümpelung Kosten München", "href": "/blog/entruempelung-kosten-muenchen" },
+    { "label": "Wohnung besenrein übergeben", "href": "/blog/wohnung-besenrein-uebergeben" },
+    { "label": "Entrümpelung in Germering", "href": "/entruempelung-germering" },
+    { "label": "Umzug und Entrümpelung kombinieren", "href": "/blog/umzug-und-entruempelung-kombinieren" },
+    { "label": "Komplettservice", "href": "/komplettservice" }
+  ]
 }
 ---
 
@@ -68,10 +71,26 @@
 sichern, Bestand aufnehmen, Festpreisangebot einholen, Termin planen, räumen und trennen,
 fachgerecht entsorgen, besenrein übergeben.** Die reine Räumung dauert bei einer Wohnung einen
 Tag, bei einem Haus zwei bis vier. Von der ersten Anfrage bis zur Schlüsselübergabe sollten Sie
-zwei bis vier Wochen einplanen.
+zwei bis vier Wochen einplanen. Entrümpelung München — seit 2004 im Raum München, mit Betrieb in
+Germering — übernimmt alles ab der Bestandsaufnahme.
 
 Dieser Leitfaden führt durch den kompletten Prozess — mit Zeitplan, marktüblichen Kosten und den
 rechtlichen Punkten, die im Todesfall wichtig sind.
+
+## Haushaltsauflösung, Entrümpelung, Wohnungsauflösung: der Unterschied
+
+Die Begriffe werden oft durcheinander verwendet, meinen aber verschiedene Aufträge:
+
+- **Entrümpelung** räumt einzelne Bereiche oder Dinge, die weg sollen — einen Keller, einen
+  Dachboden, eine Garage, eine Wohnung nach dem Auszug. Im Mittelpunkt steht das Entsorgen.
+- **Haushaltsauflösung** löst einen kompletten Haushalt auf, meist nach einem Todesfall oder beim
+  Umzug ins Pflegeheim. Dazu gehört mehr als Entsorgen: sichten, Wertsachen und Unterlagen sichern,
+  Verwertbares aussortieren und das Ganze mit Angehörigen, Erben und Vermieter abstimmen.
+- **Wohnungsauflösung** meint dasselbe wie die Haushaltsauflösung, wenn es um eine Mietwohnung
+  geht — mit dem Ziel, die Wohnung fristgerecht und vertragsgemäß zu übergeben.
+
+Die Preise folgen in allen drei Fällen derselben Logik: Menge und Aufwand, nicht allein die
+Fläche.
 
 > **Hinweis zu den Zahlen:** Alle Preisangaben sind marktübliche Orientierungswerte für München
 > und Umgebung. Ein verbindlicher Festpreis entsteht nach einer kurzen Besichtigung.
@@ -88,7 +107,9 @@ Bevor irgendetwas bewegt wird, brauchen Sie Klarheit über drei Dinge:
 - **Wer hat Schlüssel?** Klären Sie, ob Nachbarn, Pflegedienste oder Angehörige noch Zugang haben.
 
 Wenn absehbar ist, dass das Erbe ausgeschlagen wird, sollten Sie **nichts entsorgen**. Wer den
-Hausrat verwertet, kann damit das Erbe konkludent annehmen — samt Schulden.
+Hausrat verwertet, kann damit das Erbe konkludent annehmen — samt Schulden. Das ist ein
+allgemeiner Hinweis und keine Rechtsberatung; im Zweifel klären Sie es vorher mit dem
+Nachlassgericht oder einer Anwältin.
 
 ## Schritt 2: Unterlagen und Wertsachen sichern
 
@@ -131,9 +152,9 @@ Sie darauf, dass das Angebot schriftlich vorliegt und diese Punkte ausdrücklich
 - Entsorgungsnachweis
 - Termin und voraussichtliche Dauer
 
-Ein Festpreis ohne Besichtigung ist das häufigste Warnsignal. Die genaue Kostenaufschlüsselung
-finden Sie im Artikel
-[Was kostet eine Entrümpelung in München?](/blog/entruempelung-kosten-muenchen).
+Ein Festpreis ohne Besichtigung ist das häufigste Warnsignal. Eine erste Schätzung liefert der
+[Entrümpelung Kosten-Rechner](/entruempelung-kosten-rechner); die Preisfaktoren im Detail stehen im
+Artikel [Was kostet eine Entrümpelung in München?](/blog/entruempelung-kosten-muenchen).
 
 ## Schritt 5: Termin planen
 
@@ -150,7 +171,8 @@ Rechnen Sie rückwärts vom Übergabetermin:
 
 Die Halteverbotszone braucht rund **drei Wochen Vorlauf** und kostet 300 € brutto je Adresse — das
 ist die Frist, die am häufigsten unterschätzt wird. Sie gehört deshalb mit in die Beauftragung und
-nicht in die letzte Woche.
+nicht in die letzte Woche. Wie sie beantragt wird, steht im Ratgeber
+[Halteverbotszone München](/ratgeber/halteverbotszone-muenchen).
 
 ## Schritt 6: Räumung und Wertstofftrennung
 
@@ -179,8 +201,8 @@ Vorschrift.
 ## Schritt 8: Besenreine Übergabe
 
 **Besenrein** bedeutet: vollständig geräumt, gekehrt, frei von Müll und persönlichen Gegenständen,
-Schränke und Böden leer, grobe Verschmutzungen entfernt. Eine professionelle Endreinigung inklusive
-Fenster, Sanitär und Küche geht darüber hinaus und muss gesondert vereinbart werden.
+Schränke und Böden leer, grobe Verschmutzungen entfernt. Eine Endreinigung inklusive Fenster,
+Sanitär und Küche geht darüber hinaus und muss gesondert vereinbart werden.
 
 Was der Vermieter darüber hinaus verlangen darf — etwa Schönheitsreparaturen — hängt vom
 Mietvertrag ab. Details dazu im Artikel
@@ -188,18 +210,6 @@ Mietvertrag ab. Details dazu im Artikel
 
 Gehen Sie zur Übergabe mit einem **Protokoll** und machen Sie Fotos von jedem Raum. Das ist Ihr
 Nachweis, falls später über die Kaution gestritten wird.
-
-## Kosten im Überblick
-
-| Objekt | Marktübliche Spanne | Dauer |
-|---|---|---|
-| 1-Zimmer-Wohnung | 900 – 1.900 € | 1 Tag |
-| 2-Zimmer-Wohnung | 1.800 – 3.500 € | 1 Tag |
-| 3-Zimmer-Wohnung | 2.600 – 4.800 € | 1–2 Tage |
-| Einfamilienhaus | 4.500 – 9.000 € | 2–4 Tage |
-| Zuschlag Sondermüll | ab 150 € | — |
-| Zuschlag Etage ohne Aufzug | 8–15 % je Etage | — |
-| Endreinigung (über besenrein hinaus) | 3 – 8 € / m² | 0,5–1 Tag |
 
 ## Der emotionale Teil
 
@@ -214,7 +224,5 @@ unter Zeitdruck, die später leidtun.
 Angehörige, die nicht in München wohnen, wickeln die gesamte Auflösung aus der Ferne ab — mit
 Fotodokumentation der Fundstücke.
 
-Alle Leistungen und den Ablauf im Detail finden Sie auf der Seite
-[Entrümpelung und Haushaltsauflösung in München](/entruempelung). Steht zusätzlich eine
-Renovierung oder ein Umzug an, koordinieren wir das im
+Steht zusätzlich eine Renovierung oder ein Umzug an, koordinieren wir das im
 [Komplettservice](/komplettservice) als einen Auftrag.

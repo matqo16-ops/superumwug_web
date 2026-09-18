@@ -1,10 +1,18 @@
+import { getLocale } from "next-intl/server";
+import type { Locale } from "@/i18n/routing";
+import { getCommon, getSiteData } from "@/lib/content";
 import type { CommonContent } from "@/lib/content-types";
+import { telHref } from "@/lib/phone";
 import { eyebrow } from "@/lib/styles";
 import { CallbackButton } from "./CallbackButton";
 import { ChatCtaButton } from "./ChatCtaButton";
 
 /** The site-wide chatbot CTA banner — present on every page. */
-export function ChatCta({ content }: { content: CommonContent["chatCta"] }) {
+export async function ChatCta({ content }: { content: CommonContent["chatCta"] }) {
+  const locale = (await getLocale()) as Locale;
+  const phone = getSiteData().organization.phone[locale];
+  const { callDirect } = getCommon(locale).header;
+
   return (
     <section className="bg-anthracite">
       <div className="mx-auto flex max-w-6xl flex-col items-start gap-8 px-6 py-16 md:flex-row md:items-center md:justify-between">
@@ -28,6 +36,12 @@ export function ChatCta({ content }: { content: CommonContent["chatCta"] }) {
           <CallbackButton className="text-sm text-white/70 underline decoration-gold/50 underline-offset-4 hover:text-gold">
             {content.secondary}
           </CallbackButton>
+          <p className="text-sm text-white/70">
+            {callDirect}:{" "}
+            <a href={telHref(phone)} className="whitespace-nowrap font-semibold text-white hover:text-gold">
+              {phone}
+            </a>
+          </p>
         </div>
       </div>
     </section>

@@ -72,7 +72,8 @@
     "menuClose": "Menü schließen",
     "navLabel": "Hauptnavigation",
     "languageLabel": "Sprache wählen",
-    "callLabel": "Anrufen"
+    "callLabel": "Anrufen",
+    "callDirect": "Oder direkt anrufen"
   },
   "chatCta": {
     "eyebrow": "Sofort-Auskunft",
@@ -126,6 +127,10 @@
           {
             "label": "Entrümpelung München",
             "href": "/entruempelung"
+          },
+          {
+            "label": "Haushaltsauflösung München",
+            "href": "/haushaltsaufloesung-muenchen"
           },
           {
             "label": "Renovierung München",
@@ -196,10 +201,6 @@
           {
             "label": "Checkliste Umzug",
             "href": "/blog/checkliste-umzug"
-          },
-          {
-            "label": "Haushaltsauflösung: Ablauf",
-            "href": "/blog/haushaltsaufloesung-ablauf"
           },
           {
             "label": "Alle Ratgeber",

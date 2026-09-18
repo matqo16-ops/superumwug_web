@@ -4,7 +4,20 @@ import { setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { getCommon, getKontakt, getSiteData } from "@/lib/content";
 import { absoluteUrl } from "@/lib/schema";
+import { telHref } from "@/lib/phone";
 import { pageMetadata } from "@/lib/seo";
+
+/** Phone numbers dial, email addresses open the mail client, the rest is text. */
+function DetailValue({ value }: { value: string }) {
+  const linkClass = "text-navy underline decoration-gold/60 underline-offset-4 hover:text-gold-deep";
+  if (/^\+[\d ]{8,}$/.test(value)) {
+    return <a href={telHref(value)} className={linkClass}>{value}</a>;
+  }
+  if (/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(value)) {
+    return <a href={`mailto:${value}`} className={linkClass}>{value}</a>;
+  }
+  return <>{value}</>;
+}
 import { CallbackForm } from "@/components/CallbackForm";
 import { ChatCta } from "@/components/ChatCta";
 import { Hero } from "@/components/Hero";
@@ -84,7 +97,9 @@ export default async function KontaktPage({ params }: Props) {
                   <dt className="w-32 shrink-0 text-sm font-semibold uppercase tracking-wide text-anthracite/60">
                     {item.label}
                   </dt>
-                  <dd className="text-anthracite/90">{item.value}</dd>
+                  <dd className="text-anthracite/90">
+                    <DetailValue value={item.value} />
+                  </dd>
                 </div>
               ))}
               <div className="flex flex-col gap-0.5 border-t border-hairline pt-3 sm:flex-row sm:gap-4">

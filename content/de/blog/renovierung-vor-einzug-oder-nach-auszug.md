@@ -4,7 +4,7 @@
   "description": "Renovieren vor dem Einzug oder nach dem Auszug? Vor- und Nachteile, Kosten, Timing und rechtliche Pflichten — der klare Vergleich für München.",
   "excerpt": "Die leere Wohnung ist der günstigste Moment zum Renovieren. Wann das vor dem Einzug gilt, wann nach dem Auszug — und was rechtlich verpflichtend ist.",
   "datePublished": "2026-08-06",
-  "dateModified": "2026-08-06",
+  "dateModified": "2026-09-18",
   "keywords": [
     "Renovierung vor Einzug",
     "Renovierung nach Auszug",
@@ -40,7 +40,7 @@
     },
     {
       "question": "Was kostet eine Renovierung in München?",
-      "answer": "Marktüblich liegen Malerarbeiten bei 12 bis 25 € pro Quadratmeter Wandfläche, ein neuer Bodenbelag bei 35 bis 90 € pro Quadratmeter inklusive Verlegung. Eine komplette Wohnungsrenovierung ohne Bad kostet erfahrungsgemäß 250 bis 600 € pro Quadratmeter Wohnfläche."
+      "answer": "Marktüblich liegen Malerarbeiten bei 12 bis 25 € pro Quadratmeter Wandfläche, ein neuer Bodenbelag je nach Material bei 35 bis 55 € (Laminat), 45 bis 75 € (Vinyl) oder 70 bis 130 € (Parkett) pro Quadratmeter inklusive Verlegung. Eine komplette Wohnungsrenovierung ohne Bad kostet erfahrungsgemäß 250 bis 600 € pro Quadratmeter Wohnfläche."
     },
     {
       "question": "Kann ich während der Renovierung schon in der Wohnung wohnen?",
@@ -151,10 +151,9 @@ einen Maler beauftragen. Details dazu im Artikel
 
 ## Was eine Renovierung in München kostet
 
-| Leistung | Marktübliche Spanne |
+| Leistung | Marktüblich (brutto inkl. 19 % MwSt.) |
 |---|---|
 | Malerarbeiten (Wand, gestrichen) | 12 – 25 € / m² Wandfläche |
-| Tapezieren inkl. Material | 18 – 35 € / m² |
 | Laminat verlegen | 35 – 55 € / m² |
 | Vinyl / Designboden | 45 – 75 € / m² |
 | Parkett verlegen und versiegeln | 70 – 130 € / m² |

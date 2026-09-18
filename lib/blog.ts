@@ -41,7 +41,7 @@ export interface BlogArticle extends BlogFrontMatter {
 export interface BlogSummary
   extends Pick<
     BlogFrontMatter,
-    "title" | "metaTitle" | "description" | "excerpt" | "datePublished" | "keywords"
+    "title" | "metaTitle" | "description" | "excerpt" | "datePublished" | "dateModified" | "keywords"
   > {
   slug: string;
   readingMinutes: number;
@@ -50,12 +50,19 @@ export interface BlogSummary
 const blogDir = path.join(process.cwd(), "content", "de", "blog");
 const cache = new Map<string, BlogArticle>();
 
-function parse(slug: string, raw: string): BlogArticle {
+/**
+ * Markdown with a JSON front-matter block. Shared by the blog and the service
+ * guide pages in content/de/leistungen, which use the same format.
+ */
+export function parseMarkdownDoc<F>(
+  slug: string,
+  raw: string,
+): F & { slug: string; html: string; readingMinutes: number } {
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
   if (!match) {
-    throw new Error(`Blog article ${slug} is missing its JSON front matter.`);
+    throw new Error(`${slug} is missing its JSON front matter.`);
   }
-  const front = JSON.parse(match[1]) as BlogFrontMatter;
+  const front = JSON.parse(match[1]) as F;
   const body = match[2];
 
   const words = body.split(/\s+/).filter(Boolean).length;
@@ -67,6 +74,9 @@ function parse(slug: string, raw: string): BlogArticle {
     readingMinutes: Math.max(1, Math.round(words / 200)),
   };
 }
+
+const parse = (slug: string, raw: string): BlogArticle =>
+  parseMarkdownDoc<BlogFrontMatter>(slug, raw);
 
 export function getBlogSlugs(): string[] {
   if (!fs.existsSync(blogDir)) return [];
@@ -99,13 +109,14 @@ export function getBlogIndex(): BlogSummary[] {
         (b.dateModified ?? "").localeCompare(a.dateModified ?? "") ||
         a.slug.localeCompare(b.slug),
     )
-    .map(({ slug, title, metaTitle, description, excerpt, datePublished, keywords, readingMinutes }) => ({
+    .map(({ slug, title, metaTitle, description, excerpt, datePublished, dateModified, keywords, readingMinutes }) => ({
       slug,
       title,
       metaTitle,
       description,
       excerpt,
       datePublished,
+      dateModified,
       keywords,
       readingMinutes,
     }));

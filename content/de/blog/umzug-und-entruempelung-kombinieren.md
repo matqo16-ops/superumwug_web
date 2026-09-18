@@ -23,6 +23,10 @@
     {
       "label": "Entrümpelung München",
       "href": "/entruempelung"
+    },
+    {
+      "label": "Haushaltsauflösung München",
+      "href": "/haushaltsaufloesung-muenchen"
     }
   ],
   "faq": [

@@ -7,6 +7,7 @@ import type {
 } from "@/lib/content-types";
 import { getSiteData } from "@/lib/content";
 import { absoluteUrl, BUSINESS_ID } from "@/lib/schema";
+import { telHref } from "@/lib/phone";
 import { btnOutlineOnDark, btnPrimary } from "@/lib/styles";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { CallbackButton } from "./CallbackButton";
@@ -129,7 +130,7 @@ export function TownPage({
             </p>
             <p className="mt-2 text-anthracite/85">Mo–Fr 8–18 Uhr, Sa 9–14 Uhr</p>
             <a
-              href={`tel:${phone.replace(/[^\d+]/g, "")}`}
+              href={telHref(phone)}
               className="mt-3 block font-semibold text-navy underline decoration-gold underline-offset-4 hover:text-gold-deep"
             >
               {phone}

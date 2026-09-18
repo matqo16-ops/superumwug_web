@@ -82,7 +82,7 @@
       },
       {
         "question": "Was kostet eine Entrümpelung in München?",
-        "answer": "Marktüblich 35 bis 70 € pro Quadratmeter. Eine 60-m²-Wohnung liegt damit bei rund 1.800 bis 3.500 €, ein Kellerabteil ab etwa 300 €, ein Einfamilienhaus bei 4.500 bis 9.000 €. Nach kurzer Besichtigung erhalten Sie einen Festpreis inklusive Entsorgung."
+        "answer": "Laut der auf mmoving.de veröffentlichten Orientierungstabelle (marktübliche Werte): Kellerabteil oder Garage 300 bis 800 €, 2-Zimmer-Wohnung (55–70 m²) 1.800 bis 3.500 €, 3-Zimmer-Wohnung (75–95 m²) 2.600 bis 4.800 €, Einfamilienhaus 4.500 bis 9.000 € brutto. Nach kurzer Besichtigung erhalten Sie einen Festpreis inklusive Entsorgung."
       },
       {
         "question": "Wie lange dauert eine Entrümpelung?",
@@ -114,7 +114,7 @@
       }
     ]
   },
-  "lead": "Entrümpelung München entrümpelt Wohnungen, Häuser, Keller, Dachböden und Gewerbeflächen in München und Umgebung — zum Festpreis nach kurzer Besichtigung. Marktüblich liegt eine Entrümpelung bei 35 bis 70 € pro Quadratmeter. Wir trennen fachgerecht nach Wertstoffen, entsorgen mit Nachweis und übergeben die Fläche besenrein.",
+  "lead": "Entrümpelung München entrümpelt Wohnungen, Häuser, Keller, Dachböden und Gewerbeflächen in München und Umgebung — zum Festpreis nach kurzer Besichtigung. Eine 2-Zimmer-Wohnung liegt laut unserer Orientierungstabelle marktüblich bei 1.800 bis 3.500 € brutto, ein Kellerabteil bei 300 bis 800 €. Wir trennen fachgerecht nach Wertstoffen, entsorgen mit Nachweis und übergeben die Fläche besenrein.",
   "detail": {
     "headline": "Entrümpelung in München — Leistungen im Detail",
     "sections": [
@@ -167,7 +167,7 @@
     "items": [
       {
         "label": "Entrümpelung Kosten-Rechner",
-        "body": "Objekt wählen, Etagen ohne Aufzug angeben — die Schätzung aus unserer Preistabelle steht sofort da.",
+        "body": "Objekt wählen, Etagen ohne Aufzug angeben — die Schätzung aus unserer Orientierungstabelle steht sofort da.",
         "href": "/entruempelung-kosten-rechner"
       },
       {
@@ -191,9 +191,9 @@
         "href": "/blog/entruempelung-kosten-muenchen"
       },
       {
-        "label": "Haushaltsauflösung: Ablauf",
+        "label": "Haushaltsauflösung München",
         "body": "Von der Besichtigung bis zur besenreinen Übergabe — wie eine Haushaltsauflösung abläuft und wie lange sie dauert.",
-        "href": "/blog/haushaltsaufloesung-ablauf"
+        "href": "/haushaltsaufloesung-muenchen"
       }
     ]
   },
@@ -210,7 +210,7 @@
       [
         "Kellerabteil / Garage",
         "6–15 m²",
-        "ab 300 – 800 €",
+        "300 – 800 €",
         "3–5 Stunden"
       ],
       [
@@ -250,7 +250,17 @@
       "Halteverbotszone: 300 € (Beantragung rund 3 Wochen im Voraus)",
       "Endreinigung über besenrein hinaus: 3 – 8 € pro m²"
     ],
-    "note": "Alle Angaben sind Bruttopreise inklusive 19 % MwSt. und marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+    "note": "Alle Angaben sind Bruttopreise inklusive 19 % MwSt. und marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video.",
+    "caption": "Orientierungstabelle mit marktüblichen Werten für München und Umgebung, veröffentlicht von Entrümpelung München auf mmoving.de — brutto inkl. 19 % MwSt.",
+    "pricesStand": "August 2026",
+    "includedHeading": "Im Preis enthalten",
+    "included": [
+      "Bruttopreise inklusive 19 % MwSt.",
+      "Festpreis nach Besichtigung inklusive Entsorgung",
+      "Besenreine Übergabe",
+      "Trennung nach Wertstoffen beim Austragen",
+      "Eigene Fahrzeuge und eigenes Team"
+    ]
   },
   "situations": {
     "headline": "Typische Anlässe für eine Entrümpelung",

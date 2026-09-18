@@ -1,7 +1,7 @@
 ---
 {
-  "title": "Umzugskosten München: Womit muss ich rechnen?",
-  "description": "Umzugskosten in München 2026: marktübliche Preise nach Wohnungsgröße, Entfernung und Saison — plus Rechenbeispiele, Zusatzkosten und Spartipps.",
+  "title": "Umzugskosten München 2026: Preise nach Wohnungsgröße",
+  "description": "Umzugskosten München 2026: 1 Zimmer 450–850 €, 2 Zimmer 700–1.400 €, Halteverbotszone 300 € je Adresse — marktübliche Bruttowerte, Rechenbeispiele, Spartipps.",
   "excerpt": "Was ein Umzug in München realistisch kostet — aufgeschlüsselt nach Volumen, Entfernung, Team und Saison, mit drei Beispielrechnungen.",
   "datePublished": "2026-08-06",
   "dateModified": "2026-09-18",
@@ -60,15 +60,19 @@
     "body": "Wir sehen uns Ihre Wohnung vor Ort oder per Video an und nennen Ihnen einen verbindlichen Festpreis — mit gesetzlicher Speditionshaftung nach § 451e HGB und auf Wunsch zusätzlicher Transportversicherung.",
     "button": "Rückruf anfordern"
   },
-  "metaTitle": "Umzugskosten München: Womit muss ich rechnen?"
+  "metaTitle": "Umzugskosten München 2026: Preise nach Wohnungsgröße"
 }
 ---
 
-**Ein Umzug innerhalb Münchens kostet marktüblich zwischen 700 und 1.400 € für eine
-2-Zimmer-Wohnung und zwischen 1.400 und 2.800 € für eine 4-Zimmer-Wohnung.** Entscheidend sind
+**SuperUmzug veröffentlicht auf mmoving.de als marktübliche Orientierungswerte für einen Umzug
+innerhalb Münchens 700 bis 1.400 € brutto für eine 2-Zimmer-Wohnung und 1.400 bis 2.800 € für eine
+4-Zimmer-Wohnung.** Entscheidend sind
 vier Größen: das Umzugsvolumen in Kubikmetern, die Entfernung, die Zahl der benötigten Mitarbeiter
 und der Termin. Zusatzleistungen wie Vollverpackung, Küchenmontage oder Einlagerung kommen
 obendrauf.
+
+> **Direkt ausrechnen:** Der [Umzugskosten-Rechner](/umzugskosten-rechner) addiert Wohnungsgröße,
+> Halteverbotszonen und Zusatzleistungen aus derselben Tabelle — ohne Formular.
 
 Dieser Artikel zeigt, wie sich der Preis zusammensetzt, welche Positionen häufig übersehen werden
 und an welchen Stellen Sie tatsächlich sparen können.
@@ -81,7 +85,7 @@ und an welchen Stellen Sie tatsächlich sparen können.
 Die folgenden Werte gelten für einen Umzug **innerhalb Münchens** mit üblichem Zugang und ohne
 Sonderleistungen.
 
-| Wohnung | Fläche | Volumen | Team | Marktübliche Spanne |
+| Wohnung | Fläche | Volumen | Team | Marktüblich (brutto inkl. 19 % MwSt.) |
 |---|---|---|---|---|
 | 1 Zimmer | 30–40 m² | 12–18 m³ | 2 Personen | 450 – 850 € |
 | 2 Zimmer | 55–70 m² | 20–30 m³ | 2–3 Personen | 700 – 1.400 € |
@@ -90,8 +94,9 @@ Sonderleistungen.
 | Haus | 140–200 m² | 60–90 m³ | 4–6 Personen | 2.400 – 4.500 € |
 
 Bei Umzügen **aus München heraus** kommt die Entfernung hinzu. Als grobe Orientierung rechnen
-Anbieter mit etwa 1,00 bis 1,80 € pro Kilometer für das Fahrzeug plus Arbeitszeit für die
-Fahrtdauer. Ein Umzug München–Hamburg für eine 3-Zimmer-Wohnung liegt damit marktüblich bei 2.800
+Anbieter bei Fernumzügen marktüblich mit etwa 1,00 bis 1,80 € pro Kilometer für das Fahrzeug plus
+Arbeitszeit für die Fahrtdauer. (Die Kilometerpauschale laut Orientierungstabelle auf mmoving.de:
+0,55 € pro Kilometer.) Ein Umzug München–Hamburg für eine 3-Zimmer-Wohnung liegt damit marktüblich bei 2.800
 bis 4.500 €.
 
 ## Die sechs Preisfaktoren im Detail
@@ -163,9 +168,11 @@ Kunde packt selbst.
 
 - Volumen: ca. 48 m³
 - Team: 4 Personen, 1,5 Tage
-- Vollverpackung, Küchenab- und -aufbau, Etagenzuschlag ohne Aufzug
-- Saisonzuschlag Hochsaison
-- **Marktüblich: 3.400 – 4.600 €**
+- Grundpreis 4 Zimmer: 1.400 – 2.800 €
+- Vollverpackung durch das Team: 300 – 900 €
+- Küchenab- und -aufbau: 400 – 1.200 €
+- **Summe der veröffentlichten Positionen: 2.100 – 4.900 €.** Dazu kommen die Kilometerpauschale
+  und der Mehraufwand für das 3. OG ohne Aufzug, die bei der Besichtigung festgelegt werden.
 
 ### Beispiel 3: Firmenumzug, Büro mit 12 Arbeitsplätzen
 

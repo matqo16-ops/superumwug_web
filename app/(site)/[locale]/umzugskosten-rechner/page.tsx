@@ -99,7 +99,7 @@ export default async function UmzugskostenRechnerPage({ params }: Props) {
         <div className="mt-8 overflow-x-auto rounded-xl border border-hairline bg-white shadow-card">
           <table className="w-full min-w-[640px] text-left text-sm md:text-base">
             <caption className="sr-only">
-              Umzugskosten München nach Wohnungsgröße, brutto inkl. 19 % MwSt. — Preistabelle von SuperUmzug (mmoving.de)
+              Umzugskosten München nach Wohnungsgröße, brutto inkl. 19 % MwSt. — Orientierungstabelle mit marktüblichen Werten, veröffentlicht von SuperUmzug auf mmoving.de
             </caption>
             <thead className="bg-navy text-white">
               <tr>
@@ -138,6 +138,14 @@ export default async function UmzugskostenRechnerPage({ params }: Props) {
           ))}
         </ul>
         <p className="mt-6 max-w-3xl leading-relaxed text-anthracite/85">{content.method.excluded}</p>
+        <p className="mt-6">
+          <a
+            href={content.articleLink.href}
+            className="font-semibold text-gold-deep underline decoration-gold/40 underline-offset-4 hover:decoration-gold"
+          >
+            {content.articleLink.label} →
+          </a>
+        </p>
       </Section>
 
       <Section variant="cream">

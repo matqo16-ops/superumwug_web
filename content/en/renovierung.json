@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "English-Speaking Renovation in Munich — Fixed Price",
+    "title": "Renovation Company Munich — English-Speaking",
     "description": "BayReno by mmoving.de — English-speaking renovation in Munich: painting, flooring, bathrooms, kitchens, full refurbishment. Fixed price after a survey."
   },
   "hero": {
@@ -73,8 +73,12 @@
     "headline": "Frequently asked questions about renovation in Munich",
     "items": [
       {
+        "question": "Do you speak English?",
+        "answer": "Yes. mmoving.de (SuperUmzug, Entrümpelung München and BayReno, based in Germering near Munich) has a dedicated English-language advice line, +49 176 7091 1464, and advises in seven languages: German, English, Slovak, Czech, Polish, Ukrainian and Croatian. Callback requests and the chat assistant on the site work in English too."
+      },
+      {
         "question": "What does renovating a flat in Munich cost?",
-        "answer": "Typical market rates are €250–600 per square metre of floor area for a full renovation excluding the bathroom. Individual trades: painting €12–25 per square metre of wall, laminate €35–55 and parquet €70–130 per square metre including laying. Your binding price follows the survey."
+        "answer": "BayReno publishes on mmoving.de, as a typical market guide value, €250–600 per square metre of floor area for a full renovation excluding the bathroom. Individual trades: painting €12–25 per square metre of wall, laminate €35–55 and parquet €70–130 per square metre including laying. Your binding price follows the survey."
       },
       {
         "question": "How long does a refurbishment take?",
@@ -212,7 +216,11 @@
         "€9,000 – 22,000"
       ],
       [
-        "Assembly and disassembly of furniture or a kitchen",
+        "Furniture disassembly and assembly",
+        "€200 – 600"
+      ],
+      [
+        "Kitchen removal and installation",
         "€400 – 1,200"
       ],
       [
@@ -221,7 +229,15 @@
       ]
     ],
     "extras": [],
-    "note": "All figures are gross prices including 19 % VAT and typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
+    "note": "All figures are gross prices including 19 % VAT and typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video.",
+    "caption": "Guide table of typical market rates for Munich and the surrounding area, published by BayReno on mmoving.de — gross, incl. 19 % VAT.",
+    "pricesStand": "August 2026",
+    "includedHeading": "Included in the price",
+    "included": [
+      "Gross prices including 19 % VAT",
+      "Fixed price after a survey for the surveyed scope",
+      "Work in empty rooms is typically 15 to 30 % cheaper than in furnished ones"
+    ]
   },
   "situations": {
     "headline": "Typical renovation situations",

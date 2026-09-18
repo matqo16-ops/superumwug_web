@@ -74,7 +74,7 @@
     "items": [
       {
         "question": "Was kostet eine Renovierung einer Wohnung in München?",
-        "answer": "Marktüblich 250 bis 600 € pro Quadratmeter Wohnfläche für eine Komplettrenovierung ohne Bad. Einzelne Gewerke: Malerarbeiten 12 bis 25 € pro Quadratmeter Wandfläche, Laminat 35 bis 55 € und Parkett 70 bis 130 € pro Quadratmeter inklusive Verlegung. Verbindlich wird der Preis nach Besichtigung."
+        "answer": "BayReno veröffentlicht auf mmoving.de als marktüblichen Orientierungswert 250 bis 600 € pro Quadratmeter Wohnfläche für eine Komplettrenovierung ohne Bad. Einzelne Gewerke: Malerarbeiten 12 bis 25 € pro Quadratmeter Wandfläche, Laminat 35 bis 55 € und Parkett 70 bis 130 € pro Quadratmeter inklusive Verlegung. Verbindlich wird der Preis nach Besichtigung."
       },
       {
         "question": "Wie lange dauert eine Sanierung?",
@@ -222,7 +222,11 @@
         "9.000 – 22.000 €"
       ],
       [
-        "Montage und Demontage von Möbeln oder einer Küche",
+        "Möbeldemontage und -montage",
+        "200 – 600 €"
+      ],
+      [
+        "Küchenab- und -aufbau",
         "400 – 1.200 €"
       ],
       [
@@ -231,7 +235,15 @@
       ]
     ],
     "extras": [],
-    "note": "Alle Angaben sind Bruttopreise inklusive 19 % MwSt. und marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video."
+    "note": "Alle Angaben sind Bruttopreise inklusive 19 % MwSt. und marktübliche Orientierungswerte für München und Umgebung, keine Angebote. Ihren verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung vor Ort oder per Foto und Video.",
+    "caption": "Orientierungstabelle mit marktüblichen Werten für München und Umgebung, veröffentlicht von BayReno auf mmoving.de — brutto inkl. 19 % MwSt.",
+    "pricesStand": "August 2026",
+    "includedHeading": "Im Preis enthalten",
+    "included": [
+      "Bruttopreise inklusive 19 % MwSt.",
+      "Festpreis nach Besichtigung für den besichtigten Umfang",
+      "Arbeiten in leeren Räumen sind erfahrungsgemäß 15 bis 30 % günstiger als in möblierten"
+    ]
   },
   "situations": {
     "headline": "Typische Renovierungsanlässe",

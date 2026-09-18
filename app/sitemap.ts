@@ -48,7 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const articles: MetadataRoute.Sitemap = getBlogIndex().map((article) => ({
     url: `${SITE_URL}/blog/${article.slug}`,
-    lastModified: new Date(article.datePublished),
+    lastModified: new Date(article.dateModified ?? article.datePublished),
   }));
 
   // German-only district pages.

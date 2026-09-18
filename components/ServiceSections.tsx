@@ -1,4 +1,8 @@
+import { getLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import type { Locale } from "@/i18n/routing";
+import { getCommon, getSiteData } from "@/lib/content";
+import { telHref } from "@/lib/phone";
 import type { StaticPathname } from "@/i18n/routing";
 import type { ServiceSeoContent, TitledItem } from "@/lib/content-types";
 import { Section, SectionHeading } from "./Section";
@@ -41,17 +45,28 @@ export function ServiceDetail({
   );
 }
 
-export function PricingTable({
+export async function PricingTable({
   content,
 }: {
   content: ServiceSeoContent["pricing"];
 }) {
+  // Whoever has just read the prices is the most likely caller on the page.
+  const locale = (await getLocale()) as Locale;
+  const phone = getSiteData().organization.phone[locale];
+  const { callDirect } = getCommon(locale).header;
+
   return (
     <Section variant="cream" id="preise">
       <SectionHeading intro={content.intro}>{content.headline}</SectionHeading>
 
       <div className="mt-8 overflow-x-auto rounded-xl border border-hairline bg-white shadow-card">
         <table className="w-full border-collapse text-sm">
+          {content.caption && (
+            <caption className="caption-bottom px-4 py-3 text-left text-xs text-anthracite/70">
+              {content.caption}
+              {content.pricesStand && ` · Stand: ${content.pricesStand}`}
+            </caption>
+          )}
           <thead>
             <tr className="bg-navy text-left text-white">
               {content.columns.map((column) => (
@@ -93,8 +108,34 @@ export function PricingTable({
         ))}
       </ul>
 
+      {content.included && content.included.length > 0 && (
+        <div className="mt-8">
+          <h3 className="font-semibold text-navy">{content.includedHeading}</h3>
+          <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+            {content.included.map((item) => (
+              <li key={item} className="flex gap-2.5 text-sm text-anthracite/85">
+                <span aria-hidden="true" className="text-gold-deep">
+                  ✓
+                </span>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <p className="mt-6 max-w-3xl border-l-2 border-gold pl-4 text-sm leading-relaxed text-anthracite/70">
         {content.note}
+      </p>
+
+      <p className="mt-6 text-base text-anthracite/85">
+        {callDirect}:{" "}
+        <a
+          href={telHref(phone)}
+          className="whitespace-nowrap font-semibold text-navy underline decoration-gold underline-offset-4 hover:text-gold-deep"
+        >
+          {phone}
+        </a>
       </p>
     </Section>
   );

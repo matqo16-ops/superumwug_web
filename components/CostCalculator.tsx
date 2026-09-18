@@ -170,6 +170,12 @@ export function UmzugCalculator({
         band={band}
         label={content.resultLabel}
         note={content.resultNote}
+        // The zone is the one true fixed price on this page; show it as its own
+        // line whatever is selected, so it is never hidden inside the range.
+        extra={content.zoneLine
+          .replace("{price}", formatBand(rates.zone))
+          .replace("{count}", String(zones))
+          .replace("{sum}", formatBand({ low: rates.zone.low * zones, high: rates.zone.high * zones }))}
         cta={content.resultCta}
       />
     </div>

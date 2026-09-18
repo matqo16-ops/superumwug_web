@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "English-Speaking Movers in Munich — Fixed Price, Since 2004",
+    "title": "Moving Company Munich — English-Speaking Movers, Prices in €",
     "description": "SuperUmzug — English-speaking movers in Munich: private and corporate moves, packing, assembly, storage. Fixed price after a free survey."
   },
   "hero": {
@@ -77,7 +77,7 @@
       },
       {
         "question": "What does a move in Munich cost?",
-        "answer": "Typical market rates are €700–1,400 gross for a two-room flat within Munich and €1,400–2,800 gross for four rooms. The price depends on volume, distance, floor level and add-ons. After a short survey you receive a binding fixed price from us. All prices include 19 % VAT."
+        "answer": "SuperUmzug publishes on mmoving.de, as a typical market guide value, €700–1,400 gross for a two-room flat within Munich and €1,400–2,800 gross for four rooms. The price depends on volume, distance, floor level and add-ons. After a short survey you receive a binding fixed price from us. All prices include 19 % VAT."
       },
       {
         "question": "How far in advance should I book my move?",
@@ -245,7 +245,17 @@
       "No-parking zone per address: €300 (arrange about 3 weeks ahead)",
       "Saturday surcharge: +50 % · Sundays, public holidays and express within 24 h: double rate"
     ],
-    "note": "All figures are gross prices including 19 % VAT and typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video."
+    "note": "All figures are gross prices including 19 % VAT and typical market rates for Munich and the surrounding area, not offers. You receive your binding fixed price after a short survey on site or by photo and video.",
+    "caption": "Guide table of typical market rates for Munich and the surrounding area, published by SuperUmzug on mmoving.de — gross, incl. 19 % VAT.",
+    "pricesStand": "August 2026",
+    "includedHeading": "Included in the price",
+    "included": [
+      "Gross prices including 19 % VAT",
+      "Fixed price after a survey for the surveyed scope",
+      "Our own vehicles and our own team",
+      "Statutory liability under § 451e HGB: €620 per cubic metre of loading space",
+      "No-parking zone: €300 per address including the application, signs, documentation and removal"
+    ]
   },
   "situations": {
     "headline": "Typical situations we move",

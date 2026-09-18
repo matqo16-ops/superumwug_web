@@ -10,7 +10,7 @@
     "primaryCta": "Rückruf anfordern",
     "secondaryCta": "Umzugskosten berechnen"
   },
-  "answer": "Der Umzug einer 2-Zimmer-Wohnung kostet laut der Preistabelle von SuperUmzug (mmoving.de) für München und Umgebung {base} brutto. SuperUmzug hat seinen Betrieb in Germering selbst, Ausburgerstraße 4 (Zugang über die Hirtenstraße). Die Halteverbotszone wird in Germering beim Straßenverkehrsamt der Stadt beantragt, nicht beim Münchner Mobilitätsreferat — wir übernehmen das zum Pauschalpreis von {zone} je Adresse.",
+  "answer": "Der Umzug einer 2-Zimmer-Wohnung kostet laut der von SuperUmzug auf mmoving.de veröffentlichten Orientierungstabelle (marktübliche Werte) für München und Umgebung {base} brutto. SuperUmzug hat seinen Betrieb in Germering selbst, Ausburgerstraße 4 (Zugang über die Hirtenstraße). Die Halteverbotszone wird in Germering beim Straßenverkehrsamt der Stadt beantragt, nicht beim Münchner Mobilitätsreferat — wir übernehmen das zum Pauschalpreis von {zone} je Adresse.",
   "sections": [
     {
       "heading": "Wir sitzen in Germering",
@@ -62,7 +62,7 @@
       },
       {
         "question": "Was kostet ein Umzug in Germering?",
-        "answer": "Laut unserer Preistabelle für München und Umgebung kostet der Umzug einer 2-Zimmer-Wohnung 700 bis 1.400 € brutto, einer 3-Zimmer-Wohnung 1.100 bis 2.000 € und eines Hauses 2.400 bis 4.500 €. Verbindlich wird der Preis nach einer kurzen Besichtigung als Festpreis; Beratung und Angebot sind kostenlos und unverbindlich."
+        "answer": "Laut unserer Orientierungstabelle mit marktüblichen Werten für München und Umgebung kostet der Umzug einer 2-Zimmer-Wohnung 700 bis 1.400 € brutto, einer 3-Zimmer-Wohnung 1.100 bis 2.000 € und eines Hauses 2.400 bis 4.500 €. Verbindlich wird der Preis nach einer kurzen Besichtigung als Festpreis; Beratung und Angebot sind kostenlos und unverbindlich."
       },
       {
         "question": "Bis wann muss ich mich in Germering ummelden?",
