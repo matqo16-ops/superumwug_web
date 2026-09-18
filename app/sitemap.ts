@@ -25,22 +25,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     (href): href is StaticPathname => !href.includes("["),
   );
 
-  const pages: MetadataRoute.Sitemap = pathnames.map((href) => {
-    // Some pages exist in German only — submitting an hreflang alternate for
-    // those hands Google a 404 directly. Shared list, see i18n/routing.ts.
-    const germanOnly = isGermanOnly(href);
-    return {
-      url: url(routing.defaultLocale, href),
-      ...(germanOnly
-        ? {}
-        : {
-            alternates: {
-              languages: Object.fromEntries(
-                routing.locales.map((locale) => [locale, url(locale, href)]),
-              ),
-            },
-          }),
+  // Every language version gets its own <url> entry carrying the full
+  // alternate set. Listing the English pages only as alternates of the German
+  // ones left them without a <loc> of their own, which is not how Google's
+  // sitemap hreflang format is specified and slowed their discovery.
+  // German-only pages get a single entry with no alternates — submitting an
+  // hreflang alternate for those hands Google a 404 directly. Shared list,
+  // see i18n/routing.ts.
+  const pages: MetadataRoute.Sitemap = pathnames.flatMap((href) => {
+    if (isGermanOnly(href)) return [{ url: url(routing.defaultLocale, href) }];
+    const languages = {
+      ...Object.fromEntries(
+        routing.locales.map((locale) => [locale, url(locale, href)]),
+      ),
+      "x-default": url(routing.defaultLocale, href),
     };
+    return routing.locales.map((locale) => ({
+      url: url(locale, href),
+      alternates: { languages },
+    }));
   });
 
   const articles: MetadataRoute.Sitemap = getBlogIndex().map((article) => ({
