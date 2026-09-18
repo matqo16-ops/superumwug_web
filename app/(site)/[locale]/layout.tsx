@@ -29,6 +29,13 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
 };
 
+// Only the locales below exist. Paths that skip the locale middleware (any
+// asset extension, e.g. /llms-full.txt) were otherwise matched here with
+// "llms-full.txt" as the locale, and pages read content/<locale>/*.json
+// before the hasLocale check below could run — a 500 for every such probe.
+// With dynamicParams off, an unknown locale is a 404 before anything renders.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -65,6 +72,7 @@ export default async function LocaleLayout({
             <SiteFooter
               common={common}
               phone={site.organization.phone[locale as Locale]}
+              site={site}
             />
             <ChatWidget strings={common.chatWidget} />
             {/* Cookieless, no personal data — needs no consent banner. */}

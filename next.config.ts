@@ -24,6 +24,9 @@ const nextConfig: NextConfig = {
       // /umzug. Declaring it permanent here runs before the middleware.
       { source: "/de", destination: "/", permanent: true },
       { source: "/de/:path*", destination: "/:path*", permanent: true },
+      // Browsers and some crawlers request /favicon.ico unprompted; the icon
+      // lives at /icon.png (app/icon.png).
+      { source: "/favicon.ico", destination: "/icon.png", permanent: true },
       { source: "/pakete", destination: "/komplettservice", permanent: true },
       { source: "/en/packages", destination: "/en/full-service", permanent: true },
     ];

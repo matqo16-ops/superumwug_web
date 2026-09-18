@@ -8,12 +8,12 @@
   "brands": [
     {
       "id": "umzug",
-      "name": "Super Umzug",
+      "name": "SuperUmzug",
       "tagline": "Ihr Umzug in München — sicher, pünktlich, über 1.000 Umzüge seit 2004.",
       "href": "/umzug",
       "brandPage": "/superumzug",
       "logo": "/logos/super-umzug.png",
-      "logoAlt": "Super Umzug Logo"
+      "logoAlt": "SuperUmzug Logo"
     },
     {
       "id": "bayreno",
@@ -113,7 +113,95 @@
         "href": "/datenschutz"
       }
     ],
-    "copyright": "© 2026 Super Umzug · Entrümpelung München · BayReno. Alle Rechte vorbehalten."
+    "copyright": "© 2026 SuperUmzug · Entrümpelung München · BayReno. Alle Rechte vorbehalten.",
+    "columns": [
+      {
+        "heading": "Leistungen",
+        "links": [
+          {
+            "label": "Umzug München",
+            "href": "/umzug"
+          },
+          {
+            "label": "Entrümpelung München",
+            "href": "/entruempelung"
+          },
+          {
+            "label": "Renovierung München",
+            "href": "/renovierung"
+          },
+          {
+            "label": "Komplettservice",
+            "href": "/komplettservice"
+          },
+          {
+            "label": "B2B & Partner",
+            "href": "/b2b"
+          }
+        ]
+      },
+      {
+        "heading": "Unsere Marken",
+        "links": [
+          {
+            "label": "SuperUmzug",
+            "href": "/superumzug"
+          },
+          {
+            "label": "BayReno",
+            "href": "/bayreno"
+          },
+          {
+            "label": "Entrümpelung München",
+            "href": "/entruempelung"
+          },
+          {
+            "label": "Über uns",
+            "href": "/ueber-uns"
+          }
+        ]
+      },
+      {
+        "heading": "Ratgeber & Preise",
+        "links": [
+          {
+            "label": "Umzugskosten München",
+            "href": "/blog/umzugskosten-muenchen"
+          },
+          {
+            "label": "Entrümpelung Kosten München",
+            "href": "/blog/entruempelung-kosten-muenchen"
+          },
+          {
+            "label": "Halteverbotszone München beantragen",
+            "href": "/ratgeber/halteverbotszone-muenchen"
+          },
+          {
+            "label": "Checkliste Umzug",
+            "href": "/blog/checkliste-umzug"
+          },
+          {
+            "label": "Haushaltsauflösung: Ablauf",
+            "href": "/blog/haushaltsaufloesung-ablauf"
+          },
+          {
+            "label": "Alle Ratgeber",
+            "href": "/blog"
+          }
+        ]
+      },
+      {
+        "heading": "Umzug in Ihrem Stadtteil",
+        "links": [],
+        "districts": true
+      }
+    ],
+    "contact": {
+      "heading": "Kontakt",
+      "name": "SuperUmzug · BayReno · Entrümpelung München",
+      "hours": "Mo–Fr 8–18 Uhr, Sa 9–14 Uhr",
+      "emailLabel": "E-Mail"
+    }
   },
   "callbackForm": {
     "title": "Rückruf anfordern",
@@ -235,7 +323,7 @@
       "src": "/images/umzug-char.png",
       "width": 630,
       "height": 1431,
-      "alt": "Mitarbeiter von Super Umzug im Team-Shirt mit Daumen nach oben"
+      "alt": "Mitarbeiter von SuperUmzug im Team-Shirt mit Daumen nach oben"
     },
     "entruempelung": {
       "src": "/images/entruempelung-char.png",

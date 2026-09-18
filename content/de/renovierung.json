@@ -66,7 +66,7 @@
   },
   "combo": {
     "headline": "Stark in Kombination",
-    "body": "BayReno arbeitet Hand in Hand mit Super Umzug und Entrümpelung München. Wird eine Fläche erst geräumt, dann renoviert und anschließend bezogen, koordinieren wir alle Schritte über einen Ansprechpartner — das spart Zeit, Abstimmung und Leerstand.",
+    "body": "BayReno arbeitet Hand in Hand mit SuperUmzug und Entrümpelung München. Wird eine Fläche erst geräumt, dann renoviert und anschließend bezogen, koordinieren wir alle Schritte über einen Ansprechpartner — das spart Zeit, Abstimmung und Leerstand.",
     "cta": "Kombinierte Pakete ansehen"
   },
   "faq": {
@@ -176,6 +176,16 @@
         "label": "BayReno",
         "body": "Was der Name bedeutet, wer dahintersteht und wofür die Marke seit 2004 steht.",
         "href": "/bayreno"
+      },
+      {
+        "label": "Renovierungspflicht beim Auszug",
+        "body": "Wann Mieter beim Auszug renovieren müssen und wann eine Klausel im Mietvertrag unwirksam ist.",
+        "href": "/blog/renovierungspflicht-beim-auszug"
+      },
+      {
+        "label": "Renovieren vor Einzug oder nach Auszug?",
+        "body": "Welche Reihenfolge Zeit und Geld spart, wenn Umzug und Renovierung zusammenfallen.",
+        "href": "/blog/renovierung-vor-einzug-oder-nach-auszug"
       }
     ]
   },

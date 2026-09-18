@@ -8,12 +8,12 @@
   "brands": [
     {
       "id": "umzug",
-      "name": "Super Umzug",
+      "name": "SuperUmzug",
       "tagline": "Your move in Munich — safe, on time, over 1,000 moves since 2004.",
       "href": "/umzug",
       "brandPage": "/superumzug",
       "logo": "/logos/super-umzug.png",
-      "logoAlt": "Super Umzug logo"
+      "logoAlt": "SuperUmzug logo"
     },
     {
       "id": "bayreno",
@@ -113,7 +113,61 @@
         "href": "/datenschutz"
       }
     ],
-    "copyright": "© 2026 Super Umzug · Entrümpelung München · BayReno. All rights reserved."
+    "copyright": "© 2026 SuperUmzug · Entrümpelung München · BayReno. All rights reserved.",
+    "columns": [
+      {
+        "heading": "Services",
+        "links": [
+          {
+            "label": "Moving in Munich",
+            "href": "/en/moving"
+          },
+          {
+            "label": "Clearance in Munich",
+            "href": "/en/clearance"
+          },
+          {
+            "label": "Renovation in Munich",
+            "href": "/en/renovation"
+          },
+          {
+            "label": "Full service",
+            "href": "/en/full-service"
+          },
+          {
+            "label": "B2B & partners",
+            "href": "/en/b2b"
+          }
+        ]
+      },
+      {
+        "heading": "Our brands",
+        "links": [
+          {
+            "label": "SuperUmzug",
+            "href": "/en/superumzug"
+          },
+          {
+            "label": "BayReno",
+            "href": "/en/bayreno"
+          },
+          {
+            "label": "Entrümpelung München",
+            "href": "/en/clearance"
+          },
+          {
+            "label": "About us",
+            "href": "/en/about"
+          }
+        ]
+      }
+    ],
+    "contact": {
+      "heading": "Contact",
+      "name": "SuperUmzug · BayReno · Entrümpelung München",
+      "hours": "Mon–Fri 8am–6pm, Sat 9am–2pm",
+      "emailLabel": "Email"
+    }
   },
   "callbackForm": {
     "title": "Request a callback",
@@ -235,7 +289,7 @@
       "src": "/images/umzug-char.png",
       "width": 630,
       "height": 1431,
-      "alt": "Super Umzug team member in a branded shirt giving a thumbs up"
+      "alt": "SuperUmzug team member in a branded shirt giving a thumbs up"
     },
     "entruempelung": {
       "src": "/images/entruempelung-char.png",

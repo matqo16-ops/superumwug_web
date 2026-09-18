@@ -147,6 +147,25 @@ export interface CommonContent {
     legalNavLabel: string;
     legalLinks: { label: string; href: StaticPathname }[];
     copyright: string;
+    /**
+     * Link columns. The footer is the one block on every page, so it is where
+     * pages that no menu reaches get their inbound links — the cost guides,
+     * the district pages, the brand pages. Hrefs are final, already-localized
+     * paths (German-only pages appear only in the German file).
+     * `districts: true` appends every district page from content/de/stadtteile.
+     */
+    columns: {
+      heading: string;
+      links: { label: string; href: string }[];
+      districts?: boolean;
+    }[];
+    /** Visible name/address/hours block — the same triple as the Google profile. */
+    contact: {
+      heading: string;
+      name: string;
+      hours: string;
+      emailLabel: string;
+    };
   };
   callbackForm: CallbackFormContent;
   chatWidget: ChatWidgetContent;
@@ -219,7 +238,11 @@ export interface ServiceSeoContent {
   areas: { headline: string; body: string; cities: string[] };
   crossLinks: {
     headline: string;
-    items: { label: string; body: string; href: StaticPathname }[];
+    /**
+     * A static route, or a German blog article as "/blog/<slug>" — the blog
+     * is German-only, so article links belong in the German files only.
+     */
+    items: { label: string; body: string; href: StaticPathname | `/blog/${string}` }[];
   };
   entity: {
     headline: string;

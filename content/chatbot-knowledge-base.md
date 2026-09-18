@@ -1,4 +1,4 @@
-# Chatbot Knowledge Base — Super Umzug / Entrümpelung München / BayReno
+# Chatbot Knowledge Base — SuperUmzug / Entrümpelung München / BayReno
 
 This file is loaded server-side into the chatbot's system prompt. It is the ONLY source of
 truth the assistant may answer from.
@@ -18,7 +18,7 @@ refused outright and when to hand over to a human.
 We operate as three specialist brands under one coordinating team, serving **München und
 Umgebung (Munich and surroundings)**:
 
-1. **Super Umzug** — moving company. Private and corporate moves, packing, furniture
+1. **SuperUmzug** — moving company. Private and corporate moves, packing, furniture
    assembly/disassembly, transport, storage. Operating since 2004 with over 1,000 completed
    moves. Liability follows the statutory rules for removal contracts (see section 2) — we do
    **not** advertise any guarantee beyond that.
@@ -49,7 +49,7 @@ a visitor names their district. The landing page also has a projects gallery (`/
 
 ---
 
-## 2. Liability and insurance on moves — Super Umzug
+## 2. Liability and insurance on moves — SuperUmzug
 
 **Never promise a "guarantee", "full value compensation" or any cover beyond what is written
 here.** The company deliberately does not advertise a damage-free guarantee. Describe the

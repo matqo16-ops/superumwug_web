@@ -8,6 +8,14 @@ export const routing = defineRouting({
   // German is the canonical default: never auto-redirect `/` to `/en` based on
   // the browser's Accept-Language. Visitors switch language via the header.
   localeDetection: false,
+  // No hreflang Link header from the middleware. It is emitted for every
+  // route, German-only ones included, so the 10 district pages, the blog and
+  // the Halteverbot guide each announced an English version at a URL that
+  // 404s — the exact error GERMAN_ONLY_ROUTES was introduced to stop, which
+  // only covered the HTML. The HTML <link> tags (lib/seo.ts) and the sitemap
+  // already carry the correct alternates, so the header added nothing but
+  // the bug.
+  alternateLinks: false,
   pathnames: {
     "/": "/",
     "/umzug": { de: "/umzug", en: "/moving" },

@@ -150,7 +150,7 @@ Confirmed unless stated otherwise.
 - **Languages:** DE, EN, SK, CS, PL, UK, HR.
 - **Phone:** +49 176 228 661 46 · **Email:** kontakt@bayreno.de (owner confirmed
   `.de`, not `.com`).
-- **USt-IdNr:** DE 219 349 391. **Steuernummer 106/5724/7147 — never publish.**
+- **USt-IdNr:** DE 219 349 391. **Steuernummer: held by the owner, never written into this repository (it is public).**
 - **Insurer:** LVN (Betriebs-/Berufshaftpflicht).
 - **Hours:** Mo–Fr 8–18, Sa 9–14.
 - **Google Business Profile:** `https://maps.google.com/?cid=4349102244822623293`

@@ -1,4 +1,5 @@
 import { Link } from "@/i18n/navigation";
+import type { StaticPathname } from "@/i18n/routing";
 import type { ServiceSeoContent, TitledItem } from "@/lib/content-types";
 import { Section, SectionHeading } from "./Section";
 
@@ -162,7 +163,14 @@ export function CrossLinks({
         {content.items.map((item) => (
           <Link
             key={item.href}
-            href={item.href}
+            href={
+              item.href.startsWith("/blog/")
+                ? {
+                    pathname: "/blog/[slug]",
+                    params: { slug: item.href.slice("/blog/".length) },
+                  }
+                : (item.href as StaticPathname)
+            }
             className="group rounded-xl border border-hairline bg-white p-6 shadow-card transition-colors hover:border-gold"
           >
             <h3 className="font-display text-lg font-semibold text-navy group-hover:text-gold-deep">

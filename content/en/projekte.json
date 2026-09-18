@@ -1,6 +1,6 @@
 {
   "headline": "Projects from the field",
-  "intro": "A look at completed work by Super Umzug, BayReno and Entrümpelung München. Click a project to view all its images.",
+  "intro": "A look at completed work by SuperUmzug, BayReno and Entrümpelung München. Click a project to view all its images.",
   "openLabel": "View project",
   "closeLabel": "Close gallery",
   "beforeLabel": "Before",
@@ -62,7 +62,7 @@
     {
       "slug": "grossraumbuero",
       "name": "Open-plan office converted",
-      "brand": "BayReno & Super Umzug",
+      "brand": "BayReno & SuperUmzug",
       "description": "Conversion and redesign of a large office floor including clearance, renovation and refurnishing.",
       "count": 4
     },
