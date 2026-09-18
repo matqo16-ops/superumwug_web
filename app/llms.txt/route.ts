@@ -31,6 +31,7 @@ function generatedSections(): string {
   lines.push("## Leistungsseiten", "");
   lines.push(
     `- ${SITE_URL}/haushaltsaufloesung-muenchen — Haushaltsauflösung München: Ablauf in 8 Schritten, Dauer, Unterschied zu Entrümpelung und Wohnungsauflösung, Hinweise im Todesfall, Orientierungswerte nach Wohnungsgröße`,
+    `- ${SITE_URL}/keller-entruempeln-muenchen — Keller, Dachboden und Garage entrümpeln: Ablauf in 5 Schritten, Sondermüll, Kellerabteil beim Auszug, Orientierungswerte 300–800 € (Kellerabteil) und 600–1.600 € (Dachboden)`,
     "",
   );
 
