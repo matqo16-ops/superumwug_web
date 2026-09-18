@@ -1,94 +1,108 @@
 # SEO / GEO roadmap — mmoving.de
 
-Derived from live competitor research (10 Munich firms across all three
-verticals, Aug 2026) and a five-lens strategy committee. This file is the
-working backlog; update it as items ship.
+Working backlog. Updated 2026-09-18 after an eight-lens audit council
+(technical, content, keywords, 2× GEO, pricing, competitors, local/entity) and
+a strategist whose plan was attacked by a compliance critic and an impact
+critic. Update this file as items ship.
 
-## The bet
+## Where we stand, honestly
 
-Three flanks are open at the same time, and mmoving.de can take all three:
+The site is not broken. It is new (live since August), has almost no
+reputation signals (10 Google ratings, 1 with text, against competitors with
+140–900+), and its business appears under different names, addresses and
+phone numbers across old listings and the owner's other domains. Those three
+things — not code — cap rankings today. Page building cannot substitute for
+reviews and consistent listings; it can make sure every visitor who does
+arrive finds the answer and a phone number.
 
-1. **Published prices.** Almost no Munich competitor publishes a single euro
-   figure. Brandlmeier (40 years, top-3) publishes none. Rümpel Kumpel
-   publishes none. mmoving.de already publishes full brutto tables.
-2. **Munich district pages.** Not one of the five audited competitors has
-   them; three audits flagged it independently as an open flank.
-3. **The AI-retrieval layer.** No competitor has an `llms.txt`, markdown
-   mirrors, or IndexNow. This is uncontested and cheap.
+Corrected bet (the August version overstated two flanks):
 
-The hard constraint is reviews. The business sits at ~0; Völler has 143 at
-5.0, Ruck Zuck ~940 aggregated. Ranking a page next to those without reviews
-converts the visitor into a competitor's customer — and published prices make
-that worse by removing the last reason to call. **Reviews gate conversion, so
-they start now and run in parallel with everything else.**
+- **Published prices** — contested for Umzug (6 of 13 Munich movers publish
+  figures), still open for Entrümpelung and Renovierung. The edge for moving
+  is depth: full brutto tables, calculators with a crawlable matrix, worked
+  examples, HGB liability, the Halteverbot facts.
+- **District pages** — some competitors have them; ours are deeper
+  (Parklizenz, access, building stock, per-district facts).
+- **AI-retrieval layer** — still uncontested: llms.txt with generated page
+  lists, IndexNow on every deploy, entity facts stated once and consistently.
+- **Germering** — the one place the business is physically in town, against
+  templated pages from companies based elsewhere. Highest-probability win.
 
-The Germering pin also means: build organic for Munich city, build map-pack
-for the western corridor. Do not confuse the two.
+## Shipped (18 Sep 2026)
 
-## Shipped
+Crawl: /de/* 308s; English pages own their sitemap `<loc>`; no hreflang Link
+header; switcher links unprefixed URLs; asset-extension 404s instead of 500s;
+*.vercel.app noindex; IndexNow runs from a GitHub Action on every production
+deploy.
 
-- Entity repair: `llms.txt` had three false facts (location, languages, "the
-  only price on the site") and told citing systems *not* to attribute prices.
-  All inverted; tables now reproduced in full and explicitly citable.
-- `Offer` + `PriceSpecification` derived from the rendered price tables, so
-  schema cannot drift from the page. Price column located by heading.
-- `Person` node for Martin Marcinko; blog authorship repointed to him.
-- `/ueber-uns` — one-company-three-brands stated in one extractable sentence.
-- `/ratgeber/halteverbotszone-muenchen` — HowTo schema, KVR process, 72-hour
-  rule, 300 € figure. Every competitor buries this in one sentence.
-- 10 district pages under `/umzug/[stadtteil]`, ~1.000 words each, with
-  researched Parklizenzgebiete, Baujahre, access constraints and per-district
-  FAQ. Hub directory + `ItemList` + neighbour mesh in the same commit.
-- English pages retitled for the expat query set (no new URLs).
-- Sitemap hygiene; IndexNow push (`npm run indexnow`).
-- Fixed: language switcher was linking to 404s on every German-only route.
+Pages: /umzugskosten-rechner, /entruempelung-kosten-rechner (SSR matrix,
+numbers parsed from the tables); /umzug-germering, /entruempelung-germering
+(sourced local facts); /haushaltsaufloesung-muenchen (LeistungPage template,
+old blog URL 308s to it).
 
-## Next, in order
+Content: footer links every guide, district and Germering page; Google-profile
+name/address/phone visible on every page; tap-to-call bar on phones and phone
+links in page bodies; district titles and hand-written descriptions; honest
+blog dates; claims aligned with the AGB; KVR → Mobilitätsreferat; real fleet
+(3.5 t vans); price statements consistent with the tables (test-enforced);
+neutral attribution of the market-value tables; chatbot has contact facts.
 
-### Blocked on the owner
-- **From-prices.** Publishing "Festpreis ab X €" is legally binding in
-  Germany. The committee proposed defaults; they are *not* in the repo. The
-  owner must set real numbers before this ships.
-- **`/referenzen` case studies.** Needs real jobs with district, duration and
-  final price, plus customer consent. `StadtteilContent.reference` already
-  renders one per district page when supplied.
-- **`aggregateRating`.** Only once the Google profile actually shows ≥20
-  reviews. Never hardcode; drive from one field in `content/site.json`.
-  Understand what it buys: self-serving review markup has been ineligible for
-  Google rich results since 2019 — this is an LLM-extraction play, not stars.
+## Next — buildable without the owner
 
-### Buildable now
-1. **`/preise` silo** — hub plus three cost pages. Mandatory same-commit
-   housekeeping: 301 `/blog/umzugskosten-muenchen` and
-   `/blog/entruempelung-kosten-muenchen` into them, remove from `lib/blog.ts`,
-   and cut the service-page tables to a 3-row teaser. Three pages targeting
-   "umzug münchen kosten" is worse than one.
-2. **Calculators** — `/umzugskosten-rechner`, `/entruempelung-kosten-rechner`,
-   `/renovierungskosten-rechner`, `/kartonrechner`. Two binding constraints:
-   the full matrix must be a real SSR'd `<table>` (a JS-only calculator is
-   invisible to crawlers and unquotable by assistants), and zero form fields
-   before the result.
-3. **12 sub-service pages** under the three hubs — Firmenumzug, Seniorenumzug,
-   Fernumzug, Einlagerung, Studentenumzug, Haushaltsauflösung, Messie-Wohnung,
-   Nachlass, Kellerentrümpelung, Malerarbeiten, Bodenverlegung,
-   Wohnungsübergabe.
-4. **8 western-corridor city pages** — Germering as flagship, not an
-   afterthought. Only after the 10 district pages are indexed.
-5. **Markdown mirrors** (`slug + .md`) and `/llms-full.txt` — raises
-   quotable-facts-per-retrieved-token for assistants.
-6. **5 `/vergleich/` decision pages** — not competitor comparisons; honest
-   "should you do this yourself" tables with the losing case stated outright.
+1. **Kellerentrümpelung** and **Seniorenumzug** pages on the LeistungPage
+   template (own process, own FAQ, a slice of a published table; no Pflegekasse
+   promises).
+2. **District pages**: a district-specific worked example built only from
+   table rows, symmetric neighbour links, a verified "Stand" date.
+3. **/llms-full.txt**: static concatenation of page content.
+4. Hygiene: link contrast on light backgrounds, home stat-strip markup,
+   permanent redirects for German slugs under /en.
+5. **Western corridor** (Landkreis Fürstenfeldbruck) — one page with real
+   per-town substance, only after the Germering pages are indexed.
+6. **Möbel entsorgen München** (DE+EN) decision page; English no-parking guide.
 
-### Explicitly rejected
-- Core Web Vitals work beyond a 30-minute pass. Static Next 15 on Vercel;
-  Brandlmeier ranks top-3 with a sitemap that 404s. Not where this is won.
-- 60 templated geo pages. Ten real ones first; measure indexation, then extend.
-- New blog posts before page 1 is held.
-- PL/UA/HR landing pages before a native-speaking phone answer is guaranteed.
+## Blocked on the owner
+
+Decisions (each unlocks work): which domain owns moving searches (mmoving.de
+vs superumzug.de); whether the tables may be called the business's own guide
+prices (unlocks priced Offer schema and stronger AI attribution); the primary
+phone number; the Handwerksrolle question for painting/tiling/flooring (gates
+a "Maler München" page); combined-job savings figure (15–25 % vs 20–35 % is
+stated in different places); the 4-room clearance row; the Komplettservice
+2.400 € example; helper/storage/carton/long-distance prices; which address and
+email every listing uses.
+
+Actions: make this repository private; share Search Console; confirm callback
+emails arrive; Google review link to every customer after the invoice (no
+gating, no incentives); put the review link in `content/site.json` as
+`googleReviewUrl` (activates /bewertung); Bing Webmaster Tools + Bing Places;
+link bayreno.de to mmoving.de; make old listings (golocal, Das Telefonbuch)
+match the Google profile; free directory profiles.
+
+## Explicitly rejected
+
+A separate /preise silo (the calculators and cost articles cover the intent);
+new head-term URLs; per-district cost pages; town pages for distant towns;
+clearance district pages that only swap the service word; markdown mirrors;
+priced Offer schema for market-value tables; any new price, guarantee,
+response time or savings figure not already consistent in the repo; review
+markup before 20 real Google reviews; Google Analytics (consent banner).
 
 ## Measurement
 
-Watch Search Console *per cluster*, not in aggregate. If the district wave
-sits in "Crawled – currently not indexed", stop and fix that before shipping
-the next wave. Realistic: indexed 1–2 weeks, first rankings 1–3 months,
-"Umzugsunternehmen München" 6+ months.
+Low organic clicks in the first months are expected; for a local mover most
+early enquiries arrive as calls and route requests from the Google profile.
+Track monthly: GBP Insights (calls, directions, website clicks), callback
+submissions per week, Vercel Analytics referrers from chatgpt.com,
+perplexity.ai and copilot.microsoft.com, Search Console non-brand clicks per
+cluster, and a manual 12-prompt check in ChatGPT, Perplexity, Copilot, Gemini
+and Claude ("bestes Umzugsunternehmen München", "Umzug Germering",
+"Halteverbotszone München Kosten", "Haushaltsauflösung München Kosten",
+"English speaking movers Munich", …) noting whether the business is named.
+
+Honest range, non-brand organic clicks per day: 0–5 in October, 5–20 by
+December, 15–50 by March (upper half only with ~30 text reviews, the domain
+question settled and 5–8 directory profiles), 30–120 at 12 months.
+
+**Every January:** update "2026" in the titles of the cost articles and
+calculators (content/de/blog/*kosten*.md, content/de/rechner.json).
