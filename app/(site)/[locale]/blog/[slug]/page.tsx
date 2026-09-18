@@ -105,6 +105,18 @@ export default async function BlogArticlePage({ params }: Props) {
                   year: "numeric",
                 })}
               </time>
+              {article.dateModified && article.dateModified !== article.datePublished && (
+                <>
+                  {" · Aktualisiert am "}
+                  <time dateTime={article.dateModified}>
+                    {new Date(article.dateModified).toLocaleDateString("de-DE", {
+                      day: "2-digit",
+                      month: "long",
+                      year: "numeric",
+                    })}
+                  </time>
+                </>
+              )}
               {" · "}
               {article.readingMinutes} {content.readingTimeSuffix}
             </p>

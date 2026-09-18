@@ -3,7 +3,8 @@
   "title": "Was kostet eine Entrümpelung in München? Preise & Beispiele 2026",
   "description": "Entrümpelung München: Was kostet sie 2026? Marktübliche Preise nach Zimmerzahl, Fläche und Entsorgungsart — mit Rechenbeispielen und Spartipps.",
   "excerpt": "Marktübliche Preisspannen für Keller, Wohnung und Haus, was den Preis wirklich treibt — und drei durchgerechnete Beispiele aus dem Raum München.",
-  "datePublished": "2026-01-14",
+  "datePublished": "2026-08-06",
+  "dateModified": "2026-08-27",
   "keywords": [
     "Entrümpelung München Kosten",
     "Entrümpelung Preise",

@@ -558,6 +558,8 @@ export interface HalteverbotszoneContent {
 export interface StadtteilContent {
   slug: string;
   name: string;
+  /** Handwritten, <=155 chars, naming this district's own access facts. */
+  metaDescription: string;
   bezirk?: string;
   intro: string;
   buildingStock: string;

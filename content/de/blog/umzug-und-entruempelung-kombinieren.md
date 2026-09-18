@@ -3,7 +3,8 @@
   "title": "Umzug und Entrümpelung kombinieren: So sparen Sie Zeit und Geld",
   "description": "Umzug mit Entrümpelung kombinieren: warum ein Auftrag günstiger ist als zwei, die richtige Reihenfolge und wie viel Sie realistisch sparen.",
   "excerpt": "Wer Umzug und Entrümpelung getrennt beauftragt, zahlt Anfahrt, Personal und Koordination doppelt. Was die Kombination bringt — und in welcher Reihenfolge sie funktioniert.",
-  "datePublished": "2026-02-11",
+  "datePublished": "2026-08-06",
+  "dateModified": "2026-08-27",
   "keywords": [
     "Umzug mit Entrümpelung",
     "Umzug und Entrümpelung kombinieren",

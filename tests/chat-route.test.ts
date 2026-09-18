@@ -20,6 +20,14 @@ vi.mock("@/lib/db", () => ({
 
 vi.mock("@/lib/content", () => ({
   getKnowledgeBase: () => "MOCK KNOWLEDGE BASE — Umzug München, [PRICE] tables.",
+  getSiteData: () => ({
+    organization: {
+      phone: { de: "+49 1 DE", en: "+49 1 EN" },
+      brandPhones: { superumzug: "+49 1 SU", bayreno: "+49 1 BR" },
+      email: "kontakt@example.de",
+    },
+    businessLocation: { streetAddress: "Teststraße 1", postalCode: "82110", addressLocality: "Germering" },
+  }),
 }));
 
 function makeEventStream(chunks: string[]) {
@@ -106,6 +114,10 @@ describe("POST /api/chat", () => {
         system: expect.stringContaining("MOCK KNOWLEDGE BASE"),
       }),
     );
+    // Rule 8 hands visitors to a phone number — the prompt must contain one.
+    const system: string = streamMock.mock.calls[0][0].system;
+    expect(system).toContain("+49 1 DE");
+    expect(system).toContain("Teststraße 1, 82110 Germering");
 
     expect(saveConversationMock).toHaveBeenCalledWith(
       validBody.sessionId,

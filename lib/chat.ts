@@ -29,7 +29,36 @@ export function trimHistory<T>(messages: T[]): T[] {
   return messages.slice(-MAX_HISTORY_MESSAGES);
 }
 
-export function buildSystemPrompt(knowledgeBase: string, locale: "de" | "en"): string {
+/**
+ * Contact facts for the prompt, built from content/site.json. Rule 8 tells the
+ * assistant to hand over the phone number, and the knowledge base never
+ * contained one — so it could only say "call us" without a number.
+ */
+export function contactFacts(site: {
+  organization: {
+    phone: { de: string; en: string };
+    brandPhones: { superumzug: string; bayreno: string };
+    email: string;
+  };
+  businessLocation: { streetAddress: string; postalCode: string; addressLocality: string };
+}): string {
+  const loc = site.businessLocation;
+  return [
+    `- Phone, German advice: ${site.organization.phone.de}`,
+    `- Phone, English advice: ${site.organization.phone.en}`,
+    `- Phone, SuperUmzug (the number on the Google profile): ${site.organization.brandPhones.superumzug}`,
+    `- Phone, BayReno: ${site.organization.brandPhones.bayreno}`,
+    `- Email: ${site.organization.email}`,
+    `- Visitable address: ${loc.streetAddress}, ${loc.postalCode} ${loc.addressLocality} (entrance via Hirtenstraße)`,
+    "- Hours: Mon–Fri 8:00–18:00, Sat 9:00–14:00; callback and chat requests are accepted around the clock",
+  ].join("\n");
+}
+
+export function buildSystemPrompt(
+  knowledgeBase: string,
+  locale: "de" | "en",
+  contact = "",
+): string {
   return `You are the website assistant of mmoving.de — the umbrella site for three Munich brands: SuperUmzug (moving), Entrümpelung München (clearance) and BayReno (renovation). Service area: Munich and surroundings.
 
 STRICT RULES:
@@ -44,6 +73,9 @@ STRICT RULES:
 8. Hand over to a human immediately — offer the callback form and the phone number — for complaints, damage or insurance matters, legal disputes, hazardous waste, unclear express availability, or whenever the information needed for a safe calculation is missing.
 9. Consultation is available in German, English, Slovak, Czech, Polish, Ukrainian and Croatian. If a visitor writes in one of those, answer in it and say a colleague can continue in that language.
 
-KNOWLEDGE BASE:
+${contact ? `CONTACT DETAILS (give the phone number that matches the visitor's language):
+${contact}
+
+` : ""}KNOWLEDGE BASE:
 ${knowledgeBase}`;
 }

@@ -3,7 +3,8 @@
   "title": "Haushaltsauflösung Schritt für Schritt: Ablauf, Dauer, Kosten",
   "description": "Haushaltsauflösung in München: der komplette Ablauf in 8 Schritten, realistische Dauer, marktübliche Kosten und was im Todesfall rechtlich gilt.",
   "excerpt": "Von der ersten Sichtung bis zur besenreinen Übergabe: der vollständige Ablauf einer Haushaltsauflösung, mit Zeitplan, Kosten und rechtlichen Hinweisen.",
-  "datePublished": "2026-02-04",
+  "datePublished": "2026-08-06",
+  "dateModified": "2026-08-27",
   "keywords": [
     "Haushaltsauflösung Ablauf",
     "Haushaltsauflösung München",

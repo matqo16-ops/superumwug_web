@@ -3,7 +3,8 @@
   "title": "Renovierung vor dem Einzug oder nach dem Auszug – was ist sinnvoll?",
   "description": "Renovieren vor dem Einzug oder nach dem Auszug? Vor- und Nachteile, Kosten, Timing und rechtliche Pflichten — der klare Vergleich für München.",
   "excerpt": "Die leere Wohnung ist der günstigste Moment zum Renovieren. Wann das vor dem Einzug gilt, wann nach dem Auszug — und was rechtlich verpflichtend ist.",
-  "datePublished": "2026-01-28",
+  "datePublished": "2026-08-06",
+  "dateModified": "2026-08-06",
   "keywords": [
     "Renovierung vor Einzug",
     "Renovierung nach Auszug",

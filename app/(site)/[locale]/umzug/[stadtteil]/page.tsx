@@ -34,6 +34,12 @@ function urlFor(slug: string) {
   return `${SITE_URL}/umzug/${slug}`;
 }
 
+function districtTitle(name: string): string {
+  const base = `Umzug ${name}: Umzugsunternehmen & Preise`;
+  const branded = `${base} | SuperUmzug`;
+  return branded.length <= 60 ? branded : base;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, stadtteil } = await params;
   if (locale !== "de" || !getStadtteilSlugs().includes(stadtteil)) return {};
@@ -45,11 +51,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // <=160. Measured, not guessed — see the district metadata check in the
   // SEO audit.
   return {
-    title: `Umzug München-${d.name} — Festpreis`,
-    description: `Umzug in München-${d.name}: ${d.intro.slice(0, 80)}… Festpreis nach Besichtigung.`,
+    // "Umzug <Stadtteil>" is the query people type; the brand is appended
+    // only where it still fits in 60 characters.
+    title: districtTitle(d.name),
+    description: d.metaDescription,
     alternates: { canonical: url },
     openGraph: {
-      title: `Umzug München-${d.name} — Festpreis nach Besichtigung`,
+      title: districtTitle(d.name),
       description: d.intro,
       url,
       siteName: "mmoving.de",

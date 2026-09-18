@@ -3,7 +3,8 @@
   "title": "Umzugskosten München: Womit muss ich rechnen?",
   "description": "Umzugskosten in München 2026: marktübliche Preise nach Wohnungsgröße, Entfernung und Saison — plus Rechenbeispiele, Zusatzkosten und Spartipps.",
   "excerpt": "Was ein Umzug in München realistisch kostet — aufgeschlüsselt nach Volumen, Entfernung, Team und Saison, mit drei Beispielrechnungen.",
-  "datePublished": "2026-01-21",
+  "datePublished": "2026-08-06",
+  "dateModified": "2026-09-18",
   "keywords": [
     "Umzugskosten München",
     "Umzug München Preise",

@@ -3,7 +3,8 @@
   "title": "Checkliste Umzug: 8 Wochen vor bis 1 Woche nach dem Umzugstag",
   "description": "Umzugscheckliste mit Zeitplan: Was Sie 8 Wochen, 4 Wochen, 1 Woche vorher und nach dem Umzug erledigen müssen — inklusive Fristen für München.",
   "excerpt": "Der vollständige Zeitplan von der Kündigung bis zur Ummeldung — mit den Fristen, die in München regelmäßig unterschätzt werden.",
-  "datePublished": "2026-02-25",
+  "datePublished": "2026-08-06",
+  "dateModified": "2026-08-27",
   "keywords": [
     "Checkliste Umzug",
     "Umzug planen",

@@ -2,12 +2,13 @@ import Anthropic from "@anthropic-ai/sdk";
 import { NextResponse } from "next/server";
 import {
   buildSystemPrompt,
+  contactFacts,
   CHAT_MAX_TOKENS,
   CHAT_MODEL,
   chatRequestSchema,
   trimHistory,
 } from "@/lib/chat";
-import { getKnowledgeBase } from "@/lib/content";
+import { getKnowledgeBase, getSiteData } from "@/lib/content";
 import { saveConversation } from "@/lib/db";
 import { checkRateLimit, getClientIp } from "@/lib/rate-limit";
 
@@ -60,7 +61,7 @@ export async function POST(request: Request): Promise<Response> {
   const stream = client.messages.stream({
     model: CHAT_MODEL,
     max_tokens: CHAT_MAX_TOKENS,
-    system: buildSystemPrompt(getKnowledgeBase(), locale),
+    system: buildSystemPrompt(getKnowledgeBase(), locale, contactFacts(getSiteData())),
     messages: history,
   });
 

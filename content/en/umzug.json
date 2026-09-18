@@ -72,6 +72,10 @@
     "headline": "Frequently asked questions about moving in Munich",
     "items": [
       {
+        "question": "Do you speak English?",
+        "answer": "Yes. SuperUmzug (mmoving.de, based in Germering near Munich) has a dedicated English-language advice line, +49 176 7091 1464, and advises in seven languages: German, English, Slovak, Czech, Polish, Ukrainian and Croatian. Callback requests and the chat assistant on the site work in English too."
+      },
+      {
         "question": "What does a move in Munich cost?",
         "answer": "Typical market rates are €700–1,400 gross for a two-room flat within Munich and €1,400–2,800 gross for four rooms. The price depends on volume, distance, floor level and add-ons. After a short survey you receive a binding fixed price from us. All prices include 19 % VAT."
       },
@@ -119,7 +123,7 @@
     "sections": [
       {
         "heading": "Private moves",
-        "body": "From a studio flat to a detached house. We assess the volume during the survey, size the crew and vehicle accordingly and give you a fixed price. On moving day you get a settled team of two to four people you have met beforehand — no rotating subcontractors."
+        "body": "From a studio flat to a detached house. We assess the volume during the survey, size the crew and vehicle accordingly and give you a fixed price. On moving day a team of two to four people from our own business does the work, with our own vehicles."
       },
       {
         "heading": "Corporate moves",
@@ -290,7 +294,7 @@
       },
       {
         "label": "Location",
-        "value": "Munich, Bavaria"
+        "value": "Germering near Munich (Ausburgerstraße 4, 82110 Germering), Bavaria"
       },
       {
         "label": "Service area",

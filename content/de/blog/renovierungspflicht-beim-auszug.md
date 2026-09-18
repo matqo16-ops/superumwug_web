@@ -3,7 +3,8 @@
   "title": "Renovierungspflicht beim Auszug: Rechte und Pflichten von Mietern",
   "description": "Renovierungspflicht beim Auszug: Wann Sie streichen müssen und wann nicht. BGH-Urteile, unwirksame Klauseln und was Sie dem Vermieter schulden.",
   "excerpt": "Die meisten Renovierungsklauseln in Mietverträgen sind unwirksam. Wann Sie wirklich streichen müssen — und wie Sie das in drei Schritten prüfen.",
-  "datePublished": "2026-03-04",
+  "datePublished": "2026-08-06",
+  "dateModified": "2026-08-06",
   "keywords": [
     "Renovierungspflicht Auszug",
     "Schönheitsreparaturen Mieter",

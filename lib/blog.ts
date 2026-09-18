@@ -93,7 +93,12 @@ export function getBlogIndex(): BlogSummary[] {
   return getBlogSlugs()
     .map((slug) => getBlogArticle(slug))
     .filter((article): article is BlogArticle => article !== null)
-    .sort((a, b) => b.datePublished.localeCompare(a.datePublished))
+    .sort(
+      (a, b) =>
+        b.datePublished.localeCompare(a.datePublished) ||
+        (b.dateModified ?? "").localeCompare(a.dateModified ?? "") ||
+        a.slug.localeCompare(b.slug),
+    )
     .map(({ slug, title, metaTitle, description, excerpt, datePublished, keywords, readingMinutes }) => ({
       slug,
       title,

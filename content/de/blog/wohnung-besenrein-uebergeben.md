@@ -3,7 +3,8 @@
   "title": "Wohnung besenrein übergeben: Was verlangt der Vermieter wirklich?",
   "description": "Besenrein übergeben: Was das rechtlich bedeutet, was der Vermieter fordern darf und was nicht — mit Checkliste für die Wohnungsübergabe.",
   "excerpt": "Besenrein ist ein klar definierter Zustand — und deutlich weniger, als viele Vermieter verlangen. Was Sie schulden, was nicht, und wie Sie Ihre Kaution sichern.",
-  "datePublished": "2026-02-18",
+  "datePublished": "2026-08-06",
+  "dateModified": "2026-08-06",
   "keywords": [
     "besenrein übergeben",
     "Wohnungsübergabe besenrein",
