@@ -62,7 +62,14 @@ export default function middleware(request: NextRequest) {
   if (request.nextUrl.pathname.startsWith("/admin")) {
     return handleAdminAuth(request);
   }
-  return handleI18n(request);
+  const response = handleI18n(request);
+  // The Vercel deployment hostnames (*.vercel.app) serve the whole site too.
+  // Without this, superumwug-web.vercel.app answered 200 with no noindex — a
+  // full duplicate of mmoving.de for any crawler that finds the link.
+  if (request.headers.get("host")?.endsWith(".vercel.app")) {
+    response.headers.set("X-Robots-Tag", "noindex, nofollow");
+  }
+  return response;
 }
 
 export const config = {

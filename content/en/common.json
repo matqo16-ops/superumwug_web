@@ -71,7 +71,8 @@
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
     "navLabel": "Main navigation",
-    "languageLabel": "Choose language"
+    "languageLabel": "Choose language",
+    "callLabel": "Call us"
   },
   "chatCta": {
     "eyebrow": "Instant answers",

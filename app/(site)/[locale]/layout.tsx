@@ -10,6 +10,7 @@ import { CallbackProvider } from "@/components/CallbackProvider";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ChatWidget } from "@/components/ChatWidget";
+import { MobileActionBar } from "@/components/MobileActionBar";
 import { Analytics } from "@vercel/analytics/next";
 import "@/app/globals.css";
 
@@ -73,6 +74,13 @@ export default async function LocaleLayout({
               common={common}
               phone={site.organization.phone[locale as Locale]}
               site={site}
+            />
+            {/* Spacer so the fixed mobile bar never covers the end of the footer. */}
+            <div aria-hidden="true" className="h-16 md:hidden" />
+            <MobileActionBar
+              phone={site.organization.phone[locale as Locale]}
+              callLabel={common.header.callLabel}
+              callbackLabel={common.header.callbackButton}
             />
             <ChatWidget strings={common.chatWidget} />
             {/* Cookieless, no personal data — needs no consent banner. */}

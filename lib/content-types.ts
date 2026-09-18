@@ -131,6 +131,8 @@ export interface CommonContent {
     menuClose: string;
     navLabel: string;
     languageLabel: string;
+    /** Label of the tap-to-call button in the mobile action bar. */
+    callLabel: string;
   };
   chatCta: {
     eyebrow: string;

@@ -159,7 +159,7 @@ export function ChatWidget({ strings }: { strings: ChatWidgetContent }) {
         onClick={() => setIsOpen((open) => !open)}
         aria-label={isOpen ? strings.closeLabel : strings.openLabel}
         aria-expanded={isOpen}
-        className="fixed bottom-5 right-5 z-[60] flex h-14 w-14 items-center justify-center rounded-full bg-gold text-navy shadow-card transition-transform hover:scale-105 hover:bg-gold-deep hover:text-white"
+        className="fixed bottom-20 right-4 z-[60] flex h-14 w-14 md:bottom-5 md:right-5 items-center justify-center rounded-full bg-gold text-navy shadow-card transition-transform hover:scale-105 hover:bg-gold-deep hover:text-white"
       >
         {isOpen ? (
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
@@ -185,7 +185,7 @@ export function ChatWidget({ strings }: { strings: ChatWidgetContent }) {
         <div
           role="dialog"
           aria-label={strings.title}
-          className="fixed bottom-24 right-5 z-[60] flex h-[560px] max-h-[calc(100vh-8rem)] w-[min(400px,calc(100vw-2.5rem))] flex-col overflow-hidden rounded-xl border border-hairline bg-white shadow-card"
+          className="fixed bottom-36 right-5 z-[60] flex h-[560px] max-h-[calc(100vh-11rem)] md:bottom-24 md:max-h-[calc(100vh-8rem)] w-[min(400px,calc(100vw-2.5rem))] flex-col overflow-hidden rounded-xl border border-hairline bg-white shadow-card"
         >
           <div className="bg-navy px-5 py-4">
             <p className="font-display text-lg font-semibold text-white">

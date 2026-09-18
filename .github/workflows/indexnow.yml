@@ -1,0 +1,22 @@
+# Tells Bing (and through it ChatGPT Search and Copilot) about every public URL
+# after each successful production deploy. Vercel reports deployments to
+# GitHub as deployment_status events; until this existed, IndexNow only ran
+# when someone remembered `npm run indexnow`.
+name: IndexNow
+
+on:
+  deployment_status:
+
+jobs:
+  submit:
+    if: >-
+      github.event.deployment_status.state == 'success' &&
+      github.event.deployment.environment == 'Production'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # The script reads the live sitemap, so it needs no install step.
+      - run: node scripts/indexnow.mjs

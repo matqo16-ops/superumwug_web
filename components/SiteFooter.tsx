@@ -95,6 +95,14 @@ export function SiteFooter({
               <a href={telHref(phone)} className="block text-white hover:text-gold">
                 {common.footer.phoneLabel}: {phone}
               </a>
+              {/* The number on the Google profile — the NAP triple search
+                  engines match against, so it must be visible text too. */}
+              <a
+                href={telHref(site.organization.brandPhones.superumzug)}
+                className="block hover:text-gold"
+              >
+                SuperUmzug: {site.organization.brandPhones.superumzug}
+              </a>
               <a
                 href={`mailto:${site.organization.email}`}
                 className="block hover:text-gold"
