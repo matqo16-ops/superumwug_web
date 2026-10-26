@@ -523,7 +523,6 @@ Earlier history (site build-out) is in `git log`; the original scaffold commit i
 
 - **`SEO-ROADMAP.md`** — the detailed SEO backlog, phases and rejected items.
 - `DEPLOY.md` — deployment and DNS.
-- `TODO.md` — placeholder inventory (largely obsolete; placeholders are resolved).
 - `SEO-REPORT.md` — the earlier SEO audit.
 - `PROJECT-CONTEXT.md` and `HANDOFF-2026-08-25-SEO-CHATBOT-EMAIL.md` — superseded
   by this file; both now point here.

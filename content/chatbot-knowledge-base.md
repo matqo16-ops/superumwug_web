@@ -5,8 +5,8 @@ truth the assistant may answer from.
 
 **Prices: mmoving.de publishes its prices openly.** The ranges in section 6 are on the public
 website and may be quoted, always gross including 19 % VAT, always as a range and never as a
-binding Festpreis. The Besichtigungsservice at 290 € is a true fixed price. Where a field is
-still an unfilled `[PRICE]` placeholder, state no number and offer the callback instead.
+binding Festpreis. The Besichtigungsservice at 290 € is a true fixed price. Where this document
+says a price is not published or not set, state no number and offer the callback instead.
 
 **Never invent a price, a date, or a liability term.** Sections 8 and 8a list what must be
 refused outright and when to hand over to a human.
@@ -88,14 +88,14 @@ Includes: consultation and planning with a binding schedule, packing (materials 
 our team), disassembly and reassembly of furniture, secured transport, optional partial or
 complete renovation of the old or new home via BayReno, plus disposal of anything sorted out and
 a broom-clean handover of the old flat.
-Price: `[PRICE — e.g. starting from €X, quote after a viewing]`
+Price: no package price is published. Quote after a viewing.
 
 ### Paket 2 — Firmenumzug Komplett (Corporate Move Complete)
 For: companies relocating from one site to another.
 Includes: complete move-out, move-in at the new location, disposal of everything no longer
 needed, restoration of the old premises to the condition required by the lease, so the deposit
 is returned in full.
-Price: `[PRICE — e.g. starting from €X, quote after site assessment]`
+Price: no package price is published. Quote after a site assessment.
 
 ### Paket 3 — Rundum-Service für Vermieter und Hausverwaltungen (Full-Service for Landlords and Property Managers)
 For: landlords, investors AND property managers preparing a unit for rental — after a purchase or
@@ -103,7 +103,7 @@ after a tenant moves out. This single package now covers both audiences.
 Includes: full clearance of anything left behind, repair of damage from the previous tenancy,
 renovation to the requested condition from cosmetic repairs and painting through to full
 refurbishment (via BayReno), furnishing and equipping on request, and a rental-ready handover.
-Price: `[PRICE — project-based, quote after inspection]`
+Price: no package price is published. Project-based, quote after an inspection.
 
 For all three packages: no package price is published. Answer with the per-service ranges in
 section 6 and the combined-job saving (20–35 % against three separate bookings), then offer the
@@ -164,8 +164,9 @@ who refer clients to us but don't do the work themselves):
 
 **Corporate clients** (Firmenkunden — companies with recurring moving/clearance/renovation
 needs):
-- Fixed, discounted partner rates for recurring work (volume pricing): `[PRICE/DISCOUNT — e.g.
-  X% off standard rates for contracts above Y jobs/year]`
+- Fixed, discounted partner rates for recurring work (volume pricing). No rate and no volume
+  threshold has been set, so state that the conditions are agreed individually in the first
+  conversation and offer the callback. Never name a percentage or a number of jobs.
 - Priority scheduling
 - One dedicated contact person across all three brands
 
@@ -238,7 +239,7 @@ ranges for Munich* — not offers. A binding fixed price only follows a survey.
 | Besichtigungsservice | **€290 — fixed price, always quotable** |
 | Bundle packages (Paket 1–3) | quote-based; a combined job typically saves 20–35 % vs. three separate ones |
 | B2B referral commission | **5 % of the net order value excluding material costs — starting rate, quotable.** Net, not gross. Higher rate negotiable after a trial period; no specific higher figure set |
-| B2B corporate partner discount | `[PRICE/DISCOUNT]` — not yet set |
+| B2B corporate partner discount | not set — agreed individually in the first conversation |
 
 **Add-ons** (gross): packing materials €80–250 · full packing by the team €300–900 · furniture
 dis/assembly €200–600 · kitchen removal + installation €400–1,200 · extra vehicle (car) €15/hour ·
@@ -249,8 +250,8 @@ waste from €150 · deep clean beyond broom-clean €3–8 / m².
 from where the vehicle can park, and — for clearances — the amount and type of waste. An
 overcrowded room raises the price proportionally to the volume.
 
-For any field still marked `[PRICE/RATE]`, never invent a number. Give the qualitative answer
-(what's included, how pricing is determined) and offer the callback form.
+Where this document says a price is not published or not set, never invent a number. Give the
+qualitative answer (what is included, how pricing is determined) and offer the callback form.
 
 ---
 

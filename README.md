@@ -35,7 +35,6 @@ npm run dev                  # http://localhost:3000
 ## Deployment & configuration
 
 - **[DEPLOY.md](DEPLOY.md)** — GitHub → Vercel, Neon + Anthropic + Resend setup, custom domain & DNS.
-- **[TODO.md](TODO.md)** — every remaining `[PLACEHOLDER]` and the required environment variables.
 
 ## Layout
 

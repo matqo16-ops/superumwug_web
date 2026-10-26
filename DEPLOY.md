@@ -56,7 +56,7 @@ same set for reference.
 | 🔑 `NEXT_PUBLIC_SITE_URL` | `https://mmoving.de` (set once the domain is live) |
 
 Every variable is optional for the build to succeed — the site degrades gracefully if one is
-missing (see `TODO.md` §B) — but you'll want them all set for the live site.
+missing — but you'll want them all set for the live site.
 
 ---
 
@@ -68,7 +68,8 @@ a free-tier Neon Postgres database, viewable at `/admin/chats`.
 1. In your Vercel project, open the **Storage** tab → **Create Database** (or **Marketplace →
    Neon**). Choose **Neon (Serverless Postgres)**.
 2. Pick a **region close to your users** — for GDPR comfort choose an EU region (e.g. **Frankfurt**).
-   Note the region: it goes in the Datenschutz `[DB-REGION]` placeholder (`TODO.md` §A3).
+   The region is named in the Datenschutz page, which currently says Frankfurt (eu-central-1);
+   change it there if you pick another region.
 3. Accept the free plan and connect it to this project. Vercel automatically injects the
    connection string as **`DATABASE_URL`** (and some `POSTGRES_*` aliases) into your project's
    environment — you don't have to copy it by hand.
@@ -178,8 +179,6 @@ the two Vercel records above.
 ## 10. Post-launch
 
 - **Submit the sitemap** to Google Search Console: `https://mmoving.de/sitemap.xml`.
-- **Fill in the placeholders** — see `TODO.md`. Especially the Impressum and Datenschutz fields
-  (an incomplete Impressum is a legal risk in Germany) and the chatbot price table.
 - **Editing copy later:** change the relevant file under `content/`, commit, push — Vercel
   redeploys automatically. No code changes needed for text edits.
 - **Reviewing chats:** `/admin/chats` — filter by date/language, read transcripts, and watch the
