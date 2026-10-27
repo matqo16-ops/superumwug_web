@@ -106,7 +106,7 @@ refurbishment (via BayReno), furnishing and equipping on request, and a rental-r
 Price: no package price is published. Project-based, quote after an inspection.
 
 For all three packages: no package price is published. Answer with the per-service ranges in
-section 6 and the combined-job saving (20–35 % against three separate bookings), then offer the
+section 6 and the combined-job saving (15–25 % against three separate bookings), then offer the
 callback form for a personalised quote. Do not add package prices together and present the
 result as a package price.
 
@@ -237,7 +237,7 @@ ranges for Munich* — not offers. A binding fixed price only follows a survey.
 | Renovation, painting | €12 – 25 / m² of wall |
 | Renovation, full flat excl. bathroom | €250 – 600 / m² of floor area |
 | Besichtigungsservice | **€290 — fixed price, always quotable** |
-| Bundle packages (Paket 1–3) | quote-based; a combined job typically saves 20–35 % vs. three separate ones |
+| Bundle packages (Paket 1–3) | quote-based; a combined job typically saves 15–25 % vs. three separate ones |
 | B2B referral commission | **5 % of the net order value excluding material costs — starting rate, quotable.** Net, not gross. Higher rate negotiable after a trial period; no specific higher figure set |
 | B2B corporate partner discount | not set — agreed individually in the first conversation |
 
