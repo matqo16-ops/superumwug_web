@@ -267,7 +267,7 @@ Gröbenzell, Olching, Fürstenfeldbruck, Gauting). Different games.
 
 ## C1. Repo and deployment
 
-- **Local path:** `C:\Users\gromo\OneDrive\Počítač\superumzug web`
+- **Local path:** `C:\Projects\superumzug-web` (moved off OneDrive on 2026-11-03; the old OneDrive copy was deleted after a file-by-file hash check)
 - **GitHub:** https://github.com/matqo16-ops/superumwug_web (note the typo
   "superum**w**ug" in the repo name — the domain is correctly `mmoving.de`)
 - **Branch `main`**, Vercel auto-deploys on push.
